@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview Khảo Sát</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preview Khảo Sát</h1>
+    <table id="preview-table">
+        <thead>
+            <tr>
+                <th>Câu Hỏi</th>
+                <th>Câu Trả Lời</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu sẽ được chèn vào đây bằng JavaScript -->
+        </tbody>
+    </table>
+    <button id="download-file">Tải Xuống File</button>
+    <button id="send-email">Gửi Email</button>
+    <script src="preview.js"></script>
+</body>
+</html>

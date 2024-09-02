@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát Nghiên cứu Khoa học</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="submit.js" defer></script>
+fer></script>
+</head>
+<body>
+    <h1>Khảo sát Nghiên cứu Khoa học</h1>
+    <form id="survey-form">
+        <h2>X₂: Chi phí và nguồn lực cần thiết</h2>
+
+        <!-- Câu hỏi định lượng -->
+        <fieldset>
+            <legend>1. Doanh nghiệp của bạn có bao nhiêu nhân sự?</legend>
+            <input type="number" name="question1" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>2. Doanh nghiệp của bạn đã đầu tư bao nhiêu tiền vào việc áp dụng mô hình kinh tế tuần hoàn trong năm qua?</legend>
+            <input type="number" name="question2" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>3. Doanh nghiệp của bạn có bao nhiêu dự án liên quan đến mô hình kinh tế tuần hoàn?</legend>
+            <input type="number" name="question3" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>4. Mức độ hài lòng của bạn với kết quả của việc áp dụng mô hình kinh tế tuần hoàn là gì?</legend>
+            <select name="question4" required>
+                <option value="1">Rất không hài lòng</option>
+                <option value="2">Không hài lòng</option>
+                <option value="3">Bình thường</option>
+                <option value="4">Hài lòng</option>
+                <option value="5">Rất hài lòng</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>5. Tỷ lệ phần trăm doanh thu từ mô hình kinh tế tuần hoàn chiếm bao nhiêu?</legend>
+            <input type="number" name="question5" min="0" max="100" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>6. Doanh nghiệp của bạn có kế hoạch mở rộng mô hình kinh tế tuần hoàn trong năm tới không?</legend>
+            <select name="question6" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>7. Doanh nghiệp của bạn có bao nhiêu nhân viên phụ trách việc áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <input type="number" name="question7" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>8. Chi phí đầu tư cho công nghệ mới liên quan đến mô hình kinh tế tuần hoàn là bao nhiêu?</legend>
+            <input type="number" name="question8" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>9. Doanh nghiệp của bạn đã tổ chức bao nhiêu khóa đào tạo về mô hình kinh tế tuần hoàn?</legend>
+            <input type="number" name="question9" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>10. Mức độ ảnh hưởng của mô hình kinh tế tuần hoàn đến sự hài lòng của khách hàng là gì?</legend>
+            <select name="question10" required>
+                <option value="Rất thấp">Rất thấp</option>
+                <option value="Thấp">Thấp</option>
+                <option value="Trung bình">Trung bình</option>
+                <option value="Cao">Cao</option>
+                <option value="Rất cao">Rất cao</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>11. Doanh nghiệp của bạn đã thực hiện bao nhiêu biện pháp để giảm lượng chất thải?</legend>
+            <input type="number" name="question11" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>12. Tỷ lệ giảm thiểu chất thải từ mô hình kinh tế tuần hoàn so với năm trước là bao nhiêu?</legend>
+            <input type="number" name="question12" min="0" max="100" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>13. Doanh nghiệp của bạn có bao nhiêu sản phẩm được thiết kế theo mô hình kinh tế tuần hoàn?</legend>
+            <input type="number" name="question13" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>14. Doanh nghiệp của bạn đã đầu tư bao nhiêu vào nghiên cứu và phát triển mô hình kinh tế tuần hoàn?</legend>
+            <input type="number" name="question14" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>15. Mức độ hiệu quả của mô hình kinh tế tuần hoàn đối với lợi nhuận doanh nghiệp là gì?</legend>
+            <select name="question15" required>
+                <option value="Rất thấp">Rất thấp</option>
+                <option value="Thấp">Thấp</option>
+                <option value="Trung bình">Trung bình</option>
+                <option value="Cao">Cao</option>
+                <option value="Rất cao">Rất cao</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <!-- Câu hỏi định tính -->
+        <fieldset>
+            <legend>16. Theo bạn, yếu tố nào là quan trọng nhất trong việc áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <select name="question16" id="question16" required>
+                <option value="Chất lượng sản phẩm">Chất lượng sản phẩm</option>
+                <option value="Chi phí">Chi phí</option>
+                <option value="Nguồn lực">Nguồn lực</option>
+                <option value="Khách hàng">Khách hàng</option>
+                <option value="Khác">Khác</option>
+            </select>
+            <input type="text" name="question16_other" id="question16_other" style="display: none;" placeholder="Nhập yếu tố khác nếu có">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>17. Doanh nghiệp của bạn đã thực hiện những biện pháp nào để giảm thiểu chất thải?</legend>
+            <textarea name="question17" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>18. Bạn nghĩ mô hình kinh tế tuần hoàn sẽ ảnh hưởng như thế nào đến thị trường trong 5 năm tới?</legend>
+            <textarea name="question18" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>19. Các khó khăn chính mà doanh nghiệp của bạn gặp phải khi áp dụng mô hình kinh tế tuần hoàn là gì?</legend>
+            <textarea name="question19" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>20. Theo bạn, có những hỗ trợ nào từ chính phủ hoặc tổ chức khác để khuyến khích áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <textarea name="question20" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <button type="submit">Gửi Khảo sát</button>
+    </form>
+</body>
+</html>
