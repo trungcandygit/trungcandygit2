@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Câu Hỏi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label, select, input, textarea {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="number"], input[type="text"], textarea {
+            padding: 8px;
+        }
+
+        select {
+            padding: 8px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Khảo sát Nghiên cứu Khoa học - X₂: Chi phí và nguồn lực cần thiết</h1>
+    <form id="questions-form">
+        <!-- Câu hỏi 1 -->
+        <div class="form-group">
+            <label for="q1">1. Doanh nghiệp của bạn có bao nhiêu nhân sự?</label>
+            <input type="number" id="q1" name="q1" min="1" required>
+        </div>
+
+        <!-- Câu hỏi 2 -->
+        <div class="form-group">
+            <label for="q2">2. Doanh nghiệp của bạn đã đầu tư bao nhiêu tiền vào việc áp dụng mô hình kinh tế tuần hoàn trong năm qua?</label>
+            <input type="text" id="q2" name="q2" pattern="^[0-9]+$" title="Vui lòng nhập số tiền hợp lệ" required>
+        </div>
+
+        <!-- Câu hỏi 3 -->
+        <div class="form-group">
+            <label for="q3">3. Doanh nghiệp của bạn có bao nhiêu dự án liên quan đến mô hình kinh tế tuần hoàn?</label>
+            <input type="number" id="q3" name="q3" min="0" required>
+        </div>
+
+        <!-- Câu hỏi 4 -->
+        <div class="form-group">
+            <label for="q4">4. Mức độ hài lòng của bạn với kết quả của việc áp dụng mô hình kinh tế tuần hoàn là gì?</label>
+            <select id="q4" name="q4" required>
+                <option value="">Chọn mức độ hài lòng</option>
+                <option value="Rất hài lòng">Rất hài lòng</option>
+                <option value="Hài lòng">Hài lòng</option>
+                <option value="Bình thường">Bình thường</option>
+                <option value="Không hài lòng">Không hài lòng</option>
+                <option value="Rất không hài lòng">Rất không hài lòng</option>
+                <option value="Khác">Khác</option>
+            </select>
+            <input type="text" id="q4_other" name="q4_other" class="hidden" placeholder="Vui lòng nhập lý do khác">
+        </div>
+
+        <!-- Câu hỏi 5 -->
+        <div class="form-group">
+            <label for="q5">5. Tỷ lệ phần trăm doanh thu từ mô hình kinh tế tuần hoàn chiếm bao nhiêu?</label>
+            <input type="text" id="q5" name="q5" pattern="^\d+(\.\d+)?%?$" title="Vui lòng nhập tỷ lệ phần trăm hợp lệ" required>
+        </div>
+
+        <!-- Câu hỏi 6 -->
+        <div class="form-group">
+            <label for="q6">6. Doanh nghiệp của bạn có kế hoạch mở rộng mô hình kinh tế tuần hoàn trong năm tới không?</label>
+            <select id="q6" name="q6" required>
+                <option value="" disabled selected>Chọn một tùy chọn</option>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+                <option value="Khác">Khác</option>
+            </select>
+            <input type="text" id="q6_other" name="q6_other" class="hidden" placeholder="Vui lòng nhập kế hoạch khác">
+        </div>
+
+        </div>
+
+        <!-- Câu hỏi 7 -->
+        <div class="form-group">
+            <label for="q7">7. Doanh nghiệp của bạn có bao nhiêu nhân viên phụ trách việc áp dụng mô hình kinh tế tuần hoàn?</label>
+            <input type="number" id="q7" name="q7" min="0" required>
+        </div>
+
+        <!-- Câu hỏi 8 -->
+        <div class="form-group">
+            <label for="q8">8. Chi phí đầu tư cho công nghệ mới liên quan đến mô hình kinh tế tuần hoàn là bao nhiêu?</label>
+            <input type="text" id="q8" name="q8" pattern="^[0-9]+$" title="Vui lòng nhập số tiền hợp lệ" required>
+        </div>
+
+        <!-- Câu hỏi 9 -->
+        <div class="form-group">
+            <label for="q9">9. Doanh nghiệp của bạn đã tổ chức bao nhiêu khóa đào tạo về mô hình kinh tế tuần hoàn?</label>
+            <input type="number" id="q9" name="q9" min="0" required>
+        </div>
+
+        <!-- Câu hỏi 10 -->
+        <div class="form-group">
+            <label for="q10">10. Mức độ ảnh hưởng của mô hình kinh tế tuần hoàn đến sự hài lòng của khách hàng là gì?</label>
+            <textarea id="q10" name="q10" rows="4" required></textarea>
+        </div>
+
+        <!-- Câu hỏi 11 -->
+        <div class="form-group">
+            <label for="q11">11. Doanh nghiệp của bạn đã thực hiện bao nhiêu biện pháp để giảm lượng chất thải?</label>
+            <input type="number" id="q11" name="q11" min="0" required>
+        </div>
+
+        <!-- Câu hỏi 12 -->
+        <div class="form-group">
+            <label for="q12">12. Tỷ lệ giảm thiểu chất thải từ mô hình kinh tế tuần hoàn so với năm trước là bao nhiêu?</label>
+            <input type="text" id="q12" name="q12" pattern="^\d+(\.\d+)?%?$" title="Vui lòng nhập tỷ lệ phần trăm hợp lệ" required>
+        </div>
+
+        <!-- Câu hỏi 13 -->
+        <div class="form-group">
+            <label for="q13">13. Doanh nghiệp của bạn có bao nhiêu sản phẩm được thiết kế theo mô hình kinh tế tuần hoàn?</label>
+            <input type="number" id="q13" name="q13" min="0" required>
+        </div>
+
+        <!-- Câu hỏi 14 -->
+        <div class="form-group">
+            <label for="q14">14. Doanh nghiệp của bạn đã đầu tư bao nhiêu vào nghiên cứu và phát triển mô hình kinh tế tuần hoàn?</label>
+            <input type="text" id="q14" name="q14" pattern="^[0-9]+$" title="Vui lòng nhập số tiền hợp lệ" required>
+        </div>
+
+        <!-- Câu hỏi 15 -->
+        <div class="form-group">
+            <label for="q15">15. Mức độ hiệu quả của mô hình kinh tế tuần hoàn đối với lợi nhuận doanh nghiệp là gì?</label>
+            <select id="q15" name="q15" required>
+                <option value="">Chọn mức độ hiệu quả</option>
+                <option value="Rất hiệu quả">Rất hiệu quả</option>
+                <option value="Hiệu quả">Hiệu quả</option>
+                <option value="Bình thường">Bình thường</option>
+                <option value="Không hiệu quả">Không hiệu quả</option>
+                <option value="Rất không hiệu quả">Rất không hiệu quả</option>
+                <option value="Khác">Khác</option>
+            </select>
+            <input type="text" id="q15_other" name="q15_other" class="hidden" placeholder="Vui lòng nhập lý do khác">
+        </div>
+
+        <!-- Câu hỏi 16 -->
+        <div class="form-group">
+            <label for="q16">16. Theo bạn, yếu tố nào là quan trọng nhất trong việc áp dụng mô hình kinh tế tuần hoàn?</label>
+            <textarea id="q16" name="q16" rows="4" required></textarea>
+        </div>
+
+        <!-- Câu hỏi 17 -->
+        <div class="form-group">
+            <label for="q17">17. Doanh nghiệp của bạn đã thực hiện những biện pháp nào để giảm thiểu chất thải?</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="q17_measure1" name="q17" value="Tái chế"> Tái chế</label>
+                <label><input type="checkbox" id="q17_measure2" name="q17" value="Giảm thiểu"> Giảm thiểu</label>
+                <label><input type="checkbox" id="q17_measure3" name="q17" value="Tái sử dụng"> Tái sử dụng</label>
+                <label><input type="checkbox" id="q17_measure4" name="q17" value="Khác"> Khác</label>
+                <input type="text" id="q17_other" name="q17_other" class="hidden" placeholder="Vui lòng nhập biện pháp khác">
+            </div>
+        </div>
+
+        <!-- Câu hỏi 18 -->
+        <div class="form-group">
+            <label for="q18">18. Bạn nghĩ mô hình kinh tế tuần hoàn sẽ ảnh hưởng như thế nào đến thị trường trong 5 năm tới?</label>
+            <textarea id="q18" name="q18" rows="4" required></textarea>
+        </div>
+
+        <!-- Câu hỏi 19 -->
+        <div class="form-group">
+            <label for="q19">19. Doanh nghiệp của bạn có gặp khó khăn gì khi áp dụng mô hình kinh tế tuần hoàn không? Nếu có, vui lòng mô tả.</label>
+            <textarea id="q19" name="q19" rows="4" required></textarea>
+        </div>
+
+        <!-- Câu hỏi 20 -->
+        <div class="form-group">
+            <label for="q20">20. Đề xuất của bạn về cách cải thiện việc áp dụng mô hình kinh tế tuần hoàn trong doanh nghiệp là gì?</label>
+            <textarea id="q20" name="q20" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Xem trước</button>
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const dropdowns = document.querySelectorAll('select');
+            dropdowns.forEach(dropdown => {
+                dropdown.addEventListener('change', (e) => {
+                    const targetId = `${e.target.id}_other`;
+                    const otherInput = document.getElementById(targetId);
+                    if (e.target.value === 'Khác') {
+                        otherInput.classList.remove('hidden');
+                    } else {
+                        otherInput.classList.add('hidden');
+                    }
+                });
+            });
+
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', (e) => {
+                    if (e.target.value === 'Khác') {
+                        document.getElementById('q17_other').classList.toggle('hidden', !e.target.checked);
+                    }
+                });
+            });
+
+            document.getElementById('questions-form').addEventListener('submit', (e) => {
+                e.preventDefault();
+
+                let valid = true;
+                const form = e.target;
+                const inputs = form.querySelectorAll('input, select, textarea');
+
+                inputs.forEach(input => {
+                    if (input.type === 'number' && (input.value < 0 || isNaN(input.value))) {
+                        alert(`Vui lòng nhập giá trị hợp lệ cho câu hỏi ${input.name}`);
+                        valid = false;
+                    } else if (input.type === 'text' && input.pattern && !new RegExp(input.pattern).test(input.value)) {
+                        alert(`Vui lòng nhập giá trị hợp lệ cho câu hỏi ${input.name}`);
+                        valid = false;
+                    } else if (input.type === 'radio' || input.type === 'checkbox') {
+                        const name = input.name;
+                        const checked = form.querySelector(`input[name="${name}"]:checked`);
+                        if (!checked) {
+                            alert(`Vui lòng chọn một lựa chọn cho câu hỏi ${name}`);
+                            valid = false;
+                        }
+                    } else if (input.required && !input.value.trim()) {
+                        alert(`Vui lòng hoàn thành câu hỏi ${input.name}`);
+                        valid = false;
+                    }
+                });
+
+                if (valid) {
+                    const answers = Array.from(inputs).map(input => {
+                        if (input.type === 'checkbox') {
+                            return Array.from(form.querySelectorAll(`input[name="${input.name}"]:checked`))
+                                        .map(cb => cb.value).join(', ');
+                        } else {
+                            return input.value;
+                        }
+                    });
+                    localStorage.setItem('answers', JSON.stringify(answers));
+                    window.location.href = 'preview2.html';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

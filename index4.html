@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát Nghiên cứu Khoa học - Áp lực từ thị trường và cộng đồng</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="submit.js" defer></script>
+</head>
+<body>
+    <h1>Khảo sát Nghiên cứu Khoa học - Áp lực từ thị trường và cộng đồng</h1>
+    <form id="survey-form">
+        <h2>X₄: Áp lực từ thị trường và cộng đồng</h2>
+
+        <!-- Câu hỏi định lượng -->
+        <fieldset>
+            <legend>1. Doanh nghiệp của bạn cảm nhận mức độ áp lực từ thị trường hiện tại như thế nào?</legend>
+            <select name="question1" required>
+                <option value="Rất thấp">Rất thấp</option>
+                <option value="Thấp">Thấp</option>
+                <option value="Trung bình">Trung bình</option>
+                <option value="Cao">Cao</option>
+                <option value="Rất cao">Rất cao</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>2. Doanh nghiệp của bạn đã thực hiện bao nhiêu thay đổi trong chiến lược để đáp ứng áp lực từ cộng đồng?</legend>
+            <input type="number" name="question2" required>
+        </fieldset>
+        <br>
+
+        <!-- Câu hỏi định tính -->
+        <fieldset>
+            <legend>3. Theo bạn, các yếu tố nào từ thị trường đang tạo ra áp lực lớn nhất đối với doanh nghiệp của bạn?</legend>
+            <textarea name="question3" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>4. Doanh nghiệp của bạn đã gặp phải những khó khăn gì khi áp dụng mô hình kinh tế tuần hoàn để đáp ứng nhu cầu của thị trường?</legend>
+            <textarea name="question4" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>5. Các yêu cầu từ cộng đồng đối với doanh nghiệp của bạn có ảnh hưởng như thế nào đến việc áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <textarea name="question5" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>6. Doanh nghiệp của bạn có cảm thấy áp lực từ thị trường làm giảm khả năng đầu tư vào mô hình kinh tế tuần hoàn không?</legend>
+            <textarea name="question6" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>7. Bạn nghĩ rằng việc đáp ứng nhu cầu của cộng đồng có thể làm tăng khả năng cạnh tranh của doanh nghiệp trong thị trường hiện tại không?</legend>
+            <textarea name="question7" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>8. Doanh nghiệp của bạn có nhận được sự hỗ trợ từ các tổ chức bên ngoài để giảm áp lực từ thị trường không?</legend>
+            <textarea name="question8" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>9. Doanh nghiệp của bạn có thực hiện những hoạt động gì để cải thiện sự tương tác với cộng đồng liên quan đến mô hình kinh tế tuần hoàn?</legend>
+            <textarea name="question9" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>10. Theo bạn, những yếu tố chính nào từ cộng đồng ảnh hưởng đến quyết định của doanh nghiệp trong việc áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <textarea name="question10" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <button type="submit">Gửi Khảo sát</button>
+    </form>
+
+    <br>
+
+    <!-- Nút chuyển đến khảo sát 1 -->
+    <button id="go-to-survey1">Chuyển sang khảo sát 1</button>
+    <!-- Nút chuyển đến khảo sát 2 -->
+    <button id="go-to-survey2">Chuyển sang khảo sát 2</button>
+    <!-- Nút chuyển đến khảo sát 3 -->
+    <button id="go-to-survey3">Chuyển sang khảo sát 3</button>
+    <!-- Nút chuyển đến khảo sát 4 -->
+    <button id="go-to-survey4">Chuyển sang khảo sát 4</button>
+
+    <script>
+        // Xử lý sự kiện khi nhấn nút "Chuyển sang khảo sát 1"
+        document.getElementById('go-to-survey1').addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        // Xử lý sự kiện khi nhấn nút "Chuyển sang khảo sát 2"
+        document.getElementById('go-to-survey2').addEventListener('click', () => {
+            window.location.href = 'index2.html';
+        });
+
+        // Xử lý sự kiện khi nhấn nút "Chuyển sang khảo sát 3"
+        document.getElementById('go-to-survey3').addEventListener('click', () => {
+            window.location.href = 'index3.html';
+        });
+
+        // Xử lý sự kiện khi nhấn nút "Chuyển sang khảo sát 4"
+        document.getElementById('go-to-survey4').addEventListener('click', () => {
+            window.location.href = 'index4.html';
+        });
+    </script>
+</body>
+</html>

@@ -40,14 +40,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    $message .= '</table></body></html>';
+    $message .= '</table>';
+    $message .= '</body></html>';
 
-    // Email headers
+    // To send HTML mail, the Content-type header must be set
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= 'From: <no-reply@example.com>' . "\r\n";
 
-    // Send email
+    // Additional headers
+    $headers .= 'From: noreply@yourdomain.com' . "\r\n";
+
     if (mail($to, $subject, $message, $headers)) {
         echo 'Email sent successfully.';
     } else {

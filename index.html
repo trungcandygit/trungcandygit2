@@ -3,167 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khảo sát Nghiên cứu Khoa học</title>
+    <title>Khảo sát Nghiên cứu Khoa học - X₁</title>
     <link rel="stylesheet" href="style.css">
     <script src="submit.js" defer></script>
-fer></script>
+    <style>
+        .error {
+            border: 2px solid red;
+        }
+        .error-message {
+            color: red;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Khảo sát Nghiên cứu Khoa học</h1>
+    <h1>Khảo sát Nghiên cứu Khoa học - X₁: Hiểu biết và nhận thức về kinh tế tuần hoàn</h1>
     <form id="survey-form">
-        <h2>X₂: Chi phí và nguồn lực cần thiết</h2>
-
         <!-- Câu hỏi định lượng -->
         <fieldset>
             <legend>1. Doanh nghiệp của bạn có bao nhiêu nhân sự?</legend>
-            <input type="number" name="question1" required>
+            <input type="number" name="question1" id="question1" required min="0" step="1">
+            <div id="error-question1" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>2. Doanh nghiệp của bạn đã đầu tư bao nhiêu tiền vào việc áp dụng mô hình kinh tế tuần hoàn trong năm qua?</legend>
-            <input type="number" name="question2" required>
+            <input type="number" name="question2" id="question2" required min="0" step="0.01">
+            <div id="error-question2" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>3. Doanh nghiệp của bạn có bao nhiêu dự án liên quan đến mô hình kinh tế tuần hoàn?</legend>
-            <input type="number" name="question3" required>
+            <input type="number" name="question3" id="question3" required min="0" step="1">
+            <div id="error-question3" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>4. Mức độ hài lòng của bạn với kết quả của việc áp dụng mô hình kinh tế tuần hoàn là gì?</legend>
-            <select name="question4" required>
+            <select name="question4" id="question4" required>
+                <option value="">Chọn một mức độ</option>
                 <option value="1">Rất không hài lòng</option>
                 <option value="2">Không hài lòng</option>
                 <option value="3">Bình thường</option>
                 <option value="4">Hài lòng</option>
                 <option value="5">Rất hài lòng</option>
             </select>
+            <div id="error-question4" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>5. Tỷ lệ phần trăm doanh thu từ mô hình kinh tế tuần hoàn chiếm bao nhiêu?</legend>
-            <input type="number" name="question5" min="0" max="100" required>
+            <input type="number" name="question5" id="question5" min="0" max="100" required step="0.01">
+            <div id="error-question5" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>6. Doanh nghiệp của bạn có kế hoạch mở rộng mô hình kinh tế tuần hoàn trong năm tới không?</legend>
-            <select name="question6" required>
+            <select name="question6" id="question6" required>
+                <option value="">Chọn một lựa chọn</option>
                 <option value="Có">Có</option>
                 <option value="Không">Không</option>
             </select>
+            <div id="error-question6" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>7. Doanh nghiệp của bạn có bao nhiêu nhân viên phụ trách việc áp dụng mô hình kinh tế tuần hoàn?</legend>
-            <input type="number" name="question7" required>
+            <input type="number" name="question7" id="question7" required min="0" step="1">
+            <div id="error-question7" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>8. Chi phí đầu tư cho công nghệ mới liên quan đến mô hình kinh tế tuần hoàn là bao nhiêu?</legend>
-            <input type="number" name="question8" required>
+            <input type="number" name="question8" id="question8" required min="0" step="0.01">
+            <div id="error-question8" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>9. Doanh nghiệp của bạn đã tổ chức bao nhiêu khóa đào tạo về mô hình kinh tế tuần hoàn?</legend>
-            <input type="number" name="question9" required>
+            <input type="number" name="question9" id="question9" required min="0" step="1">
+            <div id="error-question9" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
             <legend>10. Mức độ ảnh hưởng của mô hình kinh tế tuần hoàn đến sự hài lòng của khách hàng là gì?</legend>
-            <select name="question10" required>
+            <select name="question10" id="question10" required>
+                <option value="">Chọn một mức độ</option>
                 <option value="Rất thấp">Rất thấp</option>
                 <option value="Thấp">Thấp</option>
                 <option value="Trung bình">Trung bình</option>
                 <option value="Cao">Cao</option>
                 <option value="Rất cao">Rất cao</option>
             </select>
-        </fieldset>
-        <br>
-
-        <fieldset>
-            <legend>11. Doanh nghiệp của bạn đã thực hiện bao nhiêu biện pháp để giảm lượng chất thải?</legend>
-            <input type="number" name="question11" required>
-        </fieldset>
-        <br>
-
-        <fieldset>
-            <legend>12. Tỷ lệ giảm thiểu chất thải từ mô hình kinh tế tuần hoàn so với năm trước là bao nhiêu?</legend>
-            <input type="number" name="question12" min="0" max="100" required>
-        </fieldset>
-        <br>
-
-        <fieldset>
-            <legend>13. Doanh nghiệp của bạn có bao nhiêu sản phẩm được thiết kế theo mô hình kinh tế tuần hoàn?</legend>
-            <input type="number" name="question13" required>
-        </fieldset>
-        <br>
-
-        <fieldset>
-            <legend>14. Doanh nghiệp của bạn đã đầu tư bao nhiêu vào nghiên cứu và phát triển mô hình kinh tế tuần hoàn?</legend>
-            <input type="number" name="question14" required>
-        </fieldset>
-        <br>
-
-        <fieldset>
-            <legend>15. Mức độ hiệu quả của mô hình kinh tế tuần hoàn đối với lợi nhuận doanh nghiệp là gì?</legend>
-            <select name="question15" required>
-                <option value="Rất thấp">Rất thấp</option>
-                <option value="Thấp">Thấp</option>
-                <option value="Trung bình">Trung bình</option>
-                <option value="Cao">Cao</option>
-                <option value="Rất cao">Rất cao</option>
-            </select>
+            <div id="error-question10" class="error-message"></div>
         </fieldset>
         <br>
 
         <!-- Câu hỏi định tính -->
         <fieldset>
-            <legend>16. Theo bạn, yếu tố nào là quan trọng nhất trong việc áp dụng mô hình kinh tế tuần hoàn?</legend>
-            <select name="question16" id="question16" required>
+            <legend>11. Theo bạn, yếu tố nào là quan trọng nhất trong việc áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <select name="question11" id="question11" required>
+                <option value="">Chọn một yếu tố</option>
                 <option value="Chất lượng sản phẩm">Chất lượng sản phẩm</option>
                 <option value="Chi phí">Chi phí</option>
                 <option value="Nguồn lực">Nguồn lực</option>
                 <option value="Khách hàng">Khách hàng</option>
                 <option value="Khác">Khác</option>
             </select>
-            <input type="text" name="question16_other" id="question16_other" style="display: none;" placeholder="Nhập yếu tố khác nếu có">
+            <input type="text" name="question11_other" id="question11_other" style="display: none;" placeholder="Nhập yếu tố khác nếu có">
+            <div id="error-question11" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
-            <legend>17. Doanh nghiệp của bạn đã thực hiện những biện pháp nào để giảm thiểu chất thải?</legend>
-            <textarea name="question17" rows="4" required></textarea>
+            <legend>12. Doanh nghiệp của bạn đã thực hiện những biện pháp nào để giảm thiểu chất thải?</legend>
+            <textarea name="question12" id="question12" rows="4" required></textarea>
+            <div id="error-question12" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
-            <legend>18. Bạn nghĩ mô hình kinh tế tuần hoàn sẽ ảnh hưởng như thế nào đến thị trường trong 5 năm tới?</legend>
-            <textarea name="question18" rows="4" required></textarea>
+            <legend>13. Bạn nghĩ mô hình kinh tế tuần hoàn sẽ ảnh hưởng như thế nào đến thị trường trong 5 năm tới?</legend>
+            <textarea name="question13" id="question13" rows="4" required></textarea>
+            <div id="error-question13" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
-            <legend>19. Các khó khăn chính mà doanh nghiệp của bạn gặp phải khi áp dụng mô hình kinh tế tuần hoàn là gì?</legend>
-            <textarea name="question19" rows="4" required></textarea>
+            <legend>14. Các khó khăn chính mà doanh nghiệp của bạn gặp phải khi áp dụng mô hình kinh tế tuần hoàn là gì?</legend>
+            <textarea name="question14" id="question14" rows="4" required></textarea>
+            <div id="error-question14" class="error-message"></div>
         </fieldset>
         <br>
 
         <fieldset>
-            <legend>20. Theo bạn, có những hỗ trợ nào từ chính phủ hoặc tổ chức khác để khuyến khích áp dụng mô hình kinh tế tuần hoàn?</legend>
-            <textarea name="question20" rows="4" required></textarea>
+            <legend>15. Theo bạn, có những hỗ trợ nào từ chính phủ hoặc tổ chức khác để khuyến khích áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <textarea name="question15" id="question15" rows="4" required></textarea>
+            <div id="error-question15" class="error-message"></div>
         </fieldset>
         <br>
 
-        <button type="submit">Gửi Khảo sát</button>
+        <button type="button" id="submit-button">Gửi khảo sát</button>
     </form>
+
+    <script>
+        document.getElementById('submit-button').addEventListener('click', function() {
+            // Clear previous errors
+            document.querySelectorAll('.error').forEach(element => element.classList.remove('error'));
+            document.querySelectorAll('.error-message').forEach(element => element.textContent = '');
+
+            let isValid = true;
+
+            // Validate each field
+            document.querySelectorAll('input, select, textarea').forEach(field => {
+                if (field.required && !field.value) {
+                    document.getElementById(`error-${field.name}`).textContent = 'Vui lòng nhập lại';
+                    field.classList.add('error');
+                    isValid = false;
+                } else if (field.type === 'number') {
+                    if (field.min !== undefined && parseFloat(field.value) < parseFloat(field.min)) {
+                        document.getElementById(`error-${field.name}`).textContent = `Giá trị không thể nhỏ hơn ${field.min}`;
+                        field.classList.add('error');
+                        isValid = false;
+                    }
+                    if (field.max !== undefined && parseFloat(field.value) > parseFloat(field.max)) {
+                        document.getElementById(`error-${field.name}`).textContent = `Giá trị không thể lớn hơn ${field.max}`;
+                        field.classList.add('error');
+                        isValid = false;
+                    }
+                }
+            });
+
+            if (isValid) {
+                document.getElementById('survey-form').submit();
+            }
+        });
+
+        // Show "Khác" text input when "Khác" is selected
+        document.getElementById('question11').addEventListener('change', function() {
+            const otherInput = document.getElementById('question11_other');
+            if (this.value === 'Khác') {
+                otherInput.style.display = 'inline';
+            } else {
+                otherInput.style.display = 'none';
+                otherInput.value = '';
+            }
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát Nghiên cứu Khoa học - Chính sách và Quy định</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="submit.js" defer></script>
+</head>
+<body>
+    <h1>Khảo sát Nghiên cứu Khoa học - Chính sách và Quy định</h1>
+    <form id="survey-form">
+        <h2>X₃: Chính sách và quy định của nhà nước (biến độc lập)</h2>
+
+        <!-- Câu hỏi định lượng -->
+        <fieldset>
+            <legend>1. Doanh nghiệp của bạn đã nhận được bao nhiêu hỗ trợ từ chính phủ cho việc áp dụng mô hình kinh tế tuần hoàn trong năm qua?</legend>
+            <input type="number" name="question1" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>2. Tỷ lệ phần trăm doanh thu mà doanh nghiệp của bạn đã đầu tư vào các hoạt động liên quan đến chính sách và quy định của nhà nước là bao nhiêu?</legend>
+            <input type="number" name="question2" min="0" max="100" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>3. Doanh nghiệp của bạn có bao nhiêu người phụ trách việc theo dõi và tuân thủ các chính sách và quy định của nhà nước?</legend>
+            <input type="number" name="question3" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>4. Mức độ khó khăn mà doanh nghiệp của bạn gặp phải trong việc tuân thủ các quy định của nhà nước là gì?</legend>
+            <select name="question4" required>
+                <option value="Rất khó">Rất khó</option>
+                <option value="Khó">Khó</option>
+                <option value="Bình thường">Bình thường</option>
+                <option value="Dễ">Dễ</option>
+                <option value="Rất dễ">Rất dễ</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>5. Doanh nghiệp của bạn đã chi bao nhiêu cho việc nghiên cứu và áp dụng các chính sách của nhà nước trong năm qua?</legend>
+            <input type="number" name="question5" required>
+        </fieldset>
+        <br>
+
+        <!-- Câu hỏi định tính -->
+        <fieldset>
+            <legend>6. Theo bạn, chính sách nào của nhà nước hiện tại là quan trọng nhất đối với việc áp dụng mô hình kinh tế tuần hoàn trong doanh nghiệp?</legend>
+            <textarea name="question6" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>7. Bạn có đề xuất gì để cải thiện các chính sách và quy định hiện tại nhằm hỗ trợ doanh nghiệp trong việc áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <textarea name="question7" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>8. Theo bạn, những vấn đề chính mà doanh nghiệp của bạn gặp phải khi thực hiện các quy định của nhà nước là gì?</legend>
+            <textarea name="question8" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>9. Doanh nghiệp của bạn đã có những chiến lược gì để điều chỉnh hoạt động nhằm phù hợp với chính sách và quy định của nhà nước?</legend>
+            <textarea name="question9" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>10. Bạn nghĩ chính phủ nên có những hỗ trợ gì thêm để khuyến khích việc áp dụng mô hình kinh tế tuần hoàn trong doanh nghiệp?</legend>
+            <textarea name="question10" rows="4" required></textarea>
+        </fieldset>
+        <br>
+
+        <button type="submit">Gửi Khảo sát</button>
+    </form>
+
+    <br>
+
+    <!-- Nút chuyển đến khảo sát 1 -->
+    <button id="go-to-survey1">Chuyển sang khảo sát 1</button>
+    <!-- Nút chuyển đến khảo sát 2 -->
+    <button id="go-to-survey2">Chuyển sang khảo sát 2</button>
+
+    <script>
+        // Xử lý sự kiện khi nhấn nút "Chuyển sang khảo sát 1"
+        document.getElementById('go-to-survey1').addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        // Xử lý sự kiện khi nhấn nút "Chuyển sang khảo sát 2"
+        document.getElementById('go-to-survey2').addEventListener('click', () => {
+            window.location.href = 'index2.html';
+        });
+    </script>
+</body>
+</html>

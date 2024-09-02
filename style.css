@@ -47,6 +47,7 @@ legend {
 
 /* Input and Select */
 input[type="number"],
+input[type="text"],
 select,
 textarea {
     width: 100%;
@@ -54,19 +55,74 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
 }
 
 /* Button */
 button {
-    background: #28a745;
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background: #218838;
+    background-color: #0056b3;
+}
+
+/* Hidden Input */
+.hidden {
+    display: none;
+}
+
+/* Checkbox and Radio Group */
+.checkbox-group label,
+.radio-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkbox-group input,
+.radio-group input {
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    input[type="number"],
+    input[type="text"],
+    select,
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
 }
