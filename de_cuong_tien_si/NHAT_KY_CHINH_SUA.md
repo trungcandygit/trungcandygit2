@@ -20,6 +20,14 @@ Bìa → mục 1–3 → Mục lục, Danh mục bảng, Danh mục hình → 4.
 5. Hình: Hình 3 là SmartArt thật (Vertical Block List, quick style và màu mặc định của Office); Hình 1, 2 là Shape gốc của Word với style mặc định. Kiểm tra màu bằng skill dataviz: đạt; chữ trên khối cam đổi sang đen vì nền cam tương phản thấp với chữ trắng.
 6. Dựng bản cuối: mục lục và danh mục có số trang, bảng không bị cắt dòng và lặp tiêu đề khi sang trang, công thức đánh số bên phải, tệp qua toàn bộ kiểm tra cấu trúc OOXML.
 
+## Sửa theo góp ý sau khi mở bằng Word
+
+- Chú thích bảng, hình không in đậm và danh mục bảng, hình bị lỗi: do style chú thích bị trùng tên khi chuyển đổi, Word dùng nhầm bản không định dạng. Đã đổi tên style cho khớp, danh mục dùng đúng style chú thích.
+- Hình chuyển sang trắng đen: SmartArt dùng bảng màu Dark 1 Outline gốc của Office; Shape nền trắng, viền và mũi tên đen, ô "Đánh giá" ở Hình 2 nền xám nhạt để phân biệt.
+- Bảng đen trắng, bỏ nền xám ở dòng tiêu đề; tiêu đề cột vẫn in đậm.
+- Dòng "Nguồn" và ghi chú dưới bảng, hình: căn phải, in nghiêng.
+- Danh mục tài liệu tham khảo: căn đều hai bên.
+
 ## Việc thí sinh cần tự làm
 
 - Mở bằng Word, nếu được hỏi cập nhật trường (fields) thì chọn Yes để mục lục khớp dàn trang của Word.

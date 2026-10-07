@@ -54,21 +54,21 @@ styles = [
     builtin("Heading3", "heading 3",
             '<w:keepNext/><w:keepLines/><w:spacing w:before="120" w:after="60" w:line="360" w:lineRule="auto"/><w:outlineLvl w:val="2"/>',
             '<w:b/><w:bCs/><w:i/><w:iCs/><w:color w:val="000000"/><w:sz w:val="26"/><w:szCs w:val="26"/>', nxt="BodyText"),
-    pstyle("TableCaption", "Table Caption",
+    pstyle("TableCaption", "TableCaption",
            '<w:keepNext/><w:spacing w:before="120" w:after="60" w:line="312" w:lineRule="auto"/><w:ind w:firstLine="0"/><w:jc w:val="center"/>',
            '<w:b/><w:bCs/>'),
-    pstyle("FigureCaption", "Figure Caption",
+    pstyle("FigureCaption", "FigureCaption",
            '<w:keepNext/><w:spacing w:before="60" w:after="0" w:line="312" w:lineRule="auto"/><w:ind w:firstLine="0"/><w:jc w:val="center"/>',
            '<w:b/><w:bCs/>'),
-    pstyle("SourceNote", "Source Note",
-           '<w:spacing w:before="40" w:after="120" w:line="276" w:lineRule="auto"/><w:ind w:firstLine="0"/><w:jc w:val="left"/>',
+    pstyle("SourceNote", "SourceNote",
+           '<w:spacing w:before="40" w:after="120" w:line="276" w:lineRule="auto"/><w:ind w:firstLine="0"/><w:jc w:val="right"/>',
            '<w:i/><w:iCs/><w:sz w:val="24"/><w:szCs w:val="24"/>'),
     pstyle("Equation", "Equation", '<w:tabs><w:tab w:val="center" w:pos="4394"/><w:tab w:val="right" w:pos="8778"/></w:tabs><w:spacing w:before="60" w:after="60" w:line="276" w:lineRule="auto"/><w:ind w:firstLine="0"/><w:jc w:val="left"/>'),
-    pstyle("FigureBox", "Figure Box", '<w:keepNext/><w:spacing w:before="120" w:after="60"/><w:ind w:firstLine="0"/><w:jc w:val="center"/>'),
-    pstyle("CoverLine", "Cover Line", NOIND + '<w:jc w:val="both"/>'),
+    pstyle("FigureBox", "FigureBox", '<w:keepNext/><w:spacing w:before="120" w:after="60"/><w:ind w:firstLine="0"/><w:jc w:val="center"/>'),
+    pstyle("CoverLine", "CoverLine", NOIND + '<w:jc w:val="both"/>'),
     pstyle("Reference", "Reference",
-           '<w:spacing w:before="0" w:after="80" w:line="312" w:lineRule="auto"/><w:ind w:left="567" w:hanging="567"/><w:jc w:val="left"/>'),
-    pstyle("ListHeading", "List Heading",
+           '<w:spacing w:before="0" w:after="80" w:line="312" w:lineRule="auto"/><w:ind w:left="567" w:hanging="567"/><w:jc w:val="both"/>'),
+    pstyle("ListHeading", "ListHeading",
            '<w:keepNext/><w:spacing w:before="240" w:after="120"/><w:ind w:firstLine="0"/><w:jc w:val="center"/>',
            '<w:b/><w:bCs/>'),
     builtin("TOC1", "toc 1", '<w:tabs><w:tab w:val="right" w:leader="dot" w:pos="8778"/></w:tabs><w:spacing w:before="40" w:after="0" w:line="276" w:lineRule="auto"/><w:ind w:firstLine="0"/>', '<w:b/>'),
@@ -92,7 +92,7 @@ styles = [
     '<w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>'
     '<w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders>'
     '<w:tblCellMar><w:top w:w="28" w:type="dxa"/><w:left w:w="85" w:type="dxa"/><w:bottom w:w="28" w:type="dxa"/><w:right w:w="85" w:type="dxa"/></w:tblCellMar></w:tblPr>'
-    '<w:tblStylePr w:type="firstRow"><w:rPr><w:b/><w:bCs/></w:rPr><w:tcPr><w:shd w:val="clear" w:color="auto" w:fill="F2F2F2"/></w:tcPr></w:tblStylePr></w:style>',
+    '<w:tblStylePr w:type="firstRow"><w:rPr><w:b/><w:bCs/></w:rPr></w:tblStylePr></w:style>',
 ]
 
 xml = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'

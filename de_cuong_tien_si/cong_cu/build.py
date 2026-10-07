@@ -180,9 +180,11 @@ class Group:
         x, y, w, h = (int(v * CM) for v in (x, y, w, h))
         sid = self._id()
         if default_style:
-            sppr = f'<a:prstGeom prst="{prst}"><a:avLst/></a:prstGeom>'
-            style = DEFAULT_STYLE.format(c=scheme)
-            body = txbx_paras(lines, color="000000" if scheme == "accent2" else "FFFFFF", sz=sz)
+            fill = "D9D9D9" if scheme == "accent2" else "FFFFFF"
+            sppr = (f'<a:prstGeom prst="{prst}"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="{fill}"/></a:solidFill>'
+                    '<a:ln w="9525"><a:solidFill><a:srgbClr val="000000"/></a:solidFill></a:ln>')
+            style = ""
+            body = txbx_paras(lines, color="000000", sz=sz)
         else:  # nhãn chữ: không nền, không viền (hộp văn bản trong suốt)
             sppr = f'<a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln>'
             style = ""
@@ -206,8 +208,8 @@ class Group:
         self.items.append(
             f'<wps:wsp><wps:cNvPr id="{sid}" name="Connector {sid}"/><wps:cNvCnPr/>'
             f'<wps:spPr><a:xfrm{flips}><a:off x="{x}" y="{y}"/><a:ext cx="{w}" cy="{h}"/></a:xfrm>'
-            f'<a:prstGeom prst="straightConnector1"><a:avLst/></a:prstGeom><a:ln w="12700">{d}{tail}</a:ln></wps:spPr>'
-            f'{LINE_STYLE}<wps:bodyPr/></wps:wsp>')
+            f'<a:prstGeom prst="straightConnector1"><a:avLst/></a:prstGeom><a:ln w="12700"><a:solidFill><a:srgbClr val="000000"/></a:solidFill>{d}{tail}</a:ln></wps:spPr>'
+            f'<wps:bodyPr/></wps:wsp>')
 
     def xml(self, name):
         did = docpr_id()
@@ -284,7 +286,7 @@ def smartart_vlist5(items):
     docid = guid()
     pts.append(f'<dgm:pt modelId="{docid}" type="doc"><dgm:prSet loTypeId="{LO}" loCatId="list" '
                'qsTypeId="urn:microsoft.com/office/officeart/2005/8/quickstyle/simple1" qsCatId="simple" '
-               'csTypeId="urn:microsoft.com/office/officeart/2005/8/colors/accent1_2" csCatId="accent1" phldr="0"/>'
+               'csTypeId="urn:microsoft.com/office/officeart/2005/8/colors/accent0_1" csCatId="mainScheme" phldr="0"/>'
                '<dgm:spPr/><dgm:t><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="vi-VN"/></a:p></dgm:t></dgm:pt>')
 
     def text_pt(mid, txt):
@@ -513,8 +515,8 @@ tab_entries = [(1, t, "TableofFigures") for k, t in headings if k == "TableCapti
 fig_entries = [(1, t, "TableofFigures") for k, t in headings if k == "FigureCaption"]
 
 toc = toc_block("MỤC LỤC", 'TOC \\o "1-3" \\h \\z \\u', toc_entries)
-lot = (toc_block("DANH MỤC BẢNG", 'TOC \\h \\z \\t "Table Caption,1"', tab_entries)
-       + toc_block("DANH MỤC HÌNH", 'TOC \\h \\z \\t "Figure Caption,1"', fig_entries))
+lot = (toc_block("DANH MỤC BẢNG", 'TOC \\h \\z \\t "TableCaption,1"', tab_entries)
+       + toc_block("DANH MỤC HÌNH", 'TOC \\h \\z \\t "FigureCaption,1"', fig_entries))
 
 ABBR = [
     ("ABC-MCMC", "Tính toán Bayes xấp xỉ kết hợp Monte Carlo chuỗi Markov (Approximate Bayesian Computation - Markov Chain Monte Carlo)"),
