@@ -121,10 +121,10 @@ TERMS = [(r"\s*\(C-\d+(?:,\s*C-\d+)*\)", ""), (r"\bRegret\b", "Mức hối tiế
          (r"\b(mục|Mục) (\d+(?:\.\d+)*)(?![\d.]*\d)", None)]
 
 
-def fix_old(p, late):
+def fix_old(p, late, gloss=False):
     def ft(m):
         t = m.group(2)
-        for a, b in TERMS:
+        for a, b in (TERMS[:1] + TERMS[-1:] if gloss else TERMS):
             t = re.sub(a, sec, t) if b is None else re.sub(a, b, t)
         if late:
             t = re.sub(r"\bBảng 4\b", "Bảng 5", t)
@@ -151,10 +151,10 @@ for i, (a, b) in enumerate(spans):
         if i == 6:
             new_parts.append(TOCP)
         continue
-    if 3891 <= i <= 3894:
+    if i >= 3891:  # bỏ thống kê độ dài và danh mục tài liệu tham khảo cho đỡ tốn trang
         continue
     if i not in edits:
-        new_parts.append(fix_old(p, i >= 2771) if i >= 312 else p)
+        new_parts.append(fix_old(p, i >= 2771, 3417 <= i < 3891) if i >= 312 else p)
         continue
     e = edits[i]
     kind = P[i]["k"]

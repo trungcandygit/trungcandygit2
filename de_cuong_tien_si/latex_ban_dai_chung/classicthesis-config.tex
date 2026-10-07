@@ -1,0 +1,668 @@
+%****************************************************************************************************
+% classicthesis-config.tex — Writing Your Journal Article in 12 Weeks
+%****************************************************************************************************
+
+% --- Cấu hình mã hóa ký tự và phông chữ ---
+\PassOptionsToPackage{utf8}{inputenc}
+  \usepackage{inputenc}
+
+\PassOptionsToPackage{T5,T1}{fontenc} % T5 cho tiếng Việt, T1 cho Palatino
+  \usepackage{fontenc}
+\usepackage{mathpazo} % Font Palatino cho text + math
+\linespread{1.10}     % Palatino cần giãn dòng; 1.05 là mức tối thiểu, 1.10 chuẩn sách in
+\usepackage{listings}
+
+% ****************************************************************************************************
+% 1. Cấu hình gói classicthesis
+% ****************************************************************************************************
+\PassOptionsToPackage{
+  drafting=false,    
+  tocaligned=false, 
+  dottedtoc=false,  
+  eulerchapternumbers=false, 
+  floatperchapter=true,     
+  eulermath=false,  
+  beramono=true,    
+  palatino=true,    
+  style=classicthesis 
+}{classicthesis}
+
+% ****************************************************************************************************
+% 2. Thông tin sách
+% ****************************************************************************************************
+\newcommand{\myTitle}{Viết Bài Báo Khoa Học Đăng Tạp Chí Trong 12 Tuần\xspace}
+\newcommand{\mySubtitle}{Hướng dẫn thành công trong xuất bản học thuật\xspace}
+\newcommand{\myDegree}{Bản dịch cá nhân\xspace}
+\newcommand{\myName}{Nguyễn Văn Trung\xspace}
+\newcommand{\myProf}{\xspace}
+\newcommand{\myOtherProf}{\xspace}
+\newcommand{\mySupervisor}{Wendy Laura Belcher\xspace}
+\newcommand{\myFaculty}{\xspace}
+\newcommand{\myDepartment}{\xspace}
+\newcommand{\myUni}{Princeton University Press\xspace}
+\newcommand{\myLocation}{Hà Nội\xspace}
+\newcommand{\myTime}{2026\xspace}
+\newcommand{\myVersion}{\classicthesis}
+
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+
+% ****************************************************************************************************
+% 3. Babel cho tiếng Việt
+% ****************************************************************************************************
+\PassOptionsToPackage{vietnamese}{babel}
+    \usepackage{babel}
+
+\usepackage{csquotes}
+
+% ****************************************************************************************************
+% 4. Toán học
+% ****************************************************************************************************
+\PassOptionsToPackage{fleqn}{amsmath}       
+  \usepackage{amsmath}
+\usepackage{amssymb}   
+
+% --- Fix: chữ Việt có dấu bị mất dấu khi nằm trong \text{} của công thức toán ---
+% Nguyên nhân: font Palatino (mathpazo) không có glyph mã T5 (tiếng Việt).
+% Cách khắc phục: ép riêng đoạn chữ Việt trong công thức dùng font T5 (vntex sẽ tự
+% thay bằng font thay thế có dấu), không ảnh hưởng đến Palatino ở phần còn lại.
+% Dùng: r_{\vtext{tháng}} thay vì r_{\text{tháng}}
+\newcommand{\vtext}[1]{\text{\fontencoding{T5}\selectfont #1}}
+
+% ****************************************************************************************************
+% 5. Graphic & Utilities
+% ****************************************************************************************************
+\usepackage{graphicx} 
+\usepackage{scrhack} 
+\usepackage{xspace} 
+
+% ****************************************************************************************************
+% 6. Bảng & Hình
+% ****************************************************************************************************
+\usepackage{tabularx} 
+  \setlength{\extrarowheight}{3pt} 
+\newcommand{\tableheadline}[1]{\multicolumn{1}{l}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} 
+\usepackage{subfig}
+
+% ****************************************************************************************************
+% 7. TikZ & Colors
+% ****************************************************************************************************
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning, fit, backgrounds, shapes.geometric}
+
+% ****************************************************************************************************
+% 8. ClassicThesis & Hyperref
+% ****************************************************************************************************
+\PassOptionsToPackage{hyperfootnotes=false}{hyperref}
+\usepackage{classicthesis}
+
+% Sửa lỗi chapter numbers
+\usepackage{titlesec}
+% Số chương: dùng \rmfamily (font thân bài mặc định, mathpazo đã trỏ về Palatino) thay vì
+% \chapterNumber mặc định của classicthesis (Euler hoặc sans, không hợp phong cách "chân"
+% học thuật) — cùng cách làm với dự án Black-Litterman để đồng bộ giữa các dự án.
+% Muốn to/nhỏ hơn thì đổi số 100 (2 chỗ) — đơn vị pt.
+\titleformat{\chapter}[display]%
+  {\relax}{\mbox{}\hfill{\color{CTsemi}\fontsize{100}{100}\selectfont\rmfamily\thechapter}}{0pt}%
+  {\raggedright\spacedallcaps}[\normalsize\vspace*{.8\baselineskip}\titlerule]
+
+% Hyperref settings
+\hypersetup{%
+  colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
+  breaklinks=true, pageanchor=true,
+  pdfpagemode=UseNone, 
+  plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,
+  hypertexnames=true, pdfhighlight=/O,
+  urlcolor=CTurl, linkcolor=CTlink, citecolor=CTcitation, 
+  pdftitle={\myTitle},
+  pdfauthor={\textcopyright\ \myName},
+  pdfsubject={},
+  pdfkeywords={},
+  pdfcreator={pdfLaTeX},
+  pdfproducer={LaTeX with hyperref and classicthesis}
+}
+
+% ****************************************************************************************************
+% 9. Utilities
+% ****************************************************************************************************
+\listfiles
+\usepackage{mdframed}
+\mdfsetup{skipabove=6pt, skipbelow=6pt, innerleftmargin=8pt, innerrightmargin=8pt, innertopmargin=6pt, innerbottommargin=6pt}
+\usepackage{tcolorbox}
+\tcbset{boxrule=0.4pt, arc=0pt, left=6pt, right=6pt, top=4pt, bottom=4pt, colback=white, colframe=black}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{float}
+\floatplacement{table}{H}
+\floatplacement{figure}{H}
+
+% ****************************************************************************************************
+% 10. Lề A4 (chuẩn sách 2 mặt: lề gáy > lề ngoài) + Fix URL + Xóa trang trắng thừa
+% ****************************************************************************************************
+% Lưu ý: dùng inner/outer thay vì left/right để lề tự đảo theo trang chẵn/lẻ khi in 2 mặt (twoside).
+% Đồng thời thu hẹp khối chữ (textwidth) để còn ~62-68 ký tự/dòng theo chuẩn Bringhurst,
+% tránh dòng quá dài gây cảm giác chữ "rít" khi kết hợp với line-spacing.
+\usepackage[
+  a4paper,
+  inner=35mm,
+  outer=20mm,
+  top=25mm,
+  bottom=30mm,
+  headsep=10mm,
+  twoside
+]{geometry}
+
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{xurl}
+\setlength{\emergencystretch}{3em} % giảm bớt để tránh "sông trắng" do sloppy quá đà
+% \sloppy đã bị bỏ khỏi phạm vi toàn cục — chỉ dùng cục bộ (vd. quanh URL dài) nếu cần:
+% \begin{sloppypar} ... \end{sloppypar}
+
+% Trước đây có dòng \renewcommand{\cleardoublepage}{\clearpage} để "xóa trang trắng thừa",
+% nhưng làm vậy sẽ phá vỡ đồng bộ chẵn/lẻ của twoside geometry (lề gáy bị lật sai bên
+% sau mỗi lần frontmatter/chương có số trang lẻ). Cách đúng: GIỮ cơ chế \cleardoublepage
+% (để LaTeX tự chèn trang khi cần, đảm bảo chương luôn bắt đầu ở trang phải), nhưng thay
+% nội dung trang trắng đó bằng 1 câu quote thay vì để trống — định nghĩa \cleardoublepage
+% lại hoàn toàn ở bên dưới (thay cho \KOMAoptions{cleardoublepage=empty}, không cần dùng cả 2).
+
+% --- Cơ sở dữ liệu quote (mỗi câu = 2 macro \quotetext<n> và \quoteauthor<n>) ---
+% MUỐN THÊM CÂU MỚI: copy đúng 2 dòng \expandafter\def, đổi số thứ tự (tiếp theo số cuối),
+% rồi tăng giá trị \nquotes bên dưới đúng bằng tổng số câu hiện có. Không cần sửa gì khác.
+\makeatletter
+\newcount\nquotes
+
+\expandafter\def\csname quotetext1\endcsname{Tôi không có tài năng đặc biệt, tôi chỉ tò mò một cách say mê.}
+\expandafter\def\csname quoteauthor1\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext2\endcsname{Trí tưởng tượng quan trọng hơn kiến thức.}
+\expandafter\def\csname quoteauthor2\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext3\endcsname{Càng học ta càng biết mình biết ít.}
+\expandafter\def\csname quoteauthor3\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext4\endcsname{Người không bao giờ mắc sai lầm là người không bao giờ thử điều gì mới.}
+\expandafter\def\csname quoteauthor4\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext5\endcsname{Sự điên rồ là làm đi làm lại một việc mà vẫn mong chờ kết quả khác.}
+\expandafter\def\csname quoteauthor5\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext6\endcsname{Cuộc sống giống như đi xe đạp, muốn giữ thăng bằng thì phải tiếp tục tiến lên.}
+\expandafter\def\csname quoteauthor6\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext7\endcsname{Nếu tôi đã nhìn được xa hơn, ấy là vì tôi đứng trên vai những người khổng lồ.}
+\expandafter\def\csname quoteauthor7\endcsname{Isaac Newton}
+\expandafter\def\csname quotetext8\endcsname{Tôi có thể tính được chuyển động của các thiên thể, nhưng không thể tính được sự điên rồ của con người.}
+\expandafter\def\csname quoteauthor8\endcsname{Isaac Newton}
+\expandafter\def\csname quotetext9\endcsname{Chân lý luôn được tìm thấy trong sự đơn giản, chứ không phải trong sự rối rắm và hỗn loạn của vạn vật.}
+\expandafter\def\csname quoteauthor9\endcsname{Isaac Newton}
+\expandafter\def\csname quotetext10\endcsname{Tôi không thất bại. Tôi chỉ tìm ra mười nghìn cách không hiệu quả.}
+\expandafter\def\csname quoteauthor10\endcsname{Thomas Edison}
+\expandafter\def\csname quotetext11\endcsname{Thiên tài là một phần trăm cảm hứng, chín mươi chín phần trăm là mồ hôi công sức.}
+\expandafter\def\csname quoteauthor11\endcsname{Thomas Edison}
+\expandafter\def\csname quotetext12\endcsname{Không có gì thay thế được công việc chăm chỉ.}
+\expandafter\def\csname quoteauthor12\endcsname{Thomas Edison}
+\expandafter\def\csname quotetext13\endcsname{Nhiều người thất bại trong đời vì họ không nhận ra mình đã ở gần thành công đến mức nào khi từ bỏ.}
+\expandafter\def\csname quoteauthor13\endcsname{Thomas Edison}
+\expandafter\def\csname quotetext14\endcsname{May mắn chỉ mỉm cười với trí óc đã chuẩn bị sẵn sàng.}
+\expandafter\def\csname quoteauthor14\endcsname{Louis Pasteur}
+\expandafter\def\csname quotetext15\endcsname{Khoa học không có quê hương, nhưng nhà khoa học phải có quê hương.}
+\expandafter\def\csname quoteauthor15\endcsname{Louis Pasteur}
+\expandafter\def\csname quotetext16\endcsname{Trong lĩnh vực quan sát, cơ may chỉ ưu ái những trí óc đã được chuẩn bị.}
+\expandafter\def\csname quoteauthor16\endcsname{Louis Pasteur}
+\expandafter\def\csname quotetext17\endcsname{Trong đời tôi, không có gì tôi sợ, tôi chỉ tìm cách hiểu nó.}
+\expandafter\def\csname quoteauthor17\endcsname{Marie Curie}
+\expandafter\def\csname quotetext18\endcsname{Không có gì trong cuộc đời đáng để sợ hãi, chỉ có những điều cần được thấu hiểu.}
+\expandafter\def\csname quoteauthor18\endcsname{Marie Curie}
+\expandafter\def\csname quotetext19\endcsname{Con người ta không nên chú ý tới hành động của người khác, mà nên chú ý tới hành động của chính mình.}
+\expandafter\def\csname quoteauthor19\endcsname{Marie Curie}
+\expandafter\def\csname quotetext20\endcsname{Sự tự ti là kẻ thù lớn nhất của những giấc mơ táo bạo.}
+\expandafter\def\csname quoteauthor20\endcsname{Marie Curie}
+\expandafter\def\csname quotetext21\endcsname{Người dám lãng phí một giờ đồng hồ chưa hiểu hết giá trị của cuộc đời.}
+\expandafter\def\csname quoteauthor21\endcsname{Charles Darwin}
+\expandafter\def\csname quotetext22\endcsname{Không phải loài mạnh nhất hay thông minh nhất sống sót, mà là loài thích nghi tốt nhất với thay đổi.}
+\expandafter\def\csname quoteauthor22\endcsname{Charles Darwin}
+\expandafter\def\csname quotetext23\endcsname{Sự ngu dốt thường sinh ra tự tin nhiều hơn kiến thức.}
+\expandafter\def\csname quoteauthor23\endcsname{Charles Darwin}
+\expandafter\def\csname quotetext24\endcsname{Tôi yêu những kẻ ngu dốt biết mình ngu dốt hơn là những kẻ hiểu biết cứ tưởng mình thông thái.}
+\expandafter\def\csname quoteauthor24\endcsname{Charles Darwin}
+\expandafter\def\csname quotetext25\endcsname{Kiến thức nói, nhưng trí tuệ lắng nghe.}
+\expandafter\def\csname quoteauthor25\endcsname{Jimi Hendrix}
+\expandafter\def\csname quotetext26\endcsname{Tôi tư duy nên tôi tồn tại.}
+\expandafter\def\csname quoteauthor26\endcsname{René Descartes}
+\expandafter\def\csname quotetext27\endcsname{Điều duy nhất tôi biết chắc là tôi chẳng biết gì cả.}
+\expandafter\def\csname quoteauthor27\endcsname{Socrates}
+\expandafter\def\csname quotetext28\endcsname{Cuộc đời không được kiểm nghiệm thì không đáng sống.}
+\expandafter\def\csname quoteauthor28\endcsname{Socrates}
+\expandafter\def\csname quotetext29\endcsname{Biết mình không biết gì cũng đã là một loại tri thức.}
+\expandafter\def\csname quoteauthor29\endcsname{Socrates}
+\expandafter\def\csname quotetext30\endcsname{Giáo dục là thắp lên một ngọn lửa, chứ không phải đổ đầy một cái bình.}
+\expandafter\def\csname quoteauthor30\endcsname{Socrates}
+\expandafter\def\csname quotetext31\endcsname{Trí tuệ bắt đầu từ sự ngạc nhiên.}
+\expandafter\def\csname quoteauthor31\endcsname{Socrates}
+\expandafter\def\csname quotetext32\endcsname{Người thông thái nhất biết rằng mình không biết gì.}
+\expandafter\def\csname quoteauthor32\endcsname{Plato}
+\expandafter\def\csname quotetext33\endcsname{Sự thiếu hiểu biết là gốc rễ của mọi tội ác.}
+\expandafter\def\csname quoteauthor33\endcsname{Plato}
+\expandafter\def\csname quotetext34\endcsname{Có thể tha thứ cho một đứa trẻ sợ bóng tối, bi kịch thực sự là khi người lớn sợ ánh sáng.}
+\expandafter\def\csname quoteauthor34\endcsname{Plato}
+\expandafter\def\csname quotetext35\endcsname{Chúng ta là những gì ta lặp đi lặp lại. Xuất sắc, vì thế, không phải là hành động, mà là thói quen.}
+\expandafter\def\csname quoteauthor35\endcsname{Aristotle}
+\expandafter\def\csname quotetext36\endcsname{Giáo dục có gốc rễ đắng cay, nhưng quả của nó lại ngọt ngào.}
+\expandafter\def\csname quoteauthor36\endcsname{Aristotle}
+\expandafter\def\csname quotetext37\endcsname{Người có học khác người vô học cũng như người sống khác kẻ đã chết.}
+\expandafter\def\csname quoteauthor37\endcsname{Aristotle}
+\expandafter\def\csname quotetext38\endcsname{Kẻ mạnh không phải kẻ chiến thắng người khác, mà là kẻ chiến thắng chính mình.}
+\expandafter\def\csname quoteauthor38\endcsname{Aristotle}
+\expandafter\def\csname quotetext39\endcsname{Không có gì vĩ đại được tạo ra một cách vội vàng.}
+\expandafter\def\csname quoteauthor39\endcsname{Epictetus}
+\expandafter\def\csname quotetext40\endcsname{Chúng ta không thể lựa chọn hoàn cảnh, nhưng luôn có thể lựa chọn cách phản ứng với nó.}
+\expandafter\def\csname quoteauthor40\endcsname{Epictetus}
+\expandafter\def\csname quotetext41\endcsname{Trước tiên hãy nói với bản thân mình muốn trở thành người như thế nào, rồi làm những gì bạn phải làm.}
+\expandafter\def\csname quoteauthor41\endcsname{Epictetus}
+\expandafter\def\csname quotetext42\endcsname{Người không hài lòng với những gì mình có, sẽ không bao giờ hài lòng với những gì mình muốn có.}
+\expandafter\def\csname quoteauthor42\endcsname{Socrates}
+\expandafter\def\csname quotetext43\endcsname{Tri thức là sức mạnh.}
+\expandafter\def\csname quoteauthor43\endcsname{Francis Bacon}
+\expandafter\def\csname quotetext44\endcsname{Đọc sách không phải để phản bác hay tin ngay, mà để cân nhắc và suy xét.}
+\expandafter\def\csname quoteauthor44\endcsname{Francis Bacon}
+\expandafter\def\csname quotetext45\endcsname{Người khôn ngoan tạo ra nhiều cơ hội hơn là tìm thấy chúng.}
+\expandafter\def\csname quoteauthor45\endcsname{Francis Bacon}
+\expandafter\def\csname quotetext46\endcsname{Người dịch sách giỏi là người phản bội trung thành nhất với nguyên tác.}
+\expandafter\def\csname quoteauthor46\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext47\endcsname{Người thầy trung bình chỉ biết nói. Người thầy giỏi biết giải thích. Người thầy xuất sắc biết minh họa. Người thầy vĩ đại biết truyền cảm hứng.}
+\expandafter\def\csname quoteauthor47\endcsname{William Arthur Ward}
+\expandafter\def\csname quotetext48\endcsname{Bản thảo đầu tiên nào cũng dở, kể cả của những nhà văn giỏi nhất.}
+\expandafter\def\csname quoteauthor48\endcsname{Anne Lamott}
+\expandafter\def\csname quotetext49\endcsname{Tôi viết để tìm hiểu xem mình nghĩ gì.}
+\expandafter\def\csname quoteauthor49\endcsname{Joan Didion}
+\expandafter\def\csname quotetext50\endcsname{Không có nhà văn nào giỏi ngay từ bản thảo đầu tiên.}
+\expandafter\def\csname quoteauthor50\endcsname{Ernest Hemingway}
+\expandafter\def\csname quotetext51\endcsname{Viết dễ thôi: bạn chỉ cần ngồi trước trang giấy trắng cho đến khi trán rịn mồ hôi.}
+\expandafter\def\csname quoteauthor51\endcsname{Ernest Hemingway}
+\expandafter\def\csname quotetext52\endcsname{Hãy viết say sưa, biên tập tỉnh táo.}
+\expandafter\def\csname quoteauthor52\endcsname{Ernest Hemingway}
+\expandafter\def\csname quotetext53\endcsname{Người viết văn hay không phải người có nhiều chữ, mà là người biết bỏ bớt chữ thừa.}
+\expandafter\def\csname quoteauthor53\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext54\endcsname{Sự đơn giản là đỉnh cao của tinh tế.}
+\expandafter\def\csname quoteauthor54\endcsname{Leonardo da Vinci}
+\expandafter\def\csname quotetext55\endcsname{Học không bao giờ làm cạn kiệt trí óc.}
+\expandafter\def\csname quoteauthor55\endcsname{Leonardo da Vinci}
+\expandafter\def\csname quotetext56\endcsname{Sự thông thái là con gái của kinh nghiệm.}
+\expandafter\def\csname quoteauthor56\endcsname{Leonardo da Vinci}
+\expandafter\def\csname quotetext57\endcsname{Kẻ yêu thực hành mà không có lý thuyết giống như thủy thủ lên tàu không có la bàn.}
+\expandafter\def\csname quoteauthor57\endcsname{Leonardo da Vinci}
+\expandafter\def\csname quotetext58\endcsname{Nghệ thuật không bao giờ hoàn thành, chỉ bị bỏ dở.}
+\expandafter\def\csname quoteauthor58\endcsname{Leonardo da Vinci}
+\expandafter\def\csname quotetext59\endcsname{Giáo dục là vũ khí mạnh nhất để thay đổi thế giới.}
+\expandafter\def\csname quoteauthor59\endcsname{Nelson Mandela}
+\expandafter\def\csname quotetext60\endcsname{Điều tưởng chừng bất khả thi luôn là bất khả thi cho đến khi nó được thực hiện.}
+\expandafter\def\csname quoteauthor60\endcsname{Nelson Mandela}
+\expandafter\def\csname quotetext61\endcsname{Tôi không bao giờ thua, tôi chỉ thắng hoặc học được điều gì đó.}
+\expandafter\def\csname quoteauthor61\endcsname{Nelson Mandela}
+\expandafter\def\csname quotetext62\endcsname{Can đảm không phải là không sợ hãi, mà là chiến thắng nỗi sợ hãi đó.}
+\expandafter\def\csname quoteauthor62\endcsname{Nelson Mandela}
+\expandafter\def\csname quotetext63\endcsname{Bóng tối không thể xua tan bóng tối, chỉ ánh sáng mới làm được điều đó.}
+\expandafter\def\csname quoteauthor63\endcsname{Martin Luther King Jr.}
+\expandafter\def\csname quotetext64\endcsname{Thước đo cuối cùng của một con người không phải ở chỗ họ đứng đâu lúc thuận lợi, mà ở chỗ họ đứng đâu lúc khó khăn.}
+\expandafter\def\csname quoteauthor64\endcsname{Martin Luther King Jr.}
+\expandafter\def\csname quotetext65\endcsname{Cách tốt nhất để dự đoán tương lai là tự mình tạo ra nó.}
+\expandafter\def\csname quoteauthor65\endcsname{Abraham Lincoln}
+\expandafter\def\csname quotetext66\endcsname{Cho tôi sáu giờ để chặt một cái cây, tôi sẽ dùng bốn giờ đầu để mài rìu.}
+\expandafter\def\csname quoteauthor66\endcsname{Abraham Lincoln}
+\expandafter\def\csname quotetext67\endcsname{Thành công không phải là đích đến, thất bại không phải là điểm kết, chỉ có lòng can đảm để tiếp tục mới đáng kể.}
+\expandafter\def\csname quoteauthor67\endcsname{Winston Churchill}
+\expandafter\def\csname quotetext68\endcsname{Chúng ta uốn nắn các tòa nhà của mình, rồi sau đó các tòa nhà uốn nắn lại chúng ta.}
+\expandafter\def\csname quoteauthor68\endcsname{Winston Churchill}
+\expandafter\def\csname quotetext69\endcsname{Không bao giờ, không bao giờ, không bao giờ từ bỏ.}
+\expandafter\def\csname quoteauthor69\endcsname{Winston Churchill}
+\expandafter\def\csname quotetext70\endcsname{Sự dũng cảm là điều kiện đầu tiên vì nó bảo đảm cho tất cả những đức tính khác.}
+\expandafter\def\csname quoteauthor70\endcsname{Winston Churchill}
+\expandafter\def\csname quotetext71\endcsname{Hãy là sự thay đổi mà bạn muốn thấy trên thế giới.}
+\expandafter\def\csname quoteauthor71\endcsname{Mahatma Gandhi}
+\expandafter\def\csname quotetext72\endcsname{Sống như thể ngày mai bạn sẽ chết, học như thể bạn sẽ sống mãi mãi.}
+\expandafter\def\csname quoteauthor72\endcsname{Mahatma Gandhi}
+\expandafter\def\csname quotetext73\endcsname{Sức mạnh không đến từ khả năng thể chất, mà đến từ ý chí bất khuất.}
+\expandafter\def\csname quoteauthor73\endcsname{Mahatma Gandhi}
+\expandafter\def\csname quotetext74\endcsname{Hạnh phúc là khi những gì bạn nghĩ, những gì bạn nói và những gì bạn làm hòa hợp với nhau.}
+\expandafter\def\csname quoteauthor74\endcsname{Mahatma Gandhi}
+\expandafter\def\csname quotetext75\endcsname{Không ai tắm hai lần trên cùng một dòng sông.}
+\expandafter\def\csname quoteauthor75\endcsname{Heraclitus}
+\expandafter\def\csname quotetext76\endcsname{Sự thay đổi là điều duy nhất không đổi.}
+\expandafter\def\csname quoteauthor76\endcsname{Heraclitus}
+\expandafter\def\csname quotetext77\endcsname{Tính cách của một người chính là số phận của người đó.}
+\expandafter\def\csname quoteauthor77\endcsname{Heraclitus}
+\expandafter\def\csname quotetext78\endcsname{Đời người ngắn ngủi, nghệ thuật thì dài lâu.}
+\expandafter\def\csname quoteauthor78\endcsname{Hippocrates}
+\expandafter\def\csname quotetext79\endcsname{Trước hết, đừng gây hại.}
+\expandafter\def\csname quoteauthor79\endcsname{Hippocrates}
+\expandafter\def\csname quotetext80\endcsname{Hãy để thức ăn là thuốc của bạn, và thuốc là thức ăn của bạn.}
+\expandafter\def\csname quoteauthor80\endcsname{Hippocrates}
+\expandafter\def\csname quotetext81\endcsname{Người dám bắt đầu đã đi được nửa chặng đường.}
+\expandafter\def\csname quoteauthor81\endcsname{Horace}
+\expandafter\def\csname quotetext82\endcsname{Hãy nắm lấy ngày hôm nay, đừng đặt niềm tin vào ngày mai.}
+\expandafter\def\csname quoteauthor82\endcsname{Horace}
+\expandafter\def\csname quotetext83\endcsname{Ai không học được từ lịch sử sẽ buộc phải lặp lại nó.}
+\expandafter\def\csname quoteauthor83\endcsname{George Santayana}
+\expandafter\def\csname quotetext84\endcsname{Không có gió thuận cho con thuyền không biết mình sẽ đi về đâu.}
+\expandafter\def\csname quoteauthor84\endcsname{Seneca}
+\expandafter\def\csname quotetext85\endcsname{Chúng ta khổ đau nhiều hơn trong tưởng tượng so với thực tế.}
+\expandafter\def\csname quoteauthor85\endcsname{Seneca}
+\expandafter\def\csname quotetext86\endcsname{Toàn bộ tương lai nằm trong sự kiên nhẫn.}
+\expandafter\def\csname quoteauthor86\endcsname{Seneca}
+\expandafter\def\csname quotetext87\endcsname{Cuộc sống đủ dài nếu bạn biết cách sử dụng nó.}
+\expandafter\def\csname quoteauthor87\endcsname{Seneca}
+\expandafter\def\csname quotetext88\endcsname{Sự chờ đợi luôn tệ hơn nỗi đau thực sự.}
+\expandafter\def\csname quoteauthor88\endcsname{Seneca}
+\expandafter\def\csname quotetext89\endcsname{Tất cả mọi tàn ác đều bắt nguồn từ sự yếu đuối.}
+\expandafter\def\csname quoteauthor89\endcsname{Seneca}
+\expandafter\def\csname quotetext90\endcsname{Người khôn ngoan sống trong hiện tại, tận hưởng mọi khoảnh khắc trong yên bình.}
+\expandafter\def\csname quoteauthor90\endcsname{Marcus Aurelius}
+\expandafter\def\csname quotetext91\endcsname{Bạn có quyền lực đối với tâm trí mình, không phải với các sự kiện bên ngoài, hãy nhận ra điều này và bạn sẽ tìm thấy sức mạnh.}
+\expandafter\def\csname quoteauthor91\endcsname{Marcus Aurelius}
+\expandafter\def\csname quotetext92\endcsname{Những gì cản trở hành động sẽ thúc đẩy hành động, những gì cản đường sẽ trở thành con đường.}
+\expandafter\def\csname quoteauthor92\endcsname{Marcus Aurelius}
+\expandafter\def\csname quotetext93\endcsname{Hạnh phúc cuộc đời phụ thuộc vào chất lượng suy nghĩ của bạn.}
+\expandafter\def\csname quoteauthor93\endcsname{Marcus Aurelius}
+\expandafter\def\csname quotetext94\endcsname{Học mà không suy nghĩ thì vô ích, suy nghĩ mà không học thì nguy hiểm.}
+\expandafter\def\csname quoteauthor94\endcsname{Khổng Tử}
+\expandafter\def\csname quotetext95\endcsname{Người quân tử cầu ở mình, kẻ tiểu nhân cầu ở người.}
+\expandafter\def\csname quoteauthor95\endcsname{Khổng Tử}
+\expandafter\def\csname quotetext96\endcsname{Đừng lo mình không có địa vị, chỉ lo mình không đủ tài để đứng ở đó.}
+\expandafter\def\csname quoteauthor96\endcsname{Khổng Tử}
+\expandafter\def\csname quotetext97\endcsname{Dù bạn đi chậm đến đâu, miễn là không dừng lại.}
+\expandafter\def\csname quoteauthor97\endcsname{Khổng Tử}
+\expandafter\def\csname quotetext98\endcsname{Người khôn ngoan không nghi ngờ, người nhân ái không lo âu, người dũng cảm không sợ hãi.}
+\expandafter\def\csname quoteauthor98\endcsname{Khổng Tử}
+\expandafter\def\csname quotetext99\endcsname{Con đường ngàn dặm bắt đầu từ một bước chân.}
+\expandafter\def\csname quoteauthor99\endcsname{Lão Tử}
+\expandafter\def\csname quotetext100\endcsname{Biết người là khôn, biết mình là sáng suốt.}
+\expandafter\def\csname quoteauthor100\endcsname{Lão Tử}
+\expandafter\def\csname quotetext101\endcsname{Nước mềm nhất nhưng lại có thể chế ngự vật cứng nhất.}
+\expandafter\def\csname quoteauthor101\endcsname{Lão Tử}
+\expandafter\def\csname quotetext102\endcsname{Người khôn ngoan không tranh cãi, vì thế không ai tranh cãi được với họ.}
+\expandafter\def\csname quoteauthor102\endcsname{Lão Tử}
+\expandafter\def\csname quotetext103\endcsname{Đọc một nghìn cuốn sách, đi một vạn dặm đường.}
+\expandafter\def\csname quoteauthor103\endcsname{Ngạn ngữ Trung Hoa}
+\expandafter\def\csname quotetext104\endcsname{Học, học nữa, học mãi.}
+\expandafter\def\csname quoteauthor104\endcsname{Vladimir Ilyich Lenin}
+\expandafter\def\csname quotetext105\endcsname{Tưởng tượng là khởi đầu của sáng tạo.}
+\expandafter\def\csname quoteauthor105\endcsname{George Bernard Shaw}
+\expandafter\def\csname quotetext106\endcsname{Sự tiến bộ là không thể nếu không có thay đổi, và những ai không thể thay đổi suy nghĩ thì không thể thay đổi bất cứ điều gì.}
+\expandafter\def\csname quoteauthor106\endcsname{George Bernard Shaw}
+\expandafter\def\csname quotetext107\endcsname{Người sáng suốt thích nghi với thế giới, kẻ ngoan cố cố bắt thế giới thích nghi với mình, vì thế mọi tiến bộ đều phụ thuộc vào kẻ ngoan cố.}
+\expandafter\def\csname quoteauthor107\endcsname{George Bernard Shaw}
+\expandafter\def\csname quotetext108\endcsname{Chúng ta đừng bao giờ ngừng khám phá, và cuối hành trình khám phá ấy sẽ là quay về nơi ta bắt đầu, để nhận ra nó lần đầu tiên.}
+\expandafter\def\csname quoteauthor108\endcsname{T. S. Eliot}
+\expandafter\def\csname quotetext109\endcsname{Chỉ những ai dám thất bại thật nhiều mới có thể đạt được thành công lớn.}
+\expandafter\def\csname quoteauthor109\endcsname{Robert F. Kennedy}
+\expandafter\def\csname quotetext110\endcsname{Khi có điều gì đó đủ quan trọng, bạn làm nó dù xác suất thành công không nghiêng về bạn.}
+\expandafter\def\csname quoteauthor110\endcsname{Elon Musk}
+\expandafter\def\csname quotetext111\endcsname{Người ta thường đánh giá thấp sức mạnh của việc kiên trì lâu dài.}
+\expandafter\def\csname quoteauthor111\endcsname{Bill Gates}
+\expandafter\def\csname quotetext112\endcsname{Thành công là một người thầy tồi. Nó khiến người thông minh nghĩ rằng họ không thể thất bại.}
+\expandafter\def\csname quoteauthor112\endcsname{Bill Gates}
+\expandafter\def\csname quotetext113\endcsname{Sự sáng tạo đơn giản là kết nối những điều đã có.}
+\expandafter\def\csname quoteauthor113\endcsname{Steve Jobs}
+\expandafter\def\csname quotetext114\endcsname{Thời gian của bạn có hạn, đừng lãng phí nó để sống cuộc đời của người khác.}
+\expandafter\def\csname quoteauthor114\endcsname{Steve Jobs}
+\expandafter\def\csname quotetext115\endcsname{Đôi khi cuộc sống sẽ dùng viên gạch đập vào đầu bạn. Đừng đánh mất niềm tin.}
+\expandafter\def\csname quoteauthor115\endcsname{Steve Jobs}
+\expandafter\def\csname quotetext116\endcsname{Khoa học không phải là một khối kiến thức, mà là một quá trình đặt câu hỏi không ngừng.}
+\expandafter\def\csname quoteauthor116\endcsname{Carl Sagan}
+\expandafter\def\csname quotetext117\endcsname{Chúng ta là một cách để vũ trụ tự nhận thức về chính mình.}
+\expandafter\def\csname quoteauthor117\endcsname{Carl Sagan}
+\expandafter\def\csname quotetext118\endcsname{Nơi nào có tình yêu khoa học, nơi đó không thể có sự thấp kém về đạo đức.}
+\expandafter\def\csname quoteauthor118\endcsname{Carl Sagan}
+\expandafter\def\csname quotetext119\endcsname{Sự vắng mặt của bằng chứng không phải là bằng chứng của sự vắng mặt.}
+\expandafter\def\csname quoteauthor119\endcsname{Carl Sagan}
+\expandafter\def\csname quotetext120\endcsname{Con người phải thoát khỏi mê tín nếu muốn giữ được tự do của trí tuệ.}
+\expandafter\def\csname quoteauthor120\endcsname{Carl Sagan}
+\expandafter\def\csname quotetext121\endcsname{Vật lý học cũng giống như bất kỳ ngành khoa học nào, nó tồn tại không phải để mang lại lợi ích trước mắt mà để thỏa mãn sự tò mò.}
+\expandafter\def\csname quoteauthor121\endcsname{Richard Feynman}
+\expandafter\def\csname quotetext122\endcsname{Bước đầu tiên là đừng tự lừa dối bản thân, và bạn chính là người dễ bị lừa nhất.}
+\expandafter\def\csname quoteauthor122\endcsname{Richard Feynman}
+\expandafter\def\csname quotetext123\endcsname{Tôi thà có những câu hỏi không thể trả lời còn hơn những câu trả lời không thể chất vấn.}
+\expandafter\def\csname quoteauthor123\endcsname{Richard Feynman}
+\expandafter\def\csname quotetext124\endcsname{Nếu bạn nghĩ mình hiểu cơ học lượng tử, thì bạn chưa hiểu cơ học lượng tử.}
+\expandafter\def\csname quoteauthor124\endcsname{Richard Feynman}
+\expandafter\def\csname quotetext125\endcsname{Không có gì nhỏ bé cả, tất cả mọi thứ thú vị đều diễn ra ở quy mô nhỏ.}
+\expandafter\def\csname quoteauthor125\endcsname{Richard Feynman}
+\expandafter\def\csname quotetext126\endcsname{Trí tuệ nhân tạo sẽ là điều tốt đẹp nhất hoặc tồi tệ nhất từng xảy đến với nhân loại.}
+\expandafter\def\csname quoteauthor126\endcsname{Stephen Hawking}
+\expandafter\def\csname quotetext127\endcsname{Trí thông minh là khả năng thích nghi với sự thay đổi.}
+\expandafter\def\csname quoteauthor127\endcsname{Stephen Hawking}
+\expandafter\def\csname quotetext128\endcsname{Nhìn lên những vì sao, đừng nhìn xuống chân mình.}
+\expandafter\def\csname quoteauthor128\endcsname{Stephen Hawking}
+\expandafter\def\csname quotetext129\endcsname{Người tàn tật về thể chất không có nghĩa là tàn tật về tinh thần.}
+\expandafter\def\csname quoteauthor129\endcsname{Stephen Hawking}
+\expandafter\def\csname quotetext130\endcsname{Toán học là ngôn ngữ mà vũ trụ được viết nên.}
+\expandafter\def\csname quoteauthor130\endcsname{Galileo Galilei}
+\expandafter\def\csname quotetext131\endcsname{Vậy mà nó vẫn quay.}
+\expandafter\def\csname quoteauthor131\endcsname{Galileo Galilei}
+\expandafter\def\csname quotetext132\endcsname{Bạn không thể dạy con người bất cứ điều gì, bạn chỉ có thể giúp họ khám phá điều đó trong chính mình.}
+\expandafter\def\csname quoteauthor132\endcsname{Galileo Galilei}
+\expandafter\def\csname quotetext133\endcsname{Tất cả chân lý đều dễ hiểu một khi đã được khám phá, vấn đề là phải khám phá ra chúng.}
+\expandafter\def\csname quoteauthor133\endcsname{Galileo Galilei}
+\expandafter\def\csname quotetext134\endcsname{Không có điều gì vĩ đại được thực hiện mà không có sự nhiệt thành.}
+\expandafter\def\csname quoteauthor134\endcsname{Ralph Waldo Emerson}
+\expandafter\def\csname quotetext135\endcsname{Điều nằm phía sau chúng ta và điều nằm phía trước chúng ta chỉ là chuyện nhỏ so với điều nằm bên trong chúng ta.}
+\expandafter\def\csname quoteauthor135\endcsname{Ralph Waldo Emerson}
+\expandafter\def\csname quotetext136\endcsname{Sống là điều hiếm hoi nhất trên đời. Hầu hết mọi người chỉ tồn tại.}
+\expandafter\def\csname quoteauthor136\endcsname{Oscar Wilde}
+\expandafter\def\csname quotetext137\endcsname{Kinh nghiệm là tên gọi mà ta đặt cho những sai lầm của mình.}
+\expandafter\def\csname quoteauthor137\endcsname{Oscar Wilde}
+\expandafter\def\csname quotetext138\endcsname{Không có gì cao quý hơn việc dành cả cuộc đời để phục vụ người khác.}
+\expandafter\def\csname quoteauthor138\endcsname{Mark Twain}
+\expandafter\def\csname quotetext139\endcsname{Hai mươi năm sau, bạn sẽ thất vọng vì những điều mình không làm hơn là những điều mình đã làm.}
+\expandafter\def\csname quoteauthor139\endcsname{Mark Twain}
+\expandafter\def\csname quotetext140\endcsname{Lòng tốt là ngôn ngữ mà người điếc có thể nghe và người mù có thể thấy.}
+\expandafter\def\csname quoteauthor140\endcsname{Mark Twain}
+\expandafter\def\csname quotetext141\endcsname{Đừng bao giờ để việc học cản trở giáo dục của bạn.}
+\expandafter\def\csname quoteauthor141\endcsname{Mark Twain}
+\expandafter\def\csname quotetext142\endcsname{Sự khác biệt giữa từ đúng và từ gần đúng cũng giống như sự khác biệt giữa tia sét và con đom đóm.}
+\expandafter\def\csname quoteauthor142\endcsname{Mark Twain}
+\expandafter\def\csname quotetext143\endcsname{Không đọc sách thì trí óc như căn phòng không cửa sổ.}
+\expandafter\def\csname quoteauthor143\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext144\endcsname{Một cuốn sách hay là kho báu quý giá của tinh hoa một đời người.}
+\expandafter\def\csname quoteauthor144\endcsname{John Milton}
+\expandafter\def\csname quotetext145\endcsname{Trí óc là nơi ngự trị của riêng nó, tự nó có thể biến thiên đường thành địa ngục, hoặc địa ngục thành thiên đường.}
+\expandafter\def\csname quoteauthor145\endcsname{John Milton}
+\expandafter\def\csname quotetext146\endcsname{Người kiên nhẫn có thể đạt được bất cứ điều gì họ muốn.}
+\expandafter\def\csname quoteauthor146\endcsname{Benjamin Franklin}
+\expandafter\def\csname quotetext147\endcsname{Hãy đầu tư vào tri thức, nó sẽ trả lãi cao nhất.}
+\expandafter\def\csname quoteauthor147\endcsname{Benjamin Franklin}
+\expandafter\def\csname quotetext148\endcsname{Hãy nói cho tôi biết và tôi sẽ quên, hãy dạy tôi và tôi sẽ nhớ, hãy cho tôi tham gia và tôi sẽ học.}
+\expandafter\def\csname quoteauthor148\endcsname{Benjamin Franklin}
+\expandafter\def\csname quotetext149\endcsname{Thời gian là chất liệu mà cuộc sống được tạo nên, đừng lãng phí nó.}
+\expandafter\def\csname quoteauthor149\endcsname{Benjamin Franklin}
+\expandafter\def\csname quotetext150\endcsname{Không có sự đầu tư nào tốt hơn đầu tư vào chính bản thân mình.}
+\expandafter\def\csname quoteauthor150\endcsname{Benjamin Franklin}
+\expandafter\def\csname quotetext151\endcsname{Người ta không học được gì từ thành công, mà học từ thất bại.}
+\expandafter\def\csname quoteauthor151\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext152\endcsname{Thất bại là cơ hội để bắt đầu lại một cách thông minh hơn.}
+\expandafter\def\csname quoteauthor152\endcsname{Henry Ford}
+\expandafter\def\csname quotetext153\endcsname{Dù bạn nghĩ mình có thể hay không thể, bạn đều đúng.}
+\expandafter\def\csname quoteauthor153\endcsname{Henry Ford}
+\expandafter\def\csname quotetext154\endcsname{Chất lượng có nghĩa là làm đúng ngay cả khi không ai đang nhìn.}
+\expandafter\def\csname quoteauthor154\endcsname{Henry Ford}
+\expandafter\def\csname quotetext155\endcsname{Cùng nhau là khởi đầu, ở bên nhau là tiến bộ, làm việc cùng nhau là thành công.}
+\expandafter\def\csname quoteauthor155\endcsname{Henry Ford}
+\expandafter\def\csname quotetext156\endcsname{Trí tuệ nói, kinh nghiệm dạy.}
+\expandafter\def\csname quoteauthor156\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext157\endcsname{Đừng chờ cảm hứng, hãy bắt đầu viết rồi cảm hứng sẽ đến.}
+\expandafter\def\csname quoteauthor157\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext158\endcsname{Chỉ khi viết ra, ta mới biết mình thực sự nghĩ gì.}
+\expandafter\def\csname quoteauthor158\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext159\endcsname{Viết là suy nghĩ hai lần.}
+\expandafter\def\csname quoteauthor159\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext160\endcsname{Viết là công việc duy nhất mà bạn có thể vừa thất bại vừa thành công cùng lúc.}
+\expandafter\def\csname quoteauthor160\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext161\endcsname{Viết mà không đọc thì chẳng khác gì đi mà không nhìn đường.}
+\expandafter\def\csname quoteauthor161\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext162\endcsname{Người viết được nhiều nhất chưa chắc là người viết hay nhất, nhưng chắc chắn là người kiên trì nhất.}
+\expandafter\def\csname quoteauthor162\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext163\endcsname{Người viết giỏi nhất là người biên tập nghiêm khắc nhất với chính mình.}
+\expandafter\def\csname quoteauthor163\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext164\endcsname{Không có gì tồi tệ hơn sự cần cù mù quáng.}
+\expandafter\def\csname quoteauthor164\endcsname{Johann Wolfgang von Goethe}
+\expandafter\def\csname quotetext165\endcsname{Người dũng cảm sáng tạo cuộc đời mình, người thụ động để cuộc đời tự viết nên họ.}
+\expandafter\def\csname quoteauthor165\endcsname{Johann Wolfgang von Goethe}
+\expandafter\def\csname quotetext166\endcsname{Điều gì bạn có thể làm, hoặc mơ ước có thể làm, hãy bắt đầu nó. Sự táo bạo có thiên tài, sức mạnh và phép màu trong đó.}
+\expandafter\def\csname quoteauthor166\endcsname{Johann Wolfgang von Goethe}
+\expandafter\def\csname quotetext167\endcsname{Kiến thức không đủ, chúng ta phải áp dụng nó. Ý chí không đủ, chúng ta phải hành động.}
+\expandafter\def\csname quoteauthor167\endcsname{Johann Wolfgang von Goethe}
+\expandafter\def\csname quotetext168\endcsname{Không có con đường nào trải đầy hoa hồng dẫn đến khoa học.}
+\expandafter\def\csname quoteauthor168\endcsname{Karl Marx}
+\expandafter\def\csname quotetext169\endcsname{Các nhà triết học chỉ giải thích thế giới theo nhiều cách khác nhau, vấn đề là phải thay đổi nó.}
+\expandafter\def\csname quoteauthor169\endcsname{Karl Marx}
+\expandafter\def\csname quotetext170\endcsname{Sự hoài nghi là khởi đầu của mọi trí tuệ.}
+\expandafter\def\csname quoteauthor170\endcsname{Friedrich Nietzsche}
+\expandafter\def\csname quotetext171\endcsname{Điều gì không giết chết ta sẽ khiến ta mạnh mẽ hơn.}
+\expandafter\def\csname quoteauthor171\endcsname{Friedrich Nietzsche}
+\expandafter\def\csname quotetext172\endcsname{Ai có một lý do để sống có thể chịu đựng hầu như mọi cách sống.}
+\expandafter\def\csname quoteauthor172\endcsname{Friedrich Nietzsche}
+\expandafter\def\csname quotetext173\endcsname{Chúng ta có nghệ thuật để không bị sự thật hủy hoại.}
+\expandafter\def\csname quoteauthor173\endcsname{Friedrich Nietzsche}
+\expandafter\def\csname quotetext174\endcsname{Trong rừng sâu có hai lối đi, và tôi đã chọn lối ít người đi hơn, điều đó tạo nên mọi khác biệt.}
+\expandafter\def\csname quoteauthor174\endcsname{Robert Frost}
+\expandafter\def\csname quotetext175\endcsname{Thơ ca là cách để nói nhiều điều bằng ít lời nhất.}
+\expandafter\def\csname quoteauthor175\endcsname{Robert Frost}
+\expandafter\def\csname quotetext176\endcsname{Ẩn dụ là nơi mà thi ca và trí tuệ giao nhau.}
+\expandafter\def\csname quoteauthor176\endcsname{Robert Frost}
+\expandafter\def\csname quotetext177\endcsname{Tự do không phải là làm những gì mình thích, mà là quyền làm những gì mình nên làm.}
+\expandafter\def\csname quoteauthor177\endcsname{Immanuel Kant}
+\expandafter\def\csname quotetext178\endcsname{Hãy hành động sao cho châm ngôn hành động của bạn có thể trở thành quy luật phổ quát.}
+\expandafter\def\csname quoteauthor178\endcsname{Immanuel Kant}
+\expandafter\def\csname quotetext179\endcsname{Tư tưởng không có nội dung thì trống rỗng, trực giác không có khái niệm thì mù quáng.}
+\expandafter\def\csname quoteauthor179\endcsname{Immanuel Kant}
+\expandafter\def\csname quotetext180\endcsname{Con người không phải là phương tiện, mà luôn là mục đích.}
+\expandafter\def\csname quoteauthor180\endcsname{Immanuel Kant}
+\expandafter\def\csname quotetext181\endcsname{Sự thông thái không phải là sản phẩm của học vấn mà là nỗ lực cả đời để đạt được nó.}
+\expandafter\def\csname quoteauthor181\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext182\endcsname{Không phải mọi thứ đếm được đều đáng kể, và không phải mọi thứ đáng kể đều đếm được.}
+\expandafter\def\csname quoteauthor182\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext183\endcsname{Học từ hôm qua, sống cho hôm nay, hy vọng cho ngày mai. Điều quan trọng nhất là đừng ngừng đặt câu hỏi.}
+\expandafter\def\csname quoteauthor183\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext184\endcsname{Người thông minh giải quyết vấn đề, người khôn ngoan phòng tránh chúng.}
+\expandafter\def\csname quoteauthor184\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext185\endcsname{Mọi thứ nên được làm càng đơn giản càng tốt, nhưng không đơn giản hơn thế.}
+\expandafter\def\csname quoteauthor185\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext186\endcsname{Chỉ có hai cách sống cuộc đời: một là coi như không có gì là phép màu, hai là coi mọi thứ đều là phép màu.}
+\expandafter\def\csname quoteauthor186\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext187\endcsname{Tôi chưa bao giờ có một ý tưởng sáng tạo nào bằng cách suy nghĩ có logic.}
+\expandafter\def\csname quoteauthor187\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext188\endcsname{Trong giữa khó khăn ẩn chứa cơ hội.}
+\expandafter\def\csname quoteauthor188\endcsname{Albert Einstein}
+\expandafter\def\csname quotetext189\endcsname{Người thầy vĩ đại truyền cảm hứng.}
+\expandafter\def\csname quoteauthor189\endcsname{William Arthur Ward}
+\expandafter\def\csname quotetext190\endcsname{Bi quan phàn nàn về gió, lạc quan chờ gió đổi, còn người thực tế thì điều chỉnh cánh buồm.}
+\expandafter\def\csname quoteauthor190\endcsname{William Arthur Ward}
+\expandafter\def\csname quotetext191\endcsname{Rủi ro lớn nhất trong đời là không dám mạo hiểm điều gì cả.}
+\expandafter\def\csname quoteauthor191\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext192\endcsname{Kẻ chiến thắng không bao giờ bỏ cuộc, kẻ bỏ cuộc không bao giờ chiến thắng.}
+\expandafter\def\csname quoteauthor192\endcsname{Vince Lombardi}
+\expandafter\def\csname quotetext193\endcsname{Chiến thắng không phải là tất cả, nhưng nỗ lực để chiến thắng thì đúng là như vậy.}
+\expandafter\def\csname quoteauthor193\endcsname{Vince Lombardi}
+\expandafter\def\csname quotetext194\endcsname{Sự khác biệt giữa điều bất khả thi và điều khả thi nằm ở quyết tâm của một người.}
+\expandafter\def\csname quoteauthor194\endcsname{Tommy Lasorda}
+\expandafter\def\csname quotetext195\endcsname{Tôi đã ném trượt hơn chín nghìn cú trong sự nghiệp, thua gần ba trăm trận, hai mươi sáu lần được tin tưởng ném quyết định nhưng đã trượt. Tôi thất bại hết lần này đến lần khác, và đó là lý do tôi thành công.}
+\expandafter\def\csname quoteauthor195\endcsname{Michael Jordan}
+\expandafter\def\csname quotetext196\endcsname{Nếu bạn giới hạn khả năng của mình bởi những gì người khác nghĩ là có thể, bạn sẽ không bao giờ vượt qua sự tầm thường.}
+\expandafter\def\csname quoteauthor196\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext197\endcsname{Sự kiên trì có thể thay đổi thất bại thành thành tựu phi thường.}
+\expandafter\def\csname quoteauthor197\endcsname{Matt Biondi}
+\expandafter\def\csname quotetext198\endcsname{Không có thang máy nào đến thành công, bạn phải đi bằng cầu thang.}
+\expandafter\def\csname quoteauthor198\endcsname{Khuyết danh}
+\expandafter\def\csname quotetext199\endcsname{Người thành công không phải là người không bao giờ vấp ngã, mà là người luôn đứng dậy.}
+\expandafter\def\csname quoteauthor199\endcsname{Khuyết danh}
+
+\expandafter\def\csname quotetext200\endcsname{Không ai có thể trở lại và tạo ra một khởi đầu mới, nhưng ai cũng có thể bắt đầu từ hôm nay để tạo ra một kết thúc mới.}
+\expandafter\def\csname quoteauthor200\endcsname{Maria Robinson}
+
+\nquotes=200 % <-- LUÔN SỬA SỐ NÀY đúng bằng tổng số câu quote đang có ở trên khi thêm/bớt
+\makeatother
+
+% --- Bộ random thuần TeX (KHÔNG dùng lệnh riêng của pdfTeX) ---
+% Chạy được với mọi engine: pdflatex, xelatex, lualatex — vì chỉ dùng \numexpr số học thường.
+% Seed lấy theo thời điểm compile (giờ/ngày/tháng/năm) nên mỗi lần biên dịch lại sẽ ra
+% bộ 3 câu khác nhau; trong CÙNG 1 lần compile, các trang trắng khác nhau cũng sẽ ra
+% các câu khác nhau (nhờ \value{blankquotecall} tăng dần mỗi lần gọi).
+\newcount\qseed
+\newcount\qresult
+\newcount\qidxA
+\newcount\qidxB
+\newcount\qidxC
+\qseed=\numexpr(\year-2000)*10000000+\month*100000+\day*1440+\time\relax
+\qseed=\numexpr\qseed-(\qseed/99991)*99991\relax % rút gọn về <99991 để bước sau không tràn số
+
+\newcounter{blankquotecall}
+\newcommand{\nextrandomidx}{% trả kết quả vào \qresult, giá trị 1..\nquotes
+  \stepcounter{blankquotecall}%
+  \qseed=\numexpr(\qseed*31+\value{blankquotecall}*17+11)\relax
+  \qseed=\numexpr\qseed-(\qseed/99991)*99991\relax
+  % QUAN TRỌNG: phép chia "/" trong \numexpr LÀM TRÒN đến số nguyên gần nhất
+  % (khác C/Python là CẮT về 0), nên công thức "a - (a/n)*n" có thể ra ÂM khi
+  % phần dư >= n/2. Phải chuẩn hóa lại về [0, n) bằng cách cộng thêm n nếu âm,
+  % nếu không thì thỉnh thoảng \quotetext<số âm hoặc 0> không tồn tại -> in ra rỗng.
+  \ifnum\qseed<0 \advance\qseed by 99991\fi
+  \qresult=\numexpr\qseed-(\qseed/\nquotes)*\nquotes\relax
+  \ifnum\qresult<0 \advance\qresult by \nquotes\fi
+  \advance\qresult by 1
+}
+
+% --- In 1 câu quote (số thứ tự truyền vào qua #1) ---
+\newcommand{\printonequote}[1]{%
+  \begingroup
+  \edef\qidx{#1}%
+  \noindent\itshape\large ``\csname quotetext\qidx\endcsname''\par
+  \smallskip\normalfont\normalsize\hfill--- \csname quoteauthor\qidx\endcsname\par
+  \endgroup
+}
+
+% --- Chọn ngẫu nhiên 3 câu KHÁC NHAU và in ra, cách nhau 1 khoảng trắng ---
+% (Trước đây chỉ kiểm tra va chạm 1 lượt: sửa C trùng A xong có thể vô tình làm
+%  C lại trùng B mà không kiểm tra lại -> thỉnh thoảng 2/3 câu bị giống nhau.
+%  Giờ thử lại nhiều lượt cho tới khi chắc chắn cả 3 khác nhau hoàn toàn.)
+\newcommand{\insertblankpagequote}{%
+  \nextrandomidx \qidxA=\qresult %
+  \nextrandomidx \qidxB=\qresult %
+  \ifnum\qidxB=\qidxA \nextrandomidx \qidxB=\qresult \fi
+  \ifnum\qidxB=\qidxA \nextrandomidx \qidxB=\qresult \fi
+  \ifnum\qidxB=\qidxA \nextrandomidx \qidxB=\qresult \fi
+  \nextrandomidx \qidxC=\qresult %
+  \ifnum\qidxC=\qidxA \nextrandomidx \qidxC=\qresult \fi
+  \ifnum\qidxC=\qidxB \nextrandomidx \qidxC=\qresult \fi
+  \ifnum\qidxC=\qidxA \nextrandomidx \qidxC=\qresult \fi
+  \ifnum\qidxC=\qidxB \nextrandomidx \qidxC=\qresult \fi
+  \ifnum\qidxC=\qidxA \nextrandomidx \qidxC=\qresult \fi
+  \ifnum\qidxC=\qidxB \nextrandomidx \qidxC=\qresult \fi
+  \printonequote{\the\qidxA}
+  \vspace{1.5\baselineskip}
+  \printonequote{\the\qidxB}
+  \vspace{1.5\baselineskip}
+  \printonequote{\the\qidxC}
+}
+
+\makeatletter
+\renewcommand{\cleardoublepage}{%
+  \clearpage
+  \if@twoside
+    \ifodd\c@page
+    \else
+      \thispagestyle{empty}%
+      \vspace*{\fill}
+      \begin{center}
+      \begin{minipage}{0.75\textwidth}
+      \insertblankpagequote
+      \end{minipage}
+      \end{center}
+      \vspace*{\fill}
+      \newpage
+      \if@twocolumn\hbox{}\newpage\fi
+    \fi
+  \fi
+}
+\makeatother
+
+
+% Ngăn page break trong quote box
+\let\oldquote\quote
+\let\oldendquote\endquote
+\renewcommand{\quote}{\oldquote\nopagebreak[4]}
+\renewcommand{\endquote}{\nopagebreak[4]\oldendquote}

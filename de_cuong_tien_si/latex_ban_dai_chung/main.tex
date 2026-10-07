@@ -1,0 +1,81 @@
+%****************************************************************************************************
+% Bản đọc dài dành cho công chúng: Rủi ro lựa chọn mô hình theo chế độ thị trường
+% Biên dịch: pdflatex main (hai lần). Cấu hình: classicthesis-config.tex (giữ nguyên bản tác giả gửi).
+%****************************************************************************************************
+\documentclass[twoside,openright,titlepage,numbers=noenddot,headinclude,footinclude,
+  cleardoublepage=empty,abstract=off,BCOR=5mm,paper=a4,fontsize=11pt]{scrreprt}
+
+\input{classicthesis-config}
+
+% --- Thông tin của tài liệu này (ghi đè phần "Thông tin sách" trong config) ---
+\renewcommand{\myTitle}{Rủi ro lựa chọn mô hình trong quản trị danh mục đầu tư theo chế độ thị trường\xspace}
+\renewcommand{\mySubtitle}{Bằng chứng từ thị trường chứng khoán Việt Nam\xspace}
+\renewcommand{\myDegree}{Bản đọc dài dành cho công chúng\xspace}
+\renewcommand{\myUni}{Trường Quốc tế, Đại học Quốc gia Hà Nội\xspace}
+
+% --- Gói cần cho phần thân do pandoc sinh ra ---
+\usepackage{longtable,array,calc}
+\tcbuselibrary{breakable}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newcounter{none}\makeatletter\def\LTcaptype{none}\makeatother
+
+% --- Ký tự Unicode ngoài bảng mã T5 ---
+\DeclareUnicodeCharacter{2212}{\ensuremath{-}}
+\DeclareUnicodeCharacter{00D7}{\ensuremath{\times}}
+\DeclareUnicodeCharacter{2248}{\ensuremath{\approx}}
+\DeclareUnicodeCharacter{2264}{\ensuremath{\le}}
+\DeclareUnicodeCharacter{2265}{\ensuremath{\ge}}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\DeclareUnicodeCharacter{00B2}{\textsuperscript{2}}
+\DeclareUnicodeCharacter{03B1}{\ensuremath{\alpha}}
+\DeclareUnicodeCharacter{03B2}{\ensuremath{\beta}}
+\DeclareUnicodeCharacter{03B3}{\ensuremath{\gamma}}
+\DeclareUnicodeCharacter{03B5}{\ensuremath{\varepsilon}}
+\DeclareUnicodeCharacter{03C1}{\ensuremath{\rho}}
+\DeclareUnicodeCharacter{03BC}{\ensuremath{\mu}}
+\DeclareUnicodeCharacter{03C3}{\ensuremath{\sigma}}
+\DeclareUnicodeCharacter{2208}{\ensuremath{\in}}
+\DeclareUnicodeCharacter{221E}{\ensuremath{\infty}}
+
+% --- Bìa theo bố cục mẫu bookcover (dải vàng, nền xanh, dải nhà xuất bản) ---
+\definecolor{bcteal}{HTML}{1B6B7B}
+\definecolor{bcgold}{HTML}{D4A96A}
+\newcommand{\makefrontcover}{%
+  \begin{titlepage}
+  \thispagestyle{empty}
+  \begin{tikzpicture}[remember picture,overlay]
+    \fill[bcteal] (current page.south west) rectangle (current page.north east);
+    \fill[bcgold] ([yshift=-30mm]current page.north west) rectangle ([yshift=-112mm]current page.north east);
+    \node[text width=150mm,align=center,text=bcteal] at ([yshift=-71mm]current page.north) {%
+      {\fontsize{25}{31}\selectfont\bfseries RỦI RO LỰA CHỌN MÔ HÌNH\\ TRONG QUẢN TRỊ DANH MỤC ĐẦU TƯ\\ THEO CHẾ ĐỘ THỊ TRƯỜNG\par}
+      \vspace{3mm}{\color{bcteal}\rule{0.85\linewidth}{2pt}\par}\vspace{3mm}
+      {\fontsize{15}{19}\selectfont\bfseries BẰNG CHỨNG TỪ THỊ TRƯỜNG CHỨNG KHOÁN VIỆT NAM\par}};
+    \node[anchor=east,text=bcgold] at ([xshift=-25mm,yshift=-124mm]current page.north east)
+      {\fontsize{17}{21}\selectfont\itshape Bản đọc dài dành cho công chúng};
+    \node[text width=140mm,align=center,text=white] at ([yshift=-170mm]current page.north) {%
+      {\large Diễn giải đề cương nghiên cứu tiến sĩ\\ chuyên ngành Kinh tế và Quản lý, mã số 9310116.01QTD\par}
+      \vspace{6mm}
+      {\normalsize\itshape Bản giải thích để đọc hiểu và ôn thi, không thay thế đề cương gốc.\\ Đề cương chưa có kết quả thực nghiệm; mọi kết quả đều là dự kiến.\par}};
+    \node[text=bcgold] at ([yshift=55mm]current page.south)
+      {\fontsize{18}{22}\selectfont\bfseries NGUYỄN VĂN TRUNG};
+    \fill[bcgold] ([yshift=22mm]current page.south west) rectangle ([yshift=38mm]current page.south east);
+    \node[text=bcteal] at ([yshift=30mm]current page.south)
+      {\fontsize{14}{17}\selectfont\bfseries Trường Quốc tế, Đại học Quốc gia Hà Nội\quad\textbullet\quad Hà Nội, 2026};
+  \end{tikzpicture}
+  \end{titlepage}}
+
+\begin{document}
+\frenchspacing
+\raggedbottom
+\pagenumbering{roman}
+\pagestyle{plain}
+\makefrontcover
+\cleardoublepage
+\pdfbookmark[1]{\contentsname}{tableofcontents}
+\setcounter{tocdepth}{0}
+\tableofcontents
+\cleardoublepage
+\pagenumbering{arabic}
+\pagestyle{scrheadings}
+\input{body2}
+\end{document}
