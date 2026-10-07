@@ -1,0 +1,190 @@
+@@ 1745
+Mục 4.3.2 của đề cương: Bốn giả thuyết và khung phân tích
+@@ 1746
+Từ bốn khoảng trống ở Bảng 1, đề cương đề xuất khung phân tích (Hình 1) và bốn giả thuyết (Bảng 2). H1 hỏi rủi ro lựa chọn mô hình ở chế độ căng thẳng có cao hơn không; H2 và H4 hỏi vì sao, qua các biến kênh; H3 hỏi cách nào giảm được rủi ro. Mỗi giả thuyết đi kèm một khả năng đối lập, tức một lời giải thích khác có thể thắng.
+@@ 1747
+Cả bốn là dự đoán cần kiểm định; chữ "dự kiến" và "nếu dữ liệu ủng hộ" là cách viết đúng.
+@@ 1748
+**Giả thuyết phải viết sao cho có thể sai**
+@@ 1749
+Giả thuyết khoa học là dự đoán đủ cụ thể để dữ liệu có thể phản bác. "Ngày mai trời sẽ thay đổi" không thể sai nên vô giá trị; "ngày mai mưa trên 10 mm" thì kiểm tra được. Mỗi giả thuyết của đề cương nêu thước đo nào, dấu hệ số ra sao, và điều gì sẽ bác bỏ nó.
+@@ 1750
+**Thước đo chính** là đại lượng quyết định phán quyết; **thước đo phụ** chỉ bổ sung. **Cơ sở** là công trình làm chỗ dựa lập luận, không phải bằng chứng rằng giả thuyết đúng ở Việt Nam.
+@@ 1751
+**Bảng 2: giả thuyết, thước đo và cơ sở lý thuyết**
+@@ 1752
+Bảng dưới giữ nội dung Bảng 2 của đề cương.
+@@ 1757
+Kết quả chính: mức hối tiếc [[CÔNG THỨC]] (chênh lệch lợi suất tương đương chắc chắn giữa mô hình tốt nhất sau thực tế và mô hình chọn trước). Kết quả phụ: độ phân tán mô hình [[CÔNG THỨC]], kích thước tập tin cậy mô hình
+@@ 1759
+H2: Sau khi kiểm soát biến động thực hiện, hệ số của độ phi thanh khoản dương (thanh khoản cạn làm các mô hình có vòng quay khác nhau cách xa nhau) và hệ số của tương quan đuôi âm (tương quan cao làm các danh mục chỉ mua hội tụ)
+@@ 1760
+Dấu và khoảng tin cậy của hai hệ số; phần chênh lệch giữa hai chế độ ([[CÔNG THỨC]]) do biến kênh giải thích
+@@ 1762
+H3: Ở chế độ căng thẳng, sau chi phí giao dịch, kết hợp mô hình và danh mục vững chắc cho mức hối tiếc và độ sụt giảm tối đa thấp hơn, lợi suất tương đương chắc chắn cao hơn so với chọn một mô hình
+@@ 1763
+Lợi suất tương đương chắc chắn; mức hối tiếc; độ sụt giảm tối đa; giá trị thiệt hại kỳ vọng mức 95%; vòng quay
+@@ 1769
+H1 trả lời Câu hỏi 1; H2 và H4 trả lời Câu hỏi 2; H3 trả lời Câu hỏi 3. Câu hỏi 2 hỏi các biến kênh có liên hệ thống kê với rủi ro không và giải thích bao nhiêu phần chênh lệch giữa hai chế độ, tức bao nhiêu phần của hệ số [[CÔNG THỨC]] ở phương trình (5).
+@@ 1771 DEL
+@@ 1772
+H1: rủi ro lựa chọn mô hình ở chế độ căng thẳng cao hơn ở chế độ bình thường. Bằng ngôn ngữ thời tiết: chọn cách chia tiền trước mùa giải dễ sai hơn, và sai đắt hơn, khi thị trường vào mùa bão.
+@@ 1773 DEL
+@@ 1774
+Kết quả chính là mức hối tiếc [[CÔNG THỨC]]. Đầu mỗi cửa sổ đánh giá, nhà đầu tư chọn trước mô hình có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước; hết cửa sổ mới biết mô hình nào tốt nhất. Chênh lệch giữa hai kết quả là mức hối tiếc.
+@@ 1775
+Lợi suất tương đương chắc chắn là mức lợi suất chắc chắn mà nhà đầu tư ngại rủi ro coi là ngang giá với danh mục; càng cao càng tốt. Một cách chia tiền lãi to lỗ to, một cách lãi vừa mà đều: thước đo này so hai cách trên cùng một thước vì nó trừ một khoản "phí cho sự bất an" tùy mức ngại rủi ro.
+@@ 1776
+Hai kết quả phụ là độ phân tán mô hình [[CÔNG THỨC]] (bảy mô hình bất đồng nhiều hay ít) và kích thước tập tin cậy mô hình (danh sách ứng viên chưa thể loại). Chúng chỉ báo bất định, không đo rủi ro, nên là kết quả phụ.
+@@ 1777 DEL
+@@ 1778
+Cơ sở: Danielsson và cộng sự (2016) thấy rủi ro mô hình tăng theo bất định của thị trường, nhưng chỉ cho mô hình dự báo rủi ro thị trường và rủi ro hệ thống; đề tài thử ý tương tự cho quyết định phân bổ.
+@@ 1779
+Hansen và cộng sự (2011) là nguồn của tập tin cậy mô hình. Dữ liệu kém thông tin cho tập lớn, nên tập lớn hơn ở chế độ căng thẳng chưa chắc là rủi ro lớn hơn; vì vậy kích thước tập chỉ báo cáo dạng mô tả, kèm số quan sát và công suất kiểm định.
+@@ 1780 DEL
+@@ 1781
+Khả năng đối lập: rủi ro không đổi theo chế độ, hoặc một quy tắc đơn giản như 1/N thắng ổn định (DeMiguel và cộng sự, 2009; Pflug và cộng sự, 2012). Nếu vậy, kết luận là 1/N đủ dùng ở Việt Nam (mục 4.3.10).
+@@ 1782 DEL
+@@ 1783
+Tiêu chí ở mục 4.3.7: H1 được ủng hộ khi thỏa đồng thời ba điều kiện: hệ số [[CÔNG THỨC]] của [[CÔNG THỨC]] dương và vượt phân vị 95% của phân phối rỗng; khoảng tin cậy bootstrap khối của nó loại trừ 0; và [[CÔNG THỨC]] của [[CÔNG THỨC]] cùng dấu. Phân phối rỗng là "kết quả trông thế nào nếu thực ra không có gì xảy ra".
+@@ 1784
+Điểm tinh tế: ngay cả khi các mô hình ngang chất lượng, mức hối tiếc vẫn có kỳ vọng dương, vì giá trị lớn nhất của các đại lượng có nhiễu tăng theo phương sai của nhiễu. Chế độ nhiễu hơn tự nhiên cho mức hối tiếc lớn hơn. Vì vậy cần phân phối rỗng, và cần chia [[CÔNG THỨC]], [[CÔNG THỨC]] cho sai số chuẩn bootstrap để loại tác động cơ học này.
+@@ 1785
+Ví dụ giả định (số tự đặt để minh họa): bảy cầu thủ kỹ năng y hệt cùng sút phạt. Ngày quang, kết quả lệch nhau ít; ngày gió lớn, lệch nhiều. Không ai giỏi hơn ai, nhưng người tốt nhất ngày gió vẫn thường ghi điểm cao hơn người tốt nhất ngày quang.
+@@ 1786
+Chọn trước một người rồi so với người tốt nhất trong ngày thì khoảng cách ngày gió lớn hơn, chỉ vì may rủi lớn hơn. Cần thước đối chứng để tách "may rủi lớn hơn" khỏi "chọn khó hơn thật".
+@@ 1789 DEL
+@@ 1790
+Biến kênh là đại lượng có thể giải thích vì sao rủi ro lựa chọn mô hình đổi theo chế độ. Nếu H1 cho thấy mùa bão làm việc chọn khó hơn, H2 hỏi khó hơn qua "đường dẫn" nào: thanh khoản cạn là một đường, tương quan giữa các cổ phiếu là đường khác.
+@@ 1791 DEL
+@@ 1792
+"Sau khi kiểm soát biến động thực hiện": biến động thực hiện là mức dao động đã quan sát trong cửa sổ; kiểm soát nó là đưa vào hồi quy để tách ảnh hưởng riêng của biến kênh. Ăn kem và đuối nước cùng tăng vào mùa hè; muốn xem riêng kem phải giữ nhiệt độ cố định. Ở đây biến động đóng vai nhiệt độ.
+@@ 1793
+Mục 4.3.7 lưu ý: biến chế độ phụ thuộc biến động và lợi suất, các biến kênh cũng phụ thuộc biến động, nên chúng dễ đi cùng nhau. Đề cương báo cáo hệ số phóng đại phương sai với ngưỡng 5 ấn định trước; vượt ngưỡng thì báo cáo hai phương trình tách riêng và không diễn giải riêng từng hệ số.
+@@ 1794 DEL
+@@ 1795
+H2 có hai nửa với hai dấu: hệ số của độ phi thanh khoản dương; hệ số của tương quan đuôi âm.
+@@ 1796
+Độ phi thanh khoản Amihud (Amihud, 2002) càng cao thì thị trường càng "cạn": giá dễ bị đẩy mạnh khi có lệnh mua bán. Đề cương không nêu công thức.
+@@ 1797
+Vì sao dương? Thanh khoản cạn làm các mô hình có vòng quay khác nhau cách xa nhau. Vòng quay là tỷ lệ danh mục được mua bán lại. Một cách chia tiền đổi vị trí liên tục, một cách gần như đứng yên; chợ vắng thì mỗi lần đổi tốn hơn, nên hai cách cách xa nhau và chọn nhầm đắt hơn.
+@@ 1798
+Vì sao âm? Tương quan cao làm các danh mục chỉ mua hội tụ. Tương quan đuôi là mức các cổ phiếu cùng rơi khi thị trường xấu nhất; danh mục chỉ mua là danh mục không bán khống. Diễn giải của bản đọc: mọi cổ phiếu cùng đi một hướng thì mô hình nào cũng mua những thứ gần giống nhau, danh mục giống nhau thì chọn nhầm ít thiệt.
+@@ 1799
+Hai dấu ngược nhau không mâu thuẫn: một biến làm các mô hình khác nhau hơn, biến kia làm chúng giống nhau hơn. Cả hai là dự đoán cần kiểm tra.
+@@ 1800 DEL
+@@ 1801
+Thước đo của H2 gồm dấu và khoảng tin cậy của hai hệ số, cộng phần của [[CÔNG THỨC]] do biến kênh giải thích: hiệu giữa hai hệ số [[CÔNG THỨC]] khi chưa có và khi có biến kênh trong phương trình (5), kèm khoảng tin cậy bootstrap khối. Tổng thiệt hại do mùa bão là [[CÔNG THỨC]]; thêm biến kênh mà [[CÔNG THỨC]] nhỏ đi thì phần giảm là phần biến kênh "gánh" thay chế độ.
+@@ 1802
+Kết quả chỉ là liên hệ có điều kiện, không phải nhân quả: biến kênh "gánh" một phần của [[CÔNG THỨC]] nghĩa là đi cùng phần đó về thống kê, không chứng minh nó gây ra.
+@@ 1803
+**Cơ sở, khả năng đối lập và tiêu chí của H2**
+@@ 1804
+Cơ sở: Amihud (2002) cho độ phi thanh khoản; Longin và Solnik (2001) bác bỏ phân phối chuẩn đa biến ở đuôi âm; Forbes và Rigobon (2002) chỉ ra tương quan phụ thuộc biến động.
+@@ 1805
+Khả năng đối lập: tương quan tăng chỉ vì biến động tăng (Forbes và Rigobon, 2002). Theo bản đọc, nếu sau khi kiểm soát biến động mà tương quan đuôi không còn tác động riêng, "kênh tương quan" chỉ là biến động khoác áo khác.
+@@ 1806 DEL
+@@ 1807
+H2 được ủng hộ khi hệ số độ phi thanh khoản dương, hệ số tương quan đuôi âm, và khoảng tin cậy bootstrap khối của cả hai loại trừ 0.
+@@ 1808
+**H3: cách giảm rủi ro khi trời bão**
+@@ 1809 DEL
+@@ 1810
+H3: ở chế độ căng thẳng, sau chi phí giao dịch, kết hợp mô hình và danh mục vững chắc cho mức hối tiếc và độ sụt giảm tối đa thấp hơn, lợi suất tương đương chắc chắn cao hơn so với chọn một mô hình. Thay vì đặt cả mùa giải vào một cách chia tiền, nhà đầu tư pha trộn nhiều cách, hoặc chọn cách chịu được tình huống xấu nhất.
+@@ 1811
+H3 trả lời Câu hỏi 3; chi tiết ở mục 4.3.8.
+@@ 1812 DEL
+@@ 1813
+Kết hợp mô hình: trung bình hóa mô hình Bayes (Hoeting và cộng sự, 1999) trộn nhiều mô hình theo trọng số, như nghe cả bảy dự báo viên và cho người đúng nhiều trong quá khứ tiếng nói lớn hơn. Danh mục vững chắc: nhà đầu tư né tránh mơ hồ tối ưu cho tình huống xấu nhất trong nhiều niềm tin tiên nghiệm (Garlappi và cộng sự, 2007).
+@@ 1814
+Thước đo: lợi suất tương đương chắc chắn; mức hối tiếc; độ sụt giảm tối đa (mức giảm lớn nhất từ đỉnh); giá trị thiệt hại kỳ vọng mức 95% (tổn thất trung bình trong 5% số ngày xấu nhất); vòng quay. So sánh tính sau chi phí giao dịch, vì một cách pha trộn đẹp trên giấy có thể mất hết lợi thế nếu phải mua bán liên tục.
+@@ 1815
+Chi tiết kỹ thuật (mục 4.3.8): khi kiểm định H3, cơ chế (ii) danh mục vững chắc và (iii) quy tắc chuyển chế độ được loại khỏi tập bảy mô hình, nên mức hối tiếc của chúng có thể âm (mức hối tiếc chỉ chắc chắn không âm khi mô hình chọn trước thuộc tập).
+@@ 1816
+**Cơ sở, khả năng đối lập và tiêu chí của H3**
+@@ 1817
+Cơ sở: Hoeting và cộng sự (1999), Garlappi và cộng sự (2007), Rapach và cộng sự (2010); nhóm sau cho thấy kết hợp dự báo bù được phần chất lượng mất đi do mô hình bất ổn định.
+@@ 1818
+Khả năng đối lập: kết hợp mô hình không vượt việc chọn một mô hình sau chi phí giao dịch và sau hiệu chỉnh thiên lệch chọn lọc (Bailey và López de Prado, 2014). Nếu lợi thế biến mất sau hai bước đó, H3 không được ủng hộ.
+@@ 1819 DEL
+@@ 1820
+H3 được ủng hộ khi, ở chế độ căng thẳng, cơ chế cho lợi suất tương đương chắc chắn sau chi phí cao hơn, mức hối tiếc thấp hơn và độ sụt giảm tối đa không cao hơn so với chọn một mô hình, với khoảng tin cậy bootstrap khối loại trừ 0.
+@@ 1822 DEL
+@@ 1823
+H4 ghi rõ là thăm dò: sau khi kiểm soát biến động thực hiện, độ phân tán chéo của lợi suất cao đi cùng rủi ro lựa chọn mô hình cao.
+@@ 1824
+Độ phân tán chéo là mức lợi suất các cổ phiếu khác nhau trong cùng một ngày, thước đo bầy đàn ở cấp thị trường theo Christie và Huang (1995): cừu chạy theo đầu đàn thì sát nhau, độ phân tán nhỏ; mỗi con tự chọn đường thì tản ra.
+@@ 1825
+**Ba giới hạn của H4**
+@@ 1826 DEL
+@@ 1827
+Đề tài không quan sát hành vi chọn mô hình của tổ chức đầu tư; đây là phép thử giới hạn ở cấp thị trường.
+@@ 1828
+H4 chỉ báo cáo như kết quả thăm dò.
+@@ 1829
+Bằng chứng bầy đàn trái chiều giữa các thị trường (Christie và Huang, 1995; Chang và cộng sự, 2000).
+@@ 1830 DEL
+@@ 1831
+Cơ sở: Vo và Phan (2017), Chang và cộng sự (2000), Christie và Huang (1995). Khả năng đối lập: bầy đàn không xuất hiện ở tần suất dữ liệu của đề tài, như Christie và Huang (1995) quan sát trên dữ liệu Mỹ.
+@@ 1832
+**Hình 1: khung phân tích, mô tả bằng lời**
+@@ 1833
+Hình 1 là sơ đồ khung phân tích. Đề cương mô tả bốn quan hệ:
+@@ 1834
+1. Chế độ thị trường tác động lên rủi ro lựa chọn mô hình (H1).
+@@ 1835
+2. Các biến kênh tác động lên chính quan hệ đó, tức giải thích một phần chênh lệch giữa hai chế độ (H2 và H4). Mục tiêu (iii) ở mục 4.1 liệt kê biến động, thanh khoản, tương quan cực trị và bầy đàn; biến động thực hiện luôn là biến kiểm soát.
+@@ 1836
+3. Cơ chế giảm thiểu tác động lên quan hệ giữa rủi ro lựa chọn mô hình và kết quả danh mục (H3).
+@@ 1837
+4. Mũi tên nét đứt từ rủi ro lựa chọn mô hình sang kết quả danh mục không mang giả thuyết riêng, vì định nghĩa của mức hối tiếc đã là chênh lệch kết quả danh mục.
+@@ 1838
+Điểm thứ tư: mức hối tiếc là chênh lệch lợi suất tương đương chắc chắn, mà đó chính là thước đo kết quả danh mục, nên rủi ro cao hơn đồng nghĩa kết quả của mô hình đã chọn kém hơn mô hình tốt nhất. Định nghĩa "khoảng cách đến đích" bằng hiệu hai quãng đường thì khoảng cách lớn đồng nghĩa còn xa đích; không cần thí nghiệm để chứng minh.
+@@ 1839
+Gom lại: chế độ thị trường, rồi rủi ro lựa chọn mô hình, rồi kết quả danh mục; biến kênh tác động lên mũi tên thứ nhất, cơ chế giảm thiểu tác động lên mũi tên thứ hai.
+@@ 1840
+**Kiểm định cùng lúc một khả năng đối lập cho mỗi giả thuyết**
+@@ 1841
+Đề cương kiểm định cùng lúc một khả năng đối lập cho mỗi giả thuyết:
+@@ 1846
+Rủi ro không đổi theo chế độ, hoặc một quy tắc đơn giản như 1/N thắng ổn định
+@@ 1847
+DeMiguel và cộng sự (2009); Pflug và cộng sự (2012)
+@@ 1849
+Tương quan có thể tăng chỉ vì biến động tăng
+@@ 1852
+Kết hợp mô hình có thể không vượt việc chọn một mô hình sau chi phí giao dịch và sau hiệu chỉnh thiên lệch chọn lọc
+@@ 1855
+Bầy đàn có thể không xuất hiện ở tần suất dữ liệu của đề tài
+@@ 1858
+Thám tử chỉ có một nghi phạm dễ kết tội oan; thám tử giữ sẵn giả thuyết khác buộc mình hỏi bằng chứng nào phân biệt hai bên. Nêu sẵn khả năng đối lập cho người đọc biết đề tài chấp nhận kết quả nào là câu trả lời, kể cả kết quả bất lợi.
+@@ 1859
+Mục 4.3.10 xác nhận: nếu dữ liệu bác bỏ giả thuyết, đề tài vẫn trả lời được câu hỏi, chẳng hạn rủi ro không đổi theo chế độ hoặc 1/N đủ dùng ở Việt Nam.
+@@ 1860
+Hai lớp bảo vệ chung: hiệu chỉnh so sánh bội theo Holm (1979) ở mức 10% cho bốn giả thuyết, để tránh thử nhiều rồi nhặt cái "có ý nghĩa"; và quy tắc không kết luận khi số cửa sổ độc lập ở chế độ căng thẳng dưới 10.
+@@ 1862
+H1: căng thẳng cao hơn bình thường; kết quả chính là mức hối tiếc [[CÔNG THỨC]], phụ là [[CÔNG THỨC]] và kích thước tập tin cậy; đối lập: không đổi theo chế độ hoặc 1/N thắng ổn định.
+@@ 1863
+H2: sau khi kiểm soát biến động thực hiện, hệ số độ phi thanh khoản dương, hệ số tương quan đuôi âm; đối lập: tương quan tăng chỉ vì biến động tăng.
+@@ 1864
+H3: ở chế độ căng thẳng, sau chi phí, kết hợp mô hình và danh mục vững chắc cho mức hối tiếc, độ sụt giảm tối đa thấp hơn, lợi suất tương đương chắc chắn cao hơn; đối lập: không vượt sau chi phí và sau hiệu chỉnh thiên lệch chọn lọc.
+@@ 1865
+H4 chỉ thăm dò: độ phân tán chéo cao đi cùng rủi ro lựa chọn cao; đối lập: bầy đàn không xuất hiện ở tần suất dữ liệu.
+@@ 1866
+Hình 1: chế độ tác động lên rủi ro (H1); biến kênh tác động lên quan hệ đó (H2, H4); cơ chế giảm thiểu tác động lên quan hệ rủi ro và kết quả danh mục (H3); mũi tên nét đứt không mang giả thuyết.
+@@ 1870
+1. Nêu H2 và hai dấu của nó. Vì sao ngược nhau?
+@@ 1871
+Đáp án: sau khi kiểm soát biến động thực hiện, hệ số độ phi thanh khoản dương và hệ số tương quan đuôi âm. Thanh khoản cạn làm các mô hình có vòng quay khác nhau cách xa nhau; tương quan cao làm các danh mục chỉ mua hội tụ.
+@@ 1873
+Đáp án: H1: không đổi theo chế độ hoặc 1/N thắng ổn định (DeMiguel và cộng sự, 2009; Pflug và cộng sự, 2012). H2: tương quan tăng chỉ vì biến động tăng (Forbes và Rigobon, 2002). H3: kết hợp không vượt chọn một mô hình sau chi phí và hiệu chỉnh thiên lệch chọn lọc (Bailey và López de Prado, 2014). H4: bầy đàn không xuất hiện ở tần suất dữ liệu (Christie và Huang, 1995).
+@@ 1874
+3. Vì sao mũi tên nét đứt trong Hình 1 không mang giả thuyết riêng?
+@@ 1875
+Đáp án: vì định nghĩa của mức hối tiếc đã là chênh lệch kết quả danh mục.
+@@ 1876
+4. Ba câu hỏi nghiên cứu ứng với bốn giả thuyết thế nào?
+@@ 1877
+Đáp án: Câu hỏi 1 với H1; Câu hỏi 2 với H2 và H4; Câu hỏi 3 với H3.
+@@ 1879
+Đáp án: H4 chỉ là thăm dò. Đề tài không quan sát hành vi chọn mô hình của tổ chức; độ phân tán chéo chỉ là phép thử giới hạn ở cấp thị trường.

@@ -1,0 +1,145 @@
+@@ 1880
+Mục 4.3.9 và 4.3.3 của đề cương: Quy trình năm bước, dữ liệu và phạm vi
+@@ 1881
+Hình 3 của đề cương tóm tắt năm bước: thu thập và xử lý dữ liệu; xác định chế độ thị trường; ước lượng tập bảy mô hình; đo lường và kiểm định H1, H2, H4; đánh giá cơ chế giảm thiểu và kiểm định H3. Phần này đi qua bản đồ năm bước rồi vào bước 1 (mục 4.3.3): dùng dữ liệu gì, lấy từ đâu, giới hạn ở cổ phiếu nào, và thiết kế ra sao để dữ liệu không tự "nói dối".
+@@ 1882
+Điều cần nhớ nhất của mục 4.3.3 là hai thiên lệch mà thiết kế rổ cổ phiếu nhắm tránh: thiên lệch sống sót và thiên lệch nhìn trước. Cả hai làm quá khứ trông đẹp hơn thực tế.
+@@ 1884
+Thí sinh đăng ký trước kế hoạch phân tích trước khi ước lượng chính thức tập mô hình ở bước 3. Giới hạn và khả năng thực hiện nằm ở mục 4.3.10.
+@@ 1885
+Muốn biết chọn nhầm công thức nấu ăn thiệt bao nhiêu khi trời đổi, bạn mua nguyên liệu (bước 1), xem thời tiết từng ngày (bước 2), nấu cùng lúc bảy món theo bảy công thức (bước 3), so món được chọn với món ngon nhất rồi kiểm tra chênh lệch có thật không (bước 4), cuối cùng thử vài mẹo pha trộn để chữa (bước 5). Thứ tự không đảo được.
+@@ 1886
+Bảng dưới ghép từng bước với mục chi tiết.
+@@ 1891
+Thu thập và xử lý dữ liệu
+@@ 1892
+4.3.3
+@@ 1895
+4.3.4
+@@ 1897
+Ước lượng tập bảy mô hình (đã đăng ký trước)
+@@ 1898
+4.3.5
+@@ 1900
+Đo lường và kiểm định H1, H2, H4
+@@ 1901
+4.3.6 và 4.3.7
+@@ 1903
+Đánh giá cơ chế giảm thiểu, kiểm định H3
+@@ 1904
+4.3.8
+@@ 1906
+**Cửa sổ ước lượng** là đoạn dữ liệu có độ dài cố định mà mô hình "thấy" khi tính trọng số, dời dần theo thời gian như khung ảnh trượt dọc cuộn phim. **Tập mô hình cạnh tranh** là bảy mô hình M1 đến M7 cùng đua trên một dữ liệu. **Cơ chế giảm thiểu** là cách làm giảm rủi ro lựa chọn mô hình, như kết hợp mô hình hay danh mục vững chắc.
+@@ 1907
+Đề tài hoàn toàn định lượng trên dữ liệu thị trường công khai, không dùng khảo sát hay phương pháp định tính. Vì vậy không phỏng vấn hay bảng hỏi nào cứu được một bộ dữ liệu sai.
+@@ 1908
+**Mục 4.3.3: dữ liệu gồm những gì**
+@@ 1909
+Đề tài dùng bốn loại dữ liệu.
+@@ 1911
+Loại thứ nhất là giá đóng cửa điều chỉnh theo ngày của cổ phiếu niêm yết trên HOSE, kể cả những mã đã hủy niêm yết, và của VN-Index.
+@@ 1912
+Giá đóng cửa là giá cuối phiên. "Điều chỉnh" là sửa giá quá khứ theo các sự kiện của doanh nghiệp như chia cổ tức hay chia tách; đề cương không liệt kê sự kiện nào.
+@@ 1913
+Cổ phiếu giá 100 hôm qua, hôm nay tách thành hai cổ mỗi cổ 50: không điều chỉnh thì bảng giá báo "rớt 50% trong một đêm", dù tài sản người nắm giữ không đổi. Giá điều chỉnh sửa những chỗ giả này.
+@@ 1914
+Lợi suất là phần trăm tăng giảm của giá; mọi mô hình làm việc trên lợi suất.
+@@ 1916
+HOSE là Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh; phạm vi đề tài là cổ phiếu niêm yết trên HOSE (mục 4.4).
+@@ 1917
+VN-Index là chỉ số chung của HOSE, như nhiệt kế đo "thân nhiệt" của sàn: không cho biết từng cổ phiếu, nhưng cho biết thị trường đang nóng hay lạnh. Đề tài dùng VN-Index để xác định chế độ (mục 4.3.4).
+@@ 1919
+Loại thứ ba là lợi suất trái phiếu chính phủ kỳ hạn một năm, dùng làm lãi suất phi rủi ro.
+@@ 1920
+Lãi suất phi rủi ro là mốc so sánh: khoản đầu tư rủi ro chỉ đáng giá khi kỳ vọng lời hơn mốc đó; phần vượt là lợi suất vượt trội. Mục 4.3.6 cho thấy lợi suất vượt trội có thể âm ở chế độ căng thẳng, và đó là lý do tỷ số Sharpe không làm thước đo chính.
+@@ 1922
+Loại thứ tư là khối lượng giao dịch. Đề cương không nói cụ thể dùng vào đâu; rổ chọn theo giá trị giao dịch và độ phi thanh khoản Amihud có thể cần đến nó, nhưng đó là liên tưởng của bản đọc.
+@@ 1923
+**Rổ 30 cổ phiếu và hai thiên lệch**
+@@ 1924 DEL
+@@ 1925
+Tại mỗi ngày tái cân bằng, rổ gồm 30 mã có giá trị giao dịch bình quân ba tháng và vốn hóa tự do chuyển nhượng lớn nhất, xác định chỉ bằng dữ liệu có tại ngày đó để tránh thiên lệch sống sót và thiên lệch nhìn trước.
+@@ 1926 DEL
+@@ 1927
+**Tái cân bằng** là định kỳ kéo tỷ lệ thực tế, đã lệch do giá đổi, về lại công thức, đồng thời có thể đổi cổ phiếu trong rổ. Danh mục tái cân bằng hằng tháng; kiểm tra độ bền dùng dữ liệu tháng và tái cân bằng hằng quý.
+@@ 1928
+**Vốn hóa tự do chuyển nhượng** là giá trị thị trường của phần cổ phiếu thực sự giao dịch tự do, loại phần nằm lâu dài trong két của cổ đông lớn (định nghĩa thông thường; đề cương chỉ nêu tên).
+@@ 1929
+Hai tiêu chí cho rổ vừa lớn vừa giao dịch sôi động. Mục 4.3.10 nói khả năng thực thi trên HOSE phụ thuộc thanh khoản, nên đề tài dùng rổ thanh khoản cao và kiểm tra độ nhạy theo chi phí.
+@@ 1931
+Thiên lệch sống sót xảy ra khi dữ liệu chỉ gồm mã còn tồn tại đến hôm nay. Chỉ phỏng vấn những nhà đầu tư còn đứng vững thì quên những người làm y hệt đã phá sản; kết luận tất nhiên quá lạc quan.
+@@ 1932
+Ví dụ giả định (số tự đặt để minh họa): 10 cổ phiếu ở năm đầu mẫu, 3 mã sau này bị hủy niêm yết sau khi giá rơi mạnh.
+@@ 1933
+Chỉ lấy 7 mã còn tồn tại ở cuối mẫu rồi quay ngược về quá khứ thì danh mục "lịch sử" không bao giờ chứa 3 mã tệ, và kết quả đẹp hơn điều nhà đầu tư thật đã trải qua.
+@@ 1935
+Đề cương tránh bằng hai cách: dữ liệu gồm cả những mã đã hủy niêm yết, và rổ dựng từ các mã đang giao dịch tại ngày tái cân bằng, không từ danh sách còn lại về sau.
+@@ 1937
+Thiên lệch nhìn trước xảy ra khi phân tích dùng thông tin mà lúc quyết định chưa ai có: "kiểm tra" chiến lược mua hôm qua nhưng chọn mã bằng cách xem hôm nay mã nào đã tăng.
+@@ 1938
+Cụm "chỉ bằng dữ liệu có tại ngày đó" chặn điều này. Mục 4.3.4 áp dụng cùng nguyên tắc cho chế độ: mô hình chuyển chế độ được ước lượng lại chỉ bằng dữ liệu đến ngày đó. "Ngày nào dùng dữ liệu ngày ấy" là sợi chỉ chạy suốt phần phương pháp.
+@@ 1940
+VN30 và VN100 là hai rổ chỉ số của HOSE. Đề tài chỉ dùng chúng để đối chiếu và kiểm tra độ bền, tính từ thời điểm HOSE công bố các rổ này; tác giả xác nhận thời điểm đó trong quý 1 năm thứ nhất.
+@@ 1941
+Vì sao không dùng thẳng VN30 làm rổ chính? Đề cương không nói. Suy luận của bản đọc: các rổ này chỉ có từ khi HOSE công bố, nên dùng cho giai đoạn trước đó là biết trước thành phần.
+@@ 1943 DEL
+@@ 1944
+Giai đoạn mẫu dự kiến 2007–2026, tùy dữ liệu sẵn có, bao trùm khủng hoảng tài chính toàn cầu, đại dịch COVID-19 năm 2020 và căng thẳng trái phiếu doanh nghiệp từ quý IV/2022. Tác giả xác nhận nguồn và độ dài dữ liệu trong quý 1 năm thứ nhất, và thu hẹp rổ hoặc giai đoạn nếu không đủ (mục 4.3.10).
+@@ 1945
+Ba sự kiện ứng với ba loại cú sốc ở mục 4.1. Chúng là giai đoạn tham chiếu để đối chiếu với chế độ căng thẳng do mô hình ước lượng; khủng hoảng là sự kiện lịch sử, chế độ căng thẳng là trạng thái thống kê.
+@@ 1946
+**Phần mẫu tính được mức hối tiếc**
+@@ 1947
+Mục 4.3.6 nói rõ: cần 104 tuần để ước lượng và 36 tháng kết quả ngoài mẫu để chọn mô hình, nên mức hối tiếc chỉ tính được từ khoảng năm thứ năm của mẫu. Với mẫu 2007–2026, đề tài dự kiến khoảng 28 cửa sổ đánh giá độc lập.
+@@ 1948
+Ngoài mẫu là phần dữ liệu không dùng để "dạy" mô hình, chỉ để kiểm tra: học sinh ôn bằng đề cương rồi thi bằng đề mới. Trước khi ước lượng các mô hình danh mục, đề tài báo cáo số giai đoạn căng thẳng rơi vào phần mẫu tính được mức hối tiếc, tức cho biết có đủ "đề thi mùa bão" hay không.
+@@ 1949
+Liên hệ với mục 4.3.10: ít giai đoạn căng thẳng độc lập thì công suất kiểm định thấp, và dưới 10 cửa sổ độc lập ở chế độ căng thẳng thì kết quả gọi là không kết luận.
+@@ 1950
+Vì phần đầu mẫu chỉ dùng để ước lượng và chọn mô hình, khủng hoảng tài chính toàn cầu chủ yếu phục vụ ước lượng chế độ, không phải một "kỳ thi" cho bảy mô hình.
+@@ 1951
+Các độ dài cửa sổ (104 tuần ước lượng, 6 tháng đánh giá, 36 tháng chọn mô hình) là giá trị dự kiến; tác giả biện minh sau khi ước lượng thử ở năm thứ nhất.
+@@ 1953
+Ba tần suất cho ba mục đích:
+@@ 1965
+Nhìn mỗi ngày để biết trời có đổi không; nhìn mỗi tuần để biết hai cổ phiếu có đi cùng nhau không mà đỡ nhiễu từng phiên; đổi cách chia tiền mỗi tháng vì mua bán thường xuyên tốn chi phí. Đề cương không nêu lý do từng lựa chọn; đây chỉ là cách hình dung.
+@@ 1966
+Hiệp phương sai đo mức hai cổ phiếu cùng lên cùng xuống; ma trận hiệp phương sai gom mức đó cho mọi cặp trong rổ, để mô hình biết rủi ro có cộng dồn không.
+@@ 1968
+Chỉ số giá tiêu dùng, tỷ giá đô la Mỹ so với đồng Việt Nam và lãi suất điều hành chỉ là biến kiểm soát bổ sung trong kiểm tra độ bền, không nằm trong phân tích chính. Thêm chúng mà kết luận không đổi thì tự tin hơn; đổi thì biết kết luận nhạy với gì.
+@@ 1970
+Nguồn dữ liệu là HOSE và một nhà cung cấp dữ liệu thương mại (không nêu tên).
+@@ 1971
+Luận án sẽ ghi kèm nguồn của biên độ dao động giá, mức thuế, phí giao dịch theo từng thời kỳ và điều khoản giấy phép dữ liệu; đề cương không liệt kê chúng.
+@@ 1972
+Dữ liệu là dữ liệu thị trường công khai, không chứa thông tin cá nhân. Đề cương không nói thêm về thủ tục đạo đức.
+@@ 1973
+Quý 1 năm thứ nhất (Bảng 5): xác nhận nguồn, độ dài và giấy phép dữ liệu, ngày HOSE công bố rổ VN30 và VN100.
+@@ 1975
+Phạm vi (mục 4.4): cổ phiếu niêm yết trên HOSE; cấu hình cơ sở là danh mục chỉ mua, không bán khống (vay cổ phiếu bán trước, mua lại sau); các ràng buộc khác nằm trong kiểm tra độ bền.
+@@ 1976
+Đề tài không xét phái sinh, trái phiếu doanh nghiệp và tài sản ngoài cổ phiếu. Căng thẳng trái phiếu doanh nghiệp quý IV/2022 nằm trong mẫu như một sự kiện bối cảnh, nhưng trái phiếu không vào danh mục.
+@@ 1978
+Năm bước: (1) dữ liệu, (2) chế độ, (3) ước lượng bảy mô hình, (4) đo lường và kiểm định H1, H2, H4, (5) cơ chế giảm thiểu và H3.
+@@ 1979
+Dữ liệu: giá đóng cửa điều chỉnh theo ngày của cổ phiếu HOSE (kể cả mã đã hủy niêm yết) và VN-Index; lợi suất trái phiếu chính phủ một năm; khối lượng giao dịch.
+@@ 1980
+Rổ: 30 mã lớn nhất theo giá trị giao dịch ba tháng và vốn hóa tự do chuyển nhượng, chỉ dùng dữ liệu có tại ngày đó, tránh thiên lệch sống sót và nhìn trước.
+@@ 1981
+VN30 và VN100 chỉ để đối chiếu và kiểm tra độ bền, từ thời điểm HOSE công bố.
+@@ 1982
+Mẫu 2007–2026; chế độ trên dữ liệu ngày, hiệp phương sai dữ liệu tuần, tái cân bằng tháng; mức hối tiếc tính từ khoảng năm thứ năm, khoảng 28 cửa sổ đánh giá.
+@@ 1983
+Phạm vi: cổ phiếu HOSE, chỉ mua; không phái sinh, trái phiếu doanh nghiệp, tài sản ngoài cổ phiếu.
+@@ 1987
+Đáp án: thiên lệch sống sót và thiên lệch nhìn trước; dữ liệu gồm cả mã đã hủy niêm yết, và rổ xác định chỉ bằng dữ liệu có tại ngày tái cân bằng.
+@@ 1989
+Đáp án: 30 mã có giá trị giao dịch bình quân ba tháng và vốn hóa tự do chuyển nhượng lớn nhất tại mỗi ngày tái cân bằng.
+@@ 1991
+Đáp án: chỉ để đối chiếu và kiểm tra độ bền, từ thời điểm HOSE công bố; thời điểm này xác nhận trong quý 1 năm thứ nhất.
+@@ 1993
+Đáp án: chế độ trên dữ liệu ngày, hiệp phương sai trên dữ liệu tuần, tái cân bằng hằng tháng; kiểm tra độ bền dùng dữ liệu tháng và tái cân bằng hằng quý.
+@@ 1994
+5. Vì sao mức hối tiếc chỉ tính được từ khoảng năm thứ năm của mẫu?
+@@ 1995
+Đáp án: vì cần 104 tuần để ước lượng và 36 tháng kết quả ngoài mẫu để chọn mô hình. Với mẫu 2007–2026 có khoảng 28 cửa sổ đánh giá; khủng hoảng tài chính toàn cầu chủ yếu phục vụ ước lượng chế độ.

@@ -1,0 +1,139 @@
+@@ 747
+Mục 4.3 và 4.4 của đề cương: Phương pháp nhìn tổng thể, đối tượng và phạm vi
+@@ 748
+Đề tài dùng phương pháp định lượng trên dữ liệu thị trường công khai, theo năm bước: thu thập và xử lý dữ liệu; xác định chế độ thị trường; ước lượng tập mô hình cạnh tranh; đo rủi ro lựa chọn mô hình và kiểm định giả thuyết; đánh giá cơ chế giảm thiểu. Phạm vi là danh mục cổ phiếu niêm yết trên HOSE, cấu hình cơ sở là chỉ mua.
+@@ 749
+Phần này là bản đồ; chi tiết ở các mục 4.3.3 đến 4.3.10 và các phần sau của bài đọc.
+@@ 751
+Tóm lại bằng một câu: đề tài xác định chế độ bằng mô hình chuyển chế độ Markov, ước lượng bảy mô hình danh mục trên cửa sổ trượt, đo rủi ro lựa chọn bằng mức hối tiếc, độ phân tán mô hình và kích thước tập tin cậy mô hình, rồi kiểm định bằng hồi quy có sai số chuẩn bền vững, bootstrap khối và hiệu chỉnh so sánh bội.
+@@ 752 DEL
+@@ 754
+Định lượng nghĩa là câu trả lời đến từ số liệu và mô hình thống kê. Dữ liệu gồm giá đóng cửa điều chỉnh theo ngày và khối lượng giao dịch của cổ phiếu trên HOSE, kể cả mã đã hủy niêm yết; chỉ số VN-Index; lợi suất trái phiếu chính phủ kỳ hạn một năm làm lãi suất phi rủi ro. Nguồn là HOSE và một nhà cung cấp dữ liệu thương mại.
+@@ 755
+Không có khảo sát hay phương pháp định tính, nên không có thang đo cần dịch thuật, và đề tài không phỏng vấn nhà quản lý quỹ về cách họ chọn mô hình. Dữ liệu không chứa thông tin cá nhân.
+@@ 756 DEL
+@@ 758
+Hình 3 của đề cương vẽ năm bước này thành sơ đồ quy trình.
+@@ 764
+4.3.3
+@@ 767
+4.3.4
+@@ 770
+4.3.5
+@@ 773
+4.3.6 và 4.3.7
+@@ 776
+4.3.8
+@@ 778
+Mục 4.3.10 không phải bước mới; nó nêu độ tin cậy, giới hạn và khả năng thực hiện.
+@@ 780
+Điểm đáng nhớ là cách chọn rổ: tại mỗi ngày tái cân bằng, rổ gồm 30 cổ phiếu có giá trị giao dịch bình quân ba tháng và vốn hóa tự do chuyển nhượng lớn nhất, xác định chỉ bằng dữ liệu có tại ngày đó, để tránh thiên lệch sống sót và thiên lệch nhìn trước.
+@@ 781 DEL
+@@ 782
+Nếu chỉ chọn cổ phiếu còn tồn tại đến hôm nay, bạn bỏ qua các công ty đã biến mất và kết quả trông đẹp hơn thực tế: đó là thiên lệch sống sót. Nếu chọn rổ bằng thông tin của tương lai, bạn "nhìn trước".
+@@ 783
+Tái cân bằng là điều chỉnh lại danh mục theo kế hoạch, ở đây là hằng tháng. Chế độ ước lượng trên dữ liệu ngày, hiệp phương sai trên dữ liệu tuần; kiểm tra độ bền dùng dữ liệu tháng và tái cân bằng hằng quý.
+@@ 784
+Giai đoạn mẫu dự kiến 2007–2026, gồm khủng hoảng tài chính toàn cầu, đại dịch COVID-19 và căng thẳng trái phiếu doanh nghiệp từ quý IV/2022. Rổ VN30 và VN100 chỉ dùng để đối chiếu và kiểm tra độ bền.
+@@ 785 DEL
+@@ 787
+Mô hình chuyển chế độ Markov (Hamilton, 1989) giả định thị trường ở một trong các trạng thái ẩn và chuyển giữa chúng theo xác suất. Ta không thấy "thời tiết", chỉ thấy lợi suất hằng ngày; mô hình đoán thời tiết nào khớp với chuỗi lợi suất và cho xác suất mỗi ngày là ngày bão.
+@@ 788
+Ba điểm kỹ thuật:
+@@ 789
+Tham số được ước lượng lại theo cửa sổ mở rộng tại mỗi ngày tái cân bằng, chỉ bằng dữ liệu đến ngày đó; xác suất lọc tại ngày t được tính từ các tham số này.
+@@ 790
+Số chế độ (hai hoặc ba) do tiêu chí thông tin quyết định trên giai đoạn ước lượng ban đầu và cố định khi đăng ký trước.
+@@ 791
+Chế độ căng thẳng là chế độ có phương sai điều kiện cao nhất và lợi suất kỳ vọng thấp hơn chế độ bình thường.
+@@ 792
+Kiểm định điểm gãy Bai-Perron trên toàn mẫu chỉ để mô tả và đối chiếu với các cú sốc lịch sử, không làm biến chế độ trong kiểm định giả thuyết. Định nghĩa thay thế theo ngưỡng sụt giảm và biến động thực hiện nằm trong kiểm tra độ bền.
+@@ 794
+Bảy cách chia tiền cùng được giao một khoản vốn ảo và xem cùng dữ liệu (Bảng 3 của đề cương).
+@@ 814
+Danh mục vững chắc với nhiều niềm tin tiên nghiệm
+@@ 817
+Giảm tỷ trọng rủi ro theo xác suất chế độ căng thẳng
+@@ 820
+Cửa sổ trượt: mỗi mô hình được ước lượng trên một đoạn quá khứ, đánh giá trên đoạn kế tiếp, rồi cả hai dịch về phía trước, như người thợ may đo vải trên đoạn đã có, cắt đoạn tiếp theo, rồi dịch thước. Giá trị dự kiến: ước lượng 104 tuần, đánh giá 6 tháng không chồng lấn; cửa sổ trượt hằng tháng chỉ là phân tích phụ.
+@@ 821 DEL
+@@ 822
+Các mô hình được đối xử như nhau: siêu tham số của M2, M4, M5, M6 và M7 chọn từ một lưới cho trước bằng cùng quy tắc và cùng ngân sách tinh chỉnh. M5 do tác giả phát triển nên kết quả được báo cáo cả khi có lẫn khi không có M5.
+@@ 824
+Mỗi cửa sổ đánh giá, mỗi mô hình có một điểm lợi suất tương đương chắc chắn sau chi phí giao dịch. Từ bảy điểm đó, đề tài tính ba thước đo:
+@@ 825
+Mức hối tiếc R: chênh lệch giữa điểm của mô hình tốt nhất sau thực tế và điểm của mô hình chọn trước; thước đo rủi ro, kết quả chính của H1.
+@@ 826
+Độ phân tán mô hình D: độ lệch chuẩn của bảy điểm; chỉ báo bất định, kết quả phụ.
+@@ 827
+Kích thước tập tin cậy mô hình (Hansen và cộng sự, 2011) ở mức ý nghĩa 10%: số ứng viên chưa thể loại sau vòng sơ loại thống kê. Danh sách dài nghĩa là chưa phân biệt nổi các mô hình.
+@@ 828
+Tập tin cậy lớn hơn ở chế độ căng thẳng có thể chỉ do dữ liệu kém thông tin hơn, nên được báo cáo như thước đo mô tả, kèm số quan sát và công suất.
+@@ 829 DEL
+@@ 831
+Hồi quy là đường xấp xỉ mối liên hệ giữa các đại lượng. Đề tài hồi quy thước đo rủi ro (D hoặc R) theo biến chế độ và các biến kênh; hệ số β là chênh lệch của thước đo giữa chế độ căng thẳng và chế độ bình thường.
+@@ 832
+Sai số chuẩn bền vững trước phương sai thay đổi và tự tương quan vẫn đáng tin khi mức dao động đổi theo thời gian và các quan sát dính nhau, như phần lớn dữ liệu tài chính. Giống đo cây bằng một cây thước có thể co giãn và báo kèm sai số có tính đến độ co giãn đó; nhờ vậy không báo sai số quá nhỏ và kết luận quá lạc quan.
+@@ 833 DEL
+@@ 835
+Bootstrap là bốc lại nhiều lần từ chính túi dữ liệu để xem kết quả dao động bao nhiêu. Bootstrap khối bốc từng nắm ngày liền nhau để giữ tính liên tục của chuỗi thời gian.
+@@ 836
+Hai biến thể: bootstrap lấy mẫu lặp theo khối liên tiếp (Ledoit và Wolf, 2008) để so sánh lợi suất tương đương chắc chắn và Sharpe; bootstrap khối dừng (Politis và Romano, 1994) cho hệ số hồi quy.
+@@ 837
+Bootstrap còn dùng để dựng phân phối rỗng: kết quả sẽ trông thế nào nếu thực ra không có gì xảy ra. Đề cương dự kiến 1.000 lần tái lấy mẫu chuỗi lợi suất của bảy mô hình, sau khi loại chênh lệch trung bình giữa các mô hình trong từng chế độ, để tách rủi ro lựa chọn thật khỏi nhiễu ước lượng.
+@@ 839
+Khi kiểm định nhiều giả thuyết cùng lúc, khả năng gặp kết quả "có ý nghĩa" chỉ do may tăng lên, như tung đồng xu nhiều lần thì dễ gặp một chuỗi mặt sấp. Đề cương dùng hiệu chỉnh Holm (1979) ở mức 10% cho bốn giả thuyết.
+@@ 840
+Đề tài còn dùng tỷ số Sharpe hiệu chỉnh của Bailey và López de Prado (2014) cho thiên lệch chọn lọc: thử nhiều mô hình rồi chỉ khoe mô hình tốt nhất thì kết quả phải bị hạ xuống.
+@@ 842
+Đăng ký trước là bỏ dự đoán và cách kiểm tra vào phong bì có dấu thời gian trước khi xem dữ liệu mới. Kế hoạch phân tích được đăng ký trên OSF Registries vào quý 4 năm thứ nhất, ở chế độ khóa có dấu thời gian.
+@@ 843
+Giới hạn nói thẳng: tác giả đã dùng dữ liệu 2019–2025 (hai giai đoạn căng thẳng) trong Nguyen và Nguyen (2026a), nên tệp đăng ký khai rõ những kết quả đã xem. Đăng ký trước giảm thiên lệch, không loại được nó.
+@@ 844
+Tệp đăng ký cố định độ dài cửa sổ, siêu tham số, số chế độ và ngưỡng xác suất lọc, mức ý nghĩa, nhóm kết quả chính, quy tắc hiệu chỉnh so sánh bội và quy tắc gọi kết quả là không kết luận. Dữ liệu sau ngày đăng ký là mẫu kiểm tra riêng; mọi thay đổi ghi là lệch khỏi kế hoạch.
+@@ 846
+Mục 4.4 của đề cương nêu đối tượng và phạm vi:
+@@ 847
+Đối tượng nghiên cứu là rủi ro lựa chọn mô hình trong quản trị danh mục cổ phiếu, xét qua các chế độ thị trường, cùng các biến kênh và cơ chế giảm thiểu. Phạm vi không gian là cổ phiếu niêm yết trên HOSE (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh); phạm vi thời gian là 2007–2026, tùy dữ liệu sẵn có.
+@@ 848
+Danh mục chỉ mua là cấu hình cơ sở; các ràng buộc khác nằm trong kiểm tra độ bền. Chỉ mua nghĩa là chỉ nắm giữ cổ phiếu, không bán khống thứ mình chưa sở hữu, nên trọng số không âm.
+@@ 849
+Đề tài không xét phái sinh, trái phiếu doanh nghiệp và tài sản ngoài cổ phiếu. Trái phiếu doanh nghiệp chỉ xuất hiện như một cú sốc lịch sử.
+@@ 851
+Đề cương không có mục riêng giải thích "vì sao chọn cách này"; lý do nằm rải rác ở mục 4.3.
+@@ 852
+So sánh nhiều mô hình cùng lúc vì câu hỏi là chọn giữa các mô hình (khoảng trống thứ hai). Xác định chế độ chỉ bằng dữ liệu đến từng ngày để tránh thiên lệch nhìn trước. Dùng phân phối rỗng vì kỳ vọng của mức hối tiếc vẫn dương khi các mô hình ngang chất lượng: giá trị lớn nhất của các đại lượng có nhiễu tăng theo phương sai của nhiễu. Mức hối tiếc dương tự nó chưa chứng minh có rủi ro lựa chọn thật.
+@@ 853
+Bảy học sinh học ngang nhau làm cùng một bài kiểm tra. Điểm cao nhất vẫn cao hơn điểm của người bạn chọn trước, chỉ vì may rủi. Phân phối rỗng đo khoảng cách do may rủi đó để biết phần thật còn lại bao nhiêu.
+@@ 854
+Vì vậy đề cương chia D và R cho sai số chuẩn bootstrap của chênh lệch giữa các mô hình trong cùng cửa sổ. H1 được ủng hộ khi thỏa đồng thời ba điều kiện: β của R dương và vượt phân vị 95% của phân phối rỗng; khoảng tin cậy bootstrap khối của β loại trừ 0; β của D cùng dấu.
+@@ 856
+Các giới hạn ở mục 4.3.10, cần thuộc:
+@@ 857
+Ít giai đoạn căng thẳng độc lập nên công suất kiểm định thấp; dưới 10 cửa sổ độc lập ở chế độ căng thẳng thì kết quả là không kết luận.
+@@ 859
+Nhận diện chế độ tự nó là một dạng rủi ro mô hình, nên có định nghĩa thay thế trong kiểm tra độ bền.
+@@ 860
+Khả năng thực thi trên HOSE phụ thuộc thanh khoản, nên đề tài dùng rổ thanh khoản cao và kiểm tra độ nhạy theo chi phí.
+@@ 861
+Nếu giả thuyết bị bác bỏ, đề tài vẫn trả lời được câu hỏi: rủi ro không đổi theo chế độ, hoặc 1/N đủ dùng ở Việt Nam.
+@@ 863
+• Định lượng trên dữ liệu công khai; không khảo sát.
+@@ 865
+• Chế độ: mô hình chuyển chế độ Markov; bảy mô hình M1 đến M7 trên cửa sổ trượt; ba thước đo: mức hối tiếc, độ phân tán, tập tin cậy mô hình.
+@@ 866
+• Kiểm định: hồi quy với sai số chuẩn bền vững, bootstrap khối, hiệu chỉnh Holm, phân phối rỗng 1.000 lần.
+@@ 867
+• Phạm vi: cổ phiếu trên HOSE, chỉ mua; không phái sinh, trái phiếu doanh nghiệp hay tài sản khác.
+@@ 868
+• Giới hạn: ít giai đoạn căng thẳng; dưới 10 cửa sổ độc lập thì không kết luận; kết luận chỉ cho Việt Nam.
+@@ 872
+Đáp án: định lượng trên dữ liệu công khai; không khảo sát hay định tính.
+@@ 874
+Đáp án: dữ liệu; xác định chế độ; ước lượng tập mô hình trên cửa sổ trượt; đo rủi ro và kiểm định; đánh giá cơ chế giảm thiểu.
+@@ 876
+Đáp án: mức hối tiếc (kết quả chính của H1), độ phân tán mô hình và kích thước tập tin cậy mô hình (kết quả phụ).
+@@ 878
+Đáp án: gồm danh mục cổ phiếu trên HOSE, chỉ mua; không gồm phái sinh, trái phiếu doanh nghiệp và tài sản ngoài cổ phiếu.
+@@ 880
+Đáp án: vì kỳ vọng của mức hối tiếc vẫn dương khi các mô hình ngang chất lượng; phân phối rỗng 1.000 lần tái lấy mẫu tách rủi ro thật khỏi nhiễu ước lượng.

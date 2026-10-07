@@ -1,0 +1,155 @@
+@@ 2066
+Mục 4.3.5 của đề cương: Bảy cách chia tiền cạnh tranh và đăng ký trước
+@@ 2067
+Mục 4.3.5 làm hai việc: chọn bảy mô hình danh mục (M1 đến M7) cạnh tranh trên cùng dữ liệu; và nói thẳng rằng tác giả không thể khẳng định chưa xem kết quả ở chế độ căng thẳng, nên cam kết đăng ký trước kế hoạch phân tích trên nền tảng OSF Registries vào quý 4 năm thứ nhất, ở chế độ khóa có dấu thời gian.
+@@ 2068
+Đây là chỗ dễ bị hỏi nhất: vì sao bảy mô hình này, và làm sao tin tác giả không chọn phương pháp theo kết quả.
+@@ 2070
+Muốn đo rủi ro của việc chọn giữa các mô hình thì phải có nhiều mô hình để chọn; một mô hình đơn lẻ không có "rủi ro lựa chọn".
+@@ 2071
+Cả lớp chỉ có một đội bóng thì không ai hỏi chọn đội nào. Bảy mô hình ở Bảng 3 là bảy đội cùng ra sân.
+@@ 2072
+Đề cương nói tập này bao phủ các hướng chính của tài liệu: quy tắc đơn giản, co rút hiệp phương sai, tối ưu hóa cổ điển, Black-Litterman, danh mục vững chắc và chiến lược theo chế độ. Đề cương không giải thích vì sao đúng bảy chứ không sáu hay tám.
+@@ 2074
+Mô hình danh mục là quy tắc cho biết, ở mỗi thời điểm, bỏ bao nhiêu phần trăm tiền vào từng cổ phiếu: một "cách chia tiền".
+@@ 2075
+Nhắc lại vì sao khó: khung trung bình-phương sai của Markowitz (1952) cần ước lượng lợi suất kỳ vọng và hiệp phương sai, sai số ước lượng truyền sang trọng số (Michaud, 1989; Kan và Zhou, 2007), và không hướng khắc phục nào thắng ổn định (DeMiguel và cộng sự, 2009). Bảng 3 gom đại diện của các hướng ấy.
+@@ 2076
+**Bảng 3: tập mô hình danh mục cạnh tranh**
+@@ 2096
+Danh mục vững chắc với nhiều niềm tin tiên nghiệm
+@@ 2099
+Giảm tỷ trọng rủi ro theo xác suất chế độ căng thẳng
+@@ 2102
+Mô tả dưới đây dựa vào tên, nguồn trong Bảng 3 và những gì mục 4.2 nói về từng nguồn; chỗ nào chỉ là giải thích khái niệm chung sẽ ghi rõ.
+@@ 2104
+M1 là phân bổ đều 1/N: rổ 30 cổ phiếu thì mỗi mã được 1/30 số tiền. Không dự báo, không tính toán; chia đều trứng vào N giỏ vì không biết giỏ nào sẽ rơi.
+@@ 2105 DEL
+@@ 2106
+Một quy tắc "ngây thơ" có mặt vì DeMiguel và cộng sự (2009) không thấy mô hình nào vượt nó nhất quán, và Pflug và cộng sự (2012) cho thấy nó xấp xỉ tối ưu khi mơ hồ cao. M1 là chuẩn so sánh tự nhiên và gắn với khả năng đối lập của H1.
+@@ 2107
+**M2: dao động nhỏ nhất, với số liệu được co rút**
+@@ 2108
+M2 là phương sai nhỏ nhất với ma trận hiệp phương sai co rút (Ledoit và Wolf, 2004). Phương sai nhỏ nhất là chia tiền sao cho danh mục dao động ít nhất; không cần ước lượng lợi suất kỳ vọng, chỉ cần biết các cổ phiếu dao động và đi cùng nhau ra sao.
+@@ 2109
+Co rút kéo ước lượng hiệp phương sai từ mẫu về một mốc ổn định hơn, như không tin ngay học sinh luôn giỏi tuyệt đối sau một bài thi thử mà kéo nhận định về phía trung bình lớp (nhóm (1)). Chi tiết kỹ thuật đề cương không nêu.
+@@ 2110
+Ở Việt Nam, Nguyen và cộng sự (2020) dùng hiệp phương sai co rút và thu được kết quả tốt, nhưng đánh giá riêng một phương pháp; đề tài đặt nó vào tập cạnh tranh. Đề cương không nói họ dùng đúng phương pháp của Ledoit và Wolf.
+@@ 2111
+**M3: bản gốc của Markowitz, dùng số liệu mẫu nguyên xi**
+@@ 2112
+M3 là trung bình-phương sai với ước lượng mẫu (Markowitz, 1952): dùng chính trung bình và hiệp phương sai tính từ mẫu, không làm mượt.
+@@ 2113
+Đây là cách chịu ảnh hưởng nặng nhất của sai số ước lượng (Michaud, 1989; Kan và Zhou, 2007): chia tiền theo nguyên văn điểm thi thử, mã nào điểm cao nhất nhận nhiều nhất, kể cả khi điểm cao chủ yếu do may.
+@@ 2114
+Quy định riêng: chỉ ước lượng trực tiếp M3 khi tỷ lệ số cổ phiếu trên số quan sát tuần không vượt 0,5; vượt ngưỡng thì dùng nghịch đảo giả Moore-Penrose và ghi rõ trong kết quả. Hình dung: quá ít điểm số so với số học sinh cần xếp hạng thì phép tính chuẩn không chạy được, phải dùng công cụ thay thế.
+@@ 2115
+**M4: Black-Litterman, mốc thị trường cộng quan điểm**
+@@ 2116
+M4 là Black-Litterman với quan điểm từ mô hình dự báo (Black và Litterman, 1992): kết hợp lợi suất cân bằng của mô hình định giá tài sản vốn với quan điểm của nhà đầu tư. Bessler và cộng sự (2017) thấy cách này vượt trung bình-phương sai và 1/N ngoài mẫu trên dữ liệu đa tài sản toàn cầu.
+@@ 2117
+Bắt đầu từ "mức giá hợp lý chung của chợ" rồi pha ý kiến riêng, mạnh yếu tùy độ tự tin.
+@@ 2118
+Quan điểm của M4 lấy từ một mô hình dự báo đơn giản, cố định khi đăng ký trước. Ta và Vuong (2020) dùng mô hình tự hồi quy trung bình trượt tích hợp; đề cương không nói M4 dùng mô hình nào.
+@@ 2119
+**M5: Black-Litterman có chuyển chế độ, do tác giả phát triển**
+@@ 2120
+M5 là Black-Litterman có chuyển chế độ, mở rộng từ Nguyen và Nguyen (2026a), bài áp dụng Black-Litterman với mô hình định giá tài sản vốn có chuyển chế độ cho Việt Nam 2019–2025.
+@@ 2121
+M4 giữ cách trộn như nhau suốt năm; M5 đổi cách trộn theo thời tiết, nên M5 đổi hành vi khi xác suất căng thẳng tăng. Đề cương không mô tả chi tiết cách đổi.
+@@ 2122
+Vì M5 do tác giả phát triển, đề cương xử lý nó như mọi mô hình khác và báo cáo kết quả cả khi có lẫn khi không có M5. Nếu M5 làm nên kết quả, người đọc sẽ thấy.
+@@ 2123
+Tác giả đã dùng mô hình định giá tài sản vốn có chuyển chế độ và phương pháp tính toán Bayes xấp xỉ kết hợp Monte Carlo chuỗi Markov trong bài trước. Ước lượng thử ở quý 2 năm thứ nhất quyết định giữ phương pháp này hay thay bằng một phương pháp nhanh hơn cho M5 (mục 4.3.10).
+@@ 2124
+Kết quả bài trước chỉ làm đối chứng, không báo cáo lại như kết quả mới.
+@@ 2125
+**M6: chịu được tình huống xấu nhất trong nhiều niềm tin**
+@@ 2126
+M6 là danh mục vững chắc với nhiều niềm tin tiên nghiệm (Garlappi và cộng sự, 2007): nhà đầu tư né tránh mơ hồ, tối ưu cho tình huống xấu nhất trong nhiều niềm tin, và được danh mục ổn định hơn.
+@@ 2127
+Không chắc nên tin dự báo nào, bạn chia tiền sao cho ngay cả khi dự báo xấu nhất thành thật, thiệt hại vẫn nhỏ nhất: tinh thần của tiêu chí Gilboa và Schmeidler (1989) ở nhóm (2); cách nối này là của bản đọc.
+@@ 2128
+**M7: giảm tỷ trọng rủi ro theo xác suất chế độ căng thẳng**
+@@ 2129
+M7 theo Kritzman và cộng sự (2012), những người dự báo chế độ bằng mô hình Markov và thấy chiến lược động vượt chiến lược tĩnh khi kiểm định ngược.
+@@ 2130
+M7 như người lái xe giảm ga khi thấy trời sắp bão: xác suất căng thẳng tăng thì danh mục giảm tỷ trọng rủi ro. Đề cương không mô tả chi tiết cách giảm.
+@@ 2131
+**Mô hình tĩnh và mô hình đổi theo chế độ**
+@@ 2132
+Năm mô hình tĩnh M1, M2, M3, M4, M6 không đổi hành vi theo xác suất căng thẳng; M5 và M7 chỉ đổi hành vi khi xác suất căng thẳng tăng. Đề cương lặp lại kiểm định H1 trên tập chỉ gồm năm mô hình tĩnh để loại tác động của M5 và M7 (mục 4.3.7).
+@@ 2133
+Nếu ở mùa bão mô hình động khác hẳn mô hình tĩnh chỉ vì nó được thiết kế để phản ứng với bão, thì "rủi ro lựa chọn lớn hơn ở chế độ căng thẳng" có thể là hệ quả của thiết kế chứ không phải của thị trường. Bỏ M5 và M7 ra là tách điều đó khỏi kết quả.
+@@ 2135 DEL
+@@ 2136
+Mỗi mô hình được ước lượng trên cửa sổ 104 tuần và đánh giá trên cửa sổ 6 tháng không chồng lấn; cửa sổ trượt hằng tháng chỉ dùng cho phân tích phụ (mục 4.3.6, Hình 2). Các độ dài là dự kiến, biện minh sau ước lượng thử ở năm thứ nhất.
+@@ 2137
+Ước lượng là "dạy" mô hình bằng 104 tuần quá khứ; đánh giá là cho mô hình "thi" trên 6 tháng tiếp theo. Không chồng lấn để các kỳ thi độc lập, nên số cửa sổ độc lập đếm được không phồng lên vì các cửa sổ lặp nhau.
+@@ 2139
+Siêu tham số của M2, M4, M5, M6 và M7 được chọn từ một lưới cho trước, bằng cùng một quy tắc và cùng ngân sách tinh chỉnh, rồi cố định khi đăng ký trước.
+@@ 2140
+Siêu tham số là "núm vặn" phải đặt trước khi mô hình học dữ liệu, ví dụ mức co rút. Vặn kỹ cho mô hình yêu thích và qua loa với mô hình khác thì cuộc đua không công bằng; cùng ngân sách tinh chỉnh cho mọi mô hình cơ hội như nhau, và khóa vào đăng ký trước chặn việc vặn lại sau khi thấy kết quả. Suy đoán của bản đọc: M1 và M3 không nằm trong danh sách vì M1 chia đều, M3 dùng ước lượng mẫu nguyên xi.
+@@ 2141 DEL
+@@ 2142
+Để đo mức hối tiếc, cần một mô hình chọn trước: tại đầu mỗi cửa sổ đánh giá, đó là mô hình có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước; mô hình được chọn tái cân bằng hằng tháng suốt cửa sổ (mục 4.3.6).
+@@ 2143
+Đây là quy tắc mô phỏng của đề tài, chọn theo thành tích gần nhất; đề cương không nói các tổ chức thật chọn như vậy.
+@@ 2145 DEL
+@@ 2146
+Đăng ký trước là viết dự đoán và cách kiểm tra vào một "phong bì" có dấu thời gian trước khi xem dữ liệu mới. Trước trận đấu, bạn đưa trọng tài phong bì ghi đội nào thắng, tỷ số bao nhiêu; sau trận ai cũng mở được và biết bạn không sửa theo kết quả.
+@@ 2147
+"Phong bì" ở đây là kế hoạch phân tích trên OSF Registries, nơi lưu các đăng ký trước; "khóa" nghĩa là không sửa được nội dung, dấu thời gian là bằng chứng về thời điểm.
+@@ 2148
+**Điều đề cương thừa nhận**
+@@ 2149
+Tác giả đã dùng dữ liệu Việt Nam 2019–2025, gồm hai giai đoạn căng thẳng, trong Nguyen và Nguyen (2026a), nên không thể khẳng định chưa từng thấy kết quả ở chế độ căng thẳng.
+@@ 2150
+Đã thấy đề thi năm ngoái rồi mới viết "dự đoán" cho năm nay: nói là dự đoán trước khi xem đề thì sai; trung thực là khai "tôi đã thấy đề năm ngoái, đây là những phần tôi đã thấy".
+@@ 2151
+Đề cương làm đúng vậy: đăng ký trước và khai rõ những kết quả đã xem. Giấu điều này thì người đọc tin kết quả hơn mức cho phép; khai ra làm đề tài kém hoàn hảo nhưng cho người đọc thước đo chính xác về độ tin cậy.
+@@ 2152
+Đề cương không nói tác giả đã xem kết quả cụ thể nào; đừng suy đoán.
+@@ 2154
+Tệp đăng ký cố định:
+@@ 2162
+Mỗi mục là một "núm vặn" mà người phân tích có thể bị cám dỗ vặn lại sau khi thấy dữ liệu; khóa trước là tự cột tay mình. Tiêu chí ủng hộ của từng giả thuyết (mục 4.3.7–4.3.8) cũng là phần của kế hoạch.
+@@ 2163 DEL
+@@ 2165
+Dữ liệu phát sinh sau ngày đăng ký là mẫu kiểm tra riêng, và mọi thay đổi sau đó được ghi là lệch khỏi kế hoạch.
+@@ 2166
+Sau khi niêm phong, những trận chưa từng thấy là "sân thật"; mọi chỉnh sửa sau đó, dù chính đáng, phải ghi đúng tên là chỉnh sửa.
+@@ 2167
+**Đăng ký trước giảm chứ không loại thiên lệch**
+@@ 2168
+Đề cương không tuyên bố đăng ký trước xóa sạch thiên lệch. Diễn giải của bản đọc: tác giả đã thấy dữ liệu 2019–2025, nên lựa chọn thiết kế có thể đã vô tình chịu ảnh hưởng; đăng ký trước hạn chế việc điều chỉnh về sau, đi kèm việc thừa nhận giới hạn đó.
+@@ 2170
+Theo Bảng 5: quý 2 năm thứ nhất ước lượng thử bảy mô hình trên 2019–2025 để đo thời gian tính và số quan sát ở chế độ căng thẳng, quyết định phương pháp ước lượng cho M5; quý 4 đăng ký trước.
+@@ 2171
+Các quyết định từ ước lượng thử (phương pháp cho M5, biện minh độ dài cửa sổ) được chốt trước quý 4, rồi mới khóa vào đăng ký. Đề cương không nói ước lượng thử còn ảnh hưởng đến lựa chọn nào khác.
+@@ 2172
+**Những gì mục 4.3.5 không nói**
+@@ 2178
+Bảy mô hình: M1 1/N (DeMiguel và cộng sự, 2009); M2 phương sai nhỏ nhất với hiệp phương sai co rút (Ledoit và Wolf, 2004); M3 trung bình-phương sai với ước lượng mẫu (Markowitz, 1952); M4 Black-Litterman với quan điểm từ mô hình dự báo (Black và Litterman, 1992); M5 Black-Litterman có chuyển chế độ (mở rộng từ Nguyen và Nguyen, 2026a); M6 danh mục vững chắc với nhiều niềm tin tiên nghiệm (Garlappi và cộng sự, 2007); M7 giảm tỷ trọng rủi ro theo xác suất căng thẳng (Kritzman và cộng sự, 2012).
+@@ 2179
+M5 do tác giả phát triển, xử lý như các mô hình khác, báo cáo cả khi có lẫn khi không có M5; H1 lặp lại trên tập mô hình tĩnh M1, M2, M3, M4, M6.
+@@ 2180
+Ước lượng 104 tuần, đánh giá 6 tháng không chồng lấn, chọn trước theo 36 tháng liền trước; các độ dài là dự kiến.
+@@ 2181
+Đã dùng dữ liệu 2019–2025 (hai giai đoạn căng thẳng) trong bài trước, nên không thể khẳng định chưa xem kết quả ở chế độ căng thẳng.
+@@ 2182
+Đăng ký trước trên OSF Registries quý 4 năm thứ nhất, khóa có dấu thời gian, khai rõ kết quả đã xem; dữ liệu sau ngày đăng ký là mẫu kiểm tra riêng; thay đổi ghi là lệch khỏi kế hoạch.
+@@ 2186
+Đáp án: M1 1/N; M2 phương sai nhỏ nhất với hiệp phương sai co rút; M3 trung bình-phương sai với ước lượng mẫu; M4 Black-Litterman với quan điểm từ mô hình dự báo; M5 Black-Litterman có chuyển chế độ; M6 danh mục vững chắc với nhiều niềm tin tiên nghiệm; M7 giảm tỷ trọng rủi ro theo xác suất chế độ căng thẳng.
+@@ 2187
+2. Vì sao tác giả không thể khẳng định chưa xem kết quả ở chế độ căng thẳng?
+@@ 2188
+Đáp án: vì đã dùng dữ liệu Việt Nam 2019–2025, gồm hai giai đoạn căng thẳng, trong Nguyen và Nguyen (2026a).
+@@ 2190
+Đáp án: độ dài các cửa sổ, siêu tham số của bảy mô hình, số chế độ và ngưỡng xác suất lọc, mức ý nghĩa, nhóm kết quả chính, quy tắc hiệu chỉnh so sánh bội, quy tắc gọi kết quả là không kết luận.
+@@ 2192
+Đáp án: là mẫu kiểm tra riêng; mọi thay đổi sau đó ghi là lệch khỏi kế hoạch.
+@@ 2193
+5. M5 có gì đặc biệt, và đề cương xử lý ra sao?
+@@ 2194
+Đáp án: M5 do tác giả phát triển (mở rộng từ Nguyen và Nguyen, 2026a); được xử lý như các mô hình khác, báo cáo cả khi có lẫn khi không có M5.

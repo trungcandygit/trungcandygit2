@@ -1,0 +1,100 @@
+@@ 2
+Diễn giải đề cương nghiên cứu của Nguyễn Văn Trung (Trường Quốc tế, Đại học Quốc gia Hà Nội, chuyên ngành Kinh tế và Quản lý, mã số 9310116.01QTD), bản nộp ngày 30/09/2026
+@@ 3
+Bản giải thích để đọc hiểu và ôn thi, không thay thế đề cương gốc. Đề cương chưa có kết quả thực nghiệm: mọi nội dung về kết quả đều là dự kiến.
+@@ 314
+Đề cương hỏi: khi nhà quản lý quỹ phải chọn một cách chia tiền vào cổ phiếu, chọn sai tốn kém đến mức nào, và có tốn hơn khi thị trường căng thẳng không. Tác giả gọi cái giá đó là rủi ro lựa chọn mô hình, sẽ đo nó trên thị trường chứng khoán Việt Nam theo từng chế độ thị trường, tìm các biến có liên hệ thống kê với nó và thử các cách giảm nó.
+@@ 315 DEL
+@@ 316
+Chưa có kết quả nào. Đề tài có thể bác bỏ chính giả thuyết của mình mà vẫn trả lời được câu hỏi ban đầu.
+@@ 318
+Hình dung bạn quản lý một quỹ và cần chia tiền vào rổ cổ phiếu. Bạn có thể chia đều, dùng công thức để tìm cách chia "tối ưu", hoặc thêm nhận định riêng của mình vào công thức. Mỗi cách như thế là một mô hình danh mục.
+@@ 319
+Bạn phải chọn một cách trước mùa giải. Đề cương giả định nhà đầu tư chọn, ở đầu mỗi cửa sổ đánh giá sáu tháng, mô hình có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước. Hết mùa giải mới thấy một cách khác lẽ ra tốt hơn.
+@@ 320 DEL
+@@ 321
+Khoản chênh giữa cách tốt nhất nhìn lại sau thực tế và cách đã chọn gọi là mức hối tiếc (regret). Rủi ro lựa chọn mô hình là mức hối tiếc kỳ vọng.
+@@ 322
+Vì sao đáng lo? DeMiguel và cộng sự (2009) đánh giá 14 mô hình trên bảy bộ dữ liệu và không thấy mô hình nào vượt nhất quán quy tắc chia đều vốn cho N tài sản (quy tắc 1/N). Khi không mô hình nào thắng ổn định, chọn mô hình là một quyết định mang rủi ro riêng.
+@@ 324
+Thị trường có thời tiết: phần lớn thời gian trời quang, có những giai đoạn là mùa bão với biến động cao và lợi suất thấp.
+@@ 325
+Đề cương gọi hai trạng thái này là chế độ bình thường và chế độ căng thẳng. Chế độ căng thẳng là khái niệm thống kê, do mô hình chuyển chế độ ước lượng từ lợi suất VN-Index: chế độ có phương sai điều kiện cao nhất và lợi suất kỳ vọng thấp hơn. Khủng hoảng là sự kiện lịch sử. Đề tài đối chiếu hai khái niệm, không dùng thay nhau.
+@@ 326
+Nếu thứ hạng của các cách chia tiền đổi nhiều theo thời tiết, chọn bằng quá khứ gần sẽ dễ sai hơn khi có bão. Đó là giả thuyết H1: rủi ro lựa chọn mô hình ở chế độ căng thẳng cao hơn ở chế độ bình thường.
+@@ 328
+Đề cương chỉ ra hai chỗ trống. Thước đo rủi ro mô hình hiện có đo chênh lệch giữa các dự báo rủi ro, chưa đo hậu quả của việc chọn sai lên kết quả danh mục. Nghiên cứu danh mục xếp hạng mô hình theo bình quân toàn mẫu, chưa xét thứ hạng đổi ra sao giữa các chế độ. Ở Việt Nam, mỗi công trình xét riêng một mô hình, một phương pháp hoặc một hiện tượng.
+@@ 329 DEL
+@@ 330
+Tuyên bố tính mới được rào cẩn thận: "theo hiểu biết của thí sinh", dựa trên truy vấn đến 30/09/2026, chưa gồm Scopus, Web of Science và tạp chí tiếng Việt. Việc đọc toàn văn nằm trong kế hoạch năm thứ nhất.
+@@ 331
+Việt Nam là bối cảnh kiểm chứng, không phải lý do của khoảng trống. Thanh khoản hạn chế và nhiều cú sốc trong lịch sử giao dịch ngắn có thể làm chênh lệch giữa các mô hình lớn; đổi lại, mẫu có ít giai đoạn căng thẳng độc lập.
+@@ 333
+Ba câu hỏi:
+@@ 334
+Câu hỏi 1: rủi ro lựa chọn mô hình thay đổi thế nào giữa chế độ bình thường và chế độ căng thẳng?
+@@ 335
+Câu hỏi 2: sau khi kiểm soát biến động thực hiện, thanh khoản, tương quan cực trị và (ở mức thăm dò) bầy đàn có liên hệ thống kê với rủi ro lựa chọn mô hình không, và giải thích được bao nhiêu phần chênh lệch giữa hai chế độ?
+@@ 336
+Câu hỏi 3: cơ chế nào giảm được rủi ro lựa chọn mô hình sau chi phí giao dịch?
+@@ 337
+H1 trả lời câu hỏi 1; H2 và H4 trả lời câu hỏi 2; H3 trả lời câu hỏi 3. Nói gọn: H1 hỏi bão có làm việc chọn khó hơn không; H2 hỏi thanh khoản cạn và tương quan cao có đi cùng nỗi khó đó không; H4 (thăm dò) hỏi cổ phiếu có "chạy theo đàn" không; H3 hỏi kết hợp mô hình hoặc danh mục vững chắc có giúp ích sau chi phí không.
+@@ 338 DEL
+@@ 340
+Đề tài định lượng trên dữ liệu thị trường công khai, không khảo sát.
+@@ 341
+Dữ liệu là giá đóng cửa điều chỉnh theo ngày của cổ phiếu trên HOSE (kể cả mã đã hủy niêm yết) và VN-Index, giai đoạn dự kiến 2007–2026. Mỗi ngày tái cân bằng, rổ gồm 30 cổ phiếu có giá trị giao dịch bình quân ba tháng và vốn hóa tự do chuyển nhượng lớn nhất, xác định chỉ bằng dữ liệu có tại ngày đó.
+@@ 342
+Mô hình chuyển chế độ Markov chấm xác suất thị trường đang căng thẳng, ước lượng lại tại mỗi ngày tái cân bằng chỉ bằng dữ liệu đến ngày đó.
+@@ 343
+Bảy mô hình M1 đến M7 thi đấu: chia đều 1/N; phương sai nhỏ nhất với hiệp phương sai co rút; trung bình-phương sai của Markowitz; Black-Litterman; Black-Litterman có chuyển chế độ; danh mục vững chắc với nhiều niềm tin tiên nghiệm; giảm tỷ trọng rủi ro theo xác suất chế độ căng thẳng.
+@@ 344
+Mỗi mô hình được chấm bằng lợi suất tương đương chắc chắn sau chi phí giao dịch: mức lợi suất chắc chắn mà nhà đầu tư ngại rủi ro coi là ngang giá với danh mục.
+@@ 345
+Từ bảy điểm số, đề tài tính mức hối tiếc R, độ phân tán D (độ lệch chuẩn của bảy điểm) và kích thước tập tin cậy mô hình (số ứng viên còn lại sau sơ loại thống kê). Hai thước đo sau chỉ báo hiệu bất định; mức hối tiếc mới đo rủi ro.
+@@ 346
+Đề tài kiểm định bằng hồi quy có sai số chuẩn bền vững, bootstrap khối, hiệu chỉnh so sánh bội và một phân phối rỗng 1.000 lần tái lấy mẫu để tách rủi ro lựa chọn thật khỏi nhiễu ước lượng.
+@@ 348
+Những điều chưa ai biết, kể cả tác giả:
+@@ 349
+Chưa có kết quả; mọi kết quả ở dạng "nếu dữ liệu ủng hộ".
+@@ 350
+Mức hối tiếc chỉ tính được từ khoảng năm thứ năm của mẫu (cần 104 tuần ước lượng và 36 tháng lịch sử ngoài mẫu), tức khoảng 28 cửa sổ đánh giá. Dưới 10 cửa sổ độc lập ở chế độ căng thẳng thì kết quả là không kết luận.
+@@ 351
+Tác giả đã dùng dữ liệu 2019–2025 trong bài trước; đăng ký trước giảm thiên lệch này, không loại bỏ nó.
+@@ 352
+Liên hệ tìm được, nếu có, là liên hệ có điều kiện, không phải nhân quả.
+@@ 353
+Độ dài các cửa sổ và hệ số ngại rủi ro bằng 5 là giá trị dự kiến, sẽ biện minh sau ước lượng thử.
+@@ 354 DEL
+@@ 355
+Kết luận chỉ cho Việt Nam; thủ tục giám sát đề xuất chưa được kiểm nghiệm với người dùng; đề tài không quan sát hành vi chọn mô hình của tổ chức và không đánh giá khung quy định.
+@@ 356
+Nếu giả thuyết bị bác bỏ, câu trả lời vẫn có giá trị: rủi ro không đổi theo chế độ, hoặc 1/N đủ dùng ở Việt Nam.
+@@ 358 DEL
+@@ 359
+Giám sát rủi ro mô hình đang thay đổi. Cục Dự trữ Liên bang Mỹ thay thư SR 11-7 (04/04/2011) bằng SR 26-2 (17/04/2026), theo hướng quản lý rủi ro mô hình tương xứng với quy mô và mức rủi ro của từng tổ chức. Các văn bản này chỉ là chuẩn tham chiếu quốc tế.
+@@ 360
+Ở Việt Nam, Thông tư 83/2025/TT-NHNN (hiệu lực từ 01/07/2026, thay Thông tư 13/2018/TT-NHNN) quy định hệ thống kiểm soát nội bộ của ngân hàng thương mại, có khuôn khổ quản lý rủi ro mô hình. Người dùng kết quả của đề tài là công ty quản lý quỹ, nên tác giả sẽ xác định khung áp dụng cho họ trong năm thứ nhất.
+@@ 361
+Nếu dữ liệu ủng hộ, đề tài có ba nhóm kết quả: khung khái niệm và thước đo (lý thuyết); bằng chứng Việt Nam về mức độ, thời điểm và các kênh (thực nghiệm); thủ tục giám sát mô hình ba bước: khai báo tập mô hình, đo độ phân tán và tập tin cậy định kỳ, kích hoạt kết hợp mô hình khi căng thẳng (thực tiễn).
+@@ 362 DEL
+@@ 364
+Bài đọc đi theo thứ tự mục của đề cương nộp ngày 30/09/2026; tiêu đề mỗi phần ghi số mục gốc, ví dụ "Mục 4.1 của đề cương". Mỗi phần mở bằng kết luận, giải thích từ bước đầu, rồi kết bằng khối Ghi nhớ khi đi thi và Tự kiểm tra.
+@@ 365 DEL
+@@ 366
+Phần ghi "Hình dung" hoặc "Ví dụ giả định" chỉ là công cụ giải thích; con số trong đó do người viết đặt, không phải số liệu của đề cương.
+@@ 367
+Hãy tự trả lời câu Tự kiểm tra trước khi đọc đáp án, và tập nói bằng lời của mình: rủi ro lựa chọn mô hình là gì, vì sao đo bằng mức hối tiếc, chế độ căng thẳng khác khủng hoảng ở đâu, vì sao đây mới là đề cương.
+@@ 370
+• Rủi ro lựa chọn mô hình đo bằng mức hối tiếc: chênh lệch lợi suất tương đương chắc chắn giữa mô hình tốt nhất sau thực tế và mô hình chọn trước.
+@@ 371
+• Câu hỏi 1 ứng với H1, câu hỏi 2 với H2 và H4, câu hỏi 3 với H3; H4 chỉ thăm dò.
+@@ 377
+Đáp án: rủi ro mô hình là khả năng có hậu quả bất lợi từ mô hình sai hoặc dùng sai; rủi ro lựa chọn mô hình là tổn thất kỳ vọng, đo bằng mức hối tiếc, do phải chọn trước khi biết mô hình nào tốt nhất.
+@@ 379
+Đáp án: không. Khủng hoảng là sự kiện lịch sử; chế độ căng thẳng là trạng thái thống kê do mô hình ước lượng.
+@@ 381
+Đáp án: chưa. Nếu bị bác bỏ, đề tài vẫn trả lời được: rủi ro không đổi theo chế độ, hoặc 1/N đủ dùng.
+@@ 383
+Đáp án: Việt Nam là bối cảnh kiểm chứng, không phải lý do của khoảng trống; thanh khoản hạn chế và nhiều cú sốc có thể làm chênh lệch giữa các mô hình lớn.

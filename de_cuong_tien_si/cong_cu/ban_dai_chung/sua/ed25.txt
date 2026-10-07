@@ -1,0 +1,197 @@
+@@ 2640
+Mục 4.3.7 của đề cương (tiếp): Phân phối rỗng, ba điều kiện ủng hộ H1, mô hình tĩnh, phần của β do biến kênh và hệ số phóng đại phương sai
+@@ 2641
+Nửa sau của mục 4.3.7 trả lời: làm sao tách rủi ro lựa chọn thật khỏi nhiễu ước lượng và biến động? Đề cương dựng một thế giới giả trong đó các mô hình ngang nhau (phân phối rỗng, 1.000 lần bootstrap khối), và chỉ coi H1 được ủng hộ khi thỏa đồng thời ba điều kiện. Kết quả được lặp lại trên năm mô hình tĩnh; phần của β do biến kênh giải thích đo bằng hiệu β0 − β1; hệ số phóng đại phương sai được kiểm tra với ngưỡng 5; mọi kết quả là liên hệ có điều kiện, không phải nhân quả.
+@@ 2642 DEL
+@@ 2644
+Mục 4.3.6 cho thấy mức hối tiếc có kỳ vọng dương ngay cả khi các mô hình ngang nhau, và nhiễu càng lớn thì mức hối tiếc thô càng lớn. Nếu chế độ căng thẳng nhiễu hơn, một hệ số β dương có thể chỉ phản ánh nhiễu lớn hơn, chưa chắc rủi ro lựa chọn thật sự cao hơn.
+@@ 2645
+Bước thứ nhất đã làm: chia [[CÔNG THỨC]] và [[CÔNG THỨC]] cho sai số chuẩn bootstrap. Bước thứ hai: hiệu chuẩn β bằng phân phối rỗng, để tách rủi ro lựa chọn khỏi nhiễu ước lượng và biến động. Hiệu chuẩn là chỉnh thước đo cho khớp một chuẩn; chuẩn ở đây là kết quả sẽ thấy nếu các mô hình ngang nhau.
+@@ 2646
+Phân phối rỗng là "kết quả trông thế nào nếu thực ra không có gì xảy ra": không mô hình nào hơn mô hình nào, mọi chênh lệch chỉ là nhiễu. β thật vượt rõ mức mà thế giới giả tạo ra thì có cơ sở nói còn gì đó ngoài nhiễu.
+@@ 2647
+Nghi đồng xu thiên vị vì tung 100 lần được 58 mặt ngửa? Hãy tung một đồng xu công bằng 100 lần, lặp hàng nghìn lần, xem 58 nằm đâu trong đám kết quả. Đám đó là phân phối rỗng; 58 nằm ở rìa xa mới đáng ngờ.
+@@ 2648
+Khác với đồng xu, phân phối rỗng ở đây không nhất thiết có tâm ở 0: ngay trong thế giới giả, mức hối tiếc vẫn dương và có thể đổi theo mức nhiễu của từng chế độ. Vì vậy đề cương so với phân vị 95% của phân phối rỗng, không chỉ so với 0.
+@@ 2650
+Đề cương mô tả: phân phối rỗng gồm 1.000 lần tái lấy mẫu bootstrap khối chuỗi lợi suất của bảy mô hình; trước khi tái lấy mẫu, loại chênh lệch trung bình giữa các mô hình trong từng chế độ nhưng giữ nguyên tương quan chéo và biến động. Gỡ thành bốn bước:
+@@ 2651
+**Bước một: lấy chuỗi lợi suất danh mục của bảy mô hình** trên toàn mẫu, sau chi phí: bảy chuỗi song song.
+@@ 2652
+**Bước hai: loại chênh lệch trung bình trong từng chế độ.** Trong mỗi chế độ, dịch chuỗi của từng mô hình sao cho bảy mô hình có cùng lợi suất trung bình (cách hiểu tự nhiên của bản đọc). Đó là thế giới "các mô hình ngang chất lượng".
+@@ 2653
+Làm riêng từng chế độ vì mô hình có thể hơn ở chế độ này, kém ở chế độ kia, và đề tài quan tâm đúng sự đổi thứ hạng đó; thế giới giả phải xóa cả lợi thế theo chế độ.
+@@ 2654
+**Bước ba: giữ nguyên tương quan chéo và biến động**, tức mức các mô hình cùng lên xuống và độ lớn dao động. Nhờ vậy nhiễu trong thế giới giả có đúng mức và đúng cấu trúc như nhiễu thật.
+@@ 2655
+**Bước bốn: tái lấy mẫu bootstrap khối 1.000 lần.** Mỗi lần cho một thế giới giả với bảy chuỗi; theo bản đọc, với mỗi thế giới ta tính lại mức hối tiếc hay độ phân tán, hồi quy theo biến chế độ và ghi β. Sau 1.000 lần có 1.000 hệ số β rỗng.
+@@ 2656
+Đề cương chưa nói cách gắn nhãn chế độ vào chuỗi đã tái lấy mẫu; chi tiết này sẽ nằm trong tệp đăng ký hoặc luận án, đừng đoán.
+@@ 2657
+Muốn biết lớp buổi sáng có thật giỏi hơn lớp buổi chiều: san cho hai lớp cùng điểm trung bình nhưng giữ cách điểm dao động của từng em, rồi mô phỏng hàng nghìn lần. Chênh lệch nào xuất hiện trong mô phỏng chỉ có thể do may; đó là thước để đánh giá chênh lệch thật.
+@@ 2658
+Ví dụ giả định (số tự đặt để minh họa): 1.000 hệ số β rỗng của mức hối tiếc nằm từ −0,2 đến 0,7; giá trị thứ 950 khi xếp tăng dần là 0,40: phân vị 95%.
+@@ 2659
+Tức là khi các mô hình ngang nhau, nhiễu một mình chỉ có 5% khả năng tạo ra β lớn hơn 0,40.
+@@ 2660
+Trường hợp A: β thật là 0,90, vượt hẳn 0,40; nhiễu khó giải thích.
+@@ 2661
+Trường hợp B: β thật là 0,30, dương nhưng dưới 0,40; không đủ ủng hộ H1.
+@@ 2662
+Trong trường hợp B, chỉ so với 0 thì dễ tưởng có hiệu ứng; phân phối rỗng chặn cách đọc đó.
+@@ 2664
+Vì sao cần cả phép chia lẫn phân phối rỗng? Theo bản đọc: phép chia đưa mọi cửa sổ về cùng thang nhiễu; phân phối rỗng kiểm tra phần cơ học còn sót sau phép chia.
+@@ 2665
+**Ba điều kiện ủng hộ H1**
+@@ 2666
+Đề cương coi H1 được ủng hộ khi thỏa đồng thời ba điều kiện: β của [[CÔNG THỨC]] dương và vượt phân vị 95% của phân phối rỗng; khoảng tin cậy bootstrap khối của β loại trừ 0; và β của [[CÔNG THỨC]] cùng dấu.
+@@ 2667
+Điều kiện
+@@ 2670
+1
+@@ 2671
+β của [[CÔNG THỨC]] dương và vượt phân vị 95% của phân phối rỗng
+@@ 2672
+Mức hối tiếc cao hơn ở chế độ căng thẳng, vượt cái nhiễu một mình tạo ra
+@@ 2673
+2
+@@ 2674
+Khoảng tin cậy bootstrap khối của β loại trừ 0 (β của [[CÔNG THỨC]])
+@@ 2675
+Ước lượng đủ chắc, không chứa khả năng bằng 0
+@@ 2676
+3
+@@ 2677
+β của độ phân tán mô hình cùng dấu
+@@ 2678
+Thước đo phụ đi cùng chiều thước đo chính
+@@ 2679 DEL
+@@ 2680 DEL
+@@ 2681 DEL
+@@ 2683
+Điều kiện 1 nói về dấu và về nhiễu; điều kiện 2 về độ chắc chắn của ước lượng; điều kiện 3 về sự nhất quán giữa thước đo chính và phụ. Thiếu điều kiện nào cũng mất một lớp bảo vệ.
+@@ 2684
+Theo bản đọc, yêu cầu cùng dấu loại những bức tranh lệch pha: khoảng cách giữa các mô hình không rộng ra mà thiệt hại lại lớn hơn, hoặc ngược lại.
+@@ 2685
+Kích thước tập tin cậy mô hình là kết quả phụ, báo cáo mô tả, không nằm trong điều kiện ủng hộ. Các tiêu chí này thuộc kế hoạch đăng ký trước, tức được viết trước khi xem dữ liệu mới.
+@@ 2686
+Ví dụ giả định (số tự đặt để minh họa): phân vị 95% của phân phối rỗng là 0,40.
+@@ 2687
+Kịch bản 1: β của mức hối tiếc 0,90, khoảng tin cậy 0,30 đến 1,50, β của độ phân tán 0,60. Ba điều kiện cùng đúng: H1 được ủng hộ.
+@@ 2688
+Kịch bản 2: β 0,90 nhưng khoảng tin cậy −0,20 đến 2,00, chứa 0: điều kiện 2 sai, H1 không được ủng hộ dù ước lượng điểm lớn.
+@@ 2689
+Kịch bản 3: β 0,30, dưới 0,40, dù khoảng tin cậy 0,10 đến 0,50: điều kiện 1 sai.
+@@ 2690
+Kịch bản 4: β 0,90, đủ hai điều kiện đầu, nhưng β của độ phân tán −0,10: điều kiện 3 sai.
+@@ 2692
+Mục 4.3.10 thêm: khi số cửa sổ độc lập ở chế độ căng thẳng dưới 10, kết quả gọi là không kết luận, không gọi là ủng hộ hay bác bỏ. Tiêu chí trên áp dụng trong khuôn khổ quy tắc đó.
+@@ 2693
+Nếu dữ liệu bác bỏ giả thuyết, đề tài vẫn trả lời được câu hỏi: rủi ro không đổi theo chế độ, hoặc 1/N đủ dùng ở Việt Nam.
+@@ 2694
+**Lặp lại trên tập mô hình tĩnh**
+@@ 2695
+Đề tài lặp lại kiểm định trên tập chỉ gồm M1, M2, M3, M4, M6, để loại tác động của M5 và M7, vốn chỉ đổi hành vi khi xác suất căng thẳng tăng.
+@@ 2696
+Năm đội luôn chạy một chiến thuật, hai đội đổi chiến thuật ngay khi trời có dấu hiệu mưa. Thấy các đội chênh nhau hơn khi mưa thì khó biết do thời tiết hay do hai đội chủ động đổi. Chỉ giữ năm đội không đổi thì phần chênh còn lại không đến từ việc đổi chiến thuật.
+@@ 2697 DEL
+@@ 2698
+Đề cương chưa quy định cách gọi kết luận nếu tập đầy đủ và tập tĩnh cho kết quả khác nhau; hãy nói đúng như vậy.
+@@ 2699
+Ba phép kiểm tra liên quan M5 và M7:
+@@ 2702
+Mục
+@@ 2706
+4.3.7
+@@ 2710
+4.3.5
+@@ 2711
+Xem kết quả có phụ thuộc mô hình do tác giả phát triển không
+@@ 2714
+4.3.7
+@@ 2718
+Câu hỏi 2 hỏi các biến kênh giải thích bao nhiêu phần chênh lệch giữa hai chế độ, tức bao nhiêu phần của β ở phương trình (5). Đề cương dùng một phép trừ.
+@@ 2719
+Phần đó ước lượng bằng hiệu β0 − β1: β0 là hệ số của [[CÔNG THỨC]] khi phương trình không có [[CÔNG THỨC]]; β1 là hệ số của [[CÔNG THỨC]] khi có [[CÔNG THỨC]]; kèm khoảng tin cậy bootstrap khối. Hiệu cho biết phần liên hệ giữa chế độ căng thẳng và rủi ro mà biến kênh "nuốt" mất. (Ký hiệu [[CÔNG THỨC]] là biến chế độ.)
+@@ 2720
+Ba bước: chạy hồi quy chỉ có [[CÔNG THỨC]], ghi β0; chạy hồi quy có cả [[CÔNG THỨC]] và [[CÔNG THỨC]], ghi β1; lấy hiệu và dựng khoảng tin cậy bằng bootstrap khối.
+@@ 2721
+Khu phố nhiều ô tô thì nhiều tai nạn. Thêm biến tốc độ trung bình vào phân tích mà liên hệ giữa số ô tô và tai nạn co lại nhiều, phần co lại là phần tốc độ giải thích. β0 − β1 là phần co lại ấy.
+@@ 2722
+Ví dụ giả định (số tự đặt để minh họa): hồi quy chỉ có [[CÔNG THỨC]] cho β0 = 1,20; có cả biến kênh cho β1 = 0,75.
+@@ 2723
+Hiệu 0,45: trong mức tăng 1,20, biến kênh chiếm 0,45, phần còn lại 0,75 vẫn gắn với chế độ căng thẳng.
+@@ 2724
+Theo tỷ lệ là 37,5%; đề cương chỉ nêu hiệu, cách đổi sang tỷ lệ là của bản đọc.
+@@ 2725
+Khoảng tin cậy của hiệu là 0,10 đến 0,80 thì loại trừ 0, có cơ sở nói biến kênh chiếm một phần dương; −0,10 đến 0,90 thì chưa.
+@@ 2727
+Nếu β1 lớn hơn β0 thì hiệu âm; đề cương không bàn trường hợp này, đừng diễn giải như một kết luận.
+@@ 2728
+Phép tính này thuộc Câu hỏi 2 (H2, H4), không thuộc tiêu chí ủng hộ H1. H2 được ủng hộ khi hệ số độ phi thanh khoản dương, hệ số tương quan đuôi âm, và khoảng tin cậy bootstrap khối của cả hai loại trừ 0; H4 chỉ báo cáo như thăm dò.
+@@ 2729
+**Hệ số phóng đại phương sai, ngưỡng 5**
+@@ 2730
+Vì [[CÔNG THỨC]] phụ thuộc biến động và lợi suất, còn [[CÔNG THỨC]] gồm những biến cùng phụ thuộc biến động, đề tài báo cáo hệ số phóng đại phương sai với ngưỡng 5 ấn định trước. Vượt ngưỡng thì báo cáo hai phương trình tách riêng và không diễn giải riêng từng hệ số.
+@@ 2731
+Vấn đề là đa cộng tuyến: các biến giải thích đi cùng nhau quá chặt; biến động tăng thì tất cả cùng tăng, nên hồi quy khó tách phần đóng góp riêng của từng biến.
+@@ 2732
+Hệ số phóng đại phương sai cho biết phương sai của một hệ số bị phình lên bao nhiêu lần vì biến đó bị các biến khác giải thích. Kiến thức thống kê chung (đề cương không viết công thức): hệ số = 1 / (1 − R²) của hồi quy biến đó theo các biến còn lại; bằng 5 ứng với R² = 0,8.
+@@ 2733
+Hai người cùng đẩy một chiếc xe, cùng lúc, cùng lực: xe đi tới nhưng không thể nói mỗi người đẩy bao nhiêu phần. Hồi quy có thể cho một hệ số rất lớn và một hệ số rất nhỏ mà tổng vẫn đúng.
+@@ 2734
+Ví dụ giả định (số tự đặt để minh họa): R² = 0,9 thì hệ số = 10, vượt ngưỡng.
+@@ 2735
+R² = 0,5 thì hệ số = 2, dưới ngưỡng.
+@@ 2737
+Vượt ngưỡng thì đề cương không cố cứu bằng phép tính: báo cáo hai phương trình tách riêng. Đề cương không nói rõ mỗi phương trình gồm biến nào.
+@@ 2738
+Theo bản đọc: các biến luôn đi cùng nhau thì dữ liệu không đủ thông tin để tách hiệu ứng riêng, nên không diễn giải riêng; tinh thần gần với quy tắc không kết luận.
+@@ 2739 DEL
+@@ 2740
+**Liên hệ có điều kiện, không phải nhân quả**
+@@ 2741
+Đề tài gọi các kết quả là liên hệ có điều kiện, không gọi là quan hệ nhân quả. Liên hệ có điều kiện: sau khi giữ các biến khác (biến động thực hiện, biến kênh), hai đại lượng vẫn đi cùng nhau. Nhân quả: đại lượng này gây ra thay đổi ở đại lượng kia.
+@@ 2742
+Ngày bán nhiều kem cũng bán nhiều đồ bơi, kể cả khi đã tính ngày cuối tuần; nhưng kem không làm tăng bán đồ bơi, cả hai cùng theo thời tiết nóng.
+@@ 2743
+Nếu hệ số độ phi thanh khoản dương, chỉ được nói thanh khoản cạn đi cùng rủi ro lựa chọn cao hơn sau khi kiểm soát biến động, không nói gây ra. Tương tự với β của chế độ căng thẳng.
+@@ 2744
+Theo bản đọc: biến chế độ và biến kênh cùng phụ thuộc biến động, giai đoạn căng thẳng độc lập ít, và đề tài chỉ quan sát dữ liệu lịch sử chứ không thể chủ động thay đổi một biến rồi quan sát.
+@@ 2745 DEL
+@@ 2746
+**Ba điều nhắc cuối về giới hạn**
+@@ 2747
+Thứ nhất: mục 4.3.7 là phương pháp dự kiến, chưa có kết quả; mọi con số trong ví dụ đều tự đặt.
+@@ 2748
+Thứ hai (mục 4.3.10): cạnh mỗi hệ số, đề tài báo cáo số cửa sổ độc lập và số giai đoạn căng thẳng độc lập; dưới 10 cửa sổ độc lập ở chế độ căng thẳng thì kết quả là không kết luận, kèm kích thước hiệu ứng và khoảng tin cậy theo từng giai đoạn.
+@@ 2749
+Thứ ba: hiệu chỉnh so sánh bội theo Holm (1979) ở mức 10% cho bốn giả thuyết, để tránh việc kiểm nhiều giả thuyết thì có một cái trông đúng chỉ do may. Đề cương không nói Holm kết hợp với phân vị 95% của phân phối rỗng ra sao.
+@@ 2751
+• Phân phối rỗng: 1.000 lần bootstrap khối chuỗi lợi suất của bảy mô hình, sau khi loại chênh lệch trung bình trong từng chế độ, giữ tương quan chéo và biến động.
+@@ 2752
+• H1 được ủng hộ khi đồng thời: β của mức hối tiếc dương và vượt phân vị 95% của phân phối rỗng; khoảng tin cậy bootstrap khối của β loại trừ 0; β của độ phân tán cùng dấu.
+@@ 2753
+• Lặp lại trên tập mô hình tĩnh M1, M2, M3, M4, M6 để loại tác động của M5 và M7.
+@@ 2754
+• Phần của β do biến kênh: β0 − β1 (không có và có biến kênh), kèm khoảng tin cậy bootstrap khối.
+@@ 2755
+• Hệ số phóng đại phương sai, ngưỡng 5; vượt thì hai phương trình tách riêng, không diễn giải riêng từng hệ số.
+@@ 2756
+• Liên hệ có điều kiện, không phải nhân quả; dưới 10 cửa sổ độc lập ở chế độ căng thẳng thì không kết luận.
+@@ 2760
+Đáp án: 1.000 lần tái lấy mẫu bootstrap khối chuỗi lợi suất của bảy mô hình, sau khi loại chênh lệch trung bình giữa các mô hình trong từng chế độ, giữ nguyên tương quan chéo và biến động; dùng để hiệu chuẩn β, tách rủi ro lựa chọn khỏi nhiễu và biến động.
+@@ 2761
+2. Nêu ba điều kiện để H1 được ủng hộ.
+@@ 2762
+Đáp án: β của mức hối tiếc dương và vượt phân vị 95% của phân phối rỗng; khoảng tin cậy bootstrap khối của β loại trừ 0; β của độ phân tán mô hình cùng dấu.
+@@ 2764
+Đáp án: để loại tác động của M5 và M7, vốn chỉ đổi hành vi khi xác suất căng thẳng tăng.
+@@ 2766
+Đáp án: bằng hiệu β0 − β1 giữa hệ số β của phương trình (5) khi không có và khi có biến kênh, kèm khoảng tin cậy bootstrap khối.
+@@ 2767
+5. Hệ số phóng đại phương sai dùng để làm gì, ngưỡng bao nhiêu, vượt ngưỡng thì sao?
+@@ 2768
+Đáp án: vì biến chế độ và biến kênh cùng phụ thuộc biến động; ngưỡng 5 ấn định trước; vượt thì báo cáo hai phương trình tách riêng, không diễn giải riêng từng hệ số.
+@@ 2770
+Đáp án: liên hệ có điều kiện, không phải nhân quả; dưới 10 cửa sổ độc lập ở chế độ căng thẳng thì không kết luận.

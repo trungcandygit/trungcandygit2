@@ -1,0 +1,115 @@
+@@ 1419
+Mục 4.2 của đề cương, nhóm (4): Chế độ thị trường và khủng hoảng
+@@ 1420
+Thị trường không hành xử giống nhau mọi lúc; hành vi đổi theo chế độ thì rủi ro chọn mô hình cũng có thể đổi theo. Đó là cơ sở để đề tài so sánh chế độ bình thường với chế độ căng thẳng. Nhóm (4) điểm các công trình về chuyển chế độ (Hamilton, Ang, Guidolin, Kritzman, Tu, Bai và Perron) rồi về khủng hoảng (Longin và Solnik, Forbes và Rigobon).
+@@ 1421
+Hai tầng ý: thị trường có những trạng thái khác nhau và có công cụ để ước lượng trạng thái; lúc khủng hoảng, các con số quen thuộc như tương quan có thể đổi, và phải giải thích sự đổi đó cẩn thận.
+@@ 1423
+Chế độ thị trường là thời tiết của thị trường: bình thường là trời quang, giá dao động vừa phải; căng thẳng là mùa bão, dao động mạnh, lợi suất thấp. Bạn không thấy trực tiếp "tên" thời tiết, chỉ thấy dấu hiệu như mưa gió.
+@@ 1424
+Đề cương quy ước (mục 4.3.4): chế độ căng thẳng có phương sai điều kiện cao nhất và lợi suất kỳ vọng thấp hơn chế độ bình thường. Phương sai điều kiện là mức dao động trong từng chế độ, không phải dao động chung cả mẫu.
+@@ 1426
+Hamilton (1989) đề xuất mô hình chuyển chế độ Markov: thị trường ở một trong các trạng thái ẩn và chuyển giữa chúng theo xác suất. Ang và Timmermann (2012) tổng quan hướng này.
+@@ 1427
+Trạng thái ẩn nghĩa là bạn không thấy trực tiếp thị trường đang ở đâu mà phải suy ra từ giá, như bác sĩ không thấy bệnh, chỉ thấy triệu chứng. Xác suất chuyển là xác suất mỗi ngày thị trường ở nguyên chế độ hay nhảy sang chế độ khác.
+@@ 1428
+"Markov" là giả định về trí nhớ: xác suất chuyển ngày mai chỉ phụ thuộc chế độ hôm nay, không phụ thuộc cả lịch sử trước đó (nghĩa chung của thuật ngữ).
+@@ 1429 DEL
+@@ 1430
+Ví dụ giả định (số tự đặt để minh họa): hai chế độ quang và bão. Hôm nay quang thì ngày mai vẫn quang với xác suất 98%, sang bão 2%. Hôm nay bão thì ngày mai vẫn bão 90%, trở lại quang 10%.
+@@ 1431
+Vì xác suất nghiêng về giữ nguyên, bão thường kéo dài nhiều ngày. Mô hình ước lượng các xác suất này và mức dao động trong từng chế độ từ dữ liệu giá.
+@@ 1433
+Đề tài dùng đúng khung này (mục 4.3.4): ước lượng mô hình chuyển chế độ Markov cho lợi suất VN-Index theo cửa sổ mở rộng; tại mỗi ngày tái cân bằng, tham số được ước lượng lại chỉ bằng dữ liệu đến ngày đó.
+@@ 1434
+Từ đó tính xác suất lọc tại ngày t, tức xác suất thị trường đang ở chế độ căng thẳng; cách làm này loại thiên lệch nhìn trước, tức vô tình dùng thông tin tương lai để quyết định hôm nay. Không được chấm bài bằng đáp án chưa công bố.
+@@ 1436
+Ang và Bekaert (2002) thấy tương quan và biến động cùng tăng ở chế độ xấu và giải bài toán phân bổ tài sản có chuyển chế độ.
+@@ 1437
+Ở chế độ xấu, giá các tài sản đi cùng chiều hơn và dao động mạnh hơn. Trời quang thì mỗi người một hướng; bão đến thì mọi người cùng chạy vào một chỗ trú, và đa dạng hóa giúp ít hơn.
+@@ 1438
+Họ không chỉ mô tả hiện tượng mà còn hỏi nên chia tiền thế nào khi thị trường có thể đổi chế độ; đề cương không nêu kết quả của bài toán đó.
+@@ 1439
+Theo bản đọc, tương quan tăng ở chế độ xấu cùng chủ đề với biến kênh tương quan đuôi trong H2. Nhưng cơ sở của H2 trong Bảng 2 là Amihud (2002), Longin và Solnik (2001), Forbes và Rigobon (2002), không gồm Ang và Bekaert.
+@@ 1441
+Guidolin và Timmermann (2007) nhận diện bốn chế độ: sụp đổ, tăng trưởng chậm, tăng giá và phục hồi.
+@@ 1442
+Thị trường không nhất thiết chỉ có hai trạng thái. Đề cương chỉ nêu tên bốn chế độ, không nêu đặc điểm thống kê; đừng tự mô tả thêm.
+@@ 1443
+Ở mục 4.3.4, số chế độ (hai hoặc ba) do tiêu chí thông tin quyết định trên giai đoạn ước lượng ban đầu và cố định khi đăng ký trước; việc nhận diện chế độ cũng được coi là một dạng rủi ro mô hình (mục 4.3.10).
+@@ 1445
+Kritzman và cộng sự (2012) dự báo chế độ bằng mô hình Markov, và chiến lược động của họ vượt chiến lược tĩnh khi kiểm định ngược.
+@@ 1446
+Chiến lược tĩnh chia tiền theo quy tắc cố định; chiến lược động đổi cách chia khi dự báo chế độ đổi, ví dụ giảm rủi ro khi dự báo sắp vào bão.
+@@ 1447
+Chú ý chữ "khi kiểm định ngược": kết quả loại này nói chung có thể chịu nguy cơ quá khớp (nhóm (3)). Đề cương không nói điều đó về Kritzman và cộng sự.
+@@ 1448
+M7 trong Bảng 3 là giảm tỷ trọng rủi ro theo xác suất chế độ căng thẳng (Kritzman và cộng sự, 2012), và cơ chế giảm thiểu (iii) cũng theo quy tắc này.
+@@ 1449
+**Tu (2010): bỏ qua chuyển chế độ thì thiệt**
+@@ 1450
+Tu (2010) ước tính nhà đầu tư bỏ qua chuyển chế độ chịu tổn thất lợi suất tương đương chắc chắn thường trên 2% mỗi năm, có thể tới 10%.
+@@ 1451
+Lợi suất tương đương chắc chắn là mức lợi suất chắc chắn mà nhà đầu tư coi là ngang giá với khoản đầu tư có rủi ro; càng cao càng tốt. Số 2% và 10% là của nghiên cứu của Tu, không phải kết quả của đề tài, không dùng để suy ra gì về Việt Nam; đề cương không nêu dữ liệu đứng sau chúng.
+@@ 1452
+Tu (2010) là bằng chứng rằng tính đến chuyển chế độ có giá trị, và là đối chứng của cơ chế (iii).
+@@ 1453
+**Bai và Perron (1998): nhiều điểm gãy cấu trúc**
+@@ 1454
+Bai và Perron (1998) cung cấp phương pháp kiểm định nhiều điểm gãy cấu trúc. Điểm gãy là thời điểm quan hệ trong dữ liệu đổi lâu dài, như dòng sông đổi lòng sau một trận lũ. Theo cách phân biệt thông thường: với chuyển chế độ, thị trường nhảy qua lại và có thể quay về; với điểm gãy, quan hệ chuyển sang dạng mới.
+@@ 1455 DEL
+@@ 1456
+Vai trò trong đề tài hạn chế (mục 4.3.4): kiểm định điểm gãy trên toàn mẫu chỉ để mô tả và đối chiếu với các cú sốc lịch sử, không dùng làm biến chế độ trong kiểm định giả thuyết, vì biến chế độ chỉ được dùng dữ liệu đến ngày đó.
+@@ 1457
+Tác giả đã dùng phương pháp Bai-Perron cùng độ phi thanh khoản Amihud trong bản thảo về điểm gãy cấu trúc của thanh khoản (bản thảo số 5, Bảng 7).
+@@ 1458 DEL
+@@ 1459 DEL
+@@ 1460
+**Về khủng hoảng: Longin và Solnik (2001)**
+@@ 1461
+Longin và Solnik (2001) bác bỏ phân phối chuẩn đa biến ở đuôi âm của lợi suất.
+@@ 1462
+Phân phối chuẩn là đường hình chuông: phần lớn giá trị gần trung bình, giá trị rất xa hiếm đến mức gần như không xảy ra. "Đa biến" là mô tả nhiều tài sản cùng lúc, kể cả mức chúng đi cùng nhau. "Đuôi âm" là những ngày rất tệ.
+@@ 1463
+Theo bản đọc: mô hình hình chuông cho nhiều tài sản không mô tả đúng những ngày rất tệ. Đề cương không nói họ bác bỏ bằng cách nào.
+@@ 1464
+Tương quan đuôi là mức các tài sản cùng giảm mạnh vào những ngày cực xấu: tương quan thường đo mức cùng nhịp ngày thường, tương quan đuôi chỉ hỏi chuyện gì xảy ra khi ai cũng rơi. Đây là một biến kênh của H2.
+@@ 1466
+Forbes và Rigobon (2002) chỉ ra hệ số tương quan phụ thuộc vào biến động và, sau hiệu chỉnh, gần như không còn dấu hiệu lây nhiễm trong ba cuộc khủng hoảng họ khảo sát.
+@@ 1467
+Lây nhiễm là khi cú sốc ở thị trường này kéo thị trường khác theo nhiều hơn mức liên hệ bình thường. Hai người bạn thường gọi nhau mỗi ngày; một người gặp nạn thì người kia gọi nhiều hơn. Nếu số cuộc gọi tăng chỉ vì ai cũng đang hoảng, đó chưa chắc là quan hệ đã đổi.
+@@ 1468
+Khi biến động tăng, hệ số tương quan tính được cũng có thể tăng dù quan hệ cơ bản chưa đổi; vì vậy phải hiệu chỉnh theo biến động trước khi kết luận. Đây chính là khả năng đối lập của H2.
+@@ 1469
+Câu này không nói lây nhiễm không bao giờ tồn tại; đề cương cũng không nêu tên ba cuộc khủng hoảng.
+@@ 1470 DEL
+@@ 1471
+Ví dụ giả định (số tự đặt để minh họa): hai thị trường có quan hệ cố định. Tuần yên ắng, tương quan tính được là 0,3; tuần hỗn loạn, giá dao động mạnh gấp ba và tương quan tính được lên 0,6.
+@@ 1472
+Chỉ nhìn 0,3 lên 0,6 thì dễ kết luận quan hệ đã mạnh lên; hiệu chỉnh theo biến động cho phép hỏi mức tăng đó có chỉ do giá dao động mạnh hơn không.
+@@ 1474
+Forbes và Rigobon (2002) là cơ sở của H2, và tương quan hiệu chỉnh theo biến động là một biến kênh. Bản thảo số 6 (Bảng 7) của tác giả, về tương quan các chỉ số lồng nhau, chuẩn bị cho kênh này.
+@@ 1475
+**Hai nửa ghép lại**
+@@ 1476
+Khủng hoảng là sự kiện lịch sử, chế độ căng thẳng là trạng thái thống kê (mục 4.1). Theo bản đọc, nhóm chuyển chế độ cho công cụ nhận diện trạng thái; nhóm khủng hoảng cho biết lúc căng thẳng, các thước đo phụ thuộc như tương quan phải đọc cẩn thận. Câu chốt của nhóm (4): hành vi thị trường đổi theo chế độ, nhưng chưa nghiên cứu nào kiểm định thứ hạng của các mô hình danh mục có đổi theo hay không.
+@@ 1477
+Đề cương cũng tính đến việc chế độ căng thẳng hiếm: mẫu có ít giai đoạn căng thẳng độc lập nên kiểm định có công suất thấp, và khi số cửa sổ độc lập ở chế độ căng thẳng dưới 10 thì kết quả gọi là không kết luận (mục 4.3.10). Ít cơn bão thì khó rút ra quy luật chắc chắn.
+@@ 1480
+• Hamilton (1989): chuyển chế độ Markov, trạng thái ẩn, xác suất chuyển; Ang và Timmermann (2012) tổng quan.
+@@ 1481
+• Ang và Bekaert (2002): tương quan và biến động cùng tăng ở chế độ xấu; Guidolin và Timmermann (2007): sụp đổ, tăng trưởng chậm, tăng giá, phục hồi.
+@@ 1482
+• Kritzman và cộng sự (2012): chiến lược động vượt tĩnh khi kiểm định ngược; Tu (2010): bỏ qua chuyển chế độ mất lợi suất tương đương chắc chắn thường trên 2% mỗi năm, có thể tới 10%; Bai và Perron (1998): nhiều điểm gãy cấu trúc.
+@@ 1483
+• Longin và Solnik (2001): bác bỏ phân phối chuẩn đa biến ở đuôi âm; Forbes và Rigobon (2002): tương quan phụ thuộc biến động, sau hiệu chỉnh gần như không còn lây nhiễm trong ba cuộc khủng hoảng.
+@@ 1487
+Đáp án: thị trường ở một trong các trạng thái ẩn và chuyển giữa chúng theo xác suất.
+@@ 1489
+Đáp án: sụp đổ, tăng trưởng chậm, tăng giá và phục hồi.
+@@ 1491
+Đáp án: tổn thất lợi suất tương đương chắc chắn thường trên 2% mỗi năm, có thể tới 10%.
+@@ 1493
+Đáp án: tương quan phụ thuộc biến động; sau hiệu chỉnh, gần như không còn lây nhiễm trong ba cuộc khủng hoảng họ khảo sát.
+@@ 1495
+Đáp án: phân phối chuẩn đa biến ở đuôi âm của lợi suất.

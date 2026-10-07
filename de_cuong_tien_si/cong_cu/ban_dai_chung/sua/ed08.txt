@@ -1,0 +1,190 @@
+@@ 958
+Mục 4.5 của đề cương: Bố cục của đề cương và luận án
+@@ 959
+Đề cương theo mẫu của Trường Quốc tế gồm 11 mục; phần nghiên cứu nằm ở mục 4 (từ 4.1 đến 4.5). Luận án dự kiến có sáu chương và phần Kết luận, đi từ giới thiệu và khung khái niệm, đến dữ liệu và chế độ, rủi ro lựa chọn theo chế độ, biến kênh, rồi cơ chế giảm thiểu và hàm ý quản trị.
+@@ 960
+Mục này như mục lục của một cuốn sách chưa viết: nó cho biết mỗi phần nằm đâu và trả lời câu hỏi nào. Nhớ được ánh xạ này, bạn trả lời được nhiều câu hỏi "luận án sẽ viết gì" mà không phải học thuộc.
+@@ 962
+Đề cương gồm 11 mục theo mẫu:
+@@ 966
+Mục 1–3
+@@ 967
+Tên đề cương, người thực hiện, đơn vị công tác
+@@ 968
+Tên đề tài (không quá 30 từ) và thông tin thí sinh
+@@ 969
+Mục 4
+@@ 970
+Đề cương sơ bộ dự kiến
+@@ 971
+4.1 Lý do, câu hỏi, mục tiêu; 4.2 Tổng quan và khoảng trống; 4.3 Phương pháp và giả thuyết; 4.4 Đối tượng, phạm vi, đóng góp; 4.5 Bố cục luận án
+@@ 972
+Mục 5
+@@ 973
+Lý do chọn cơ sở nghiên cứu
+@@ 974
+Ba lý do chọn Trường Quốc tế
+@@ 975
+Mục 6
+@@ 976
+Mục tiêu và mong muốn khi học nghiên cứu sinh
+@@ 977
+Năng lực nghiên cứu và người dùng kết quả
+@@ 978
+Mục 7
+@@ 979
+Dự định và kế hoạch
+@@ 980
+Học phần, chuyên đề, nghiên cứu khoa học, kế hoạch bốn năm (Bảng 5)
+@@ 981
+Mục 8
+@@ 982
+Kiến thức chuyên môn của người dự tuyển
+@@ 983
+Kinh nghiệm nghiên cứu, công trình (Bảng 6, 7), sự chuẩn bị
+@@ 984
+Mục 9
+@@ 985
+Dự kiến việc làm và hướng nghiên cứu sau tốt nghiệp
+@@ 986
+Định hướng nghề nghiệp và ba hướng mở rộng
+@@ 987
+Mục 10
+@@ 988
+Đề xuất người hướng dẫn
+@@ 989
+Người hướng dẫn chính và thứ hai (dự kiến)
+@@ 990
+Mục 11
+@@ 991
+Danh mục tài liệu tham khảo
+@@ 992
+Tiếng Việt và tiếng Anh
+@@ 994
+Cột "Việc chính" do bản đọc tóm tắt từ nội dung từng mục.
+@@ 995
+Phần lớn bài đọc này giải thích mục 4. Các mục 5 đến 10 là phần mang tính tuyển sinh, nói về cơ sở đào tạo, kế hoạch, sự chuẩn bị và người hướng dẫn.
+@@ 996
+Đề cương giống bản vẽ thiết kế, luận án là ngôi nhà. Bản vẽ có phần nền (4.1, 4.2), phần cách xây (4.3), phần hình dung ngôi nhà (4.4, 4.5), và phần về nơi xây, kế hoạch thi công, năng lực người thiết kế (mục 5 đến 10).
+@@ 998
+Bảng 4 của đề cương liệt kê sáu chương và phần Kết luận, với tiểu mục đến ba chữ số. Bản đọc gom chúng thành năm nội dung:
+@@ 999 DEL
+@@ 1005
+Giới thiệu, tổng quan và khung khái niệm
+@@ 1008
+Dữ liệu, chế độ thị trường và phương pháp
+@@ 1019
+Lưu ý: "Chương" ở đây là chương của luận án. Đề cương không chia chương; nó chia mục 1 đến 11. Khi giám khảo hỏi "chương 4", đó là chương 4 của luận án.
+@@ 1020
+**Nội dung 1 (Chương 1–2): giới thiệu, tổng quan và khung khái niệm**
+@@ 1021
+Chương 1 giới thiệu bối cảnh, vấn đề, mục tiêu, câu hỏi, phạm vi và đóng góp. Chương 2 tổng quan tài liệu và dựng khung khái niệm, trong đó tiểu mục 2.2.1 phân biệt ba loại rủi ro dựa trên Derman (1996), Cont (2006), Kerkhof và cộng sự (2010) và Boucher và cộng sự (2014).
+@@ 1022
+Ba loại rủi ro: rủi ro đặc tả (mô hình sai dạng), rủi ro ước lượng (sai số tham số) và rủi ro lựa chọn (chọn sai trong tập mô hình cạnh tranh). Hình dung bạn may một bộ đồ:
+@@ 1023 DEL
+@@ 1024
+Rủi ro đặc tả: chọn sai khuôn, ví dụ khuôn áo cho người cao gầy trong khi bạn thấp đậm; dạng mô hình sai từ đầu.
+@@ 1025
+Rủi ro ước lượng: khuôn đúng nhưng thợ đo sai vài centimet; tham số có sai số.
+@@ 1026
+Rủi ro lựa chọn: có nhiều khuôn đều hợp lý, nhưng phải chọn một khuôn trước khi biết khuôn nào vừa nhất.
+@@ 1027
+Ba tầng này không loại trừ nhau trong thực tế; đề tài tập trung vào tầng thứ ba. Sai số ước lượng là chuyện đã biết, đề tài chuyển sang câu hỏi chọn giữa nhiều mô hình.
+@@ 1028
+Derman (1996) là ghi chú thực hành về rủi ro mô hình trong định giá phái sinh; Cont (2006) đo bất định mô hình bằng độ đo rủi ro nhất quán; Kerkhof và cộng sự (2010) tách rủi ro ước lượng và rủi ro đặc tả sai; Boucher và cộng sự (2014) hiệu chỉnh độ đo rủi ro theo kiểm định ngược. Đề cương không ghép từng công trình với từng loại rủi ro, nên bạn cũng đừng ghép.
+@@ 1029
+Chương 2 tổng quan theo đúng sáu nhóm ở mục 4.2: sai số ước lượng và tối ưu hóa danh mục; rủi ro và bất định mô hình; kết hợp mô hình, tập tin cậy và thiên lệch chọn lọc; chế độ thị trường và khủng hoảng; thanh khoản, tương quan cực trị và bầy đàn; nghiên cứu về Việt Nam. Tiểu mục 2.7 khép lại bằng khoảng trống, khung phân tích và giả thuyết.
+@@ 1030
+**Nội dung 2 (Chương 3): dữ liệu, chế độ thị trường và phương pháp**
+@@ 1031
+Chương 3 mô tả dữ liệu và cách loại thiên lệch sống sót, ước lượng chế độ (mục 4.3.4), đối chiếu chế độ với các cú sốc lịch sử, rồi trình bày tập bảy mô hình, các thước đo, phương pháp kiểm định và các lệch khỏi kế hoạch đăng ký trước.
+@@ 1032
+Chương này gắn với mục tiêu (i), và là nơi chế độ căng thẳng (trạng thái thống kê) gặp khủng hoảng (sự kiện lịch sử).
+@@ 1033
+Kiểm định điểm gãy Bai-Perron trên toàn mẫu xuất hiện ở đây chỉ để mô tả và đối chiếu, không làm biến chế độ ở chương 4 đến 6. Chế độ dùng cho kiểm định do mô hình Markov ước lượng lại tại mỗi ngày tái cân bằng.
+@@ 1034
+Trước khi ước lượng các mô hình danh mục, tác giả báo cáo số giai đoạn căng thẳng rơi vào phần mẫu tính được mức hối tiếc. Khủng hoảng tài chính toàn cầu chủ yếu phục vụ ước lượng chế độ.
+@@ 1036
+Nội dung 3 là lõi thực nghiệm: chương 4 ước lượng bảy mô hình, tính các thước đo cho từng chế độ và kiểm định H1, trả lời câu hỏi 1.
+@@ 1037
+Đây là chương bảy cách chia tiền thi đấu thật: mỗi cửa sổ có bảng điểm lợi suất tương đương chắc chắn, từ đó tính mức hối tiếc, độ phân tán và tập tin cậy, rồi so hai chế độ.
+@@ 1038
+H1 được ủng hộ khi thỏa ba điều kiện: β của R dương và vượt phân vị 95% của phân phối rỗng; khoảng tin cậy bootstrap khối loại trừ 0; β của D cùng dấu. Kiểm định được lặp lại trên tập mô hình tĩnh M1, M2, M3, M4 và M6.
+@@ 1039
+Dưới 10 cửa sổ độc lập ở chế độ căng thẳng thì kết quả là không kết luận; vì vậy đừng nói trước về kết quả chương 4.
+@@ 1041
+Chương 5 hồi quy các thước đo rủi ro theo biến chế độ và biến kênh (thanh khoản, tương quan cực trị, bầy đàn), có kiểm soát biến động, để kiểm định H2 và H4, trả lời câu hỏi 2.
+@@ 1042
+Phần chênh lệch giữa hai chế độ do biến kênh giải thích là hiệu β0 − β1, giữa hệ số β khi phương trình không có và khi có biến kênh, kèm khoảng tin cậy bootstrap khối.
+@@ 1043
+Biến chế độ phụ thuộc biến động và lợi suất, còn các biến kênh cũng phụ thuộc biến động, nên chúng dễ trùng thông tin. Đề tài báo cáo hệ số phóng đại phương sai với ngưỡng 5; vượt ngưỡng thì báo cáo hai phương trình tách riêng và không diễn giải riêng từng hệ số.
+@@ 1044
+Giống kiểm tra xem hai nhân chứng có cùng nghe một nguồn tin không: nếu có, lời họ không phải hai bằng chứng độc lập.
+@@ 1045 DEL
+@@ 1046
+Kết quả chương 5 là liên hệ có điều kiện, không phải nhân quả; H4 chỉ là thăm dò.
+@@ 1048
+Chương 6 đánh giá ba cơ chế giảm thiểu để kiểm định H3, đề xuất thủ tục giám sát mô hình và hàm ý cho tổ chức đầu tư và cơ quan giám sát. Phần Kết luận trả lời ba câu hỏi, nêu hạn chế (số giai đoạn căng thẳng, phạm vi Việt Nam) và hướng nghiên cứu tiếp.
+@@ 1049
+Ba cơ chế (mục 4.3.8): kết hợp mô hình theo trọng số Bayes hoặc trong tập tin cậy, đối chứng là kết hợp 1/N với trung bình-phương sai; danh mục vững chắc tối ưu cho tình huống xấu nhất trong nhiều niềm tin tiên nghiệm; quy tắc chuyển chế độ theo Kritzman và cộng sự (2012), đối chứng là giá trị của chuyển chế độ theo Tu (2010).
+@@ 1050
+Tiêu chí: lợi suất tương đương chắc chắn, mức hối tiếc, độ sụt giảm tối đa, giá trị thiệt hại kỳ vọng mức 95%, vòng quay và hiệu quả sau chi phí giao dịch; chi phí được tham số hóa và kiểm tra độ nhạy.
+@@ 1051
+Hai cơ chế (ii) và (iii) nằm ngoài tập mô hình khi kiểm định H3 nên mức hối tiếc của chúng có thể âm; tính không âm chỉ đúng khi mô hình chọn trước thuộc tập M.
+@@ 1052 DEL
+@@ 1054
+Gom năm nội dung thành một sơ đồ:
+@@ 1058
+Dựng khái niệm và thước đo (mục tiêu i)
+@@ 1061
+Dữ liệu và xác định chế độ (mục tiêu i)
+@@ 1064
+Câu hỏi 1: rủi ro thay đổi thế nào giữa hai chế độ
+@@ 1067
+Câu hỏi 2: biến kênh có liên hệ không, giải thích bao nhiêu phần chênh lệch
+@@ 1070
+Câu hỏi 3: cơ chế nào giảm được rủi ro
+@@ 1074
+Bảng này là cách sắp xếp của bản đọc; đề cương không có bảng như vậy.
+@@ 1076
+Bảng 5 của đề cương nêu kế hoạch bốn năm. Đề cương không ghi năm nào ứng với chương nào, nhưng thứ tự công việc cho thấy:
+@@ 1077
+Năm 1: xác nhận dữ liệu và giấy phép; xác định khung quy định cho công ty quản lý quỹ; học bổ sung 9 tín chỉ; ước lượng thử trên 2019–2025; làm sạch dữ liệu, đọc toàn văn; đăng ký trước kế hoạch phân tích.
+@@ 1078
+Năm 2: xác định chế độ, ước lượng bảy mô hình; đo rủi ro lựa chọn, kiểm định H1, viết bài báo 1.
+@@ 1079
+Năm 3: biến kênh (H2, H4); cơ chế giảm thiểu (H3); viết bài báo 2 và 3.
+@@ 1080
+Năm 4: hoàn thiện luận án, kết luận và hàm ý quản trị; chỉnh sửa và bảo vệ.
+@@ 1081
+Thời gian đào tạo là bốn năm. Dự phòng: dữ liệu không đủ thì thu hẹp rổ hoặc giai đoạn mẫu ngay quý 1 năm thứ nhất; quá ít giai đoạn căng thẳng thì áp dụng quy tắc không kết luận; bài bị từ chối thì chuyển tạp chí khác trong năm.
+@@ 1083
+Ba lỗi hay gặp:
+@@ 1084
+Nói như thể luận án đã viết xong. Các chương là kế hoạch.
+@@ 1085
+Nhầm mục của đề cương với chương của luận án.
+@@ 1086
+Nói trước kết quả. Chương 4 hay 5 có thể kết thúc bằng "không kết luận" nếu quá ít giai đoạn căng thẳng độc lập.
+@@ 1088
+• Đề cương: 11 mục theo mẫu; phần nghiên cứu ở mục 4 (4.1 đến 4.5).
+@@ 1089
+• Luận án dự kiến: sáu chương và Kết luận (Bảng 4 của đề cương).
+@@ 1090
+• Chương 1–2: giới thiệu, tổng quan, khung khái niệm; ba loại rủi ro: đặc tả, ước lượng, lựa chọn.
+@@ 1091
+• Chương 3: dữ liệu, chế độ, đối chiếu với cú sốc lịch sử, phương pháp.
+@@ 1092
+• Chương 4: bảy mô hình, thước đo theo chế độ, H1.
+@@ 1093
+• Chương 5: biến kênh, H2 và H4, kiểm soát biến động.
+@@ 1094
+• Chương 6 và Kết luận: cơ chế giảm thiểu, H3, hàm ý quản trị, hạn chế, hướng tiếp.
+@@ 1100
+Đáp án: rủi ro đặc tả (mô hình sai dạng), rủi ro ước lượng (sai số tham số), rủi ro lựa chọn (chọn sai trong tập mô hình cạnh tranh), ở tiểu mục 2.2.1 của luận án.
+@@ 1099
+2. Luận án phân biệt ba loại rủi ro nào?
+@@ 1104
+Đáp án: trả lời ba câu hỏi nghiên cứu, hạn chế (số giai đoạn căng thẳng, phạm vi Việt Nam) và hướng nghiên cứu tiếp.
+@@ 1106
+Đáp án: với các cú sốc lịch sử: khủng hoảng tài chính toàn cầu, đại dịch COVID-19 và căng thẳng trái phiếu doanh nghiệp.

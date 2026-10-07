@@ -1,0 +1,112 @@
+@@ 447
+Mục 4.1 của đề cương: Lý do chọn đề tài (phần một, từ Markowitz đến quy tắc 1/N)
+@@ 448
+Mục 4.1 mở đầu bằng một chuỗi lập luận: tổ chức đầu tư chia tiền bằng mô hình thống kê; mô hình nào cũng có sai số ở đầu vào; DeMiguel và cộng sự (2009) so sánh 14 mô hình và không thấy mô hình nào vượt nhất quán quy tắc 1/N. Từ đó, việc chọn mô hình là một quyết định có rủi ro riêng.
+@@ 449
+Phần này giải thích từng mắt xích của chuỗi đó. Phần hai giải thích các cú sốc ở Việt Nam, khung giám sát, khoảng trống và ba câu hỏi.
+@@ 451
+Một quỹ đầu tư cầm tiền của nhiều người và phải quyết định mua cổ phiếu nào, mỗi mã bao nhiêu phần. Tỷ lệ của mỗi mã gọi là trọng số danh mục.
+@@ 452
+Mô hình danh mục là một cách chia tiền: nhận dữ liệu quá khứ, trả ra một dãy tỷ lệ. Cùng dữ liệu, các cách chia khác nhau cho ra những dãy tỷ lệ khác nhau.
+@@ 453
+Điểm khởi đầu là khung trung bình-phương sai của Markowitz (1952): chọn danh mục có lợi suất kỳ vọng cao nhất ứng với một mức phương sai cho trước. Hãy nhớ nguyên cách diễn đạt này.
+@@ 455
+Cần ba khái niệm: lợi suất, lợi suất kỳ vọng và phương sai.
+@@ 456
+Lợi suất là phần trăm lãi hoặc lỗ của khoản đầu tư trong một khoảng thời gian.
+@@ 458
+Mua cổ phiếu giá 100, cuối kỳ giá 103 thì lợi suất là 3%.
+@@ 460
+Lợi suất kỳ vọng là mức bạn trông đợi trung bình theo ước tính của mình; nó nhìn về tương lai nên không bao giờ biết chắc.
+@@ 461
+Phương sai đo mức lợi suất dao động quanh mức trung bình. Hai cổ phiếu có thể cùng lợi suất trung bình, nhưng mã thứ nhất luôn quanh mức đó còn mã thứ hai lúc lãi cao, lúc lỗ nặng; mã thứ hai có phương sai lớn hơn. Trong tài chính, phương sai được dùng làm thước đo rủi ro.
+@@ 463
+Hai cổ phiếu A và B cùng có lợi suất kỳ vọng 1% mỗi tháng. Lợi suất tháng của A thường từ 0% đến 2%; của B từ lỗ 8% đến lãi 10%. Nếu muốn lợi suất ổn định, bạn chọn A vì phương sai nhỏ hơn.
+@@ 465
+Khi có nhiều cổ phiếu, cần thêm hiệp phương sai: đại lượng đo hai cổ phiếu có xu hướng đi cùng nhau hay ngược nhau. Hai mã đi cùng nhau giống hai người đạp xe song song, một người tăng tốc thì người kia thường cũng tăng tốc.
+@@ 466
+Hiệp phương sai quyết định lợi ích của việc dàn trải. Chia tiền vào hai mã hay đi ngược nhau thì lỗ của mã này được bù bởi lãi của mã kia; chia vào hai mã luôn đi cùng nhau thì dàn trải chẳng giúp gì.
+@@ 467
+Ghép lại: khung trung bình-phương sai tìm cách chia tiền cho lợi suất kỳ vọng cao nhất trong giới hạn dao động mà bạn chịu được.
+@@ 468
+Công thức cần hai đầu vào: lợi suất kỳ vọng của từng mã và ma trận hiệp phương sai của mọi cặp mã. Cả hai không quan sát được trực tiếp; người dùng phải ước lượng từ dữ liệu quá khứ.
+@@ 470
+Ước lượng từ quá khứ luôn có sai số, và sai số khi ước lượng lợi suất kỳ vọng và hiệp phương sai truyền sang trọng số danh mục (Michaud, 1989; Kan và Zhou, 2007).
+@@ 471
+Hình dung bạn chia bột làm bánh bằng một chiếc cân lệch vài gram. Nếu công thức khuếch đại mọi sai lệch, chiếc bánh sẽ hỏng. Công thức trung bình-phương sai nhạy với sai số đầu vào theo đúng cách đó.
+@@ 472
+Phần tổng quan (mục 4.2, nhóm thứ nhất) nói rõ: tối ưu hóa dồn trọng số vào tài sản có sai số ước lượng lớn (Michaud, 1989), và thay tham số tổng thể bằng ước lượng mẫu làm hiệu quả ngoài mẫu giảm mạnh (Kan và Zhou, 2007).
+@@ 473
+"Trong mẫu" là dữ liệu dùng để ước lượng mô hình; "ngoài mẫu" là dữ liệu mô hình chưa thấy, tức tương lai thật. Một cách chia tiền có thể trông hoàn hảo trong mẫu vì được "vẽ" vừa khít quá khứ; bài kiểm tra thật là ngoài mẫu.
+@@ 475
+Một học sinh học thuộc đáp án đề năm ngoái và làm đề đó được 10 điểm (trong mẫu). Đề năm nay khác, em chỉ được 5 điểm (ngoài mẫu). Mô hình ước lượng quá sát quá khứ cũng có thể như vậy.
+@@ 477
+Đề cương không nói trung bình-phương sai là mô hình tồi. Sai số đầu vào là vấn đề chung của mọi mô hình phân bổ, và không mô hình nào thắng ổn định.
+@@ 479
+Vì sai số đầu vào là vấn đề thật, tài liệu đề xuất ba hướng khắc phục, và cả ba có mặt trong tập bảy mô hình của đề tài.
+@@ 480
+Co rút hiệp phương sai (Ledoit và Wolf, 2004): kéo ước lượng về gần một ma trận mục tiêu có cấu trúc để bớt cực đoan.
+@@ 481
+Black-Litterman (Black và Litterman, 1992): kết hợp lợi suất cân bằng của mô hình định giá tài sản vốn với quan điểm của nhà đầu tư. Bessler và cộng sự (2017) thấy cách này vượt cả trung bình-phương sai lẫn 1/N về hiệu quả ngoài mẫu trên dữ liệu đa tài sản toàn cầu.
+@@ 482
+Danh mục vững chắc (Garlappi và cộng sự, 2007): mô hình hóa nhà đầu tư né tránh mơ hồ với nhiều niềm tin tiên nghiệm, thu được danh mục ổn định hơn.
+@@ 483
+Kết luận ngay sau đó mới là điểm chính: không hướng nào thắng ổn định (DeMiguel và cộng sự, 2009). Pflug và cộng sự (2012) còn chứng minh quy tắc 1/N xấp xỉ tối ưu theo nghĩa vững chắc khi mức mơ hồ về mô hình đủ cao. Điều này mở ra câu hỏi của đề tài.
+@@ 484 DEL
+@@ 486
+DeMiguel và cộng sự (2009) đánh giá 14 mô hình trên bảy bộ dữ liệu và không thấy mô hình nào vượt nhất quán quy tắc 1/N, xét theo tỷ số Sharpe, lợi suất tương đương chắc chắn hoặc vòng quay danh mục.
+@@ 487
+Quy tắc 1/N đơn giản đến bất ngờ: có N tài sản thì chia đều, mỗi tài sản 1/N vốn, như bỏ mỗi giỏ một quả trứng. Không cần ước lượng gì.
+@@ 488
+Đừng nói 1/N "tốt hơn" nói chung. Điều nghiên cứu này nói chỉ là không mô hình nào vượt nhất quán 1/N trong bảy bộ dữ liệu.
+@@ 489
+Ba tiêu chí của họ như sau.
+@@ 490
+Tỷ số Sharpe là lợi suất vượt lãi suất phi rủi ro trên mỗi đơn vị độ lệch chuẩn. Lãi suất phi rủi ro là mức lãi gần như chắc chắn; đề tài dùng lợi suất trái phiếu chính phủ kỳ hạn một năm. Phần lợi suất vượt là phần thưởng vì chấp nhận rủi ro; độ lệch chuẩn là căn bậc hai của phương sai.
+@@ 491
+Sharpe trả lời: mỗi đơn vị rủi ro mang lại bao nhiêu phần thưởng. Hai tay đua cùng về đích sau một giờ, người đi đường bằng đạt cùng thành tích với ít rủi ro hơn người đi đường đèo, nên có Sharpe cao hơn.
+@@ 493
+Danh mục X có lợi suất vượt 6% mỗi năm, độ lệch chuẩn 12%: Sharpe bằng 0,5. Danh mục Y có lợi suất vượt 6%, độ lệch chuẩn 20%: Sharpe bằng 0,3. Cùng phần thưởng, X rủi ro thấp hơn nên Sharpe cao hơn.
+@@ 495
+Tiêu chí thứ hai là lợi suất tương đương chắc chắn: mức lợi suất chắc chắn mà nhà đầu tư coi là ngang giá với khoản đầu tư có rủi ro; càng cao càng tốt. Khác Sharpe, nó phản ánh mức ngại rủi ro của chính nhà đầu tư.
+@@ 496
+Ở mục 4.3.6, đề tài cho đại lượng này một công thức gắn với hệ số ngại rủi ro ρ và chọn nó làm thước đo chính. Lý do: khi lợi suất vượt trội trung bình âm, đúng ở chế độ căng thẳng, danh mục biến động hơn lại có Sharpe ít âm hơn, nên Sharpe không còn xếp đúng thứ tự chất lượng. Sharpe chỉ là thước đo phụ.
+@@ 497
+Tiêu chí thứ ba là vòng quay danh mục, tỷ lệ danh mục được mua bán lại. Vòng quay cao thì tốn nhiều chi phí giao dịch.
+@@ 498
+Ba tiêu chí hỏi ba điều khác nhau: phần thưởng trên mỗi đơn vị rủi ro, mức tương đương chắc chắn, và chi phí mua bán. Không mô hình nào thắng 1/N nhất quán ở cả ba.
+@@ 500
+Đây là bước suy luận quan trọng nhất của mục 4.1, gói trong một câu: khi không mô hình nào thắng ổn định, việc chọn mô hình trở thành một quyết định mang rủi ro riêng.
+@@ 501
+Nếu có một mô hình thắng mọi lúc, bạn chỉ cần tìm nó. Nếu không, mô hình tốt nhất có thể đổi theo thời điểm hoặc tập dữ liệu; bạn phải chọn, và có thể chọn sai.
+@@ 502
+Chọn sai nghĩa là tiền bị chia theo cách kém hơn một cách khác lẽ ra có sẵn. Rủi ro thị trường là cổ phiếu có thể giảm giá; rủi ro lựa chọn mô hình là bạn có thể đã chọn sai cách chia tiền.
+@@ 504
+Ba cách chia tiền P, Q, R cho kết quả sau mùa giải 4%, 7% và 3%. Nhà quản lý chọn P vì P thắng ba năm gần nhất. Cách tốt nhất sau thực tế là Q, nên mức hối tiếc là 7% − 4% = 3% (ở đây đo thô bằng lợi suất; đề cương đo bằng lợi suất tương đương chắc chắn).
+@@ 506
+Mức hối tiếc không phải là lỗ: nhà quản lý vẫn lãi 4%. Vì mô hình chọn trước nằm trong tập mô hình, mức hối tiếc không bao giờ âm. Ngoại lệ ở mục 4.3.8: hai cơ chế giảm thiểu nằm ngoài tập mô hình khi kiểm định H3 nên mức hối tiếc của chúng có thể âm.
+@@ 507
+Ba khái niệm dễ lẫn được đề cương định nghĩa ngay trong mục 4.1:
+@@ 519
+Tổn thất kỳ vọng, đo bằng mức hối tiếc, do phải chọn một mô hình trước khi biết mô hình nào tốt nhất
+@@ 521
+Bất định mô hình là tình trạng: nhiều mô hình và chúng bất đồng. Rủi ro lựa chọn mô hình là hậu quả kỳ vọng của tình trạng đó khi bạn phải chọn một. Độ phân tán mô hình và kích thước tập tin cậy mô hình chỉ báo hiệu bất định, không đo rủi ro.
+@@ 523
+Nếu được hỏi, hãy nói ra giới hạn của lập luận: kết luận dựa trên DeMiguel và cộng sự (2009) với bảy bộ dữ liệu, không gồm Việt Nam, và không chứng minh quy luật đúng ở mọi nơi.
+@@ 524
+Lập luận cũng không nói 1/N luôn tốt hơn. 1/N vừa là mô hình M1, vừa là một khả năng đối lập của H1: nếu 1/N thắng ổn định, H1 không được ủng hộ.
+@@ 526
+• Markowitz (1952): chọn danh mục có lợi suất kỳ vọng cao nhất với phương sai cho trước.
+@@ 528
+• DeMiguel và cộng sự (2009): 14 mô hình, bảy bộ dữ liệu, không mô hình nào vượt nhất quán 1/N; Pflug và cộng sự (2012): 1/N xấp xỉ tối ưu khi mơ hồ cao.
+@@ 529 DEL
+@@ 531
+• Ở chế độ căng thẳng Sharpe không xếp đúng thứ tự chất lượng nên chỉ là thước phụ; lợi suất tương đương chắc chắn là thước chính.
+@@ 537
+Đáp án: 14 mô hình, bảy bộ dữ liệu; không mô hình nào vượt nhất quán 1/N về Sharpe, lợi suất tương đương chắc chắn hoặc vòng quay.
+@@ 539
+Đáp án: lợi suất vượt lãi suất phi rủi ro trên mỗi đơn vị độ lệch chuẩn. Khi lợi suất vượt trội trung bình âm (chế độ căng thẳng), Sharpe không còn xếp đúng thứ tự chất lượng, nên chỉ báo cáo ở cửa sổ có lợi suất vượt trội trung bình dương.
+@@ 542
+5. Độ phân tán mô hình và kích thước tập tin cậy mô hình là chỉ báo của rủi ro hay của bất định?
+@@ 543
+Đáp án: của bất định.

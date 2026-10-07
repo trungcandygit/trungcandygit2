@@ -1,0 +1,126 @@
+@@ 1557
+Mục 4.2 của đề cương, nhóm (6): Nghiên cứu về Việt Nam
+@@ 1558
+Các công trình về Việt Nam xét riêng một mô hình, một phương pháp hoặc một hiện tượng. Đó là câu mở đầu nhóm (6) và là điểm tựa của khoảng trống. Nhóm này nêu sáu công trình: Vo và Phan (2017), Ta và Vuong (2020), Nguyen và cộng sự (2020), Goutte và cộng sự (2025), Hoang và Luu (2024), và bài của chính tác giả, Nguyen và Nguyen (2026a).
+@@ 1559
+Nhóm này chỉ mô tả điều từng công trình làm. Tác giả mới đọc tóm tắt và thông tin thư mục của phần lớn nguồn, việc đọc toàn văn nằm trong kế hoạch năm thứ nhất; khi nói về từng công trình, hãy giữ đúng mức mô tả của đề cương.
+@@ 1561
+Vo và Phan (2017) dùng 299 công ty niêm yết trên Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh (HOSE) giai đoạn 2005–2015 và tìm thấy bầy đàn, rõ hơn khi thị trường giảm.
+@@ 1562 DEL
+@@ 1563
+Leo núi khi trời đẹp, mỗi người tự chọn lối; trời đổ mưa, mọi người dồn theo người dẫn đầu. Ví von chỉ để nhớ: đề cương không nói cơ chế hay nguyên nhân.
+@@ 1564
+Đề cương không nói họ dùng phương pháp đo nào; đừng khẳng định là độ phân tán chéo hay cách khác.
+@@ 1565
+Vo và Phan được nhắc ba lần: là một trong ba cơ sở của H4; là nhóm "bầy đàn ở Việt Nam" trong Bảng 1 (khoảng trống (4): chưa gắn bầy đàn với rủi ro của việc chọn mô hình); và ở mục 4.1, là công trình xét tác động của khủng hoảng tài chính toàn cầu lên hành vi nhà đầu tư trên dữ liệu 2005–2015.
+@@ 1566
+**Ta và Vuong (2020): Black-Litterman với quan điểm từ mô hình dự báo**
+@@ 1567
+Ta và Vuong (2020) áp dụng mô hình Black-Litterman với quan điểm dự báo từ mô hình tự hồi quy trung bình trượt tích hợp.
+@@ 1568
+Black-Litterman kết hợp cân bằng thị trường với quan điểm của nhà đầu tư (nhóm (1)). Câu hỏi ở đây là quan điểm lấy từ đâu: Ta và Vuong lấy từ một mô hình dự báo chuỗi thời gian.
+@@ 1569
+Giải thích chung: "tự hồi quy" là dự báo dựa vào giá trị quá khứ của chính chuỗi; "trung bình trượt" là dựa vào các sai số dự báo gần đây; "tích hợp" là xử lý để chuỗi bớt trôi dạt. Giống dự báo thời tiết ngày mai bằng cách nhìn mấy ngày qua và xem các lần đoán trước lệch bao nhiêu.
+@@ 1570 DEL
+@@ 1571
+Ví dụ giả định (số tự đặt để minh họa): mô hình dự báo nói cổ phiếu ngân hàng tháng tới có lợi suất cao hơn mức cân bằng một chút; Black-Litterman không bỏ cân bằng thị trường mà dịch lợi suất kỳ vọng của cổ phiếu ngân hàng lên một ít.
+@@ 1572
+Quan điểm ở đây là sản phẩm của mô hình dự báo, không phải ý kiến chủ quan.
+@@ 1574
+Đề cương không nêu kết quả của Ta và Vuong. Công trình là một nguồn của khoảng trống (2): áp dụng một mô hình, còn đề tài đặt Black-Litterman cùng sáu mô hình khác vào tập cạnh tranh. Ở M4, quan điểm lấy từ "một mô hình dự báo đơn giản" (mục 4.3.5); đề cương không nói đó là mô hình nào.
+@@ 1576
+Nguyen và cộng sự (2020) dùng ma trận hiệp phương sai co rút trên 468 tuần giai đoạn 2011–2019 và thu được danh mục có lợi nhuận cao hơn, rủi ro thấp hơn các phương pháp truyền thống.
+@@ 1577
+Co rút là kéo các ước lượng hiệp phương sai quá nhiễu về mức ổn định hơn (nhóm (1)); công trình này áp dụng ý đó cho Việt Nam.
+@@ 1578
+Đề cương không nêu "phương pháp truyền thống" cụ thể nào; đừng tự điền.
+@@ 1579
+Công trình thuộc nhóm "danh mục ở Việt Nam" trong Bảng 1: đánh giá từng mô hình, chưa đặt vào tập cạnh tranh. M2 dùng hiệp phương sai co rút theo Ledoit và Wolf (2004).
+@@ 1580
+**Goutte và cộng sự (2025): ra quyết định đa tiêu chí trên VN100**
+@@ 1581
+Goutte và cộng sự (2025) so sánh năm phương pháp ra quyết định đa tiêu chí với bốn cách gán trọng số trên rổ VN100, giai đoạn 01/2015–11/2023.
+@@ 1582
+Ra quyết định đa tiêu chí là chấm điểm các lựa chọn theo nhiều tiêu chí cùng lúc; cách gán trọng số quyết định tiêu chí nào quan trọng hơn. Tuyển người bằng cách chấm kinh nghiệm, học vấn, thái độ rồi quy ước kinh nghiệm nặng gấp đôi: mỗi quy ước cho một bảng xếp hạng khác. Đề cương không nêu họ dùng tiêu chí nào.
+@@ 1583
+VN100 là rổ 100 cổ phiếu do HOSE công bố. Đề cương không nói năm phương pháp và bốn cách gán trọng số được kết hợp ra sao; đừng tự suy ra số trường hợp.
+@@ 1584
+Đề cương không nêu kết quả. Khác biệt của đề tài: Goutte và cộng sự so sánh phương pháp, đề tài đo mức bất định khi chọn mô hình theo từng chế độ.
+@@ 1585
+**Hoang và Luu (2024): một chế độ hay chuyển chế độ khi dự báo biến động**
+@@ 1586
+Hoang và Luu (2024), trong một bản thảo công bố trực tuyến, phân tích VN-Index giai đoạn 2012–2023 và thấy mô hình một chế độ dự báo biến động tốt hơn ở kỳ hạn ngắn, mô hình chuyển chế độ tốt hơn ở kỳ hạn trung và dài.
+@@ 1587
+VN-Index là chỉ số giá chung của HOSE. Mô hình một chế độ giả định thị trường luôn hành xử một kiểu; mô hình chuyển chế độ cho phép đổi trạng thái (nhóm (4)).
+@@ 1588
+Dự báo ngày mai thì nhìn hôm nay là đủ; dự báo cả mùa thì cần biết hệ thời tiết có thể đổi pha. Ví von chỉ để nhớ, đề cương không giải thích kết quả theo hướng đó.
+@@ 1589
+Hai lưu ý: đây là bản thảo, khác bài đã đăng tạp chí, nên gọi đúng tên; và đề cương không định nghĩa kỳ hạn ngắn, trung, dài.
+@@ 1590
+Công trình thuộc nhóm "chế độ thị trường ở Việt Nam" trong Bảng 1: mô hình hóa biến động VN-Index, chưa nối chế độ với chất lượng quyết định danh mục (khoảng trống (3)).
+@@ 1591
+**Nguyen và Nguyen (2026a): bài của chính tác giả**
+@@ 1592
+Nguyen và Nguyen (2026a) áp dụng mô hình Black-Litterman với mô hình định giá tài sản vốn có chuyển chế độ cho thị trường Việt Nam giai đoạn 2019–2025 và chỉ đánh giá một mô hình.
+@@ 1593
+Bài này là công trình số 2 ở Bảng 6: Nguyễn Thanh Bình và Nguyễn Văn Trung, Tạp chí Nghiên cứu Chính sách và Phát triển, đã công bố. Bài dùng phương pháp tính toán Bayes xấp xỉ.
+@@ 1594
+Ba vai trong đề cương: M5 mở rộng từ bài này; tác giả đã dùng dữ liệu 2019–2025, gồm hai giai đoạn căng thẳng, nên không thể khẳng định chưa xem kết quả ở chế độ căng thẳng (mục 4.3.5); kết quả bài trước chỉ làm đối chứng.
+@@ 1595
+Khác biệt (mục 4.4): đặt M5 cạnh sáu mô hình khác, mở mẫu về trước 2019 nếu dữ liệu cho phép, đo chênh lệch giữa các mô hình thay vì đánh giá riêng M5.
+@@ 1596
+**Bảng khoảng trống nhìn từ nhóm (6)**
+@@ 1597
+Bảng dưới gom các công trình Việt Nam theo ba hàng cuối của Bảng 1.
+@@ 1599
+Công trình Việt Nam
+@@ 1601
+Danh mục ở Việt Nam, khoảng trống (2)
+@@ 1603
+Đánh giá từng mô hình hoặc từng phương pháp; chưa đặt vào tập cạnh tranh để đo rủi ro lựa chọn theo chế độ
+@@ 1604
+Chế độ ở Việt Nam, khoảng trống (3)
+@@ 1606
+Mô hình hóa biến động VN-Index; chưa nối với chất lượng quyết định danh mục
+@@ 1607
+Bầy đàn ở Việt Nam, khoảng trống (4)
+@@ 1609
+Bằng chứng bầy đàn trên HOSE; chưa gắn với rủi ro của việc chọn mô hình
+@@ 1611
+Điểm chung: các công trình đo từng mô hình, từng chế độ hoặc từng hiện tượng riêng lẻ; chưa công trình nào đo rủi ro của việc chọn giữa các mô hình theo chế độ thị trường.
+@@ 1612
+**Dùng tuyên bố tính mới cho cẩn thận**
+@@ 1613
+Đề cương viết "theo hiểu biết của thí sinh". Căn cứ là truy vấn trên SSRN, RePEc/IDEAS, ScienceDirect, Oxford Academic, Wiley, Springer, Taylor & Francis, MDPI và arXiv đến ngày 30/09/2026; phạm vi chưa gồm Scopus, Web of Science và tạp chí tiếng Việt, nên không loại trừ nghiên cứu ngoài phạm vi.
+@@ 1614
+Đừng nói "không ai từng làm"; hãy nói "theo hiểu biết của tác giả, trong phạm vi tìm kiếm đã nêu, chưa thấy nghiên cứu nào đo rủi ro lựa chọn mô hình theo chế độ cho quyết định phân bổ danh mục ở Việt Nam".
+@@ 1615
+Việt Nam là nơi kiểm chứng vì thanh khoản hạn chế và nhiều cú sốc trong lịch sử giao dịch ngắn; đó không phải lý do của khoảng trống.
+@@ 1617
+Mục 4.1 nêu ba loại cú sốc ở Việt Nam: khủng hoảng tài chính toàn cầu (Vo và Phan, 2017); COVID-19, số ca mắc hằng ngày tác động tiêu cực đến lợi suất cổ phiếu (Dao và cộng sự, 2021); thị trường trái phiếu doanh nghiệp đóng băng quý IV/2022, bất động sản chiếm tỷ trọng lớn nhất (Quỹ Tiền tệ Quốc tế; International Monetary Fund, 2023). Vu và cộng sự (2024) cho thấy các đợt sụt giảm giá 2007–2022 lan truyền giữa các ngành.
+@@ 1618
+Các cú sốc này là giai đoạn tham chiếu để kiểm tra chế độ căng thẳng do mô hình ước lượng có trùng với biến cố thực tế không; đề cương không dùng chúng làm bằng chứng cho giả thuyết nào.
+@@ 1620
+• Ở Việt Nam, mỗi công trình xét riêng một mô hình, một phương pháp hoặc một hiện tượng.
+@@ 1621
+• Vo và Phan (2017): 299 công ty trên HOSE, 2005–2015, có bầy đàn, rõ hơn khi thị trường giảm.
+@@ 1622
+• Ta và Vuong (2020): Black-Litterman, quan điểm từ mô hình tự hồi quy trung bình trượt tích hợp; Nguyen và cộng sự (2020): hiệp phương sai co rút, 468 tuần 2011–2019, lợi nhuận cao hơn, rủi ro thấp hơn.
+@@ 1623
+• Goutte và cộng sự (2025): năm phương pháp đa tiêu chí, bốn cách gán trọng số, VN100, 01/2015–11/2023.
+@@ 1624
+• Hoang và Luu (2024), bản thảo trực tuyến, VN-Index 2012–2023: một chế độ tốt hơn ở kỳ hạn ngắn, chuyển chế độ tốt hơn ở kỳ hạn trung và dài.
+@@ 1625
+• Nguyen và Nguyen (2026a): bài của tác giả, Black-Litterman với mô hình định giá tài sản vốn có chuyển chế độ, 2019–2025; chỉ làm đối chứng.
+@@ 1629
+Đáp án: 299 công ty trên HOSE, 2005–2015; có bầy đàn, rõ hơn khi thị trường giảm.
+@@ 1631
+Đáp án: từ mô hình tự hồi quy trung bình trượt tích hợp.
+@@ 1633
+Đáp án: hiệp phương sai co rút, 468 tuần 2011–2019; lợi nhuận cao hơn, rủi ro thấp hơn các phương pháp truyền thống.
+@@ 1634
+4. Hoang và Luu (2024) thấy mô hình nào dự báo biến động tốt hơn ở từng kỳ hạn?
+@@ 1635
+Đáp án: một chế độ tốt hơn ở kỳ hạn ngắn; chuyển chế độ tốt hơn ở kỳ hạn trung và dài (bản thảo trực tuyến, VN-Index 2012–2023).
+@@ 1637
+Đáp án: vì truy vấn chỉ trên một số cơ sở dữ liệu đến 30/09/2026, chưa gồm Scopus, Web of Science và tạp chí tiếng Việt, nên không loại trừ nghiên cứu ngoài phạm vi.

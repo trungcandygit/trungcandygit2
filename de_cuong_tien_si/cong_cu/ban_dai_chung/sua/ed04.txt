@@ -1,0 +1,150 @@
+@@ 544
+Mục 4.1 của đề cương: Lý do chọn đề tài (phần hai, cú sốc, giám sát, khoảng trống và ba câu hỏi)
+@@ 545
+Nửa sau của mục 4.1 làm bốn việc: nêu các cú sốc lịch sử để thấy "mùa bão" ở Việt Nam trông thế nào; nói khung giám sát rủi ro mô hình đang thay đổi; chỉ ra hai khoảng trống; rồi đặt ba câu hỏi.
+@@ 547
+Khủng hoảng tài chính lặp lại qua nhiều thế kỷ (Reinhart và Rogoff, 2009); Laeven và Valencia (2020) ghi nhận 151 cuộc khủng hoảng ngân hàng hệ thống trong giai đoạn 1970–2017. Con số này nói chung về thế giới, không gắn riêng với Việt Nam.
+@@ 548 DEL
+@@ 549
+Thị trường chứng khoán Việt Nam trải qua ít nhất ba loại cú sốc trong hai thập niên gần đây. Đề cương dẫn bốn công trình:
+@@ 553
+Giai đoạn 2005–2015, xét tác động của khủng hoảng tài chính toàn cầu lên hành vi nhà đầu tư
+@@ 556
+Quỹ Tiền tệ Quốc tế (2023)
+@@ 559
+Các đợt sụt giảm giá cổ phiếu giai đoạn 2007–2022 lan truyền giữa các ngành
+@@ 561
+Ba loại cú sốc là khủng hoảng tài chính toàn cầu, đại dịch COVID-19 năm 2020 và căng thẳng trái phiếu doanh nghiệp từ quý IV/2022; Vu và cộng sự (2024) bổ sung cách các đợt sụt giảm lan giữa các ngành. Ba cú sốc này cũng là các giai đoạn nằm trong mẫu dữ liệu ở mục 4.3.3.
+@@ 562
+Đề tài không đo trực tiếp các sự kiện này. Chúng là các giai đoạn tham chiếu để kiểm tra xem chế độ căng thẳng do mô hình ước lượng có trùng với biến cố thực tế không.
+@@ 564
+Đây là chỗ dễ lẫn nhất. Khủng hoảng là sự kiện lịch sử, có tên và ngày tháng. Chế độ căng thẳng là trạng thái thống kê do mô hình ước lượng từ lợi suất VN-Index. Hai khái niệm không dùng thay nhau.
+@@ 565
+Khủng hoảng giống một cơn bão có tên mà báo chí đưa tin; chế độ căng thẳng giống việc trạm khí tượng ghi nhận "đang là mùa bão" dựa trên số đo gió và áp suất. Hai thứ có thể trùng nhau nhưng không nhất thiết: trạm đo có thể báo mùa bão trước khi cơn bão có tên xuất hiện, hoặc có bão có tên mà số đo chưa đủ ngưỡng.
+@@ 566
+Đề tài kiểm định rủi ro lựa chọn mô hình theo chế độ căng thẳng, rồi đối chiếu chế độ đó với các cuộc khủng hoảng; chương 3 của luận án làm việc đối chiếu này (Bảng 4 của đề cương).
+@@ 567
+Tham số của mô hình chuyển chế độ được ước lượng lại tại mỗi ngày tái cân bằng chỉ bằng dữ liệu đến ngày đó, để tránh thiên lệch nhìn trước. Chế độ căng thẳng vì vậy do dữ liệu xác định, không do tên gọi của khủng hoảng.
+@@ 569 DEL
+@@ 570
+Cục Dự trữ Liên bang Mỹ ban hành thư giám sát SR 11-7 ngày 04/04/2011 và thay bằng SR 26-2 ngày 17/04/2026, theo hướng quản lý rủi ro mô hình tương xứng với quy mô, mức độ phức tạp và mức rủi ro mô hình của từng tổ chức.
+@@ 571
+Hình dung một bộ quy tắc an toàn phải áp cho mọi cửa hàng, từ quán nước đầu ngõ đến siêu thị. Hướng "tương xứng với rủi ro" nghĩa là mức kiểm soát tùy mức rủi ro của từng nơi. Đề cương chỉ nêu hướng thay đổi, không mô tả chi tiết văn bản.
+@@ 572
+Định nghĩa rủi ro mô hình mà đề tài dùng cũng lấy từ SR 11-7: khả năng phát sinh hậu quả bất lợi từ quyết định dựa trên mô hình sai hoặc dùng sai. Văn bản này là nguồn của định nghĩa nền tảng của đề tài.
+@@ 573
+Các văn bản này không ràng buộc tổ chức Việt Nam; đề tài dùng chúng làm chuẩn tham chiếu quốc tế. Nếu được hỏi "SR 11-7 có áp dụng cho quỹ ở Việt Nam không", câu trả lời là không.
+@@ 575
+Ở Việt Nam, Thông tư 83/2025/TT-NHNN của Ngân hàng Nhà nước, ban hành ngày 31/12/2025, có hiệu lực từ 01/07/2026, thay Thông tư 13/2018/TT-NHNN, quy định hệ thống kiểm soát nội bộ của ngân hàng thương mại và lần đầu thiết lập khuôn khổ quản lý rủi ro mô hình cho các ngân hàng.
+@@ 576
+Có một điểm lệch: khung này áp dụng cho ngân hàng, còn người dùng kết quả của đề tài là công ty quản lý quỹ và tổ chức đầu tư cổ phiếu.
+@@ 577 DEL
+@@ 578
+Đề cương xử lý độ lệch này bằng một cam kết: trong quý 1 năm thứ nhất, tác giả xác định khung quy định áp dụng cho các tổ chức đó và mức họ dùng mô hình định lượng để phân bổ danh mục, từ báo cáo của cơ quan quản lý và tài liệu công bố của công ty quản lý quỹ.
+@@ 579
+Đề tài không đánh giá mức đầy đủ của khung quy định, tức không kết luận khung hiện hành "đủ" hay "thiếu". Đề cương chưa nói khung nào áp dụng cho công ty quản lý quỹ; đó là việc của năm thứ nhất, người đọc không nên điền vào chỗ trống này.
+@@ 580 DEL
+@@ 582
+Phần then chốt: tài liệu hiện có để ngỏ hai vấn đề.
+@@ 583
+**Chỗ thứ nhất: thước đo rủi ro mô hình chưa đo hậu quả của việc chọn sai.** Các thước đo hiện có (Boucher và cộng sự, 2014; Danielsson và cộng sự, 2016) đo chênh lệch giữa các dự báo rủi ro, chưa đo hậu quả của việc chọn sai mô hình lên trọng số và kết quả danh mục.
+@@ 584
+Hai trạm khí tượng đưa ra hai dự báo khác nhau. Đo độ lệch giữa hai dự báo chưa cho biết buổi dã ngoại thiệt hại thế nào nếu bạn nghe nhầm trạm. Thước đo hiện có đo độ lệch giữa dự báo; đề tài muốn đo thiệt hại của buổi dã ngoại.
+@@ 585
+Danielsson và cộng sự (2016) thấy rủi ro mô hình tăng theo mức bất định của thị trường và nhỏ khi thị trường yên ắng, nhưng chỉ cho các mô hình dự báo rủi ro thị trường và rủi ro hệ thống. Boucher và cộng sự (2014) đề xuất hiệu chỉnh độ đo rủi ro theo kết quả kiểm định ngược. Cả hai nói về dự báo rủi ro, không về quyết định phân bổ.
+@@ 586
+**Chỗ thứ hai: nghiên cứu danh mục xếp hạng mô hình theo bình quân toàn mẫu.** DeMiguel và cộng sự (2009) và Garlappi và cộng sự (2007) so sánh mô hình bằng thứ hạng bình quân toàn mẫu, chưa xét thứ hạng đổi thế nào giữa các chế độ.
+@@ 587
+Một học sinh đứng đầu bình quân cả năm có thể đứng đầu nhờ học kỳ hai, còn học kỳ một chỉ đứng giữa bảng. Nếu cuộc thi diễn ra đúng học kỳ một, thứ hạng cả năm có thể làm bạn chọn sai. Thứ hạng toàn mẫu cũng có thể giấu khác biệt giữa trời quang và mùa bão.
+@@ 589
+Hai mô hình A và B được chấm trên 10 giai đoạn. Ở 8 giai đoạn bình thường A đứng trên B; ở 2 giai đoạn căng thẳng B đứng trên A. Tính bình quân toàn mẫu thì A thắng, nhưng chọn ngay trước một giai đoạn căng thẳng thì A là lựa chọn sai.
+@@ 591
+Câu hỏi của đề tài nằm ở giao điểm của hai chỗ trống: đo hậu quả của việc chọn mô hình, và đo theo chế độ.
+@@ 592
+**Bảng tóm tắt bốn khoảng trống**
+@@ 593
+Mục 4.2 của đề cương tóm tắt bốn khoảng trống trong Bảng 1; ba câu hỏi và phần đóng góp ở mục 4.4 đều dựa vào bảng này.
+@@ 597
+(1)
+@@ 598
+Rủi ro mô hình (Boucher và cộng sự, 2014; Danielsson và cộng sự, 2016)
+@@ 599
+Thước đo chưa gắn với hậu quả của quyết định phân bổ danh mục theo chế độ thị trường
+@@ 600
+(2)
+@@ 601
+Danh mục ở Việt Nam (Ta và Vuong, 2020; Nguyen và cộng sự, 2020; Goutte và cộng sự, 2025; Nguyen và Nguyen, 2026a)
+@@ 602
+Đánh giá từng mô hình, chưa đặt các mô hình vào một tập cạnh tranh để đo rủi ro lựa chọn theo chế độ
+@@ 603
+(3)
+@@ 604
+Chế độ thị trường ở Việt Nam (Hoang và Luu, 2024)
+@@ 605
+Mô hình hóa biến động VN-Index, chưa nối chế độ với chất lượng quyết định danh mục
+@@ 606
+(4)
+@@ 607
+Bầy đàn ở Việt Nam (Vo và Phan, 2017)
+@@ 608
+Bằng chứng bầy đàn trên HOSE, chưa gắn với rủi ro của việc chọn mô hình
+@@ 610
+Điểm chung: các công trình đo từng mô hình, từng chế độ hoặc từng hiện tượng riêng lẻ; chưa công trình nào đo rủi ro của việc chọn giữa các mô hình theo chế độ thị trường.
+@@ 612
+Câu dễ bị hiểu sai: Việt Nam là bối cảnh kiểm chứng, không phải lý do của khoảng trống.
+@@ 613
+Câu này nói hai điều. Hai khoảng trống là chuyện của cách đo và cách so sánh mô hình, không bắt nguồn từ Việt Nam. Còn Việt Nam phù hợp để kiểm chứng vì thanh khoản hạn chế và nhiều cú sốc trong lịch sử giao dịch ngắn, nên chênh lệch giữa các mô hình có thể lớn. Lịch sử ngắn cũng làm mẫu có ít giai đoạn căng thẳng độc lập, và đề cương thừa nhận điều này làm công suất kiểm định thấp (mục 4.3.10).
+@@ 614
+Nếu được hỏi "vì sao chọn Việt Nam", đừng trả lời "vì Việt Nam chưa có nghiên cứu".
+@@ 616
+Đề cương hỏi ba câu:
+@@ 617
+Câu hỏi 1: rủi ro lựa chọn mô hình thay đổi thế nào giữa chế độ bình thường và chế độ căng thẳng.
+@@ 618
+Câu hỏi 2: sau khi kiểm soát biến động thực hiện, các biến kênh (thanh khoản, tương quan cực trị và, ở mức thăm dò, bầy đàn) có liên hệ thống kê với rủi ro lựa chọn mô hình không, và giải thích được bao nhiêu phần chênh lệch giữa hai chế độ.
+@@ 619
+Câu hỏi 3: cơ chế nào giảm được rủi ro lựa chọn mô hình sau chi phí giao dịch.
+@@ 620
+Câu hỏi 1 hỏi "bão có làm việc chọn khó hơn không"; câu hỏi 2 hỏi "nếu khó hơn, những dấu hiệu nào đi cùng"; câu hỏi 3 hỏi "làm gì để bớt thiệt".
+@@ 621
+"Liên hệ thống kê" không có nghĩa là nguyên nhân. Đề tài gọi kết quả là liên hệ có điều kiện. Nếu dữ liệu cho thấy thanh khoản cạn đi cùng rủi ro lựa chọn cao (điều H2 dự kiến), đề tài cũng không khẳng định thanh khoản cạn gây ra rủi ro đó.
+@@ 622
+Mục 4.1 kết bằng câu: kết quả có thể làm tư liệu tham khảo cho thủ tục giám sát mô hình của công ty quản lý quỹ. "Tư liệu tham khảo" là mức khiêm tốn; đề cương không nói kết quả sẽ thay đổi quy định.
+@@ 623
+Đề tài chuyển từ đánh giá một mô hình sang câu hỏi chọn giữa nhiều mô hình. Bài trước của tác giả (Nguyen và Nguyen, 2026a) đánh giá một mô hình, Black-Litterman có chuyển chế độ; đề cương này hỏi "chọn giữa nhiều mô hình thì rủi ro đến đâu". Mục 8.2 của đề cương trình bày sự chuẩn bị của tác giả cho bước chuyển này.
+@@ 624
+Bước chuyển giống việc đi từ chấm điểm một vận động viên sang đánh giá huấn luyện viên phải chọn ai ra sân.
+@@ 626
+Để tránh nói quá, hãy nhớ những gì mục 4.1 không khẳng định:
+@@ 627
+Không đưa ra kết quả thực nghiệm nào.
+@@ 628
+Không nói khung quy định của Việt Nam là thiếu.
+@@ 629
+Không nói SR 11-7 hay SR 26-2 ràng buộc tổ chức Việt Nam.
+@@ 630
+Không nói khoảng trống bắt nguồn từ đặc điểm của Việt Nam.
+@@ 631
+Không khẳng định chưa ai làm; tuyên bố tính mới ở mục 4.2 chỉ là "theo hiểu biết của thí sinh", với phạm vi tìm kiếm có giới hạn.
+@@ 633
+• Laeven và Valencia (2020): 151 cuộc khủng hoảng ngân hàng hệ thống, 1970–2017.
+@@ 634
+• Ba loại cú sốc ở Việt Nam: khủng hoảng tài chính toàn cầu (Vo và Phan, 2017), COVID-19 (Dao và cộng sự, 2021), trái phiếu doanh nghiệp đóng băng quý IV/2022 (Quỹ Tiền tệ Quốc tế, 2023); sụt giảm lan giữa các ngành 2007–2022 (Vu và cộng sự, 2024).
+@@ 635
+• SR 11-7 (04/04/2011) được thay bằng SR 26-2 (17/04/2026); chỉ là chuẩn tham chiếu quốc tế.
+@@ 636
+• Thông tư 83/2025/TT-NHNN (hiệu lực 01/07/2026) áp dụng cho ngân hàng thương mại; người dùng kết quả là công ty quản lý quỹ; đề tài không đánh giá khung quy định.
+@@ 637
+• Hai khoảng trống: thước đo chưa đo hậu quả lên kết quả danh mục; xếp hạng theo bình quân toàn mẫu, chưa theo chế độ.
+@@ 638
+• Việt Nam là bối cảnh kiểm chứng, không phải lý do của khoảng trống.
+@@ 642
+Đáp án: khủng hoảng là sự kiện lịch sử; chế độ căng thẳng là trạng thái thống kê do mô hình ước lượng. Đề tài đối chiếu, không dùng thay nhau.
+@@ 644
+Đáp án: thư giám sát của Cục Dự trữ Liên bang Mỹ (04/04/2011 và 17/04/2026), theo hướng quản lý rủi ro mô hình tương xứng với từng tổ chức. Không ràng buộc tổ chức Việt Nam; chỉ là chuẩn tham chiếu.
+@@ 646
+Đáp án: thông tư áp dụng cho ngân hàng thương mại, còn người dùng kết quả là công ty quản lý quỹ và tổ chức đầu tư cổ phiếu. Năm thứ nhất, tác giả xác định khung áp dụng cho nhóm này.
+@@ 648
+Đáp án: thước đo rủi ro mô hình hiện có đo chênh lệch giữa các dự báo rủi ro, chưa đo hậu quả của chọn sai lên kết quả danh mục; nghiên cứu danh mục xếp hạng theo bình quân toàn mẫu, chưa xét thứ hạng theo chế độ.
+@@ 650
+Đáp án: Việt Nam là bối cảnh kiểm chứng, không phải lý do của khoảng trống. Thanh khoản hạn chế và nhiều cú sốc có thể làm chênh lệch giữa các mô hình lớn; đổi lại, mẫu có ít giai đoạn căng thẳng độc lập.

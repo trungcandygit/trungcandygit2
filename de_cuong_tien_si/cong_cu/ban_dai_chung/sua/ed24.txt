@@ -1,0 +1,180 @@
+@@ 2513
+Mục 4.3.7 của đề cương: Kiểm định giả thuyết bằng bootstrap, tỷ số Sharpe hiệu chỉnh, sai số chuẩn bền vững và phương trình (5)
+@@ 2514
+Mục 4.3.7 trả lời: làm sao biết một chênh lệch trong dữ liệu là thật chứ không phải nhiễu? Nửa đầu mục giới thiệu ba công cụ: bootstrap (bốc lại nhiều lần từ chính dữ liệu để xem kết quả dao động bao nhiêu); tỷ số Sharpe hiệu chỉnh (trừ phần thành tích đẹp do chọn lọc); và hồi quy phương trình (5) với sai số chuẩn bền vững, để đo rủi ro lựa chọn mô hình ở chế độ căng thẳng so với bình thường sau khi tính đến các biến kênh.
+@@ 2515
+Phần này đi qua nửa đầu; nửa sau (phân phối rỗng, ba điều kiện ủng hộ H1, tập mô hình tĩnh, phần của β do biến kênh giải thích, hệ số phóng đại phương sai) ở phần tiếp theo.
+@@ 2516
+**Dữ liệu tài chính ít và ồn**
+@@ 2517
+Chuỗi lợi suất có ba đặc điểm gây khó: mẫu không lớn, nhất là số giai đoạn căng thẳng; các tuần kề nhau có thể liên quan nhau nên không độc lập; và độ biến động thay đổi theo thời gian.
+@@ 2518
+Công cụ cổ điển thường giả định mẫu độc lập và biến động đều; giả định sai thì kết luận tự tin hơn mức nên có. Theo bản đọc, mục 4.3.7 chọn công cụ chịu được các đặc điểm ấy: bootstrap giữ thứ tự thời gian, và sai số chuẩn bền vững trước phương sai thay đổi và tự tương quan.
+@@ 2519 DEL
+@@ 2520
+**Bootstrap theo khối**
+@@ 2521
+Nhắc lại (nhóm (3) của mục 4.2): bootstrap coi dữ liệu như một túi quan sát, bốc có hoàn lại cho đủ một mẫu mới cùng cỡ, tính lại con số cần quan tâm, lặp nhiều lần (ví dụ 1.000). Độ rộng của các con số thu được cho biết con số gốc dao động bao nhiêu.
+@@ 2522 DEL
+@@ 2523 DEL
+@@ 2524 DEL
+@@ 2525
+Với chuỗi thời gian, bốc từng tuần lẻ sẽ xáo trộn thứ tự và phá vỡ các cụm tuần êm hay dữ, nên mẫu giả kém giống thật.
+@@ 2526
+Vì vậy đề cương dùng bootstrap chuỗi thời gian lấy mẫu lặp theo khối liên tiếp (Ledoit và Wolf, 2008): bốc từng nắm tuần liền nhau rồi ghép lại, giữ nguyên thứ tự bên trong mỗi nắm.
+@@ 2527
+Ví dụ giả định (số tự đặt để minh họa): 12 tuần chia thành bốn khối ba tuần: A (1–3), B (4–6), C (7–9), D (10–12).
+@@ 2528
+Một lần bốc có hoàn lại bốn khối, ví dụ C, A, C, D: mẫu giả là tuần 7–9, 1–3, 7–9, 10–12. Khối C xuất hiện hai lần, B không xuất hiện.
+@@ 2529
+Thứ tự trong mỗi khối được giữ, nên các cụm êm hay dữ vẫn nằm cạnh nhau. Từ mẫu giả tính lại, ví dụ, chênh lệch điểm số giữa hai mô hình; lặp 1.000 lần được 1.000 chênh lệch.
+@@ 2531
+Đề cương chưa nêu độ dài khối; hãy nói thẳng nếu được hỏi. Nguyên tắc chung: khối đủ dài để giữ liên hệ theo thời gian, nhưng không dài đến mức còn quá ít khối để bốc.
+@@ 2532 DEL
+@@ 2533
+Hai biến thể: khối liên tiếp của Ledoit và Wolf (2008) cho khoảng tin cậy của lợi suất tương đương chắc chắn và tỷ số Sharpe; bootstrap khối dừng của Politis và Romano (1994) cho các hệ số hồi quy. Cùng nguyên tắc: bốc từng nắm liền nhau.
+@@ 2534
+Chữ "dừng" là thuật ngữ của Politis và Romano; hiểu khái quát (ngoài đề cương), biến thể này cho độ dài khối thay đổi ngẫu nhiên.
+@@ 2535
+Với mỗi mẫu giả, chạy lại hồi quy và ghi hệ số; khoảng tin cậy là khoảng chứa phần lớn các hệ số thu được. Không chứa 0 thì có cơ sở nói hệ số khác 0 một cách có hệ thống; chứa 0 thì chênh lệch có thể chỉ là nhiễu. Đề cương dùng chính điều kiện "khoảng tin cậy loại trừ 0" trong tiêu chí ủng hộ giả thuyết.
+@@ 2536
+Ví dụ giả định (số tự đặt để minh họa): hệ số ước lượng 0,9; 1.000 lần bootstrap khối, lấy 90% ở giữa được khoảng 0,3 đến 1,5.
+@@ 2537
+Khoảng không chứa 0: hệ số được coi là khác 0.
+@@ 2538
+Nếu khoảng là −0,2 đến 2,0 thì chứa 0, không loại trừ được khả năng hệ số thật bằng 0. Mức 90% chỉ để minh họa; đề cương không nêu mức tin cậy ở đây.
+@@ 2540
+**Tỷ số Sharpe hiệu chỉnh**
+@@ 2541
+Đề cương hiệu chỉnh thiên lệch chọn lọc bằng tỷ số Sharpe hiệu chỉnh (Bailey và López de Prado, 2014), công cụ cho thiên lệch chọn lọc và quá khớp khi kiểm định ngược.
+@@ 2542
+Thử nhiều thứ rồi giữ thứ trông tốt nhất thì thứ đó thường tốt hơn mức thật, vì nó nhặt cả phần may: cùng cơ chế với giá trị lớn nhất của các đại lượng có nhiễu ở phần mức hối tiếc.
+@@ 2543
+Một trăm người đoán tung đồng xu mười lần; có người đoán đúng chín, mười lần chỉ nhờ may. Phỏng vấn người giỏi nhất để hỏi bí quyết thì nghe chuyện thuyết phục mà chẳng có bí quyết nào.
+@@ 2544
+Theo bản đọc, đề tài có nhiều chỗ sinh thiên lệch chọn lọc (bảy mô hình, nhiều siêu tham số, nhiều cửa sổ, nhiều biến kênh), nên đề cương dùng cả quy trình (cùng ngân sách tinh chỉnh, đăng ký trước, hiệu chỉnh so sánh bội Holm) lẫn tỷ số Sharpe hiệu chỉnh.
+@@ 2545
+Đề cương không viết công thức và không nói áp dụng cụ thể cho đại lượng nào; chỉ nên nói đúng như vậy.
+@@ 2546
+**So sánh giữa các mô hình bằng khoảng tin cậy**
+@@ 2547
+Với hai mô hình A và B, mỗi mẫu giả bốc theo khối cho một hiệu điểm số; sau nhiều lần lặp được một đám hiệu, và khoảng tin cậy cho biết hiệu thật có thể nằm ở đâu.
+@@ 2548
+Không chứa 0 thì A và B khác nhau vượt quá nhiễu; chứa 0 thì chưa đủ cơ sở. Cùng cách làm cho tỷ số Sharpe, vốn chỉ là thước phụ báo cáo ở cửa sổ có lợi suất vượt trội trung bình dương.
+@@ 2549
+Cùng kỹ thuật xuất hiện ở hai chỗ: dựng khoảng tin cậy cho chênh lệch giữa các mô hình, và lấy sai số chuẩn của chính chênh lệch đó làm mẫu số khi chuẩn hóa mức hối tiếc và độ phân tán (mục 4.3.6).
+@@ 2550
+**Phương trình (5): đường xấp xỉ liên hệ giữa rủi ro và chế độ**
+@@ 2551
+Có thước đo rủi ro ([[CÔNG THỨC]] hay [[CÔNG THỨC]]) và công cụ đo nhiễu rồi, việc còn lại là trả lời H1: rủi ro có cao hơn ở chế độ căng thẳng không? Đề cương dùng hồi quy, tức đường xấp xỉ cho biết khi một đại lượng thay đổi thì đại lượng kia thay đổi trung bình bao nhiêu.
+@@ 2552
+Để kiểm định H1, H2 và H4, đề tài hồi quy các thước đo rủi ro mô hình theo biến chế độ và các biến kênh. H3 không dùng hồi quy này mà so cơ chế giảm thiểu với chọn một mô hình (mục 4.3.8).
+@@ 2554 DEL
+@@ 2555
+[[CÔNG THỨC]] là biến phụ thuộc. Đề cương nói [[CÔNG THỨC]] là [[CÔNG THỨC]] hoặc [[CÔNG THỨC]]: hai hồi quy riêng, một cho độ phân tán, một cho mức hối tiếc. Mỗi cửa sổ đánh giá là một quan sát; trong phân tích chính, hai đại lượng là bản đã chia cho sai số chuẩn bootstrap.
+@@ 2556
+[[CÔNG THỨC]] là hệ số chặn: mức nền của [[CÔNG THỨC]], giá trị mà [[CÔNG THỨC]] nhận khi mọi biến giải thích bằng 0, chỗ đường xấp xỉ cắt trục tung.
+@@ 2557
+[[CÔNG THỨC]] là biến chế độ: tỷ lệ số ngày trong cửa sổ có xác suất lọc của chế độ căng thẳng vượt ngưỡng đăng ký trước. Nó chạy từ 0 (không ngày nào vượt ngưỡng) đến 1 (mọi ngày đều vượt).
+@@ 2558
+[[CÔNG THỨC]] là hệ số của [[CÔNG THỨC]], đo chênh lệch của [[CÔNG THỨC]] giữa chế độ căng thẳng và chế độ bình thường. Vì [[CÔNG THỨC]] chạy từ 0 đến 1, [[CÔNG THỨC]] là mức thay đổi trung bình của [[CÔNG THỨC]] khi đi từ cửa sổ hoàn toàn bình thường tới cửa sổ hoàn toàn căng thẳng, các thứ khác giữ nguyên.
+@@ 2559
+[[CÔNG THỨC]] là véc-tơ biến kênh (một danh sách đại lượng đi cùng nhau), [[CÔNG THỨC]] là véc-tơ hệ số; mỗi biến kênh có hệ số riêng, và [[CÔNG THỨC]] gom các hệ số đó.
+@@ 2560
+[[CÔNG THỨC]] là sai số: phần của [[CÔNG THỨC]] các biến không giải thích được, khoảng cách từ từng điểm đến đường xấp xỉ.
+@@ 2561
+Bằng lời: rủi ro lựa chọn trong một cửa sổ bằng mức nền, cộng phần do cửa sổ nằm ở chế độ căng thẳng nhiều hay ít, cộng phần do các biến kênh, cộng phần ngẫu nhiên. Bốn phần cộng lại cho [[CÔNG THỨC]].
+@@ 2562
+Ví dụ giả định (số tự đặt để minh họa): cửa sổ 120 ngày, 30 ngày có xác suất lọc vượt ngưỡng, nên [[CÔNG THỨC]] = 0,25.
+@@ 2563
+Giả sử [[CÔNG THỨC]] = 0,5; [[CÔNG THỨC]] = 1,2; hệ số của độ phi thanh khoản 0,4; hệ số của tương quan đuôi −0,3; cửa sổ có độ phi thanh khoản 1,5 (đơn vị tùy ý) và tương quan đuôi 0,6.
+@@ 2564
+Phần nền 0,5; phần chế độ 1,2 × 0,25 = 0,3; phần phi thanh khoản 0,4 × 1,5 = 0,6; phần tương quan đuôi −0,3 × 0,6 = −0,18.
+@@ 2565
+Giá trị dự đoán của [[CÔNG THỨC]] là 0,5 + 0,3 + 0,6 − 0,18 = 1,22; giá trị thật lệch khỏi đó một lượng bằng [[CÔNG THỨC]].
+@@ 2566
+Nếu cửa sổ hoàn toàn căng thẳng, [[CÔNG THỨC]] = 1, phần chế độ là 1,2 thay vì 0,3, tức tăng 0,9, bằng [[CÔNG THỨC]] nhân phần chênh của [[CÔNG THỨC]] (1,2 × 0,75).
+@@ 2568 DEL
+@@ 2569
+H1 chỉ cần [[CÔNG THỨC]], nhưng Câu hỏi 2 muốn biết biến kênh nào có liên hệ thống kê với rủi ro. Đưa biến kênh vào cùng phương trình tách hai câu: sau khi tính biến kênh, chế độ căng thẳng còn liên hệ thế nào với rủi ro; và biến kênh chiếm bao nhiêu phần của hiệu ứng chế độ (hiệu β0 − β1, phần tiếp theo).
+@@ 2570
+Biến động thực hiện luôn có mặt trong véc-tơ biến kênh với vai trò biến kiểm soát; bầy đàn chỉ ở mức thăm dò. Như vậy phương trình (5) phục vụ cả H1, H2 và H4.
+@@ 2571
+**Sai số chuẩn bền vững: khi dao động không đều và có "trí nhớ"**
+@@ 2572
+Đề cương hồi quy với sai số chuẩn bền vững trước phương sai thay đổi (độ lớn sai số không đều giữa các quan sát) và tự tương quan (sai số của quan sát này liên quan sai số của quan sát kề bên). Sai số chuẩn này vẫn đáng tin khi hai hiện tượng đó có mặt.
+@@ 2573
+Đo chiều cao đứa trẻ mỗi tháng: tháng mệt thì đo ẩu, sai số lúc to lúc nhỏ; thước lệch thì lệch lặp lại mỗi tháng. Tin rằng sai số đều và độc lập là tự tin quá mức.
+@@ 2574
+Theo bản đọc, dữ liệu của đề tài có thể có cả hai: cửa sổ căng thẳng biến động hơn nên sai số lớn hơn; cửa sổ kề nhau có sai số tương tự vì giai đoạn thị trường kéo dài.
+@@ 2575
+Ví dụ giả định (số tự đặt để minh họa): β ước lượng 0,9; coi sai số độc lập và đều thì sai số chuẩn 0,30, tỷ số 3,0, trông rất có ý nghĩa.
+@@ 2576
+Với sai số chuẩn bền vững là 0,60, tỷ số chỉ còn 1,5. Cùng ước lượng, độ tin cậy giảm hẳn khi khai đúng tính chất của sai số.
+@@ 2577
+Sai số chuẩn bền vững không đổi β; nó chỉ đổi mức ta dám tin vào β.
+@@ 2579
+Đừng nhầm hai công cụ: sai số chuẩn bền vững tính sai số chuẩn cho hồi quy; bootstrap khối dừng dựng khoảng tin cậy dùng trong tiêu chí ủng hộ giả thuyết. Đề cương dùng cả hai cho phương trình (5).
+@@ 2580
+**Các biến kênh: đường dẫn khả dĩ từ căng thẳng đến rủi ro lựa chọn**
+@@ 2581
+Biến kênh gồm độ phi thanh khoản Amihud, tương quan đuôi và tương quan hiệu chỉnh theo biến động, độ phân tán chéo của lợi suất; biến động thực hiện luôn là biến kiểm soát. Đề cương nêu dấu dự đoán cho độ phi thanh khoản, tương quan đuôi và độ phân tán chéo, không nêu cho tương quan hiệu chỉnh theo biến động.
+@@ 2582
+**Độ phi thanh khoản: khó mua bán đến mức nào**
+@@ 2583
+Độ phi thanh khoản Amihud (Amihud, 2002) đo mức một lệnh mua bán vừa phải cũng làm giá nhích mạnh. Đề cương không viết công thức.
+@@ 2584
+H2 dự đoán dấu dương: thanh khoản cạn làm các mô hình có vòng quay khác nhau cách xa nhau. Giải thích của bản đọc: mô hình mua bán nhiều chịu chi phí lớn hơn khi khó mua bán, nên tách khỏi mô hình mua bán ít; các mô hình xa nhau hơn thì độ phân tán và mức hối tiếc có thể tăng.
+@@ 2585
+Phố ngập thì xe chạy nhiều chặng thiệt hơn xe chạy một chặng; khoảng cách giữa hai loại xe giãn ra.
+@@ 2587
+Tương quan đuôi đo mức các cổ phiếu cùng rơi mạnh một lúc. Longin và Solnik (2001) bác bỏ phân phối chuẩn đa biến ở đuôi âm: khi thị trường xấu, các mã có thể cùng đi xuống theo cách mô hình chuẩn không dự đoán được.
+@@ 2588
+H2 dự đoán dấu ÂM, dễ gây ngạc nhiên: tương quan cao làm các danh mục chỉ mua hội tụ. Giải thích của bản đọc: danh mục chỉ mua không bán khống, nên khi mọi mã cùng chuyển động, các cách chia tiền cho kết quả giống nhau hơn; chọn mô hình nào cũng gần như nhau, nên độ phân tán và mức hối tiếc có thể giảm.
+@@ 2589
+Bảy chiếc thuyền gặp cơn bão làm mọi thứ chìm cùng lúc: bảy cách chèo khác nhau, kết quả như nhau.
+@@ 2590
+Đây chỉ là dự đoán sẽ được kiểm định; nếu dữ liệu cho dấu khác, H2 không được ủng hộ.
+@@ 2591
+**Tương quan hiệu chỉnh theo biến động**
+@@ 2592
+Forbes và Rigobon (2002): hệ số tương quan phụ thuộc vào biến động; sau hiệu chỉnh, gần như không còn dấu hiệu lây nhiễm trong ba cuộc khủng hoảng họ khảo sát.
+@@ 2593
+Thấy tương quan tăng ở chế độ căng thẳng thì phải hỏi tăng thật hay chỉ vì biến động tăng; đó là khả năng đối lập của H2. Theo bản đọc, vì vậy danh sách biến kênh có cả tương quan đuôi lẫn tương quan hiệu chỉnh theo biến động.
+@@ 2594
+Trong phòng ồn, hai người cùng nói to vì tiếng ồn, bạn tưởng họ bàn bạc với nhau. Hiệu chỉnh theo biến động trừ phần cùng phản ứng với tiếng ồn.
+@@ 2596
+Độ phân tán chéo của lợi suất là thước đo bầy đàn ở cấp thị trường (Christie và Huang, 1995; Chang và cộng sự, 2000). Đề cương không giải thích cơ chế vì sao H4 dự đoán dấu dương.
+@@ 2597
+H4 (thăm dò): sau khi kiểm soát biến động thực hiện, độ phân tán chéo cao đi cùng rủi ro lựa chọn mô hình cao. Đề tài không quan sát hành vi chọn mô hình của tổ chức, nên nếu có liên hệ, đó không phải bằng chứng tổ chức bầy đàn khi chọn mô hình.
+@@ 2603
+Lý do (theo đề cương)
+@@ 2604
+Độ phi thanh khoản Amihud
+@@ 2608
+Thanh khoản cạn làm các mô hình có vòng quay khác nhau cách xa nhau
+@@ 2611
+Âm (tương quan đuôi); đề cương không nêu dấu cho tương quan hiệu chỉnh
+@@ 2618
+Đề cương không nêu lý do riêng; thước đo bầy đàn ở cấp thị trường
+@@ 2620 DEL
+@@ 2622
+• Bootstrap khối liên tiếp (Ledoit và Wolf, 2008) cho khoảng tin cậy của lợi suất tương đương chắc chắn và Sharpe; bootstrap khối dừng (Politis và Romano, 1994) cho hệ số hồi quy.
+@@ 2624
+• H1, H2, H4 kiểm định bằng hồi quy theo biến chế độ và biến kênh, với sai số chuẩn bền vững trước phương sai thay đổi và tự tương quan.
+@@ 2625
+• Phương trình (5): [[CÔNG THỨC]] = [[CÔNG THỨC]] + [[CÔNG THỨC]] [[CÔNG THỨC]] + [[CÔNG THỨC]] nhân [[CÔNG THỨC]] + [[CÔNG THỨC]]; [[CÔNG THỨC]] là [[CÔNG THỨC]] hoặc [[CÔNG THỨC]]; [[CÔNG THỨC]] đo chênh lệch giữa chế độ căng thẳng và bình thường.
+@@ 2627
+• Biến kênh: độ phi thanh khoản (dự đoán dương), tương quan đuôi (âm), tương quan hiệu chỉnh theo biến động, độ phân tán chéo (dương, H4 thăm dò); biến động thực hiện là biến kiểm soát.
+@@ 2631
+Đáp án: khối liên tiếp (Ledoit và Wolf, 2008) cho khoảng tin cậy của lợi suất tương đương chắc chắn và Sharpe; khối dừng (Politis và Romano, 1994) cho hệ số hồi quy.
+@@ 2633
+Đáp án: hiệu chỉnh thiên lệch chọn lọc (Bailey và López de Prado, 2014).
+@@ 2635
+Đáp án: [[CÔNG THỨC]] là [[CÔNG THỨC]] hoặc [[CÔNG THỨC]]; [[CÔNG THỨC]] là hệ số chặn; [[CÔNG THỨC]] đo chênh lệch của [[CÔNG THỨC]] giữa chế độ căng thẳng và bình thường; [[CÔNG THỨC]] là tỷ lệ ngày có xác suất lọc vượt ngưỡng đăng ký trước; [[CÔNG THỨC]] là véc-tơ biến kênh với hệ số [[CÔNG THỨC]]; [[CÔNG THỨC]] là sai số.
+@@ 2637
+Đáp án: H1, H2, H4 dùng phương trình (5); H3 được đánh giá bằng so sánh cơ chế giảm thiểu (mục 4.3.8).
+@@ 2638
+5. Dấu dự đoán của độ phi thanh khoản và tương quan đuôi trong H2, và lý do?
+@@ 2639
+Đáp án: độ phi thanh khoản dương, vì thanh khoản cạn làm các mô hình có vòng quay khác nhau cách xa nhau; tương quan đuôi âm, vì tương quan cao làm các danh mục chỉ mua hội tụ.

@@ -1,0 +1,92 @@
+@@ 1496
+Mục 4.2 của đề cương, nhóm (5): Tài chính hành vi và bầy đàn
+@@ 1497
+Bầy đàn là một kênh hành vi có thể làm các mô hình cho kết quả khác nhau, nhưng bằng chứng trái chiều giữa các thị trường. Nhóm (5) điểm bốn nguồn: Kahneman và Tversky (1979), Barberis và Thaler (2003), Christie và Huang (1995), Chang và cộng sự (2000). Cơ sở của giả thuyết thăm dò H4 là Vo và Phan (2017), Chang và cộng sự (2000), Christie và Huang (1995).
+@@ 1498
+Giới hạn cần nhớ ngay (mục 4.4): đề tài không quan sát hành vi chọn mô hình của tổ chức đầu tư; nó chỉ kiểm tra độ phân tán chéo của lợi suất, một thước đo bầy đàn ở cấp thị trường, có đi cùng rủi ro lựa chọn mô hình sau khi kiểm soát biến động hay không.
+@@ 1500
+Bầy đàn là việc nhà đầu tư làm theo số đông thay vì dựa vào thông tin riêng.
+@@ 1501
+Đàn cừu chạy theo con đầu đàn thay vì tự nhìn đường; mỗi con có thể thấy hố nước trước mặt nhưng vẫn chạy theo. Trên thị trường, nhà đầu tư thấy nhiều người mua một cổ phiếu thì mua theo, dù thông tin riêng nói khác.
+@@ 1502
+Đề cương nói bầy đàn "có thể" làm các mô hình cho kết quả khác nhau, không khẳng định, và không giải thích cơ chế từng bước. H4 chỉ dự kiến độ phân tán chéo cao đi cùng rủi ro lựa chọn mô hình cao; chiều liên hệ này cũng cần kiểm định.
+@@ 1503 DEL
+@@ 1504
+**Kahneman và Tversky (1979): nền móng của lý thuyết triển vọng**
+@@ 1505
+Kahneman và Tversky (1979) đặt nền móng cho lý thuyết triển vọng.
+@@ 1506
+Lý thuyết triển vọng mô tả cách con người thật sự quyết định khi đối mặt rủi ro, trái với hình dung nhà đầu tư là người tính toán lạnh lùng và nhất quán (nghĩa chung; đề cương không mô tả nội dung bên trong).
+@@ 1507
+Được tặng một khoản tiền rồi mất đúng khoản đó: về số học là hòa, nhưng cảm giác không đối xứng. Lý thuyết triển vọng nghiên cứu những khác biệt kiểu đó giữa tính toán và cảm nhận.
+@@ 1508
+Đề cương không nêu lý do riêng cho việc nhắc công trình này. Đề tài chỉ giao thoa kinh tế hành vi ở một phép thử giới hạn (mục 4.4). Việc chương trình Tiến sĩ Kinh tế và Quản lý tập trung vào kinh tế hành vi là lý do chọn cơ sở đào tạo (mục 5), chuyện khác; đừng nối nó với lý thuyết triển vọng.
+@@ 1509
+**Barberis và Thaler (2003): hai trụ cột**
+@@ 1510
+Barberis và Thaler (2003) tổng hợp hai trụ cột của tài chính hành vi: giới hạn của kinh doanh chênh lệch giá và tâm lý nhà đầu tư.
+@@ 1511
+Tài chính hành vi là hướng nghiên cứu cho rằng cảm xúc, thói quen suy nghĩ và những giới hạn thực tế ảnh hưởng đến giá.
+@@ 1512
+Kinh doanh chênh lệch giá là mua rẻ chỗ này, bán đắt chỗ kia; về lý thuyết, nó kéo giá về mức hợp lý. "Giới hạn" nghĩa là trong thực tế người làm việc này không phải lúc nào cũng làm được, nên giá có thể lệch lâu hơn.
+@@ 1513
+Tâm lý, tức sai lệch trong tư duy, là nguồn làm giá lệch. Giá cổ phiếu như chiếc thuyền trên sóng: tâm lý là sóng đẩy thuyền lệch, kinh doanh chênh lệch giá là người chèo kéo thuyền về; người chèo bị giới hạn thì thuyền lệch lâu hơn.
+@@ 1514
+Đề cương dùng công trình này như một tổng hợp về lĩnh vực, không nêu thêm lý do.
+@@ 1516
+Christie và Huang (1995) đo bầy đàn bằng độ phân tán chéo của lợi suất và không thấy bầy đàn khi giá biến động mạnh trên dữ liệu Mỹ.
+@@ 1517 DEL
+@@ 1518
+Công trình này cho cách đo mà đề tài dùng. Độ phân tán chéo của lợi suất là mức các cổ phiếu khác nhau về lợi suất trong cùng một ngày: mã nào cũng tăng gần như nhau thì nhỏ; có mã tăng mạnh, mã giảm mạnh thì lớn.
+@@ 1519
+Vì sao nó đo bầy đàn? Giải thích chung của bản đọc, không phải câu của đề cương: nếu nhà đầu tư chạy theo đám đông, họ mua bán giống nhau, các cổ phiếu đi gần nhau hơn và độ phân tán chéo nhỏ lại. Đề cương không giải thích H4 đọc theo chiều bầy đàn ra sao.
+@@ 1520 DEL
+@@ 1521
+Ví dụ giả định (số tự đặt để minh họa): năm cổ phiếu. Ngày thứ nhất lợi suất là 1%; 1,2%; 0,9%; 1,1%; 1%. Ngày thứ hai là 4%; −3%; 2%; −5%; 0%.
+@@ 1522
+Ngày thứ nhất các mã gần nhau, độ phân tán chéo nhỏ; ngày thứ hai chúng tản ra, độ phân tán lớn.
+@@ 1524 DEL
+@@ 1525
+Đề tài dùng độ phân tán chéo làm biến kênh với cơ sở Christie và Huang (1995); kết quả của họ trên dữ liệu Mỹ thành khả năng đối lập của H4: bầy đàn có thể không xuất hiện ở tần suất dữ liệu của đề tài.
+@@ 1527
+Chang và cộng sự (2000) tìm thấy bầy đàn ở Hàn Quốc và Đài Loan nhưng không thấy ở Mỹ và Hồng Kông.
+@@ 1528
+Bốn thị trường, hai kết quả; từ đó đề cương nói bằng chứng trái chiều giữa các thị trường.
+@@ 1529
+Kiểm tra học sinh có chép bài nhau không: hai lớp có dấu hiệu rõ, hai lớp không. Bạn chỉ nói được bằng chứng khác nhau theo lớp.
+@@ 1530
+Đề cương không nêu nguyên nhân của khác biệt hay phương pháp chi tiết; đừng tự giải thích.
+@@ 1531
+Câu chốt của nhóm (5) nêu lý do H4 chỉ ở mức thăm dò: vì bằng chứng trái chiều giữa các thị trường, đề tài chỉ xét kênh này ở mức thăm dò. Không thể mặc định Việt Nam có bầy đàn ở tần suất dữ liệu đã chọn.
+@@ 1532
+**H4 trong bức tranh chung**
+@@ 1533
+H4 (Bảng 2): sau khi kiểm soát biến động thực hiện, độ phân tán chéo của lợi suất cao đi cùng rủi ro lựa chọn mô hình cao.
+@@ 1534
+Phân biệt: bầy đàn trong đề tài là thước đo cấp thị trường, không phải quan sát hành vi từng tổ chức; và giao thoa kinh tế hành vi chỉ ở một phép thử giới hạn.
+@@ 1535
+Nếu được hỏi vì sao H4 chỉ thăm dò: bằng chứng trái chiều giữa các thị trường; đề tài không quan sát hành vi chọn mô hình của tổ chức; khả năng đối lập là bầy đàn không xuất hiện ở tần suất dữ liệu của đề tài.
+@@ 1536
+Mọi kết quả là liên hệ có điều kiện, không phải nhân quả (mục 4.3.7). Ngay cả khi H4 có kết quả, không được nói bầy đàn gây ra rủi ro lựa chọn mô hình.
+@@ 1538
+Đề cương không nói Việt Nam có bầy đàn ở tần suất dữ liệu đã chọn; chỉ nói Vo và Phan (2017) thấy bằng chứng bầy đàn trên một mẫu HOSE (nhóm (6)). Cũng không nói tổ chức đầu tư thực tế bầy đàn khi chọn mô hình.
+@@ 1540
+• Bầy đàn: làm theo số đông thay vì thông tin riêng; bằng chứng trái chiều giữa các thị trường.
+@@ 1541
+• Kahneman và Tversky (1979): nền móng lý thuyết triển vọng; Barberis và Thaler (2003): giới hạn của kinh doanh chênh lệch giá và tâm lý nhà đầu tư.
+@@ 1543
+• Chang và cộng sự (2000): có ở Hàn Quốc và Đài Loan, không ở Mỹ và Hồng Kông.
+@@ 1548
+Đáp án: nhà đầu tư làm theo số đông thay vì dựa vào thông tin riêng.
+@@ 1550
+Đáp án: độ phân tán chéo của lợi suất; không thấy bầy đàn khi giá biến động mạnh trên dữ liệu Mỹ.
+@@ 1552
+Đáp án: có ở Hàn Quốc và Đài Loan, không ở Mỹ và Hồng Kông.
+@@ 1553
+4. Barberis và Thaler (2003) tổng hợp hai trụ cột nào?
+@@ 1554
+Đáp án: giới hạn của kinh doanh chênh lệch giá và tâm lý nhà đầu tư.
+@@ 1555
+5. Vì sao H4 chỉ là thăm dò?
+@@ 1556
+Đáp án: bằng chứng bầy đàn trái chiều giữa các thị trường; đề tài không quan sát hành vi chọn mô hình của tổ chức; khả năng đối lập là bầy đàn không xuất hiện ở tần suất dữ liệu của đề tài.

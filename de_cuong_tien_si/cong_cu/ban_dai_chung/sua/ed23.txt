@@ -1,0 +1,130 @@
+@@ 2424
+Mục 4.3.6 của đề cương (tiếp): Ba cửa sổ thời gian, siêu tham số, M3 và M5
+@@ 2425
+Để phép so sánh bảy mô hình công bằng và lặp lại được, đề cương quy định trước bốn thứ: độ dài các cửa sổ (104 tuần ước lượng, 6 tháng đánh giá, 36 tháng chọn mô hình); cách tinh chỉnh siêu tham số (cùng lưới, cùng quy tắc, cùng ngân sách); cách xử lý M3 khi dữ liệu ít; và cách báo cáo M5 (cả khi có lẫn khi không có M5). Các độ dài cửa sổ là dự kiến, biện minh sau ước lượng thử ở năm thứ nhất.
+@@ 2426
+Mục tiêu: trả lời được những câu như "vì sao ba cửa sổ dài khác nhau" hay "vì sao báo cáo cả khi không có M5".
+@@ 2428
+Hình 2 của đề cương vẽ ba cửa sổ và thời điểm chọn mô hình. Bảng tóm tắt:
+@@ 2432
+Mục
+@@ 2436
+4.3.6
+@@ 2439
+Đo lợi suất tương đương chắc chắn ngoài mẫu và mức hối tiếc
+@@ 2440
+4.3.6, Hình 2
+@@ 2442
+36 tháng liền trước đầu cửa sổ đánh giá
+@@ 2443
+Chọn trước mô hình có lợi suất tương đương chắc chắn ngoài mẫu cao nhất
+@@ 2444
+4.3.6
+@@ 2446
+Huấn luyện viên có ba cuốn sổ: sổ tập luyện trước mùa giải (ước lượng), sổ thi đấu trong mùa (đánh giá), sổ thành tích ba năm gần đây để quyết định tin ai (chọn mô hình). Ba việc khác nhau nên độ dài khác nhau.
+@@ 2448
+104 tuần dữ liệu tuần là hai năm. Ước lượng là dùng 104 tuần lợi suất để tính đầu vào (trung bình, hiệp phương sai) rồi ra trọng số danh mục.
+@@ 2449
+Nhắc lại ba tần suất: ngày cho chế độ, tuần cho hiệp phương sai, tháng cho tái cân bằng.
+@@ 2450
+Vì sao 104? Đề cương nói đây là giá trị dự kiến, biện minh sau ước lượng thử; con số là điểm xuất phát, và được cố định khi đăng ký trước.
+@@ 2452
+Cửa sổ đánh giá là đoạn ngoài mẫu mà mô hình chưa thấy khi ước lượng; phương trình (1) tính trên đúng cửa sổ này. Mỗi cửa sổ cho bảy điểm số, từ đó một giá trị [[CÔNG THỨC]] và một giá trị [[CÔNG THỨC]].
+@@ 2453
+"Không chồng lấn" nghĩa là các cửa sổ đánh giá kế tiếp không đè lên nhau; cửa sổ trượt hằng tháng chỉ dùng cho phân tích phụ.
+@@ 2454
+Vì sao quan trọng (giải thích chung)? Nếu mỗi lần đo nhiệt độ lấy trung bình bảy ngày gần nhất, hai lần đo liền nhau dùng chung sáu ngày, gần như giống nhau: nhiều con số hơn mà không thêm thông tin. Cửa sổ không chồng lấn giúp mỗi giá trị [[CÔNG THỨC]] mang thông tin mới.
+@@ 2455
+Đổi lại, số điểm dữ liệu ít đi. Với mẫu 2007–2026, đề tài dự kiến khoảng 28 cửa sổ đánh giá độc lập, và dưới 10 cửa sổ độc lập ở chế độ căng thẳng thì kết quả gọi là không kết luận (mục 4.3.10).
+@@ 2456
+Ví dụ giả định (số tự đặt để minh họa): một giai đoạn căng thẳng dài 14 tháng chứa tối đa 2 cửa sổ 6 tháng không chồng lấn.
+@@ 2457
+Cửa sổ trượt hằng tháng cho 9 cửa sổ trọn vẹn (bắt đầu từ tháng 1 đến tháng 9), nhưng chúng đè lên nhau nhiều, nên chỉ có khoảng 2 cửa sổ độc lập.
+@@ 2458
+Đếm cửa sổ độc lập, không đếm cửa sổ trượt, mới trả lời đúng câu "đã đủ bằng chứng chưa".
+@@ 2460
+**Cửa sổ 36 tháng để chọn mô hình**
+@@ 2461
+Tại đầu mỗi cửa sổ đánh giá, nhà đầu tư chọn trước mô hình có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước. Dữ liệu để chọn chỉ gồm những gì đã xảy ra trước thời điểm quyết định, nên không nhìn trước.
+@@ 2462
+Cùng tinh thần với rổ cổ phiếu xác định bằng dữ liệu có tại ngày đó và mô hình chế độ ước lượng lại bằng dữ liệu đến ngày đó.
+@@ 2463
+Vì cần 104 tuần để ước lượng và 36 tháng kết quả ngoài mẫu để chọn, mức hối tiếc chỉ tính được từ khoảng năm thứ năm của mẫu.
+@@ 2465
+Siêu tham số là "núm vặn" phải đặt trước khi mô hình học dữ liệu. Ví dụ chung: mô hình co rút có núm cho biết co rút nhiều hay ít; Black-Litterman có núm cho biết tin quan điểm đến đâu. M1 chia đều nên không có núm; M3 dùng ước lượng mẫu nguyên xi.
+@@ 2466
+Siêu tham số của M2, M4, M5, M6 và M7 được chọn từ một lưới cho trước (danh sách giá trị thử), bằng cùng một quy tắc và cùng ngân sách tinh chỉnh (mức công sức thử), rồi cố định khi đăng ký trước.
+@@ 2467
+Cho một vận động viên tập thử hai mươi lần, người khác hai lần, thì người tập nhiều thắng là chuyện thường. So công bằng đòi cùng số buổi tập thử và cùng cách chọn buổi tốt nhất.
+@@ 2468
+Theo bản đọc, đây là cùng loại vấn đề với giá trị lớn nhất của các đại lượng có nhiễu: thử nhiều tổ hợp rồi báo cáo tổ hợp thắng thì nhặt cả phần may. Mục 4.3.7 còn hiệu chỉnh thiên lệch chọn lọc bằng tỷ số Sharpe hiệu chỉnh.
+@@ 2469
+Ví dụ giả định (số tự đặt để minh họa): hai mô hình chất lượng như nhau; P thử 5 tổ hợp, Q thử 50, cả hai báo cáo tổ hợp tốt nhất.
+@@ 2470
+Số lớn nhất của 50 số nhiễu thường lớn hơn số lớn nhất của 5 số nhiễu, nên Q thường trông tốt hơn.
+@@ 2471
+Chiến thắng đến từ số lần thử, không từ chất lượng; cùng ngân sách tránh khoảng chênh giả này.
+@@ 2473
+Thêm hai chi tiết: quan điểm của M4 lấy từ một mô hình dự báo đơn giản cố định khi đăng ký trước, nên không được đổi sau khi thấy dữ liệu; và đăng ký trước chỉ giảm chứ không loại hẳn thiên lệch, vì tác giả đã dùng dữ liệu 2019–2025 ở bài trước.
+@@ 2474
+**M3 và nghịch đảo giả Moore-Penrose**
+@@ 2475
+M3 là trung bình-phương sai với ước lượng mẫu (Markowitz, 1952): dùng nguyên trung bình và hiệp phương sai tính từ cửa sổ, không co rút.
+@@ 2476
+Hai nhận định của nhóm (1) áp dụng thẳng vào M3: tối ưu hóa dồn trọng số vào tài sản có sai số ước lượng lớn (Michaud, 1989); thay tham số tổng thể bằng ước lượng mẫu làm hiệu quả ngoài mẫu giảm mạnh (Kan và Zhou, 2007).
+@@ 2477
+Điều kiện kỹ thuật (mục 4.3.5): chỉ ước lượng trực tiếp M3 khi tỷ lệ số cổ phiếu trên số quan sát tuần không vượt 0,5; vượt ngưỡng thì dùng nghịch đảo giả Moore-Penrose và ghi rõ.
+@@ 2478
+Công thức trung bình-phương sai cần nghịch đảo ma trận hiệp phương sai, giống phép chia trong số thường. Số cổ phiếu quá lớn so với số quan sát thì ma trận thiếu thông tin, phép "chia" không làm được hoặc rất bất ổn (kiến thức toán chung; đề cương chỉ nêu ngưỡng 0,5).
+@@ 2479
+Có 30 ẩn số mà chỉ 20 phương trình thì có vô số nghiệm. Nghịch đảo giả chọn một nghiệm đặc biệt (nghiệm "ngắn nhất") để vẫn tính tiếp được: lối thoát khi phép chia thường không dùng được.
+@@ 2480
+Đề cương không giấu việc này: kết quả nào của M3 dùng nghịch đảo giả sẽ được ghi rõ, để người đọc tự đánh giá độ tin cậy.
+@@ 2481
+Ví dụ giả định (số tự đặt để minh họa): 20 cổ phiếu, 100 quan sát tuần, tỷ lệ 0,2, không vượt 0,5: ước lượng bình thường.
+@@ 2482
+60 cổ phiếu trên 100 quan sát tuần, tỷ lệ 0,6: dùng nghịch đảo giả và ghi rõ.
+@@ 2483
+Hai con số chỉ để minh họa. Với rổ 30 mã và 104 quan sát tuần, tỷ lệ khoảng 0,29; đề cương không tự nêu phép đối chiếu này.
+@@ 2485
+**M5: mô hình do chính tác giả phát triển**
+@@ 2486
+M5 là Black-Litterman có chuyển chế độ, mở rộng từ Nguyen và Nguyen (2026a), mô hình duy nhất trong tập do tác giả phát triển. Theo bản đọc, điều này đặt ra nguy cơ mô hình của chính tác giả chi phối kết luận.
+@@ 2487
+Đề cương xử lý bằng hai biện pháp: M5 dùng cùng lưới, cùng quy tắc, cùng ngân sách tinh chỉnh như các mô hình khác; và kết quả báo cáo cả khi có lẫn khi không có M5 (khi đó tập còn sáu mô hình).
+@@ 2488
+Một thí sinh đồng thời là người soạn đề: dù công bằng đến đâu, khán giả vẫn muốn biết kết quả khi người đó vắng mặt. Báo cáo cả hai cho người đọc biết kết luận có phụ thuộc mô hình của tác giả hay không.
+@@ 2489
+Hệ quả kỹ thuật (suy ra từ cấu trúc giá trị lớn nhất): bỏ M5 thì mọi phép tính chạy trên sáu mô hình, và mức hối tiếc thô có xu hướng tăng theo số mô hình, nên khi so phải nhớ số mô hình đã đổi.
+@@ 2490
+Biện pháp thứ ba (mục 4.3.7): lặp lại kiểm định H1 trên tập chỉ gồm mô hình tĩnh M1, M2, M3, M4, M6, để loại tác động của M5 và M7.
+@@ 2491
+**Vì sao ấn định trước nhiều thứ như vậy**
+@@ 2492
+Theo bản đọc, các quy định về cửa sổ, siêu tham số và M5 cùng một nguyên tắc: quyết định trước, ghi lại, không đổi sau khi thấy dữ liệu, tức đăng ký trước (mục 4.3.5).
+@@ 2493
+Nếu được tự do đổi cửa sổ hay siêu tham số sau khi thấy kết quả, người nghiên cứu có thể vô tình hay cố ý chọn cấu hình cho kết quả đẹp; đăng ký trước cắt con đường đó. Giới hạn đã nói: tác giả đã dùng dữ liệu 2019–2025, nên kế hoạch khai rõ những kết quả đã xem.
+@@ 2494
+Dữ liệu phát sinh sau ngày đăng ký là mẫu kiểm tra riêng; mọi thay đổi sau đó ghi là lệch khỏi kế hoạch.
+@@ 2496
+• Ước lượng 104 tuần; đánh giá 6 tháng không chồng lấn; chọn trước tại đầu mỗi cửa sổ đánh giá theo 36 tháng liền trước.
+@@ 2497
+• Các độ dài là dự kiến, biện minh sau ước lượng thử; cửa sổ trượt hằng tháng chỉ là phân tích phụ; khoảng 28 cửa sổ đánh giá với mẫu 2007–2026.
+@@ 2498
+• Siêu tham số của M2, M4, M5, M6, M7: cùng lưới, cùng quy tắc, cùng ngân sách, cố định khi đăng ký trước; quan điểm của M4 từ một mô hình dự báo đơn giản cố định khi đăng ký trước.
+@@ 2499
+• M3 chỉ ước lượng trực tiếp khi số cổ phiếu trên số quan sát tuần không vượt 0,5; vượt thì dùng nghịch đảo giả Moore-Penrose và ghi rõ.
+@@ 2500
+• M5 do tác giả phát triển, xử lý như mọi mô hình khác, báo cáo cả khi có lẫn khi không có M5.
+@@ 2503
+1. Nêu độ dài ba cửa sổ và việc của từng cửa sổ.
+@@ 2504
+Đáp án: ước lượng 104 tuần; đánh giá 6 tháng không chồng lấn; chọn mô hình theo 36 tháng liền trước đầu cửa sổ đánh giá. Cả ba là giá trị dự kiến.
+@@ 2506
+Đáp án: M2, M4, M5, M6, M7; cùng quy tắc, cùng ngân sách tinh chỉnh, cố định khi đăng ký trước.
+@@ 2508
+Đáp án: khi tỷ lệ số cổ phiếu trên số quan sát tuần vượt 0,5; việc dùng nghịch đảo giả được ghi rõ trong kết quả.
+@@ 2510
+Đáp án: vì M5 do tác giả phát triển; báo cáo cả hai cho biết kết luận có phụ thuộc mô hình của tác giả không. Ngoài ra H1 được lặp lại trên tập mô hình tĩnh.
+@@ 2512
+Đáp án: tác giả đã dùng dữ liệu 2019–2025, gồm hai giai đoạn căng thẳng, trong Nguyen và Nguyen (2026a), nên không thể khẳng định chưa xem kết quả ở chế độ căng thẳng; kế hoạch khai rõ những kết quả đã xem.

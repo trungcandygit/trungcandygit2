@@ -1,0 +1,92 @@
+@@ 881
+Mục 4.4 của đề cương (tiếp): Đóng góp dự kiến
+@@ 882
+Đề cương xác định đóng góp bằng cách so với các công trình gần nhất và nêu bốn điểm khác biệt: một mô hình so với bảy mô hình; so sánh phương pháp so với đo bất định theo chế độ; chế độ của biến động so với chất lượng quyết định; và khác biệt với bài trước của chính tác giả. Mọi đóng góp đều là dự kiến.
+@@ 883
+Giám khảo có thể hỏi "đóng góp của bạn là gì, khác ai". Bạn cần biết các công trình được so, khác biệt với bài trước của tác giả, và những gì đề cương không tuyên bố.
+@@ 885
+Đóng góp luôn đi kèm một công trình cụ thể để đối chiếu, giống khi xin vào đội bóng bạn không chỉ nói "tôi đá tốt" mà nói "đội đã có những tiền đạo giỏi việc này, còn tôi làm việc khác".
+@@ 886 DEL
+@@ 887 DEL
+@@ 888
+Đề cương viết "dựa trên phần tóm tắt của các công trình gần nhất": tác giả mới đọc tóm tắt và thông tin thư mục, việc đọc toàn văn nằm trong kế hoạch năm thứ nhất.
+@@ 890
+Ta và Vuong (2020) áp dụng một mô hình Black-Litterman cho Việt Nam, với quan điểm dự báo từ mô hình tự hồi quy trung bình trượt tích hợp. Đề tài đặt Black-Litterman cùng sáu mô hình khác vào một tập cạnh tranh (Bảng 3, M1 đến M7).
+@@ 891
+Một bên theo dõi một vận động viên chạy thế nào; bên kia tổ chức giải chạy bảy người để xem huấn luyện viên chọn nhầm thì thiệt bao nhiêu.
+@@ 892
+Khác biệt này không nói Black-Litterman tốt hay kém; nó nói câu hỏi khác nhau. Đây cũng là khoảng trống thứ hai: các công trình về danh mục ở Việt Nam đánh giá từng mô hình, chưa đặt vào một tập cạnh tranh.
+@@ 894
+Goutte và cộng sự (2025) so sánh năm phương pháp ra quyết định đa tiêu chí với bốn cách gán trọng số trên rổ VN100, giai đoạn 01/2015–11/2023. Đề tài đo mức bất định khi chọn mô hình theo từng chế độ thị trường.
+@@ 895 DEL
+@@ 896
+Một bên đặt các phương pháp cạnh nhau để so; bên kia hỏi kết quả so sánh dao động ra sao khi thời tiết đổi, và buộc phải chọn một phương án thì trả giá bao nhiêu. Đừng nói thêm về kết quả của Goutte và cộng sự ngoài những gì đề cương nêu.
+@@ 897 DEL
+@@ 899
+Hoang và Luu (2024), một bản thảo công bố trực tuyến, phân tích VN-Index giai đoạn 2012–2023 và thấy mô hình một chế độ dự báo biến động tốt hơn ở kỳ hạn ngắn, mô hình chuyển chế độ tốt hơn ở kỳ hạn trung và dài.
+@@ 900
+Đề tài nối chế độ với chất lượng quyết định phân bổ: không dùng chế độ để dự báo biến động, mà hỏi quyết định chia tiền tốt hay xấu tùy chế độ ra sao. Đây là khoảng trống thứ ba.
+@@ 901
+Một bên dự báo thời tiết ngày mai; bên kia hỏi khi trời xấu, quyết định chọn lộ trình có sai nhiều hơn không.
+@@ 916
+Ba công trình này cùng Nguyen và cộng sự (2020) và bài của chính tác giả là các công trình "gần nhất" trong Bảng 1 của đề cương.
+@@ 917
+**Điểm khác biệt thứ tư: so với bài trước của chính tác giả**
+@@ 918 DEL
+@@ 919
+Bài trước, Nguyen và Nguyen (2026a), áp dụng Black-Litterman với mô hình định giá tài sản vốn có chuyển chế độ cho Việt Nam giai đoạn 2019–2025 và chỉ đánh giá một mô hình. Đề cương nêu ba khác biệt:
+@@ 920
+1. Đặt M5 (Black-Litterman có chuyển chế độ, mở rộng từ bài trước) cạnh sáu mô hình khác; M5 thành một ứng viên, không còn đứng một mình.
+@@ 921
+2. Mở mẫu về trước năm 2019 nếu dữ liệu cho phép (mẫu dự kiến 2007–2026).
+@@ 922
+3. Đo chênh lệch giữa các mô hình thay vì đánh giá riêng M5.
+@@ 923
+Kết quả của bài trước chỉ làm đối chứng, không được báo cáo lại như kết quả mới của luận án, để giữ ranh giới giữa công bố đã có và đóng góp mới.
+@@ 924
+Vì đã dùng dữ liệu 2019–2025 (hai giai đoạn căng thẳng), tác giả không thể khẳng định chưa xem kết quả ở chế độ căng thẳng. Đăng ký trước, khai rõ những kết quả đã xem, giảm chứ không loại thiên lệch này.
+@@ 925
+M5 được xử lý như mọi mô hình khác, kết quả báo cáo cả khi có lẫn khi không có M5; kiểm định H1 còn được lặp lại trên tập chỉ gồm mô hình tĩnh M1, M2, M3, M4, M6.
+@@ 927
+Bốn điểm khác biệt khác với tuyên bố tính mới. Tuyên bố tính mới ở mục 4.2: theo hiểu biết của thí sinh, chưa có nghiên cứu nào đo rủi ro lựa chọn mô hình theo chế độ thị trường cho quyết định phân bổ danh mục trên thị trường chứng khoán Việt Nam.
+@@ 928
+Hãy giữ nguyên các từ rào. Căn cứ là truy vấn trên SSRN, RePEc/IDEAS, ScienceDirect, Oxford Academic, Wiley, Springer, Taylor & Francis, MDPI và arXiv đến ngày 30/09/2026.
+@@ 929
+Phạm vi chưa gồm Scopus, Web of Science và tạp chí tiếng Việt, nên nhận định không loại trừ nghiên cứu nằm ngoài phạm vi đó.
+@@ 930
+Tra mục lục vài giá sách trong thư viện, bạn có thể nói "tôi chưa thấy", không thể nói "không có".
+@@ 931 DEL
+@@ 932
+Vì vậy đừng nói "đề tài chưa ai làm"; hãy nói "theo hiểu biết của tác giả, trong phạm vi tìm kiếm đã nêu, chưa thấy".
+@@ 934
+Đừng nhầm "đóng góp" với "kết quả đã có". Nếu dữ liệu ủng hộ, đề tài dự kiến ba nhóm kết quả:
+@@ 935
+Lý thuyết: khung khái niệm và thước đo rủi ro lựa chọn mô hình theo chế độ.
+@@ 936
+Thực nghiệm: bằng chứng Việt Nam về mức độ, thời điểm và các kênh.
+@@ 937
+Thực tiễn: thủ tục giám sát mô hình ba bước (khai báo tập mô hình; đo độ phân tán và tập tin cậy định kỳ; kích hoạt kết hợp mô hình khi căng thẳng), suy ra từ H3, chưa kiểm nghiệm với người dùng.
+@@ 938
+Sản phẩm dự kiến (mục 7.3): hai đến ba bài báo, một đến hai báo cáo hội thảo và luận án; số bài là mục tiêu, phụ thuộc dữ liệu và phản biện.
+@@ 940
+Nếu được hỏi "đóng góp lý thuyết cụ thể là gì", hãy trả lời bằng thước đo, không bằng khẩu hiệu: một thước đo rủi ro lựa chọn mô hình theo chế độ, dựa trên mức hối tiếc, lấp khoảng trống thứ nhất (thước đo hiện có chưa đo hậu quả của chọn sai lên kết quả danh mục).
+@@ 941
+Nếu được hỏi "kết quả là 1/N đủ dùng thì có đóng góp không": có. Đề tài vẫn trả lời được câu hỏi: rủi ro không đổi theo chế độ, hoặc 1/N đủ dùng ở Việt Nam.
+@@ 943
+• Ta và Vuong (2020): một mô hình, đề tài bảy mô hình; Goutte và cộng sự (2025): so sánh phương pháp, đề tài đo bất định theo chế độ; Hoang và Luu (2024): chế độ của biến động, đề tài chế độ và chất lượng quyết định.
+@@ 944
+• So với Nguyen và Nguyen (2026a): M5 cạnh sáu mô hình khác, mẫu mở về trước 2019, đo chênh lệch giữa các mô hình.
+@@ 946
+• Tính mới chỉ "theo hiểu biết của thí sinh", phạm vi tìm kiếm có giới hạn.
+@@ 947
+• Ba nhóm kết quả dự kiến chỉ có nếu dữ liệu ủng hộ.
+@@ 950
+1. Nêu các điểm khác biệt giữa đề tài và các công trình gần nhất.
+@@ 951
+Đáp án: Ta và Vuong (2020) áp dụng một mô hình Black-Litterman, đề tài đặt nó cùng sáu mô hình khác vào tập cạnh tranh; Goutte và cộng sự (2025) so sánh phương pháp đa tiêu chí trên VN100, đề tài đo bất định khi chọn mô hình theo chế độ; Hoang và Luu (2024) phân tích chế độ của biến động, đề tài nối chế độ với chất lượng quyết định; so với bài trước của tác giả, đề tài đo chênh lệch giữa bảy mô hình thay vì đánh giá riêng M5.
+@@ 953
+Đáp án: M5 cạnh sáu mô hình khác; mẫu mở về trước 2019 nếu được; đo chênh lệch giữa các mô hình. Kết quả bài trước chỉ làm đối chứng.
+@@ 955
+Đáp án: "theo hiểu biết của thí sinh"; truy vấn trên một số cơ sở dữ liệu đến 30/09/2026, chưa gồm Scopus, Web of Science và tạp chí tiếng Việt; mới đọc tóm tắt và thông tin thư mục.
+@@ 957
+Đáp án: thủ tục giám sát ba bước (khai báo tập mô hình; đo độ phân tán và tập tin cậy định kỳ; kích hoạt kết hợp mô hình khi căng thẳng); suy ra từ H3, chưa kiểm nghiệm với người dùng.

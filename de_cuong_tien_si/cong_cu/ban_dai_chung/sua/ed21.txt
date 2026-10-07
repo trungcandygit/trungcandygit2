@@ -1,0 +1,166 @@
+@@ 2195
+Mục 4.3.6 của đề cương: Chọn thước chấm điểm, vì sao lợi suất tương đương chắc chắn là thước chính và Sharpe chỉ là thước phụ
+@@ 2196
+Trước mọi phép đo rủi ro phải trả lời: lấy gì làm điểm số cho mỗi mô hình? Đề cương chọn lợi suất tương đương chắc chắn sau chi phí giao dịch, đo ngoài mẫu. Tỷ số Sharpe chỉ là thước phụ, vì khi lợi suất vượt trội trung bình âm (đúng tình huống của chế độ căng thẳng), danh mục biến động hơn lại có Sharpe ít âm hơn. Trên điểm số này, đề cương dựng ba thước đo: độ phân tán mô hình, mức hối tiếc và kích thước tập tin cậy mô hình (Hansen và cộng sự, 2011).
+@@ 2197
+Hãy đọc chậm: mọi công thức về sau đứng trên điểm số này. Hiểu nó thì hiểu vì sao mức hối tiếc được tính như vậy, vì sao phải chia cho sai số chuẩn bootstrap, và vì sao phương trình (5) có dạng như vậy.
+@@ 2198
+**Bảy cách chia tiền cần một cách chấm điểm chung**
+@@ 2199
+Tập M gồm bảy mô hình ở Bảng 3, mỗi mô hình là một cách chia tiền vào cổ phiếu.
+@@ 2200
+Bảy đội thi chạy cần một cách chấm chung; chấm mỗi đội một kiểu thì mọi so sánh vô nghĩa.
+@@ 2201
+Mục 4.3.6 làm ba việc: chọn điểm số cho từng mô hình trên một cửa sổ đánh giá; từ bảy điểm số định nghĩa ba thước đo rủi ro lựa chọn mô hình; quy định các cửa sổ thời gian. Phần này và hai phần kế tiếp đi qua cả ba.
+@@ 2202
+Rủi ro lựa chọn mô hình là tổn thất kỳ vọng do phải chọn trước khi biết mô hình nào tốt nhất, đo bằng mức hối tiếc. Muốn nói "tốt nhất" hay "thiệt bao nhiêu" thì phải có điểm số.
+@@ 2203
+**Lợi suất tương đương chắc chắn là gì**
+@@ 2204
+Bạn được chọn: nhận chắc một khoản tiền, hoặc tham gia một khoản đầu tư lúc lãi nhiều lúc lỗ. Khoản tiền chắc chắn tối thiểu khiến bạn bỏ qua khoản đầu tư rủi ro chính là giá trị tương đương chắc chắn của nó; tính theo tỷ lệ thì là lợi suất tương đương chắc chắn.
+@@ 2205
+Đó là giá bán lại một tấm vé số rủi ro, tính bằng tiền mặt chắc chắn. Người rất ngại rủi ro chấp nhận ít tiền mặt hơn để đổi tấm vé; cùng một tấm vé, con số khác nhau tùy mức ngại rủi ro.
+@@ 2206
+Càng cao càng tốt: sau khi trừ sự khó chịu vì dao động, mô hình vẫn để lại nhiều giá trị. Đề cương tính trên lợi suất sau chi phí giao dịch, nên mô hình mua bán lại quá nhiều bị trừ điểm vì phí; và đo ngoài mẫu, tức trên khoảng thời gian mô hình chưa thấy khi được ước lượng.
+@@ 2207
+Đề cương tính từ trung bình và phương sai lợi suất trên cửa sổ đánh giá kết thúc tại t, không nói quy ra năm. Các ví dụ dưới chỉ dùng đơn vị minh họa.
+@@ 2208
+**Phương trình (1), từng ký hiệu một**
+@@ 2209
+Chỉ số m chỉ mô hình, t chỉ thời điểm kết thúc cửa sổ đánh giá.
+@@ 2211
+[[CÔNG THỨC]] là điểm của mô hình m trên cửa sổ kết thúc tại t (chữ U gợi "mức thỏa dụng"). Cùng một mô hình có điểm khác nhau ở các cửa sổ khác nhau.
+@@ 2212
+[[CÔNG THỨC]] là tập bảy mô hình ở Bảng 3; chữ M in hoa chỉ tập, chữ m thường chỉ một mô hình.
+@@ 2213
+[[CÔNG THỨC]] là trung bình lợi suất danh mục của mô hình m trên cửa sổ, sau chi phí giao dịch: phần thưởng bình quân. Chữ μ (đọc là "muy") là ký hiệu quen thuộc của trung bình.
+@@ 2214
+[[CÔNG THỨC]] là phương sai lợi suất trên cùng cửa sổ, sau chi phí: thước đo cảm giác "xóc" trên đường đi.
+@@ 2215
+[[CÔNG THỨC]] là hệ số ngại rủi ro, ấn định trước: giá trị cơ sở 5, kiểm tra độ nhạy ở 3 và 10. Số [[CÔNG THỨC]] càng lớn, bạn càng ghét dao động.
+@@ 2216
+Bằng lời: lấy phần thưởng bình quân, trừ một khoản phạt bằng nửa hệ số ngại rủi ro nhân phương sai. Khoản phạt là cái giá của dao động; phần còn lại là lợi suất tương đương chắc chắn. Ba bước: nhân phương sai với [[CÔNG THỨC]] rồi chia đôi; lấy trung bình trừ khoản đó; ghi kết quả làm điểm của mô hình m ở cửa sổ t.
+@@ 2217
+Hai tuyến xe đến cùng một nơi: tuyến A nhanh hơn nhưng xóc dữ, tuyến B chậm hơn chút mà êm. Điểm tổng hợp lấy tốc độ trung bình trừ phần mệt do xóc, mức trừ tùy độ say xe. Người say nặng ([[CÔNG THỨC]] lớn) chọn B; người chịu xóc giỏi ([[CÔNG THỨC]] nhỏ) có thể chọn A.
+@@ 2218
+Ví dụ giả định (số tự đặt để minh họa): ba mô hình trên một cửa sổ, lãi suất phi rủi ro coi bằng 0, [[CÔNG THỨC]] bằng 5 nên khoản phạt là 2,5 lần phương sai.
+@@ 2219
+A: trung bình 8%, độ lệch chuẩn 20%, phương sai 0,04; phạt 0,10; điểm 0,08 − 0,10 = −2%.
+@@ 2220
+B: trung bình 6%, độ lệch chuẩn 10%, phương sai 0,01; phạt 0,025; điểm 3,5%.
+@@ 2221
+C: trung bình 2%, độ lệch chuẩn 5%, phương sai 0,0025; phạt 0,00625; điểm khoảng 1,4%.
+@@ 2222
+Xếp hạng là B, C, A. A có lợi suất trung bình cao nhất nhưng đứng cuối vì dao động quá lớn so với mức ngại rủi ro đã chọn.
+@@ 2224
+Điểm số này không phải lợi suất, và hạng theo nó khác hạng theo lợi suất. Một mô hình có thể "thắng" về lợi suất chỉ nhờ chịu rủi ro cao hơn; với nhà đầu tư ngại rủi ro, chiến thắng đó không đủ giá trị.
+@@ 2225
+**Hệ số ngại rủi ro: cơ sở 5, thử thêm 3 và 10**
+@@ 2226
+Điểm số phụ thuộc [[CÔNG THỨC]], nên xếp hạng có thể đổi khi [[CÔNG THỨC]] đổi. Đề cương ấn định [[CÔNG THỨC]] bằng 5 làm cơ sở rồi thử độ nhạy ở 3 và 10, để xem kết luận có đứng vững không. Đề cương không nêu lý do riêng của con số 5.
+@@ 2227
+Nhớ ba con số và vai trò: 5 là cơ sở; 3 và 10 là hai cực để thử độ nhạy.
+@@ 2228
+Ví dụ dưới chỉ chứng minh điểm số có thể đổi hạng theo [[CÔNG THỨC]].
+@@ 2229
+Ví dụ giả định (số tự đặt để minh họa): A có trung bình 10%, phương sai 0,04; B có trung bình 5%, phương sai 0,01.
+@@ 2230
+[[CÔNG THỨC]] bằng 3 (phạt 1,5 lần phương sai): A = 0,10 − 0,06 = 0,04; B = 0,05 − 0,015 = 0,035. A trên.
+@@ 2231
+[[CÔNG THỨC]] bằng 5 (phạt 2,5 lần): A = 0,10 − 0,10 = 0; B = 0,05 − 0,025 = 0,025. B trên.
+@@ 2232
+[[CÔNG THỨC]] bằng 10 (phạt 5 lần): A = 0,10 − 0,20 = −0,10; B = 0,05 − 0,05 = 0. B trên, cách xa hơn.
+@@ 2234
+Thứ hạng đổi giữa [[CÔNG THỨC]] bằng 3 và [[CÔNG THỨC]] bằng 5. Nếu kết luận chỉ đúng ở một mức [[CÔNG THỨC]] và đổi chiều ở mức khác, người đọc cần biết; đó là ích lợi của việc thử độ nhạy theo [[CÔNG THỨC]].
+@@ 2236
+Tỷ số Sharpe lấy lợi suất vượt trội trung bình (phần vượt lãi suất phi rủi ro) chia cho độ biến động: mỗi đơn vị rủi ro mang lại bao nhiêu phần thưởng. Thường thì càng cao càng tốt.
+@@ 2237
+Vấn đề nằm ở chữ "càng cao càng tốt". Khi lợi suất vượt trội trung bình âm, đúng tình huống của chế độ căng thẳng, quan hệ "danh mục tốt hơn thì điểm cao hơn" không còn.
+@@ 2238
+Lý do: tử số âm, chia cho độ biến động lớn hơn thì kết quả gần 0 hơn, tức "đẹp hơn". Danh mục xóc hơn được chấm cao hơn dù lợi suất vượt trội như nhau.
+@@ 2239
+Hai học sinh cùng bị trừ 6 điểm. Cách chấm chia số điểm bị trừ cho độ ồn của lớp mỗi em ngồi; em ở lớp ồn hơn bị chia cho số lớn hơn nên trông đỡ tệ hơn. Chính cái ồn giúp em trông tốt hơn.
+@@ 2240
+Ví dụ giả định (số tự đặt để minh họa): lãi suất phi rủi ro coi bằng 0, [[CÔNG THỨC]] bằng 5. Trong một cửa sổ căng thẳng, hai mô hình đều có trung bình −6%.
+@@ 2241
+A: độ lệch chuẩn 30%, phương sai 0,09; Sharpe = −0,06 / 0,30 = −0,2.
+@@ 2242
+B: độ lệch chuẩn 10%, phương sai 0,01; Sharpe = −0,06 / 0,10 = −0,6.
+@@ 2243
+Theo Sharpe, A (−0,2) có vẻ tốt hơn B (−0,6), dù A dao động gấp ba mà lỗ như nhau.
+@@ 2244
+Theo điểm tương đương chắc chắn với [[CÔNG THỨC]] bằng 5: A = −0,06 − 2,5 × 0,09 = −0,285; B = −0,06 − 2,5 × 0,01 = −0,085. B tốt hơn, đúng trực giác.
+@@ 2246
+Khi lợi suất như nhau, thước đo này trừ nhiều hơn cho mô hình dao động mạnh, nên mô hình êm hơn luôn điểm cao hơn; Sharpe làm ngược lại khi tử số âm.
+@@ 2247
+Vì vậy đề cương chỉ báo cáo Sharpe như thước đo phụ, ở các cửa sổ có lợi suất vượt trội trung bình dương.
+@@ 2248
+Sharpe không bị bỏ: mục 4.3.7 vẫn so sánh Sharpe giữa các mô hình bằng khoảng tin cậy bootstrap và dùng tỷ số Sharpe hiệu chỉnh để hiệu chỉnh thiên lệch chọn lọc.
+@@ 2249
+**Thước đo này trong dòng suy luận chung**
+@@ 2250
+Theo bản đọc, có hai điểm nối. Thứ nhất, DeMiguel và cộng sự (2009) cũng xét lợi suất tương đương chắc chắn bên cạnh Sharpe và vòng quay, nên đây là thước đo có sẵn trong dòng nghiên cứu mà đề cương dẫn.
+@@ 2251
+Thứ hai, thước đo này đặt trên kết quả của quyết định phân bổ, không trên dự báo rủi ro, nên các thước đo dựng trên nó nối được với hậu quả của quyết định, đúng khoảng trống (1).
+@@ 2252
+Nhớ cách dùng thuật ngữ: độ phân tán mô hình và kích thước tập tin cậy chỉ báo bất định; chỉ mức hối tiếc đo rủi ro lựa chọn.
+@@ 2253
+**Phương trình (2): điểm trung bình của bảy mô hình**
+@@ 2254
+Công thức thứ hai ngắn nhưng làm nền cho công thức thứ ba.
+@@ 2256
+[[CÔNG THỨC]] là trung bình điểm của bảy mô hình trên cùng cửa sổ; gạch ngang trên đầu là ký hiệu "trung bình". Cộng điểm của mọi mô hình m trong [[CÔNG THỨC]] rồi chia cho 7.
+@@ 2257
+Bảy đội có bảy điểm, điểm trung bình lớp cho biết mức chung, chưa cho biết các đội chênh nhau bao nhiêu. Phương trình (3) đo điều đó.
+@@ 2258
+Ví dụ giả định (số tự đặt để minh họa): điểm của bảy mô hình trên một cửa sổ là 2,0; 3,0; −2,0; 1,0; 2,6; 3,5 và 1,4 (phần trăm).
+@@ 2259
+Tổng 11,5, chia 7 được khoảng 1,64%.
+@@ 2261
+Mọi mô hình có trọng số ngang nhau khi tính trung bình; đề cương không nêu lý do, nhưng tính đều là tự nhiên khi mục đích là xem các mô hình khác nhau bao nhiêu.
+@@ 2262
+**Ba thước đo rủi ro, nhìn trước**
+@@ 2263
+Bảng dưới là bản đồ ba thước đo; phần kế tiếp giải thích đầy đủ.
+@@ 2265
+Ký hiệu
+@@ 2268
+Mức hối tiếc
+@@ 2270
+Khoản thiệt vì mô hình chọn trước không phải mô hình tốt nhất sau thực tế
+@@ 2276
+Kích thước tập tin cậy mô hình
+@@ 2277
+không có ký hiệu riêng
+@@ 2278
+Số mô hình chưa thể loại sau vòng sơ loại thống kê
+@@ 2281
+Độ phân tán và mức hối tiếc sinh ra từ cùng tập điểm số, nên liên quan nhưng không thay nhau. Mức hối tiếc trả lời "tôi thiệt bao nhiêu vì đã chọn mô hình ấy"; độ phân tán trả lời "các mô hình khác nhau bao nhiêu"; tập tin cậy trả lời "còn bao nhiêu mô hình chưa thể loại".
+@@ 2283
+• Điểm số mỗi mô hình: lợi suất tương đương chắc chắn sau chi phí, đo ngoài mẫu: [[CÔNG THỨC]] = [[CÔNG THỨC]] − ([[CÔNG THỨC]]/2) × [[CÔNG THỨC]].
+@@ 2284
+• Hệ số ngại rủi ro [[CÔNG THỨC]]: cơ sở 5, độ nhạy 3 và 10; tập M có 7 mô hình.
+@@ 2285
+• Khi lợi suất vượt trội trung bình âm, danh mục biến động hơn có Sharpe ít âm hơn; Sharpe chỉ là thước phụ, báo cáo ở cửa sổ có lợi suất vượt trội trung bình dương.
+@@ 2286
+• Ba thước đo: độ phân tán mô hình, mức hối tiếc, kích thước tập tin cậy mô hình (mức ý nghĩa 10% ấn định trước).
+@@ 2287
+• Độ phân tán và tập tin cậy chỉ báo bất định; mức hối tiếc đo rủi ro lựa chọn.
+@@ 2290
+1. Lợi suất tương đương chắc chắn tính từ những đại lượng nào, và hệ số ngại rủi ro cơ sở là bao nhiêu?
+@@ 2291
+Đáp án: trung bình lợi suất sau chi phí trừ nửa hệ số ngại rủi ro nhân phương sai lợi suất, trên cửa sổ đánh giá. Cơ sở là 5, độ nhạy ở 3 và 10.
+@@ 2293
+Đáp án: khi lợi suất vượt trội trung bình âm, đúng ở chế độ căng thẳng, danh mục biến động hơn có Sharpe ít âm hơn. Vì vậy Sharpe chỉ báo cáo ở cửa sổ có lợi suất vượt trội trung bình dương.
+@@ 2294
+3. Ba thước đo rủi ro lựa chọn mô hình là gì, thước đo nào là kết quả chính của H1?
+@@ 2295
+Đáp án: độ phân tán mô hình, mức hối tiếc, kích thước tập tin cậy mô hình. Kết quả chính là mức hối tiếc; hai thước đo kia là kết quả phụ.
+@@ 2296
+4. Độ phân tán mô hình và kích thước tập tin cậy đo rủi ro hay bất định?
+@@ 2297
+Đáp án: bất định, không phải rủi ro.
+@@ 2298
+5. Vì sao tính sau chi phí giao dịch?
+@@ 2299
+Đáp án: đề cương đo hiệu quả ngoài mẫu sau chi phí giao dịch, nên trung bình và phương sai trong công thức là của lợi suất sau chi phí; mô hình mua bán nhiều bị trừ điểm vì phí.

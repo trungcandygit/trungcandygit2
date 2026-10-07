@@ -1,0 +1,106 @@
+@@ 1996
+Mục 4.3.4 của đề cương: Xác định chế độ thị trường
+@@ 1997
+Đề tài cần biết mỗi ngày thị trường ở chế độ bình thường hay căng thẳng, mà không "ăn gian" bằng dữ liệu tương lai. Cách làm: mô hình chuyển chế độ Markov (Hamilton, 1989) cho lợi suất VN-Index, ước lượng lại tại mỗi ngày tái cân bằng chỉ bằng dữ liệu đến ngày đó, rồi đọc ra xác suất lọc, tức xác suất thị trường đang ở chế độ căng thẳng.
+@@ 1998
+Chế độ căng thẳng là chế độ có phương sai điều kiện cao nhất và lợi suất kỳ vọng thấp hơn chế độ bình thường: một trạng thái thống kê, không phải tên một cuộc khủng hoảng.
+@@ 2000
+Hành vi thị trường đổi theo chế độ nên rủi ro lựa chọn mô hình có thể đổi theo (nhóm (4) của mục 4.2). Muốn so rủi ro ở hai chế độ, phải có cách đáng tin để biết ngày nào thuộc chế độ nào.
+@@ 2001
+Nhà khí tượng chia ngày thành "quang" và "bão" rồi so thiệt hại của nông dân. Nếu cách chia đã lẫn kết quả vụ mùa (gọi một ngày là bão chỉ vì vụ mùa hôm đó tệ) thì phép so vô nghĩa. Cách xác định chế độ phải độc lập với kết quả danh mục.
+@@ 2002
+Các nguồn nền (đã giới thiệu ở nhóm (4)): Hamilton (1989), Ang và Timmermann (2012), Ang và Bekaert (2002), Guidolin và Timmermann (2007), Kritzman và cộng sự (2012), Tu (2010).
+@@ 2004 DEL
+@@ 2005
+Mô hình giả định thị trường ở một trong vài trạng thái ẩn và chuyển giữa chúng theo xác suất. Bạn không thấy trạng thái, chỉ thấy lợi suất hằng ngày, và suy ra trạng thái từ cách lợi suất xử sự.
+@@ 2006
+Ngồi trong phòng kín không cửa sổ, chỉ nghe tiếng động bên ngoài: trời quang thì nhỏ và đều, bão thì ồn và thất thường. Bạn đoán mỗi ngày nhiều khả năng là trạng thái nào; mô hình làm đúng việc đó với lợi suất VN-Index.
+@@ 2007 DEL
+@@ 2008
+Mô hình có hai thành phần: mỗi trạng thái có lợi suất kỳ vọng và phương sai riêng; và luật chuyển, tức xác suất ở lại hoặc sang trạng thái khác. Đề cương không viết công thức.
+@@ 2009
+Ví dụ giả định (số tự đặt để minh họa): xác suất trời quang ở lại quang ngày kế tiếp là 95%, bão ở lại bão là 80%.
+@@ 2010
+Khi đó các đợt bão kéo dài nhiều ngày nhưng ít xảy ra, đợt quang kéo dài hơn. Mô hình ước lượng các xác suất này từ dữ liệu; đề cương không đặt trước con số nào.
+@@ 2012
+**Số chế độ: hai hay ba**
+@@ 2013
+Số chế độ (hai hoặc ba) do tiêu chí thông tin quyết định trên giai đoạn ước lượng ban đầu và cố định khi đăng ký trước.
+@@ 2014
+Tiêu chí thông tin là thước điểm so các mô hình có độ phức tạp khác nhau. Thêm chế độ thì luôn khớp dữ liệu hơn, như áo nhiều nếp gấp luôn vừa người hơn; tiêu chí cộng một khoản "phạt" cho độ phức tạp để mô hình nhiều chế độ chỉ thắng khi cái lợi lớn hơn cái giá. Đề cương không nêu tên tiêu chí cụ thể.
+@@ 2015
+Số chế độ cố định khi đăng ký trước, nên mọi thay đổi sau đó là lệch khỏi kế hoạch (mục 4.3.5). Theo bản đọc, nhờ vậy tác giả khó quay lại đổi số chế độ cho "đẹp" sau khi thấy kết quả.
+@@ 2016
+**Tránh thiên lệch nhìn trước**
+@@ 2017 DEL
+@@ 2018
+Nếu ước lượng trên toàn mẫu rồi gán nhãn hôm nay bằng tham số đó, nhãn hôm nay đã chịu ảnh hưởng của dữ liệu năm sau, điều nhà đầu tư lúc đó không thể biết.
+@@ 2019
+Đề cương ước lượng lại tham số theo **cửa sổ mở rộng** tại mỗi ngày tái cân bằng, chỉ bằng dữ liệu đến ngày đó.
+@@ 2020
+Cửa sổ mở rộng giữ điểm bắt đầu và kéo dài dần, như cuốn nhật ký dày thêm mỗi ngày; cửa sổ trượt giữ độ dài cố định và bỏ dữ liệu cũ, như tờ ghi chú chỉ có những ngày gần nhất.
+@@ 2021
+Ngày tái cân bằng đầu tiên mô hình có ít dữ liệu, càng về sau càng nhiều; mỗi ngày mô hình chỉ dùng dữ liệu nhà đầu tư lúc đó có thể có.
+@@ 2022 DEL
+@@ 2023
+Xác suất lọc tại ngày t là xác suất thị trường đang ở chế độ căng thẳng, tính chỉ bằng thông tin đến ngày t.
+@@ 2024
+Sáng nay nghe tiếng động rồi nói "khả năng cao hôm nay là bão": đó là xác suất lọc. Đợi cuối tuần nhìn lại cả tuần rồi nói "thứ Hai chắc chắn là bão" thì chính xác hơn nhưng không dùng được để quyết định hôm thứ Hai.
+@@ 2025
+Xác suất lọc là một số từ 0 đến 1 mỗi ngày. Đề tài dùng nó để xây biến S_{t} ở phương trình (5): tỷ lệ số ngày trong cửa sổ có xác suất lọc của chế độ căng thẳng vượt ngưỡng đăng ký trước. M5 và M7 cũng đổi hành vi khi xác suất căng thẳng tăng (mục 4.3.7).
+@@ 2026
+Ví dụ giả định (số tự đặt để minh họa): ngưỡng là 0,5; cửa sổ có 120 ngày, trong đó 30 ngày có xác suất lọc vượt 0,5.
+@@ 2027
+Khi đó S_{t} của cửa sổ bằng 30/120, tức một phần tư. Đề cương chưa nêu giá trị ngưỡng; ngưỡng được đăng ký trước.
+@@ 2029 DEL
+@@ 2030 DEL
+@@ 2031
+Phương sai điều kiện là mức dao động của lợi suất khi biết thị trường đang ở chế độ nào: độ ồn riêng của ngày bão khác độ ồn ngày quang, còn độ ồn trung bình cả năm là con số gộp.
+@@ 2032
+Định nghĩa chế độ căng thẳng có hai vế, biến động cao nhất và lợi suất kỳ vọng thấp hơn, khớp hình ảnh mùa bão. Nếu mô hình có ba chế độ, chế độ căng thẳng vẫn là chế độ có phương sai điều kiện cao nhất; đề cương không nói cách gọi chế độ còn lại.
+@@ 2033
+Khủng hoảng là sự kiện lịch sử (các cú sốc ở mục 4.1); chế độ căng thẳng là trạng thái thống kê. Đề tài đối chiếu hai thứ. Theo bản đọc, mô hình gọi một giai đoạn là căng thẳng mà không có sự kiện nào, hoặc ngược lại, là thông tin có giá trị chứ không phải lỗi cần che. Trong luận án, việc đối chiếu này nằm ở chương 3 (tiểu mục 3.2.2, Bảng 4).
+@@ 2034
+**Bai-Perron: chỉ để mô tả**
+@@ 2035
+Kiểm định của Bai và Perron (1998) xác định nhiều điểm gãy cấu trúc, như đánh dấu những chỗ dòng sông đổi dòng.
+@@ 2036
+Trong đề tài, kiểm định này chạy trên toàn mẫu, chỉ để mô tả và đối chiếu với các cú sốc lịch sử, không dùng làm biến chế độ trong kiểm định giả thuyết.
+@@ 2037
+Suy luận của bản đọc: chạy trên toàn mẫu là dùng cả dữ liệu tương lai, nên làm biến chế độ sẽ gây thiên lệch nhìn trước.
+@@ 2038
+Tác giả đã dùng phương pháp Bai-Perron trong bản thảo số 5 (Bảng 7) về điểm gãy cấu trúc của thanh khoản thị trường chứng khoán Việt Nam.
+@@ 2039
+**Định nghĩa thay thế: chính việc nhận diện chế độ cũng có rủi ro**
+@@ 2040
+Kiểm tra độ bền dùng các định nghĩa chế độ thay thế theo ngưỡng sụt giảm và theo biến động thực hiện: thay vì để mô hình Markov gọi bão, gọi bão khi giá đã giảm quá một mức hoặc dao động thực tế vượt một mức. Kết luận không đổi thì vững hơn.
+@@ 2041
+Mục 4.3.10 thừa nhận việc nhận diện chế độ tự nó là một dạng rủi ro mô hình. Đề tài nói về rủi ro mô hình nên không thể coi bước xác định chế độ là miễn nhiễm.
+@@ 2042
+**Những gì mục 4.3.4 không nói**
+@@ 2043
+Không nói chế độ căng thẳng trùng với cuộc khủng hoảng nào.
+@@ 2044
+Không nêu tên tiêu chí thông tin hay giá trị ngưỡng xác suất lọc; ngưỡng và số chế độ cố định khi đăng ký trước.
+@@ 2045
+Không nói đã tìm thấy chế độ nào ở Việt Nam.
+@@ 2046
+Không nói số giai đoạn căng thẳng có đủ không; con số này được báo cáo trước khi ước lượng các mô hình danh mục.
+@@ 2048
+Mô hình chuyển chế độ Markov (Hamilton, 1989) cho lợi suất VN-Index, ước lượng lại theo cửa sổ mở rộng tại mỗi ngày tái cân bằng, chỉ bằng dữ liệu đến ngày đó.
+@@ 2049
+Xác suất lọc tại ngày t: xác suất đang ở chế độ căng thẳng, chỉ dùng thông tin đến ngày t, nên không có thiên lệch nhìn trước.
+@@ 2051
+Chế độ căng thẳng: phương sai điều kiện cao nhất, lợi suất kỳ vọng thấp hơn chế độ bình thường.
+@@ 2052
+Bai-Perron (1998) trên toàn mẫu chỉ để mô tả và đối chiếu, không làm biến chế độ trong kiểm định giả thuyết.
+@@ 2057
+Đáp án: chế độ có phương sai điều kiện cao nhất và lợi suất kỳ vọng thấp hơn chế độ bình thường.
+@@ 2059
+Đáp án: ước lượng lại theo cửa sổ mở rộng tại mỗi ngày tái cân bằng, chỉ bằng dữ liệu đến ngày đó; xác suất lọc tại ngày t dùng các tham số này.
+@@ 2061
+Đáp án: hai hoặc ba, do tiêu chí thông tin quyết định trên giai đoạn ước lượng ban đầu, cố định khi đăng ký trước.
+@@ 2063
+Đáp án: chạy trên toàn mẫu, chỉ để mô tả và đối chiếu với các cú sốc lịch sử, không làm biến chế độ trong kiểm định giả thuyết.
+@@ 2065
+Đáp án: khủng hoảng là sự kiện lịch sử; chế độ căng thẳng là trạng thái thống kê do mô hình ước lượng. Không dùng thay nhau; đề tài đối chiếu chúng.

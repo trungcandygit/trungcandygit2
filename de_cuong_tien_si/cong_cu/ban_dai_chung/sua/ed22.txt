@@ -1,0 +1,196 @@
+@@ 2300
+Mục 4.3.6 của đề cương (tiếp): Độ phân tán mô hình, mức hối tiếc và tập tin cậy mô hình
+@@ 2301
+Từ bảy điểm số trên một cửa sổ đánh giá, đề cương dựng ba thước đo. Độ phân tán mô hình [[CÔNG THỨC]] đo bảy mô hình chênh nhau bao nhiêu. Mức hối tiếc [[CÔNG THỨC]] đo khoản thiệt vì mô hình chọn trước kém mô hình tốt nhất sau thực tế. Kích thước tập tin cậy mô hình đếm số mô hình chưa thể loại. Mức hối tiếc là thước đo rủi ro chính; hai thước kia chỉ báo bất định. Điểm tinh tế nhất: mức hối tiếc không bao giờ âm, và kỳ vọng của nó vẫn dương khi các mô hình ngang chất lượng.
+@@ 2302
+Phần này giải thích từng công thức, dành nhiều chỗ cho câu hỏi khó nhất (vì sao kỳ vọng dương khi không mô hình nào hơn), rồi nói vì sao tập tin cậy lớn ở chế độ căng thẳng chưa chắc là tin xấu.
+@@ 2303
+**Phương trình (3): độ phân tán mô hình**
+@@ 2304
+Độ phân tán mô hình [[CÔNG THỨC]] là độ lệch chuẩn mẫu của điểm số theo các mô hình trong cùng một cửa sổ (tính qua các mô hình, không qua thời gian):
+@@ 2306
+[[CÔNG THỨC]] là độ phân tán tại cửa sổ kết thúc ở t; [[CÔNG THỨC]] là điểm của mô hình m (phương trình (1)); [[CÔNG THỨC]] là trung bình điểm (phương trình (2)). Tổng chạy qua 7 mô hình, nên mẫu số trong dấu căn là 7 − 1 = 6.
+@@ 2307
+Bốn bước: lấy điểm của từng mô hình trừ trung bình; bình phương để mọi số dương và độ lệch lớn bị nhấn mạnh; cộng lại rồi chia cho 6; lấy căn bậc hai để về cùng đơn vị với điểm số.
+@@ 2308
+Chia cho số quan sát trừ 1 là cách hiệu chỉnh thường dùng của độ lệch chuẩn mẫu, vì trung bình đã tính từ chính các điểm đó.
+@@ 2309
+Bảy đội tiếp sức nộp thành tích: gần bằng nhau thì độ phân tán nhỏ; có đội rất nhanh, đội rất chậm thì lớn. Độ phân tán không nói đội nào nhanh nhất, chỉ nói các đội khác nhau nhiều hay ít.
+@@ 2310
+Ví dụ giả định (số tự đặt để minh họa): bảy điểm số ở ví dụ trước: 2,0; 3,0; −2,0; 1,0; 2,6; 3,5; 1,4 (phần trăm); trung bình khoảng 1,64.
+@@ 2311
+Độ lệch so với trung bình: 0,36; 1,36; −3,64; −0,64; 0,96; 1,86; −0,24.
+@@ 2312
+Bình phương: 0,13; 1,85; 13,27; 0,41; 0,92; 3,45; 0,06; tổng khoảng 20,08.
+@@ 2313
+20,08 / 6 ≈ 3,35; căn bậc hai ≈ 1,83. Độ phân tán khoảng 1,83 điểm phần trăm.
+@@ 2314
+Riêng mô hình có điểm −2,0 đóng góp 13,27 trong 20,08: một mô hình lệch xa kéo độ phân tán lên rất mạnh vì bước bình phương.
+@@ 2316
+Đề cương coi độ phân tán là chỉ báo bất định: các mô hình cho kết quả giống nhau thì chọn mô hình nào cũng như nhau; khác nhau xa thì việc chọn có thể quan trọng.
+@@ 2317
+Vì sao cần cả độ phân tán lẫn mức hối tiếc? Theo bản đọc: độ phân tán lớn chưa chắc gây thiệt nếu mô hình được chọn lại là mô hình tốt. Một thước nói về độ rộng khoảng cách giữa các mô hình, thước kia nói về cú trượt chân của một lần chọn cụ thể.
+@@ 2318
+**Mức hối tiếc: khoản thiệt vì không chọn mô hình tốt nhất sau thực tế**
+@@ 2319
+Mức hối tiếc (tiếng Anh: regret) là thước đo trung tâm. Trước mùa giải bạn chọn một cách chia tiền; cuối mùa mới biết cách nào tốt nhất; chênh lệch điểm giữa cách tốt nhất và cách đã chọn là mức hối tiếc.
+@@ 2320
+Phải chọn trước vì nhà đầu tư chỉ biết kết quả sau khi đã bỏ tiền. Quy tắc mô phỏng của đề cương: tại đầu mỗi cửa sổ đánh giá, chọn mô hình có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước; mô hình đó tái cân bằng hằng tháng suốt cửa sổ.
+@@ 2321
+**Phương trình (4), từng ký hiệu một**
+@@ 2322 DEL
+@@ 2324
+[[CÔNG THỨC]] là mức hối tiếc tại cửa sổ kết thúc ở t. [[CÔNG THỨC]] là điểm của mô hình chọn trước (c: chọn). [[CÔNG THỨC]] là điểm cao nhất trong bảy mô hình, nhìn lại sau thực tế (o: tốt nhất).
+@@ 2325
+Ba bước: đầu cửa sổ, nhìn lại 36 tháng, chọn mô hình dẫn đầu; hết cửa sổ, tính điểm của cả bảy và lấy giá trị lớn nhất làm [[CÔNG THỨC]]; lấy điểm của mô hình đã chọn làm [[CÔNG THỨC]] và tính [[CÔNG THỨC]] trừ [[CÔNG THỨC]].
+@@ 2326
+Chọn một trong bảy đội đua theo thành tích mùa trước; hết mùa, so thu nhập của đội đã chọn với đội tốt nhất mùa đó. Khoảng chênh là khoản đáng lẽ có thêm; chọn đúng đội tốt nhất thì bằng 0.
+@@ 2327
+Ví dụ giả định (số tự đặt để minh họa): điểm trong cửa sổ: M1 2,0; M2 3,0; M3 −2,0; M4 1,0; M5 2,6; M6 3,5; M7 1,4 (phần trăm).
+@@ 2328
+Tốt nhất sau thực tế là M6, nên [[CÔNG THỨC]] = 3,5.
+@@ 2329
+Nếu M3 dẫn đầu 36 tháng trước nên được chọn: mức hối tiếc = 3,5 − (−2,0) = 5,5 điểm phần trăm.
+@@ 2330
+Nếu M6 được chọn: 3,5 − 3,5 = 0.
+@@ 2331
+Nếu M2 được chọn: 3,5 − 3,0 = 0,5.
+@@ 2333
+Mức hối tiếc phản ánh cả chất lượng quy tắc chọn lẫn may rủi. Đề cương tính nó ở mỗi cửa sổ và dùng chuỗi [[CÔNG THỨC]] theo thời gian để so giữa các chế độ ở phương trình (5).
+@@ 2334
+Hai điểm nên nhớ: mức hối tiếc so với mô hình tốt nhất trong tập, không so với một chuẩn bên ngoài; và quy tắc chọn theo 36 tháng là quy tắc dùng trong thước đo, không phải khuyến nghị cách nhà đầu tư nên chọn.
+@@ 2336
+Đề cương nêu: vì mô hình chọn trước thuộc tập M, mức hối tiếc không âm. Mô hình chọn trước nằm trong bảy mô hình; không phần tử nào của tập lớn hơn phần tử lớn nhất của chính tập đó. Vậy [[CÔNG THỨC]] luôn lớn hơn hoặc bằng [[CÔNG THỨC]].
+@@ 2337
+Điểm của một học sinh không thể cao hơn điểm cao nhất lớp, vì điểm cao nhất được tính cả bạn đó.
+@@ 2338
+Ngoại lệ (mục 4.3.8): khi kiểm định H3, cơ chế (ii) và (iii) được loại khỏi tập M, nên mức hối tiếc của chúng có thể âm, tức cơ chế có thể vượt cả mô hình tốt nhất trong tập.
+@@ 2339
+**Vì sao kỳ vọng của mức hối tiếc vẫn dương khi các mô hình ngang chất lượng**
+@@ 2340
+Đây là điểm khó nhất. Đề cương viết: kỳ vọng của mức hối tiếc vẫn dương khi các mô hình ngang chất lượng, vì giá trị lớn nhất của các đại lượng có nhiễu tăng theo phương sai của nhiễu. Ta gỡ thành ba ý.
+@@ 2341
+**Ý thứ nhất: điểm số đo được luôn có nhiễu**
+@@ 2342
+Điểm số trên cửa sổ 6 tháng chỉ dựa vào khoảng 6 tháng dữ liệu, nên trung bình và phương sai ước lượng có sai số. Hai mô hình giỏi ngang nhau vẫn cho hai điểm khác nhau chỉ vì may rủi; phần chênh đó là nhiễu ước lượng.
+@@ 2343
+Bảy cầu thủ ngang tài cùng sút mười quả phạt đền: người vào bảy, người chín, người năm. Chênh lệch chỉ do may rủi, không phản ánh tài năng.
+@@ 2344
+**Ý thứ hai: giá trị lớn nhất của các số nhiễu thường dương**
+@@ 2345
+Nếu bảy mô hình ngang nhau, điểm mỗi mô hình bằng mức chung cộng một số nhiễu trung bình 0. Nhưng mức hối tiếc không dùng trung bình bảy số nhiễu; nó dùng điểm lớn nhất, tức mức chung cộng số nhiễu lớn nhất.
+@@ 2346
+Số lớn nhất trong bảy số ngẫu nhiên trung bình 0 gần như chắc chắn dương; chỉ âm khi cả bảy cùng âm, khả năng rất nhỏ. Vì vậy phần nhiễu mà [[CÔNG THỨC]] nhặt được có kỳ vọng dương: mô hình tốt nhất sau thực tế trông tốt hơn mức thật của nó.
+@@ 2347
+Trong bảy cầu thủ ngang tài, thế nào cũng có người gặp may nhất; lấy người đó làm chuẩn thì chuẩn luôn cao hơn mức trung bình thật.
+@@ 2348
+**Ý thứ ba: mô hình chọn trước không hưởng cái may đó**
+@@ 2349
+Diễn giải của bản đọc: mô hình chọn trước được chọn bằng 36 tháng quá khứ, không bằng chính may rủi của cửa sổ đánh giá, nên phần nhiễu của nó có trung bình 0, không bị "chọn lọc" cho cao lên.
+@@ 2350
+Vậy [[CÔNG THỨC]] mang phần nhiễu lớn nhất, kỳ vọng dương; [[CÔNG THỨC]] mang phần nhiễu không chọn lọc, kỳ vọng 0. Hiệu của chúng có kỳ vọng dương dù không mô hình nào thật sự hơn.
+@@ 2351
+Nhiễu càng lớn thì số lớn nhất trong bảy số nhiễu càng lớn. Theo bản đọc: nếu ở chế độ căng thẳng biến động cao làm điểm số kém ổn định hơn, mức hối tiếc thô ở đó có thể lớn hơn dù bản thân việc chọn không nguy hiểm hơn.
+@@ 2352
+Ví dụ giả định (số tự đặt để minh họa): bảy mô hình hoàn toàn ngang chất lượng; nhiễu đo của mỗi mô hình độc lập, phân phối chuẩn, trung bình 0, độ lệch chuẩn 1 điểm phần trăm.
+@@ 2353
+Mức hối tiếc trung bình (so với một mô hình chọn ngẫu nhiên) bằng kỳ vọng của số lớn nhất trong bảy nhiễu, khoảng 1,35 điểm phần trăm.
+@@ 2354
+Nhiễu có độ lệch chuẩn gấp đôi thì mức hối tiếc trung bình cũng gấp đôi, khoảng 2,7, dù các mô hình vẫn ngang nhau.
+@@ 2355
+Số mô hình cũng ảnh hưởng: với độ lệch chuẩn 1, kỳ vọng của số lớn nhất khoảng 0,56 với 2 mô hình, 0,85 với 3, 1,16 với 5, 1,35 với 7 và 1,54 với 10.
+@@ 2357
+Hai nhận xét: mức hối tiếc thô tăng theo độ lớn của nhiễu dù chất lượng thật không đổi; và tăng theo số mô hình, nên khi so tập có và không có M5 phải để ý số mô hình (nhận xét thứ hai là của bản đọc, đúng dưới giả định nhiễu chuẩn độc lập).
+@@ 2358
+Hệ quả cho H1: thấy mức hối tiếc thô cao hơn ở chế độ căng thẳng thì chưa biết do rủi ro thật hay do nhiễu lớn hơn. Đề cương xử lý ở hai tầng: chia cho sai số chuẩn bootstrap (dưới đây) và hiệu chuẩn bằng phân phối rỗng (mục 4.3.7).
+@@ 2359
+**Chia cho sai số chuẩn bootstrap: đo bằng đơn vị của nhiễu**
+@@ 2360
+Trong phân tích chính, độ phân tán và mức hối tiếc được chia cho sai số chuẩn bootstrap của chênh lệch lợi suất tương đương chắc chắn giữa các mô hình trong cùng cửa sổ, để loại tác động cơ học của nhiễu.
+@@ 2361
+Sai số chuẩn cho biết một con số ước lượng dao động bao nhiêu nếu đo lại bằng mẫu khác: thước đo của nhiễu. Bootstrap ước lượng nó bằng cách bốc lại nhiều lần từ chính dữ liệu (chi tiết ở mục 4.3.7).
+@@ 2362
+Chia một số đo cho thước đo nhiễu tương ứng là chuẩn hóa: kết quả tính bằng đơn vị nhiễu.
+@@ 2363
+Cân hàng trên đường xóc thì kim nhảy nhiều hơn. Muốn so hai hộp trên đường xóc với hai hộp trên đường êm, phải chia số chênh cho mức rung của cân ở từng đoạn đường; thương số mới là phép so công bằng.
+@@ 2364
+Ví dụ giả định (số tự đặt để minh họa): cửa sổ bình thường, mức hối tiếc thô 1,0, sai số chuẩn 0,8; sau khi chia: 1,25.
+@@ 2365
+Cửa sổ căng thẳng, mức hối tiếc thô 3,0 (gấp ba), sai số chuẩn 2,5 vì dữ liệu ồn hơn; sau khi chia: 1,2.
+@@ 2366
+Số thô tăng gấp ba, số đã chia gần như bằng nhau: phần lớn mức tăng đến từ nhiễu.
+@@ 2367
+Nếu mức hối tiếc thô ở cửa sổ căng thẳng là 6,0 với sai số chuẩn 2,5, số đã chia là 2,4, gần gấp đôi 1,25: lúc đó mới có dấu hiệu mức tăng không chỉ do nhiễu.
+@@ 2369
+Đề cương không nói phép chia xóa sạch tác động cơ học; còn bước hiệu chuẩn bằng phân phối rỗng, tạo một thế giới giả trong đó các mô hình ngang nhau để xem mức hối tiếc vẫn tăng bao nhiêu chỉ vì nhiễu (mục 4.3.7).
+@@ 2370
+Đề cương chưa nói số lần lặp bootstrap cho sai số chuẩn trong từng cửa sổ (con số 1.000 chỉ gắn với phân phối rỗng), cũng chưa nói cách gộp sai số chuẩn của nhiều cặp mô hình cho [[CÔNG THỨC]] hay [[CÔNG THỨC]]. Đừng bổ sung chi tiết đề cương chưa quy định.
+@@ 2371
+**Kích thước tập tin cậy mô hình**
+@@ 2372
+Thước đo thứ ba là kích thước tập tin cậy mô hình (Hansen và cộng sự, 2011) ở mức ý nghĩa 10% ấn định trước: số mô hình chưa thể bị loại là kém hơn.
+@@ 2373
+Trong vòng sơ loại, ban giám khảo chỉ loại người chắc chắn kém hơn người giỏi nhất; ai còn có thể ngang ngửa trong giới hạn may rủi thì ở lại.
+@@ 2374
+Đề cương không mô tả thuật toán, chỉ nêu ý nghĩa và mức 10% quyết định trước khi xem dữ liệu. Tập tin cậy không chỉ ra một người thắng mà liệt kê những người chưa thể loại.
+@@ 2375
+Dữ liệu kém thông tin cho tập lớn, dữ liệu nhiều thông tin cho tập nhỏ: dữ liệu ít hoặc ồn thì kiểm định không đủ sức loại ai.
+@@ 2376
+Vì vậy tập lớn hơn ở chế độ căng thẳng có thể chỉ phản ánh dữ liệu kém thông tin hơn; đề cương báo cáo kích thước tập như thước đo mô tả, kèm số quan sát và công suất kiểm định. Công suất là khả năng phát hiện khác biệt khi khác biệt có thật; công suất thấp thì danh sách chưa thể loại dài ra.
+@@ 2377
+Ví dụ giả định (số tự đặt để minh họa): cửa sổ bình thường, nhiều quan sát, dữ liệu ít ồn: tập còn 3 mô hình.
+@@ 2378
+Cửa sổ căng thẳng, dữ liệu ồn hơn, ít quan sát độc lập hơn: tập còn 6 mô hình.
+@@ 2379
+Đọc sai: "căng thẳng làm mọi mô hình ngang nhau, chọn gì cũng được". Đọc đúng hơn: "kiểm định ở chế độ căng thẳng ít sức hơn, chưa loại được nhiều". Cùng con số 6, khác ý nghĩa; vì thế phải ghi kèm số quan sát và công suất.
+@@ 2381
+Theo bản đọc, tập tin cậy là kết quả phụ vì kích thước của nó phụ thuộc cả chất lượng mô hình lẫn lượng thông tin của dữ liệu, nên dễ đọc nhầm hơn mức hối tiếc.
+@@ 2382
+**Ghép ba thước đo: bất định và rủi ro**
+@@ 2383
+Nhắc lại mục 4.1: rủi ro mô hình là hậu quả bất lợi từ mô hình sai hoặc dùng sai; bất định mô hình là nhiều mô hình khả dĩ cho kết quả khác nhau; rủi ro lựa chọn mô hình là tổn thất kỳ vọng đo bằng mức hối tiếc. Độ phân tán và kích thước tập tin cậy chỉ báo bất định.
+@@ 2384 DEL
+@@ 2390
+độ lệch chuẩn mẫu của [[CÔNG THỨC]] theo m, phương trình (3)
+@@ 2393
+Mức hối tiếc [[CÔNG THỨC]]
+@@ 2397
+Kích thước tập tin cậy mô hình
+@@ 2402
+Đề cương dùng hai phiên bản: bản thô cho mức chênh nguyên trạng; bản đã chia cho sai số chuẩn bootstrap cho mức chênh so với nhiễu. Phân tích chính dùng bản đã chia.
+@@ 2404
+• [[CÔNG THỨC]]: độ lệch chuẩn mẫu của điểm số giữa các mô hình, chia cho M − 1 trong dấu căn (phương trình (3)).
+@@ 2405
+• [[CÔNG THỨC]]: điểm cao nhất sau thực tế trừ điểm của mô hình chọn trước (phương trình (4)); mô hình chọn trước có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước, chọn tại đầu mỗi cửa sổ đánh giá.
+@@ 2406
+• Mức hối tiếc không âm vì mô hình chọn trước thuộc M; kỳ vọng vẫn dương khi các mô hình ngang nhau, vì giá trị lớn nhất của các đại lượng có nhiễu tăng theo phương sai của nhiễu.
+@@ 2407
+• Cơ chế (ii) và (iii) bị loại khỏi M khi kiểm định H3, nên mức hối tiếc của chúng có thể âm.
+@@ 2408
+• Phân tích chính chia [[CÔNG THỨC]] và [[CÔNG THỨC]] cho sai số chuẩn bootstrap của chênh lệch điểm số giữa các mô hình trong cùng cửa sổ.
+@@ 2409
+• Tập tin cậy ở mức 10%; tập lớn hơn ở chế độ căng thẳng có thể chỉ do dữ liệu kém thông tin, nên báo cáo mô tả kèm số quan sát và công suất.
+@@ 2412
+1. Mô tả bốn bước tính [[CÔNG THỨC]] và mẫu số trong dấu căn.
+@@ 2413
+Đáp án: lấy điểm từng mô hình trừ trung bình, bình phương, cộng lại, chia cho M − 1 = 6, lấy căn bậc hai.
+@@ 2414
+2. Mức hối tiếc tính từ những đại lượng nào, mô hình chọn trước là mô hình nào?
+@@ 2415
+Đáp án: [[CÔNG THỨC]] (điểm cao nhất trong M sau thực tế) trừ [[CÔNG THỨC]] (điểm của mô hình chọn trước). Mô hình chọn trước có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước.
+@@ 2416
+3. Vì sao mức hối tiếc không âm, nhưng kỳ vọng vẫn dương khi các mô hình ngang nhau?
+@@ 2417
+Đáp án: không âm vì mô hình chọn trước thuộc M. Kỳ vọng dương vì mô hình tốt nhất sau thực tế nhặt lấy giá trị lớn nhất của các đại lượng có nhiễu, và giá trị đó tăng theo phương sai của nhiễu.
+@@ 2418
+4. Vì sao chia cho sai số chuẩn bootstrap?
+@@ 2419
+Đáp án: để loại tác động cơ học của nhiễu ước lượng.
+@@ 2420
+5. Vì sao tập tin cậy lớn hơn ở chế độ căng thẳng chưa chắc nghĩa là rủi ro cao hơn?
+@@ 2421
+Đáp án: có thể chỉ do dữ liệu kém thông tin; đề cương báo cáo kích thước tập dạng mô tả, kèm số quan sát và công suất.
+@@ 2422
+6. Ba thuật ngữ khác nhau thế nào, độ phân tán thuộc nhóm nào?
+@@ 2423
+Đáp án: rủi ro mô hình là hậu quả bất lợi từ mô hình sai hoặc dùng sai; bất định mô hình là nhiều mô hình khả dĩ cho kết quả khác nhau; rủi ro lựa chọn mô hình là tổn thất kỳ vọng đo bằng mức hối tiếc. Độ phân tán chỉ báo bất định.

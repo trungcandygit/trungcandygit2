@@ -1,0 +1,169 @@
+@@ 1638
+Mục 4.2 của đề cương (tiếp): Khoảng trống nghiên cứu, hay chỗ chưa ai đo
+@@ 1639
+Phần khoảng trống ở cuối mục 4.2 trả lời câu hội đồng nào cũng hỏi: đề tài làm gì mà người khác chưa làm. Câu trả lời gói trong bốn khoảng trống, đánh số (1) đến (4) ở Bảng 1, và một điểm chung: các công trình đo từng mô hình, từng chế độ hoặc từng hiện tượng riêng lẻ, chưa công trình nào đo rủi ro của việc chọn giữa các mô hình theo chế độ thị trường.
+@@ 1640
+Tuyên bố này có hai lớp rào: "theo hiểu biết của thí sinh", và danh sách nơi đã tìm, nơi chưa tìm. Hãy để ý hai lớp rào này không kém bốn khoảng trống.
+@@ 1642
+Mỗi công trình đã vẽ kín một khu phố trên bản đồ thị trấn; khoảng trống là mảng trắng chưa ai vẽ. Đề tài tiến sĩ phải chỉ ra mảng trắng ở đâu và vì sao vẽ nó có ích.
+@@ 1643
+Có những chỗ trống vì không ai cần vẽ, nên phần khoảng trống tốt làm ba việc: nêu điều đã làm, chỉ điều còn thiếu, giải thích vì sao điều thiếu đáng quan tâm. Bảng 1 làm hai việc đầu; việc thứ ba nằm ở mục 4.1 (lý do chọn đề tài).
+@@ 1644
+Nhắc lại ba khái niệm mà cả bốn khoảng trống xoay quanh: **mô hình danh mục** là một cách quyết định chia tiền vào các cổ phiếu; **chế độ thị trường** là trạng thái thống kê của thị trường, như thời tiết (bình thường là trời quang, căng thẳng là mùa bão); **rủi ro lựa chọn mô hình** là tổn thất kỳ vọng do phải chọn một cách chia tiền trước khi biết cách nào tốt nhất, đo bằng mức hối tiếc.
+@@ 1645
+**Hai vấn đề để ngỏ, nhìn từ trên cao**
+@@ 1646
+Trước khi tách thành bốn hàng, mục 4.1 đã nêu gọn rằng tài liệu hiện có để ngỏ hai vấn đề.
+@@ 1647
+Thứ nhất, các thước đo rủi ro mô hình (Boucher và cộng sự, 2014; Danielsson và cộng sự, 2016) đo chênh lệch giữa các dự báo rủi ro, chưa đo hậu quả của việc chọn sai mô hình lên trọng số và kết quả danh mục.
+@@ 1648
+Ba dự báo viên cho ba xác suất mưa khác nhau. Đo độ chênh giữa ba con số cho biết họ bất đồng bao nhiêu, chưa cho biết buổi dã ngoại hỏng bao nhiêu nếu bạn nghe nhầm người. Thước đo hiện có đo độ bất đồng; đề tài đo buổi dã ngoại hỏng, tức chênh lệch kết quả danh mục.
+@@ 1649
+Thứ hai, các nghiên cứu so sánh danh mục (DeMiguel và cộng sự, 2009; Garlappi và cộng sự, 2007) xếp hạng mô hình theo bình quân toàn mẫu, chưa xét thứ hạng thay đổi ra sao khi thị trường chuyển chế độ.
+@@ 1650
+Đội xếp cao trên bảng điểm cả mùa chưa chắc mạnh hơn khi sân ướt mưa. Xếp hạng bình quân toàn mẫu gộp trời quang và mùa bão vào một con số; đề tài tách hai trạng thái và hỏi thứ hạng đổi thế nào.
+@@ 1651
+**Bảng 1: bốn nhóm công trình và bốn khoảng trống**
+@@ 1652
+Bảng dưới giữ nội dung Bảng 1 của đề cương.
+@@ 1654
+Kết quả đã có
+@@ 1657
+Đo rủi ro mô hình của các mô hình dự báo rủi ro thị trường và rủi ro hệ thống; rủi ro mô hình tăng theo bất định
+@@ 1658
+(1) Thước đo chưa gắn với hậu quả của quyết định phân bổ danh mục theo chế độ thị trường
+@@ 1661
+(2) Chưa đặt các mô hình vào một tập cạnh tranh để đo rủi ro lựa chọn mô hình theo chế độ
+@@ 1662
+Chế độ thị trường ở Việt Nam (Hoang và Luu, 2024)
+@@ 1663
+Mô hình hóa biến động của VN-Index
+@@ 1664
+(3) Chưa nối chế độ thị trường với chất lượng quyết định danh mục
+@@ 1667
+(4) Chưa gắn bầy đàn với rủi ro của việc chọn mô hình
+@@ 1669
+Mỗi hàng là một nhóm tài liệu; cột giữa là điều nhóm đã làm, cột phải là điều chưa làm, theo tác giả.
+@@ 1670
+**Khoảng trống (1): thước đo rủi ro mô hình chưa gắn với hậu quả của quyết định phân bổ**
+@@ 1671
+Boucher và cộng sự (2014) hiệu chỉnh độ đo rủi ro theo kết quả kiểm định ngược; Danielsson và cộng sự (2016) thấy rủi ro mô hình tăng theo bất định của thị trường, nhỏ khi thị trường yên ắng.
+@@ 1672
+Kết luận của Danielsson và cộng sự chỉ cho mô hình dự báo rủi ro thị trường và rủi ro hệ thống, tức mô hình dự báo rủi ro, chưa phải mô hình quyết định chia tiền.
+@@ 1673
+Nói bằng lời thường: người ta đã đo "các mô hình bất đồng bao nhiêu khi dự báo rủi ro", chưa đo "chọn nhầm cách chia tiền thì danh mục thiệt bao nhiêu, và thiệt nhiều hơn hay ít hơn tùy trời quang hay mùa bão".
+@@ 1674
+Theo bản đọc, mức hối tiếc ở mục 4.3.6 (chênh lệch lợi suất tương đương chắc chắn giữa mô hình tốt nhất sau thực tế và mô hình chọn trước) tính trên kết quả danh mục chứ không dừng ở chênh lệch dự báo, nên có thể đọc như câu trả lời cho khoảng trống (1).
+@@ 1675
+**Khoảng trống (2): danh mục ở Việt Nam được đánh giá từng mô hình một**
+@@ 1676
+Bốn công trình, theo nhóm (6):
+@@ 1677
+Ta và Vuong (2020): Black-Litterman với quan điểm từ mô hình tự hồi quy trung bình trượt tích hợp.
+@@ 1678
+Nguyen và cộng sự (2020): hiệp phương sai co rút trên 468 tuần 2011–2019, lợi nhuận cao hơn, rủi ro thấp hơn phương pháp truyền thống.
+@@ 1679
+Goutte và cộng sự (2025): năm phương pháp đa tiêu chí, bốn cách gán trọng số, VN100, 01/2015–11/2023.
+@@ 1680
+Nguyen và Nguyen (2026a), bài của tác giả: Black-Litterman với mô hình định giá tài sản vốn có chuyển chế độ, 2019–2025.
+@@ 1681
+Cả bốn "đánh giá từng mô hình hoặc từng phương pháp"; khoảng trống (2) là chưa đặt các mô hình vào một tập cạnh tranh.
+@@ 1682
+Muốn biết thợ nào sửa xe giỏi: đưa xe cho một thợ rồi chấm, hoặc đưa cùng chiếc xe cho bảy thợ, cùng đề bài, rồi so. Chỉ cách thứ hai cho biết chọn nhầm thợ thiệt bao nhiêu. "Bảy thợ" là M1 đến M7 ở Bảng 3; "chọn nhầm thợ" là rủi ro lựa chọn mô hình.
+@@ 1683
+Goutte và cộng sự đã so sánh nhiều phương pháp, nên đề cương không nói "chưa ai so sánh nhiều phương pháp ở Việt Nam". Đề cương nói họ so sánh phương pháp, còn đề tài đo mức bất định khi chọn mô hình theo từng chế độ.
+@@ 1684
+**Khoảng trống (3): chế độ ở Việt Nam chưa nối với quyết định danh mục**
+@@ 1685
+Hoang và Luu (2024), bản thảo trực tuyến, phân tích VN-Index 2012–2023: mô hình một chế độ dự báo biến động tốt hơn ở kỳ hạn ngắn, chuyển chế độ tốt hơn ở kỳ hạn trung và dài.
+@@ 1686
+Công trình mô tả thời tiết của thị trường, chưa nối thời tiết ấy với chất lượng quyết định danh mục.
+@@ 1687 DEL
+@@ 1688
+**Khoảng trống (4): bầy đàn ở Việt Nam chưa gắn với việc chọn mô hình**
+@@ 1689
+Vo và Phan (2017) dùng 299 công ty trên HOSE 2005–2015 và tìm thấy bầy đàn, rõ hơn khi thị trường giảm.
+@@ 1690
+Bầy đàn là làm theo số đông thay vì dựa vào thông tin riêng, như đàn cừu ngoái nhìn con phía trước chứ không nhìn đường.
+@@ 1691
+Đề tài không quan sát hành vi chọn mô hình của tổ chức đầu tư (mục 4.4); phép thử bầy đàn chỉ dùng độ phân tán chéo của lợi suất ở cấp thị trường, sau khi kiểm soát biến động. Vì H4 dựa trên Vo và Phan (2017) và ghi là thăm dò, đề tài chạm vào khoảng trống (4) ở mức thăm dò.
+@@ 1693
+Sau bảng, đề cương viết: bốn khoảng trống có chung một điểm, các công trình đo từng mô hình, từng chế độ hoặc từng hiện tượng riêng lẻ, chưa công trình nào đo rủi ro của việc chọn giữa các mô hình theo chế độ thị trường.
+@@ 1694
+Tóm bằng chữ "riêng lẻ": mô hình riêng lẻ (khoảng trống (2)), chế độ riêng lẻ (3), hiện tượng riêng lẻ (4); cách gán này là của bản đọc. Đề tài ghép lại: nhiều mô hình cạnh tranh, xét theo chế độ, kèm các biến kênh.
+@@ 1695
+Mục 8.2 diễn đạt bước chuyển này: luận án chuyển trọng tâm từ đánh giá một mô hình sang câu hỏi chọn giữa nhiều mô hình.
+@@ 1696
+**Vì sao là Việt Nam: nơi kiểm chứng, không phải lý do của khoảng trống**
+@@ 1697
+Đừng nghĩ khoảng trống là "chưa ai làm ở Việt Nam". Khoảng trống là một câu hỏi khoa học chung; Việt Nam là nơi thử.
+@@ 1698
+Mục 4.1 nêu lý do: thanh khoản hạn chế và nhiều cú sốc trong một lịch sử giao dịch ngắn, nên chênh lệch giữa các mô hình có thể lớn hơn ở thị trường phát triển. Đề cương dùng chữ "có thể", không dùng chữ "độc nhất".
+@@ 1699
+Lịch sử ngắn cũng là giới hạn: mẫu có ít giai đoạn căng thẳng độc lập, nên kiểm định có công suất thấp; khi số cửa sổ độc lập ở chế độ căng thẳng dưới 10, kết quả gọi là không kết luận (mục 4.3.10). Khoảng trống có thật không bảo đảm dữ liệu Việt Nam đủ để lấp nó.
+@@ 1701
+Tuyên bố tính mới: theo hiểu biết của thí sinh, chưa có nghiên cứu nào đo rủi ro lựa chọn mô hình theo chế độ thị trường cho quyết định phân bổ danh mục trên thị trường chứng khoán Việt Nam.
+@@ 1702
+Cụm "theo hiểu biết của" biến câu tuyệt đối ("chưa ai làm") thành câu có điều kiện ("tôi chưa thấy ai làm"). Không ai chứng minh được rằng một công trình không tồn tại; chỉ nói được đã tìm ở đâu và không thấy gì.
+@@ 1704
+Truy vấn thực hiện đến 30/09/2026 trên chín cơ sở: SSRN, RePEc/IDEAS, ScienceDirect, Oxford Academic, Wiley, Springer, Taylor & Francis, MDPI và arXiv.
+@@ 1706
+Phạm vi chưa gồm Scopus, Web of Science và các tạp chí tiếng Việt trong nước, nên nhận định không loại trừ nghiên cứu ngoài phạm vi đó.
+@@ 1707
+Tìm chìa khóa ở phòng khách, phòng ngủ và bếp rồi không thấy: kết luận đúng là "không thấy ở ba phòng này", chưa phải "không có trong nhà". Tác giả khai rõ phòng nào chưa lục, không nói trong đó có hay không.
+@@ 1709
+Tác giả mới đọc tóm tắt và thông tin thư mục của phần lớn nguồn; đọc toàn văn và mở rộng tìm kiếm nằm trong kế hoạch năm thứ nhất.
+@@ 1710
+Vì vậy mọi mô tả về công trình trước trong bản đọc này chỉ đúng như đề cương nói về chúng, không thêm chi tiết.
+@@ 1712
+Mục 4.4 nhắc các công trình gần nhất: Ta và Vuong (2020), Goutte và cộng sự (2025), Hoang và Luu (2024) và bài của tác giả (Nguyen và Nguyen, 2026a); Nguyen và cộng sự (2020) cùng nằm ở hàng "danh mục ở Việt Nam" của Bảng 1.
+@@ 1713
+Tác giả tự đưa bài của mình vào danh sách gần nhất, nên người đọc thấy ngay đề tài khác bài cũ ở đâu: M5 cạnh sáu mô hình khác, mẫu mở về trước 2019 nếu được, đo chênh lệch giữa các mô hình thay vì đánh giá riêng M5; kết quả bài trước chỉ làm đối chứng.
+@@ 1714
+**Bốn điểm khác biệt, đối chiếu với bốn khoảng trống**
+@@ 1715
+Mục 4.4 nêu bốn điểm khác biệt. Bản đọc đối chiếu chúng với Bảng 1 (cách ghép là của bản đọc):
+@@ 1716
+1. Ta và Vuong (2020) áp dụng một mô hình Black-Litterman; đề tài đặt nó cùng sáu mô hình khác vào tập cạnh tranh. Ứng với khoảng trống (2).
+@@ 1717
+2. Goutte và cộng sự (2025) so sánh phương pháp đa tiêu chí trên VN100; đề tài đo bất định khi chọn mô hình theo chế độ. Cũng ứng với (2), ở khía cạnh theo chế độ.
+@@ 1718
+3. Hoang và Luu (2024) phân tích chế độ của biến động; đề tài nối chế độ với chất lượng quyết định phân bổ. Ứng với (3). Điểm thứ tư là khác biệt với bài trước của tác giả.
+@@ 1719
+Khoảng trống (1) gắn với thước đo mức hối tiếc (mục 4.3.6), khoảng trống (4) với giả thuyết thăm dò H4 (Bảng 2).
+@@ 1721
+Để tránh hiểu quá mức, phần này không nói:
+@@ 1722
+rằng chưa ai trên thế giới nghiên cứu rủi ro lựa chọn mô hình; nó chỉ nói về việc đo theo chế độ cho phân bổ danh mục ở Việt Nam, theo hiểu biết của tác giả;
+@@ 1723
+rằng nghiên cứu ngoài phạm vi tìm kiếm không tồn tại;
+@@ 1724
+rằng Việt Nam là nơi duy nhất hay là lý do của khoảng trống;
+@@ 1725
+rằng các công trình trước sai; cột "Kết quả đã có" mô tả trung tính, cột "Khoảng trống" chỉ nói chúng chưa trả lời một câu hỏi khác;
+@@ 1726
+và đề tài sẽ tìm thấy gì. Mục 4.3.2 biến khoảng trống thành các giả thuyết có thể bị bác bỏ.
+@@ 1728
+Bốn khoảng trống: (1) thước đo rủi ro mô hình chưa gắn với hậu quả quyết định phân bổ theo chế độ; (2) danh mục ở Việt Nam chưa đặt vào tập cạnh tranh; (3) chế độ ở Việt Nam chưa nối với chất lượng quyết định; (4) bầy đàn chưa gắn với rủi ro của việc chọn mô hình.
+@@ 1730
+Hai vấn đề để ngỏ: thước đo rủi ro mô hình chỉ đo chênh lệch dự báo rủi ro; nghiên cứu danh mục xếp hạng theo bình quân toàn mẫu, chưa xét thứ hạng đổi theo chế độ.
+@@ 1731
+Việt Nam là nơi kiểm chứng (thanh khoản hạn chế, nhiều cú sốc, lịch sử ngắn), không phải lý do của khoảng trống.
+@@ 1732
+Tính mới chỉ "theo hiểu biết của thí sinh": chín cơ sở đến 30/09/2026; chưa gồm Scopus, Web of Science, tạp chí tiếng Việt; mới đọc tóm tắt và thông tin thư mục.
+@@ 1735
+1. Bốn khoảng trống là gì, và điểm chung của chúng?
+@@ 1736
+Đáp án: (1) thước đo rủi ro mô hình chưa gắn với hậu quả quyết định phân bổ theo chế độ; (2) danh mục ở Việt Nam chưa đặt vào tập cạnh tranh; (3) chế độ ở Việt Nam chưa nối với chất lượng quyết định danh mục; (4) bầy đàn chưa gắn với rủi ro của việc chọn mô hình. Điểm chung: chưa công trình nào đo rủi ro của việc chọn giữa các mô hình theo chế độ thị trường.
+@@ 1737
+2. Vì sao chọn Việt Nam, và đó có phải lý do của khoảng trống không?
+@@ 1738
+Đáp án: thanh khoản hạn chế và nhiều cú sốc trong lịch sử giao dịch ngắn, nên chênh lệch giữa các mô hình có thể lớn. Đó là nơi kiểm chứng, không phải lý do của khoảng trống.
+@@ 1740
+Đáp án: "theo hiểu biết của thí sinh"; truy vấn chín cơ sở đến 30/09/2026; chưa gồm Scopus, Web of Science và tạp chí tiếng Việt; mới đọc tóm tắt và thông tin thư mục, đọc toàn văn trong năm thứ nhất.
+@@ 1741
+4. Hai vấn đề để ngỏ ở mục 4.1 là gì?
+@@ 1742
+Đáp án: thước đo rủi ro mô hình (Boucher và cộng sự, 2014; Danielsson và cộng sự, 2016) đo chênh lệch dự báo rủi ro, chưa đo hậu quả lên trọng số và kết quả danh mục; nghiên cứu danh mục (DeMiguel và cộng sự, 2009; Garlappi và cộng sự, 2007) xếp hạng theo bình quân toàn mẫu, chưa xét thứ hạng đổi theo chế độ.
+@@ 1744
+Đáp án: M5 cạnh sáu mô hình khác, mẫu mở về trước 2019 nếu được, đo chênh lệch giữa các mô hình thay vì đánh giá riêng M5; kết quả bài trước chỉ làm đối chứng.

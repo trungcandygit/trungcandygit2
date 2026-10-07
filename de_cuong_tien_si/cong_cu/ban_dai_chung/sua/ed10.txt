@@ -1,0 +1,97 @@
+@@ 1188
+Mục 4.2 của đề cương, nhóm (1): Sai số ước lượng và tối ưu hóa danh mục
+@@ 1189
+Mọi mô hình phân bổ đều dùng dữ liệu có sai số, và không mô hình nào thắng ổn định. Từ đó đề cương coi việc chọn mô hình là một quyết định có rủi ro riêng.
+@@ 1190
+Phần này đi qua: sai số lọt vào đâu, ba hướng khắc phục, và vì sao chúng vẫn không chốt được câu chuyện. Khái niệm trung bình-phương sai và hiệp phương sai đã giải thích ở phần một của mục 4.1.
+@@ 1192 DEL
+@@ 1193
+Nhắc lại: khung trung bình-phương sai của Markowitz (1952) chọn danh mục có lợi suất kỳ vọng cao nhất ứng với một mức phương sai cho trước.
+@@ 1194
+Giống tìm tuyến đường nhanh nhất mà độ xóc không vượt một ngưỡng: đặt mức dao động chịu được rồi tìm cách chia tiền lời cao nhất.
+@@ 1195
+Gọi là "tối ưu hóa" vì máy tính tìm ra bộ trọng số tốt nhất theo công thức. Bộ trọng số đó phụ thuộc hai nhóm số đầu vào: lợi suất kỳ vọng của từng mã và hiệp phương sai giữa các mã.
+@@ 1196 DEL
+@@ 1198
+Các số đầu vào phải ước lượng từ quá khứ, và sai số khi ước lượng chúng truyền sang trọng số danh mục: số đầu vào lệch thì cách chia tiền lệch theo.
+@@ 1199
+Giống dẫn một chiếc xe chạy rất nhanh bằng bản đồ vẽ tay có sai số: xe càng bám tuyệt đối theo bản đồ thì càng xa đường thật.
+@@ 1200
+Michaud (1989): tối ưu hóa dồn trọng số lớn vào tài sản có sai số ước lượng lớn. Công thức không biết con số nào đáng tin; một mã có lợi suất ước lượng cao chỉ do sai số vẫn được dồn nhiều tiền.
+@@ 1201 DEL
+@@ 1202
+Ví dụ giả định (số tự đặt để minh họa): hai cổ phiếu X và Y thực ra có lợi suất kỳ vọng như nhau, nhưng do ngẫu nhiên, dữ liệu quá khứ cho X trông cao hơn một chút.
+@@ 1203
+Công thức chỉ nhìn số ước lượng nên dồn phần lớn tiền vào X; khi tương lai đến, X không hơn Y và khoản dồn đó không đem lại gì.
+@@ 1205
+Kan và Zhou (2007): thay tham số tổng thể (giá trị thật mà ta không thấy) bằng ước lượng mẫu (con số tính từ dữ liệu hữu hạn) làm hiệu quả ngoài mẫu giảm mạnh.
+@@ 1206
+Trong mẫu thì kết quả luôn đẹp vì công thức đã "nhìn đáp án"; ngoài mẫu mới là bài thi thật, và bài thi đó có thể đạt điểm kém.
+@@ 1207
+Đề cương không nêu chi tiết cách hai nhóm tác giả chứng minh; hãy nhớ các kết luận trên, nền của nhận định "mọi mô hình phân bổ đều có sai số ở đầu vào".
+@@ 1209
+Tài liệu đề xuất ba hướng khắc phục; hướng nào cũng muốn công thức bớt tin tuyệt đối vào số đầu vào.
+@@ 1211
+Ledoit và Wolf (2004) co rút ma trận hiệp phương sai về một ma trận mục tiêu có cấu trúc.
+@@ 1212
+Co rút là kéo một ước lượng quá nhiễu về phía một giá trị đơn giản, ổn định hơn. Một học sinh thi thử một lần được điểm rất cao, bạn chưa nên tin em luôn đạt như vậy mà kéo nhận định về phía mức trung bình của lớp.
+@@ 1213
+Nhiều cổ phiếu thì có rất nhiều cặp hiệp phương sai, mỗi cặp là một ước lượng nhiễu. Co rút làm các con số cực đoan bớt cực đoan, nên trọng số ít bị sai số làm lệch. Chi tiết kỹ thuật đề cương không nêu.
+@@ 1214
+Đây là cơ sở của M2 (phương sai nhỏ nhất với hiệp phương sai co rút), và cũng là phương pháp mà Nguyen và cộng sự (2020) dùng cho Việt Nam.
+@@ 1216
+Black và Litterman (1992) kết hợp lợi suất cân bằng của mô hình định giá tài sản vốn với quan điểm riêng của nhà đầu tư.
+@@ 1217
+Mô hình định giá tài sản vốn nói rằng khi thị trường cân bằng, lợi suất kỳ vọng của mỗi tài sản gắn với mức rủi ro của nó đối với thị trường. Ý chính: nó cho một điểm xuất phát có logic, do thị trường hình thành, thay vì một ước lượng mẫu nhiễu.
+@@ 1218
+Quan điểm của nhà đầu tư là dự báo riêng, chẳng hạn "cổ phiếu ngân hàng sẽ tốt hơn thị trường". Theo cách hiểu của bản đọc, Black-Litterman lấy cân bằng thị trường làm điểm tựa rồi dịch về phía quan điểm đó.
+@@ 1219
+Giống mua xe: bạn có giá thị trường làm mốc, nghe bạn bè nói chiếc này đáng giá hơn, và bạn chỉnh mốc một chút về phía lời bạn chứ không bỏ hẳn mốc.
+@@ 1220 DEL
+@@ 1221
+Bessler và cộng sự (2017) thấy Black-Litterman vượt cả danh mục trung bình-phương sai lẫn 1/N về hiệu quả ngoài mẫu trên dữ liệu đa tài sản toàn cầu.
+@@ 1222
+M4 và M5 thuộc họ Black-Litterman, và tác giả đã làm đề tài sinh viên về Black-Litterman cho ngành ngân hàng Việt Nam.
+@@ 1224
+Garlappi và cộng sự (2007) mô hình hóa nhà đầu tư né tránh mơ hồ với nhiều niềm tin tiên nghiệm và thu được danh mục ổn định hơn.
+@@ 1225
+Né tránh mơ hồ là ngại những tình huống mà chính xác suất cũng chưa rõ, khác với ngại rủi ro (biết xác suất nhưng không thích dao động). Một túi bi biết rõ nửa đỏ nửa xanh khác với một túi không biết tỷ lệ; nhiều người thích đặt cược vào túi thứ nhất.
+@@ 1226
+"Nhiều niềm tin tiên nghiệm" nghĩa là nhà đầu tư giữ nhiều bộ ước lượng cùng lúc thay vì tin một bộ, rồi tối ưu cho tình huống xấu nhất trong số đó (mục 4.3.8). Tiêu chí của Gilboa và Schmeidler (1989) ở nhóm (2) cũng dựa trên nhiều niềm tin tiên nghiệm.
+@@ 1227
+Đây là cơ sở của M6 và của cơ chế giảm thiểu thứ hai.
+@@ 1229
+Sau ba hướng khắc phục là bằng chứng làm mọi thứ lung lay: DeMiguel và cộng sự (2009) đánh giá 14 mô hình trên bảy bộ dữ liệu và không thấy mô hình nào vượt nhất quán 1/N, xét theo Sharpe, lợi suất tương đương chắc chắn hoặc vòng quay.
+@@ 1230
+Quy tắc 1/N chia đều vốn cho N tài sản: không công thức, không ước lượng, nên không có sai số ước lượng để lọt vào.
+@@ 1231
+Mười bốn mô hình phức tạp không mô hình nào thắng nhất quán cách chia trứng đều. Điều này không có nghĩa 1/N luôn tốt nhất, chỉ là trong bảy bộ dữ liệu đó không mô hình nào vượt nổi nó một cách nhất quán.
+@@ 1232
+Pflug và cộng sự (2012) đi xa hơn về lý thuyết: khi mức mơ hồ về mô hình đủ cao, quy tắc 1/N xấp xỉ tối ưu theo nghĩa vững chắc. Kết luận của đề cương: chọn mô hình là một quyết định có rủi ro riêng, vì nếu mô hình thắng cuộc thay đổi theo dữ liệu thì người phải chọn luôn có thể chọn trật.
+@@ 1233 DEL
+@@ 1235
+1/N có hai vai trong đề cương: là M1 trong tập bảy mô hình, và là một khả năng đối lập của H1 (rủi ro không đổi theo chế độ, hoặc 1/N thắng ổn định; DeMiguel và cộng sự, 2009; Pflug và cộng sự, 2012). Nếu giả thuyết bị bác bỏ, đề tài vẫn trả lời được: 1/N đủ dùng ở Việt Nam.
+@@ 1236
+Đề cương đặt các mô hình phức tạp cạnh một mô hình sơ đẳng và để dữ liệu quyết định; nó không nhận xét trước mô hình nào tốt.
+@@ 1238
+Phần này không báo cáo kết quả nào của đề tài, cũng không nói ba hướng khắc phục là sai; nó chỉ nói không hướng nào thắng ổn định.
+@@ 1239
+Vì tác giả mới đọc tóm tắt của phần lớn nguồn, đề cương mô tả các công trình ở mức kết luận chính. Bạn nên làm tương tự: nêu đúng điều đề cương nói, không thêm chi tiết kỹ thuật.
+@@ 1241
+• Markowitz (1952): lợi suất kỳ vọng cao nhất với phương sai cho trước.
+@@ 1242
+• Sai số đầu vào truyền sang trọng số: Michaud (1989) dồn trọng số vào tài sản sai số lớn; Kan và Zhou (2007) ước lượng mẫu làm hiệu quả ngoài mẫu giảm mạnh.
+@@ 1243
+• Ba hướng khắc phục: co rút (Ledoit và Wolf, 2004); Black-Litterman (1992; Bessler và cộng sự, 2017); né tránh mơ hồ với nhiều niềm tin tiên nghiệm (Garlappi và cộng sự, 2007).
+@@ 1244
+• DeMiguel và cộng sự (2009): không mô hình nào vượt nhất quán 1/N; Pflug và cộng sự (2012): 1/N xấp xỉ tối ưu khi mơ hồ cao.
+@@ 1249
+Đáp án: dồn trọng số lớn vào các tài sản đó.
+@@ 1251
+Đáp án: lợi suất cân bằng của mô hình định giá tài sản vốn và quan điểm của nhà đầu tư.
+@@ 1253
+Đáp án: vượt trung bình-phương sai và 1/N về hiệu quả ngoài mẫu trên dữ liệu đa tài sản toàn cầu.
+@@ 1255
+Đáp án: nhà đầu tư né tránh mơ hồ với nhiều niềm tin tiên nghiệm; thu được danh mục ổn định hơn.
+@@ 1257
+Đáp án: không mô hình nào vượt nhất quán 1/N trên bảy bộ dữ liệu, nên chọn mô hình là một quyết định có rủi ro riêng.

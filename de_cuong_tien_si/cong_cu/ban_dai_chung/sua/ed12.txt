@@ -1,0 +1,136 @@
+@@ 1325
+Mục 4.2 của đề cương, nhóm (3): Kết hợp mô hình, chọn mô hình và kiểm định
+@@ 1326
+Khi nhiều mô hình bất đồng, đề cương nêu ba cách xử lý: kết hợp mô hình, thu hẹp tập mô hình, và hiệu chỉnh thiên lệch chọn lọc. Nhóm (3) điểm các công trình đứng sau từng cách.
+@@ 1327
+Cách nhớ nhanh: cách thứ nhất là không chọn mà trộn; cách thứ hai là chọn một nhóm thay vì một ứng viên; cách thứ ba là tự kiểm tra xem mình có đang tự lừa vì đã thử quá nhiều lần.
+@@ 1329 DEL
+@@ 1330
+Thay vì nghe một nhà tư vấn, bạn nghe cả năm người rồi lấy trung bình có trọng số; người có thành tích tốt hơn nặng ký hơn một chút. Bạn không cần đoán ai đúng, chỉ cần không đặt cược tất cả vào một người.
+@@ 1331
+Theo bản đọc, nếu chọn một mô hình có thể chọn trật thì không chọn một mô hình duy nhất là cách tránh phần nào nguy cơ đó. Đề cương dựa trên tinh thần này ở H3 và cơ chế giảm thiểu (i).
+@@ 1332
+**Hoeting và cộng sự (1999): trung bình hóa mô hình Bayes**
+@@ 1333
+Hoeting và cộng sự (1999) trình bày phương pháp trung bình hóa mô hình Bayes.
+@@ 1334
+Giải thích chung, không phải chi tiết bài gốc: "trung bình hóa" là lấy trung bình dự báo của nhiều mô hình; "Bayes" là dùng xác suất để biểu diễn mức tin. Bạn bắt đầu với niềm tin tiên nghiệm về mô hình nào có khả năng đúng, cập nhật sau khi nhìn dữ liệu; mô hình giải thích dữ liệu tốt hơn nhận trọng số lớn hơn.
+@@ 1335 DEL
+@@ 1336
+Ví dụ giả định (số tự đặt để minh họa): ba mô hình dự báo lợi suất tháng sau là 2%, 0% và 1%; sau khi nhìn dữ liệu, mức tin vào ba mô hình là 50%, 30% và 20%.
+@@ 1337
+Dự báo kết hợp = 0,5 × 2% + 0,3 × 0% + 0,2 × 1% = 1,2%. Một mô hình hóa ra tệ không kéo cả dự báo đi quá xa vì nó chỉ chiếm một phần.
+@@ 1339
+Đề cương không nêu kết quả thực nghiệm của Hoeting và cộng sự. Họ được nhắc vì trọng số Bayes là một cách trộn mô hình trong cơ chế giảm thiểu (i).
+@@ 1340
+**Avramov (2002): áp dụng vào dự báo lợi suất cổ phiếu**
+@@ 1341
+Avramov (2002) áp dụng phương pháp này vào dự báo lợi suất cổ phiếu và thu được hiệu quả ngoài mẫu tốt hơn việc dùng tiêu chí để chọn một mô hình.
+@@ 1342
+Tiêu chí chọn mô hình là quy tắc chọn một mô hình duy nhất, ví dụ mô hình khớp dữ liệu tốt nhất. Ở Avramov, trộn thắng chọn trên dữ liệu chưa dùng để tính.
+@@ 1343
+Theo bản đọc, đây là bằng chứng cho hướng kết hợp trong dự báo lợi suất, chưa phải bằng chứng cho phân bổ danh mục ở Việt Nam.
+@@ 1344
+**Timmermann (2006): tổng hợp bằng chứng về kết hợp dự báo**
+@@ 1345
+Timmermann (2006) tổng hợp bằng chứng rằng dự báo kết hợp thường tốt hơn dự báo riêng lẻ.
+@@ 1346
+Kết hợp dự báo là trộn nhiều dự báo của cùng một đại lượng thành một. Chữ "thường" quan trọng: câu này không nói kết hợp luôn thắng mọi dự báo riêng lẻ.
+@@ 1347
+Có một tuyển thủ giỏi nhất nhưng bạn không biết trước là ai. Rút ngẫu nhiên một người thì thành tích kỳ vọng là mức trung bình của đội; cả đội cùng thi thường tốt hơn mức đó. Bạn mất khả năng bằng người giỏi nhất, được việc tránh chọn nhầm người kém.
+@@ 1348
+Đề cương không nêu tên nghiên cứu nào trong tổng hợp đó.
+@@ 1349
+**Rapach và cộng sự (2010): kết hợp bù phần mất do mô hình bất ổn định**
+@@ 1350
+Rapach và cộng sự (2010) cho thấy kết hợp dự báo bù được phần chất lượng dự báo mất đi do mô hình bất ổn định.
+@@ 1351
+Mô hình bất ổn định là mô hình tốt ở giai đoạn này chưa chắc tốt ở giai đoạn sau, vì quan hệ trong dữ liệu đổi theo thời gian: con đường tốt mùa khô có thể lầy mùa mưa, và bản đồ vẽ mùa khô không còn dùng được.
+@@ 1352
+Rapach và cộng sự là một trong ba cơ sở của H3 (Bảng 2): ở chế độ căng thẳng, sau chi phí giao dịch, kết hợp mô hình và danh mục vững chắc cho mức hối tiếc và độ sụt giảm tối đa thấp hơn, lợi suất tương đương chắc chắn cao hơn so với chọn một mô hình. Đây là giả thuyết cần kiểm định.
+@@ 1353
+**Tu và Zhou (2011): trộn hai quy tắc đối nghịch**
+@@ 1354
+Tu và Zhou (2011) kết hợp quy tắc 1/N với quy tắc trung bình-phương sai và vượt 1/N trong hầu hết kịch bản mô phỏng.
+@@ 1355
+Hai quy tắc ở hai thái cực: 1/N không dùng ước lượng nên không có sai số ước lượng nhưng cũng không dùng thông tin; trung bình-phương sai khai thác thông tin nhưng nhạy với sai số (nhóm (1)). Theo bản đọc, trộn hai quy tắc là thỏa hiệp giữa an toàn và thông tin.
+@@ 1356
+Kịch bản mô phỏng là dữ liệu máy tính tạo theo quy luật đã biết để thử phương pháp. "Hầu hết" nghĩa là không phải mọi kịch bản. Trong đề cương, đây là đối chứng của cơ chế (i).
+@@ 1357
+**Cách thứ hai: thu hẹp tập mô hình bằng tập tin cậy mô hình**
+@@ 1358
+Tập tin cậy mô hình của Hansen và cộng sự (2011) giữ lại những mô hình chưa thể bị loại là kém hơn ở một mức tin cậy cho trước.
+@@ 1359
+Vòng sơ loại một cuộc thi hát: ban giám khảo chỉ loại thí sinh khi chắc chắn kém hơn; ai chưa chắc thì đi tiếp. Danh sách đi tiếp là tập tin cậy mô hình.
+@@ 1360
+Tính chất then chốt: dữ liệu kém thông tin cho tập lớn, dữ liệu nhiều thông tin cho tập nhỏ. Kích thước tập phản ánh phần nào chất lượng dữ liệu.
+@@ 1361
+Điều này khớp với việc đề cương xếp kích thước tập tin cậy vào chỉ báo bất định (mục 4.1), và với cảnh báo ở mục 4.3.6: tập lớn hơn ở chế độ căng thẳng có thể chỉ do dữ liệu kém thông tin, nên kích thước tập được báo cáo như thước đo mô tả, kèm số quan sát và công suất kiểm định.
+@@ 1362 DEL
+@@ 1363
+Ví dụ giả định (số tự đặt để minh họa): bảy mô hình; với một năm dữ liệu ít thông tin, không mô hình nào bị loại, tập gồm cả bảy. Với mười năm dữ liệu rõ hơn, bốn mô hình bị loại, tập còn ba.
+@@ 1364
+Tập co từ bảy xuống ba không có nghĩa thị trường bớt rủi ro; nó chỉ cho biết dữ liệu đủ thông tin để phân biệt các mô hình.
+@@ 1366
+Đề cương dùng tập tin cậy theo hai cách: kích thước tập ở mức ý nghĩa 10% ấn định trước là kết quả phụ của H1; và ở cơ chế (i), có thể chỉ kết hợp các mô hình trong tập.
+@@ 1368
+**Thiên lệch chọn lọc và quá khớp khi kiểm định ngược**
+@@ 1369
+Thử rất nhiều chiến lược trên dữ liệu quá khứ rồi báo cáo chiến lược đẹp nhất: nó đẹp một phần vì tốt thật, một phần vì thử nhiều lần thì thế nào cũng có chiến lược gặp may. Phần may đó không lặp lại.
+@@ 1370
+Thiên lệch chọn lọc là sự méo mó khi chỉ nhìn ứng viên thắng sau nhiều lần thử. Quá khớp là khi mô hình bám quá sát quá khứ đến mức nắm cả nhiễu, nên đẹp trên dữ liệu đã dùng và kém trên dữ liệu mới.
+@@ 1371
+**Bailey và López de Prado (2014): tỷ số Sharpe hiệu chỉnh**
+@@ 1372
+Bailey và López de Prado (2014) định lượng thiên lệch chọn lọc và quá khớp khi kiểm định ngược bằng tỷ số Sharpe hiệu chỉnh.
+@@ 1373
+Tỷ số Sharpe là mức lời vượt lãi suất an toàn trên mỗi đơn vị dao động; cao nghĩa là mỗi đơn vị rủi ro đem lại nhiều lời hơn.
+@@ 1374
+Tỷ số Sharpe hiệu chỉnh trừ bớt phần có thể do may mắn nhờ thử nhiều lần: học sinh thi nhiều đề và chỉ khoe điểm cao nhất thì điểm khoe đó cần "giảm giá". Công thức đề cương không nêu.
+@@ 1375
+Đề tài dùng công cụ này ở mục 4.3.7, và khả năng đối lập của H3 nói: kết hợp mô hình có thể không vượt việc chọn một mô hình sau chi phí giao dịch và sau hiệu chỉnh thiên lệch chọn lọc.
+@@ 1376
+**Ledoit và Wolf (2008): khoảng tin cậy bootstrap cho chênh lệch Sharpe**
+@@ 1377
+Ledoit và Wolf (2008) đề xuất khoảng tin cậy bootstrap chuỗi thời gian cho chênh lệch tỷ số Sharpe.
+@@ 1378
+Mô hình A có Sharpe cao hơn B; chênh lệch đó có thật hay do ngẫu nhiên? Khoảng tin cậy là dải giá trị hợp lý cho độ chênh thật; nếu dải chứa số 0 thì chưa thể nói A hơn B.
+@@ 1379
+Ví dụ giả định (số tự đặt để minh họa): A có Sharpe 0,6, B có 0,5, chênh 0,1. Khoảng tin cậy từ −0,05 đến 0,25 chứa số 0, nên chưa kết luận được A hơn B.
+@@ 1381
+Bootstrap là bốc lại nhiều lần từ chính túi dữ liệu để xem kết quả dao động bao nhiêu. Với chuỗi thời gian, hôm nay liên hệ với hôm qua, nên bootstrap bốc từng nắm ngày liền nhau thay vì từng ngày rời; cách này gọi là bootstrap khối.
+@@ 1382
+Mục 4.3.7 dùng đúng ý này để so sánh lợi suất tương đương chắc chắn và tỷ số Sharpe giữa các mô hình.
+@@ 1385
+Công trình
+@@ 1392
+Giữ các mô hình chưa thể loại ở mức tin cậy cho trước
+@@ 1397 DEL
+@@ 1398
+**Nhóm này nối vào phần còn lại của đề cương thế nào**
+@@ 1399
+Ba mối nối: trộn mô hình là nền của H3 và cơ chế (i); tập tin cậy mô hình là thước đo thứ ba ở mục 4.3.6; tỷ số Sharpe hiệu chỉnh và bootstrap là công cụ kiểm định ở mục 4.3.7.
+@@ 1400
+Đề cương không khẳng định trộn mô hình sẽ thắng ở Việt Nam; đó là giả thuyết, có khả năng đối lập đi kèm. Nếu số cửa sổ độc lập ở chế độ căng thẳng dưới 10, kết quả gọi là không kết luận (mục 4.3.10). Câu chốt của nhóm (3): các công cụ này có sẵn, song chưa công trình nào dùng chúng để đo tổn thất của việc chọn mô hình theo từng trạng thái thị trường.
+@@ 1403
+• Hoeting và cộng sự (1999): trung bình hóa mô hình Bayes; Avramov (2002): áp dụng cho lợi suất cổ phiếu, tốt hơn chọn một mô hình; Timmermann (2006): dự báo kết hợp thường tốt hơn; Rapach và cộng sự (2010): kết hợp bù phần mất do bất ổn định.
+@@ 1404
+• Hansen và cộng sự (2011): tập tin cậy mô hình; dữ liệu kém thông tin cho tập lớn, nhiều thông tin cho tập nhỏ.
+@@ 1405
+• Bailey và López de Prado (2014): tỷ số Sharpe hiệu chỉnh; Ledoit và Wolf (2008): khoảng tin cậy bootstrap cho chênh lệch Sharpe.
+@@ 1409
+1. Ba cách xử lý bất định mô hình trong nhóm (3) là gì?
+@@ 1410
+Đáp án: kết hợp mô hình, thu hẹp tập mô hình, hiệu chỉnh thiên lệch chọn lọc.
+@@ 1411
+2. Tập tin cậy mô hình là gì, và co giãn thế nào theo thông tin của dữ liệu?
+@@ 1412
+Đáp án: tập các mô hình chưa thể loại là kém hơn ở mức tin cậy cho trước; dữ liệu kém thông tin cho tập lớn, nhiều thông tin cho tập nhỏ.
+@@ 1413
+3. Avramov (2002) thấy gì?
+@@ 1414
+Đáp án: trung bình hóa mô hình Bayes cho dự báo lợi suất cổ phiếu hiệu quả ngoài mẫu tốt hơn dùng tiêu chí chọn một mô hình.
+@@ 1416
+Đáp án: định lượng thiên lệch chọn lọc và quá khớp khi kiểm định ngược (Bailey và López de Prado, 2014).
+@@ 1418
+Đáp án: 1/N với trung bình-phương sai; vượt 1/N trong hầu hết kịch bản mô phỏng.

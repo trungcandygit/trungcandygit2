@@ -1,0 +1,139 @@
+@@ 651
+Mục 4.1 của đề cương (tiếp): Mục tiêu và câu hỏi nghiên cứu
+@@ 652
+Đề tài có một mục tiêu tổng quát, bốn mục tiêu cụ thể và ba câu hỏi nghiên cứu, ứng với bốn giả thuyết H1 đến H4. Đây là xương sống của đề cương: gần như mọi câu hỏi của giám khảo về phương pháp, kết quả hay đóng góp đều quay về đây.
+@@ 653 DEL
+@@ 655
+Nguyên văn: đo lường và giải thích rủi ro lựa chọn mô hình trong quản trị danh mục đầu tư trên thị trường chứng khoán Việt Nam qua các chế độ thị trường, rồi đánh giá các cơ chế giảm rủi ro đó.
+@@ 656
+Ba động từ là ba bước: đo lường (có một con số cho rủi ro), giải thích (con số đổi theo chế độ thế nào, biến nào đi cùng), đánh giá (cách giảm rủi ro nào có hiệu quả). Giống bác sĩ đo nhiệt độ, tìm triệu chứng đi kèm, rồi thử thuốc hạ sốt.
+@@ 657 DEL
+@@ 658
+Hai chi tiết cần để ý. "Qua các chế độ thị trường" nghĩa là đề tài so sánh giữa các chế độ, không đo một con số chung. "Giải thích" chỉ có nghĩa là chỉ ra các biến có liên hệ thống kê, vì đề cương gọi kết quả là liên hệ có điều kiện, không phải nhân quả.
+@@ 660
+Bốn mục tiêu cụ thể, nguyên văn:
+@@ 661
+(i) Xây dựng thước đo rủi ro lựa chọn mô hình cho danh mục và xác định các chế độ thị trường ở Việt Nam.
+@@ 662
+(ii) So sánh rủi ro lựa chọn mô hình giữa chế độ căng thẳng và chế độ bình thường.
+@@ 663
+(iii) Xác định các biến kênh có liên hệ thống kê với rủi ro lựa chọn mô hình, gồm biến động, thanh khoản, tương quan cực trị và bầy đàn.
+@@ 664
+(iv) Đánh giá các cơ chế giảm thiểu và rút ra hàm ý quản trị.
+@@ 665 DEL
+@@ 666
+**Mục tiêu (i): dựng thước đo và xác định chế độ**
+@@ 667
+Không có thước đo thì không so sánh được giữa các chế độ. Mục 4.3.6 dự kiến ba thước đo: mức hối tiếc (kết quả chính), độ phân tán mô hình và kích thước tập tin cậy mô hình (kết quả phụ).
+@@ 668
+Việc thứ hai là xác định chế độ bằng mô hình chuyển chế độ Markov: ước lượng xác suất thị trường đang ở chế độ căng thẳng, tức chế độ có phương sai điều kiện cao nhất và lợi suất kỳ vọng thấp hơn chế độ bình thường. Muốn nói "rủi ro ở vùng bão cao hơn", bạn cần cả thước đo lẫn bản đồ phân vùng.
+@@ 669 DEL
+@@ 670
+**Mục tiêu (ii): so sánh chế độ căng thẳng với chế độ bình thường**
+@@ 671
+Mục tiêu này kiểm định H1 và trả lời câu hỏi 1. Đề tài không giả định đáp án là "có": khả năng đối lập là rủi ro không đổi theo chế độ, hoặc 1/N thắng ổn định. Nếu dữ liệu nói vậy, đề tài báo cáo vậy.
+@@ 672 DEL
+@@ 673
+**Mục tiêu (iii): xác định biến kênh**
+@@ 674
+Mục tiêu này tìm các biến có liên hệ thống kê với rủi ro lựa chọn mô hình: biến động, thanh khoản, tương quan cực trị và bầy đàn.
+@@ 675
+Một chỗ tinh tế có thể bị hỏi: trong câu hỏi 2, biến động thực hiện là thứ được kiểm soát, không phải biến kênh cần kiểm định. Ba biến kênh được kiểm định là thanh khoản, tương quan cực trị và bầy đàn (thăm dò).
+@@ 676
+Muốn biết món ăn ngon hơn nhờ gia vị nào, bạn giữ nhiệt độ nấu cố định rồi mới so từng gia vị. "Kiểm soát biến động thực hiện" có tinh thần đó.
+@@ 677
+Lý do: theo Forbes và Rigobon (2002), hệ số tương quan phụ thuộc vào biến động. Khả năng đối lập của H2 chính là tương quan tăng chỉ vì biến động tăng; không kiểm soát biến động thì không tách được hai hiệu ứng.
+@@ 678
+**Mục tiêu (iv): đánh giá cơ chế giảm thiểu và rút ra hàm ý quản trị**
+@@ 679
+Mục tiêu cuối ứng với H3. Mục 4.3.8 nêu ba cơ chế (kết hợp mô hình, danh mục vững chắc, quy tắc chuyển chế độ), đánh giá bằng lợi suất tương đương chắc chắn, mức hối tiếc, độ sụt giảm tối đa, giá trị thiệt hại kỳ vọng mức 95%, vòng quay và hiệu quả sau chi phí giao dịch.
+@@ 680
+Hàm ý quản trị có giới hạn: thủ tục giám sát ba bước là đề xuất suy ra từ H3, chưa được kiểm nghiệm với người dùng, và chỉ có nếu dữ liệu ủng hộ.
+@@ 682
+Ba câu hỏi, nguyên văn:
+@@ 683
+Câu hỏi 1: Rủi ro lựa chọn mô hình thay đổi thế nào giữa chế độ bình thường và chế độ căng thẳng?
+@@ 684
+Câu hỏi 2: Sau khi kiểm soát biến động thực hiện, các biến kênh (thanh khoản, tương quan cực trị và, ở mức thăm dò, hành vi bầy đàn) có liên hệ thống kê với rủi ro lựa chọn mô hình không, và chúng giải thích được bao nhiêu phần chênh lệch giữa hai chế độ?
+@@ 685
+Câu hỏi 3: Cơ chế nào giảm được rủi ro lựa chọn mô hình sau chi phí giao dịch?
+@@ 686
+**Câu hỏi 1: so sánh hai chế độ**
+@@ 687
+Câu hỏi 1 so sánh hai trạng thái. Giả thuyết H1 là rủi ro ở chế độ căng thẳng cao hơn; khả năng đối lập là không đổi theo chế độ. Kết quả chính đo bằng mức hối tiếc R, kết quả phụ bằng độ phân tán D và kích thước tập tin cậy mô hình.
+@@ 688
+Mức hối tiếc là chênh lệch lợi suất tương đương chắc chắn giữa mô hình tốt nhất sau thực tế và mô hình chọn trước. Mô hình chọn trước là mô hình có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước đầu cửa sổ đánh giá (mục 4.3.6).
+@@ 689
+**Câu hỏi 2: biến kênh và phần chênh lệch giải thích được**
+@@ 690
+Câu hỏi 2 có hai nửa: các biến kênh có liên hệ thống kê với rủi ro lựa chọn mô hình không, sau khi kiểm soát biến động; và chúng giải thích được bao nhiêu phần chênh lệch giữa hai chế độ.
+@@ 691
+Chênh lệch giữa hai chế độ là hệ số β trong phương trình hồi quy của mục 4.3.7. Hình dung β là khoảng cách giữa hai bậc thang, trời quang và mùa bão; nửa thứ hai hỏi khoảng cách đó ngắn lại bao nhiêu khi đưa các biến kênh vào phương trình.
+@@ 692
+Đề tài đo phần đó bằng hiệu giữa β khi phương trình không có và khi có biến kênh.
+@@ 693
+Câu hỏi 2 ứng với H2 và H4. H2 dự kiến hệ số của độ phi thanh khoản dương và hệ số của tương quan đuôi âm; H4 là giả thuyết thăm dò về độ phân tán chéo của lợi suất.
+@@ 694
+**Câu hỏi 3: cơ chế giảm thiểu**
+@@ 695
+Câu hỏi 3 ứng với H3: ở chế độ căng thẳng, sau chi phí giao dịch, kết hợp mô hình và danh mục vững chắc cho mức hối tiếc và độ sụt giảm tối đa thấp hơn, lợi suất tương đương chắc chắn cao hơn so với chọn một mô hình. Cụm "sau chi phí giao dịch" quan trọng vì một cách giảm rủi ro có thể mất lợi thế khi tính phí.
+@@ 696
+**Câu hỏi và giả thuyết**
+@@ 697
+H1 trả lời câu hỏi 1; H2 và H4 trả lời câu hỏi 2; H3 trả lời câu hỏi 3 (Bảng 2 của đề cương).
+@@ 702
+Câu hỏi 1
+@@ 705
+Mức hối tiếc R (chính); độ phân tán D, kích thước tập tin cậy mô hình (phụ)
+@@ 706
+Câu hỏi 2
+@@ 708
+Sau khi kiểm soát biến động thực hiện, hệ số độ phi thanh khoản dương và hệ số tương quan đuôi âm
+@@ 709
+Dấu và khoảng tin cậy của hai hệ số; phần chênh lệch giữa hai chế độ do biến kênh giải thích
+@@ 710
+Câu hỏi 2
+@@ 714
+Câu hỏi 3
+@@ 716
+Ở chế độ căng thẳng, sau chi phí giao dịch, kết hợp mô hình và danh mục vững chắc cho mức hối tiếc, độ sụt giảm tối đa thấp hơn và lợi suất tương đương chắc chắn cao hơn so với chọn một mô hình
+@@ 717
+Lợi suất tương đương chắc chắn; mức hối tiếc; độ sụt giảm tối đa; thiệt hại kỳ vọng 95%; vòng quay
+@@ 719
+Về H2: hệ số của độ phi thanh khoản được kỳ vọng dương vì thanh khoản cạn làm các mô hình có vòng quay khác nhau cách xa nhau; hệ số của tương quan đuôi được kỳ vọng âm vì tương quan cao làm các danh mục chỉ mua hội tụ. Hai dấu ngược nhau nên dễ nhầm. Cơ sở: Amihud (2002), Longin và Solnik (2001), Forbes và Rigobon (2002).
+@@ 720
+Độ phi thanh khoản Amihud (2002) càng cao thì thanh khoản càng cạn. Tương quan đuôi là mức đi cùng nhau của lợi suất ở những ngày xấu nhất.
+@@ 721
+Tương quan đuôi cao giống cảnh mưa to, mọi người cùng chạy vào một mái hiên: khi mọi cổ phiếu cùng rơi, các danh mục chỉ mua trông giống nhau, khoảng cách giữa các mô hình thu hẹp. Vì vậy H2 dự kiến dấu âm.
+@@ 723
+Ánh xạ câu hỏi và giả thuyết được vẽ thành Hình 1, khung phân tích ở mục 4.3.2: chế độ tác động lên rủi ro lựa chọn mô hình (H1); biến kênh tác động lên quan hệ đó (H2, H4); cơ chế giảm thiểu tác động lên quan hệ giữa rủi ro và kết quả danh mục (H3).
+@@ 724
+Chi tiết thường bị hỏi: mũi tên nét đứt từ rủi ro đến kết quả danh mục không có giả thuyết riêng, vì mức hối tiếc được định nghĩa bằng chính chênh lệch kết quả danh mục.
+@@ 726
+Đề cương không viết mỗi câu hỏi một giả thuyết. Cách hiểu của bản đọc: câu hỏi 2 chứa hai nhóm biến kênh có trạng thái bằng chứng khác nhau. Thanh khoản và tương quan đuôi vào H2; bầy đàn, có bằng chứng trái chiều, vào H4 với nhãn thăm dò.
+@@ 727
+Cơ sở của H4 là Vo và Phan (2017), Chang và cộng sự (2000) và Christie và Huang (1995). Khả năng đối lập: bầy đàn không xuất hiện ở tần suất dữ liệu của đề tài, như trên dữ liệu Mỹ.
+@@ 729
+• Mục tiêu tổng quát: đo lường, giải thích rủi ro lựa chọn mô hình qua các chế độ thị trường ở Việt Nam, rồi đánh giá cơ chế giảm rủi ro.
+@@ 730
+• Bốn mục tiêu cụ thể: (i) thước đo và chế độ; (ii) so sánh hai chế độ; (iii) biến kênh; (iv) cơ chế giảm thiểu và hàm ý quản trị.
+@@ 731
+• Câu hỏi 1 – H1; câu hỏi 2 – H2 và H4; câu hỏi 3 – H3.
+@@ 732
+• Câu hỏi 2 kiểm soát biến động thực hiện, hỏi liên hệ của biến kênh và phần chênh lệch giữa hai chế độ mà chúng giải thích.
+@@ 734
+• Mũi tên từ rủi ro đến kết quả danh mục ở Hình 1 không có giả thuyết riêng.
+@@ 738
+Đáp án: đo lường và giải thích rủi ro lựa chọn mô hình trong quản trị danh mục trên thị trường chứng khoán Việt Nam qua các chế độ thị trường, rồi đánh giá các cơ chế giảm rủi ro đó.
+@@ 740
+Đáp án: (i) xây dựng thước đo và xác định chế độ thị trường; (ii) so sánh rủi ro giữa chế độ căng thẳng và chế độ bình thường; (iii) xác định biến kênh: biến động, thanh khoản, tương quan cực trị, bầy đàn; (iv) đánh giá cơ chế giảm thiểu và rút ra hàm ý quản trị.
+@@ 742
+Đáp án: câu hỏi 1 – H1; câu hỏi 2 – H2 và H4; câu hỏi 3 – H3.
+@@ 743
+4. Câu hỏi 2 có hai nửa nào, và biến động đóng vai trò gì?
+@@ 744
+Đáp án: biến kênh có liên hệ thống kê với rủi ro lựa chọn mô hình không; và chúng giải thích bao nhiêu phần chênh lệch giữa hai chế độ (hệ số β). Biến động thực hiện là biến kiểm soát.
+@@ 745
+5. Mũi tên từ rủi ro đến kết quả danh mục trong Hình 1 có giả thuyết riêng không?
+@@ 746
+Đáp án: không; nó suy ra từ định nghĩa mức hối tiếc.

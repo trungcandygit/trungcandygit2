@@ -1,0 +1,64 @@
+@@ 384
+Mục 1 và mục 4.4 của đề cương: Tên đề tài, lĩnh vực và phạm vi
+@@ 385
+Đề tài "Rủi ro lựa chọn mô hình trong quản trị danh mục đầu tư theo chế độ thị trường: Bằng chứng từ thị trường chứng khoán Việt Nam" thuộc chuyên ngành Kinh tế và Quản lý, nhóm tài chính định lượng và quản trị rủi ro, với hai giao thoa có giới hạn: một phép thử về kinh tế hành vi và phần thiết kế thủ tục giám sát mô hình về quản lý.
+@@ 386
+Giám khảo có thể hỏi: đề tài thuộc lĩnh vực nào, giao thoa với hành vi ở mức nào, và đề tài không làm gì. Bạn cần trả lời được cả ba.
+@@ 388
+Tên đề tài có 27 từ, trong giới hạn 30 từ của mẫu đề cương. Bản tiếng Anh dùng khi công bố: Model Selection Risk in Portfolio Management across Market Regimes: Evidence from the Vietnamese Stock Market. Chuyên ngành Kinh tế và Quản lý, mã số 9310116.01QTD, Trường Quốc tế, Đại học Quốc gia Hà Nội.
+@@ 389
+Để nhớ tên, hãy tách thành bốn cụm, mỗi cụm trả lời một câu hỏi.
+@@ 406
+Cụm thứ nhất là thứ được đo: mức hối tiếc kỳ vọng khi phải chọn một cách chia tiền trước lúc biết cách nào tốt nhất.
+@@ 407
+Cụm thứ hai nói đây là việc của người quản lý danh mục: quyết định rổ cổ phiếu gồm những mã nào và mỗi mã chiếm bao nhiêu phần.
+@@ 408
+Cụm thứ ba nói câu hỏi không dừng ở "rủi ro lớn hay nhỏ" mà hỏi rủi ro đổi thế nào khi thị trường chuyển từ chế độ bình thường (trời quang) sang chế độ căng thẳng (mùa bão).
+@@ 409
+Cụm thứ tư giới hạn phạm vi: dữ liệu và kết luận thuộc thị trường chứng khoán Việt Nam, cụ thể là cổ phiếu niêm yết trên HOSE. Việt Nam là bối cảnh kiểm chứng, không phải lý do của khoảng trống.
+@@ 411
+"Định lượng" nghĩa là câu trả lời đến từ số liệu và mô hình thống kê. Đề tài không dùng khảo sát hay phương pháp định tính, nên không có thang đo nào cần dịch thuật.
+@@ 412
+Hình dung lĩnh vực này như phòng kiểm tra chất lượng của một nhà máy làm ra quyết định đầu tư. Phòng kiểm tra không hỏi sản phẩm đẹp không, mà hỏi quy trình làm ra nó đáng tin đến mức nào khi điều kiện thay đổi. Đối tượng đo của đề tài là chất lượng của một quyết định, không phải lợi nhuận của một cổ phiếu.
+@@ 413 DEL
+@@ 415
+Đề tài giao thoa với kinh tế hành vi ở đúng một phép thử, đề cương gọi là "phép thử giới hạn". Nắm chắc điểm này để không nói quá.
+@@ 416
+Đề tài đo độ phân tán chéo của lợi suất và dùng nó làm thước đo bầy đàn ở cấp thị trường. Trong một ngày, nếu mọi cổ phiếu cùng tăng hay cùng giảm gần một nhịp, lợi suất sát nhau và độ phân tán chéo thấp; nếu mỗi mã đi một hướng, độ phân tán cao.
+@@ 417 DEL
+@@ 418
+Bầy đàn, theo đề cương, là việc nhà đầu tư làm theo số đông thay vì dựa vào thông tin riêng, như đàn cừu chạy theo con đầu đàn. Khi nhiều người làm theo số đông, các cổ phiếu có xu hướng đi cùng nhau và độ phân tán chéo bị nén lại.
+@@ 419 DEL
+@@ 420
+Câu hỏi của phép thử: sau khi kiểm soát biến động, độ phân tán chéo của lợi suất có đi cùng rủi ro lựa chọn mô hình không. Đó là giả thuyết H4, chỉ được báo cáo như kết quả thăm dò.
+@@ 421
+Đề tài không quan sát hành vi chọn mô hình của tổ chức đầu tư: không phỏng vấn, không khảo sát các quỹ. Nếu giám khảo hỏi "đề tài có chứng minh nhà đầu tư bầy đàn không", câu trả lời đúng là không, và đề tài không tuyên bố làm điều đó.
+@@ 422
+Đề tài vẫn đưa bầy đàn vào vì đây là một kênh hành vi khả dĩ, dù bằng chứng trái chiều giữa các thị trường. Christie và Huang (1995) không thấy bầy đàn khi giá biến động mạnh ở Mỹ; Chang và cộng sự (2000) thấy bầy đàn ở Hàn Quốc và Đài Loan, không thấy ở Mỹ và Hồng Kông; Vo và Phan (2017) thấy bầy đàn trên HOSE, rõ hơn khi thị trường giảm. Vì bằng chứng trái chiều, đề cương chỉ xét kênh này ở mức thăm dò.
+@@ 424
+Giao thoa thứ hai nằm ở phần thiết kế thủ tục giám sát mô hình: ngoài việc đo, đề tài dự kiến rút ra một quy trình mà tổ chức đầu tư có thể dùng để kiểm soát việc chọn mô hình.
+@@ 425
+Quy trình gồm ba bước: khai báo tập mô hình; đo độ phân tán và tập tin cậy mô hình định kỳ; kích hoạt kết hợp mô hình khi thị trường ở chế độ căng thẳng. Đây là đề xuất suy ra từ H3, chưa được kiểm nghiệm với người dùng, và chỉ có nếu dữ liệu ủng hộ.
+@@ 426
+Phần này có hai giới hạn: khung giám sát của Cục Dự trữ Liên bang Mỹ chỉ là tham chiếu quốc tế, và đề tài không đánh giá mức đầy đủ của khung quy định Việt Nam.
+@@ 428
+Đối tượng thực nghiệm là danh mục cổ phiếu niêm yết trên HOSE. Đề tài không xét phái sinh, trái phiếu doanh nghiệp hay tài sản ngoài cổ phiếu.
+@@ 429
+Trái phiếu doanh nghiệp xuất hiện trong đề cương chỉ như một cú sốc lịch sử (thị trường đóng băng quý IV/2022), không phải tài sản trong danh mục. Lợi suất trái phiếu chính phủ kỳ hạn một năm cũng chỉ là đầu vào làm lãi suất phi rủi ro.
+@@ 430 DEL
+@@ 432
+• Lĩnh vực: tài chính định lượng và quản trị rủi ro; chuyên ngành Kinh tế và Quản lý, mã số 9310116.01QTD.
+@@ 433
+• Giao thoa với kinh tế hành vi chỉ ở một phép thử: độ phân tán chéo của lợi suất có đi cùng rủi ro lựa chọn mô hình sau khi kiểm soát biến động không.
+@@ 435
+• Giao thoa với quản lý nằm ở thủ tục giám sát mô hình; đó là đề xuất chưa kiểm nghiệm.
+@@ 436
+• Phạm vi: cổ phiếu niêm yết trên HOSE.
+@@ 440
+Đáp án: ở một phép thử giới hạn: độ phân tán chéo của lợi suất (thước đo bầy đàn cấp thị trường) có đi cùng rủi ro lựa chọn mô hình sau khi kiểm soát biến động không.
+@@ 442
+Đáp án: không.
+@@ 444
+Đáp án: ở phần thiết kế thủ tục giám sát mô hình.
+@@ 446
+Đáp án: chuyên ngành Kinh tế và Quản lý; nhóm tài chính định lượng và quản trị rủi ro; cổ phiếu niêm yết trên HOSE.

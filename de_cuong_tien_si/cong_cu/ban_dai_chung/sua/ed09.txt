@@ -1,0 +1,97 @@
+@@ 1107
+Mục 4.1 của đề cương (tiếp): Ba loại "rủi ro" dễ nhầm và hai chữ "căng thẳng" dễ lẫn
+@@ 1108
+Ngay trong mục 4.1, đề cương định nghĩa ba thuật ngữ gần nhau (rủi ro mô hình, bất định mô hình, rủi ro lựa chọn mô hình) và tách hai khái niệm hay bị dùng thay nhau (khủng hoảng, chế độ căng thẳng). Nắm chắc năm khái niệm này thì phần còn lại dễ theo.
+@@ 1109
+Giám khảo có thể hỏi ngay: rủi ro lựa chọn mô hình khác gì rủi ro mô hình nói chung, và độ phân tán mô hình đo cái gì.
+@@ 1111
+Mô hình ở đây là một công thức hay quy trình tính toán biến dữ liệu thành quyết định: giá cổ phiếu mấy năm qua đi vào, tỷ lệ tiền cho từng mã đi ra.
+@@ 1112
+Mô hình giống công thức nấu ăn: cùng giỏ nguyên liệu, mỗi công thức cho ra một món. Công thức viết sai, hoặc công thức đúng mà dùng nhầm bếp, thì bữa ăn hỏng.
+@@ 1113
+"Bữa ăn hỏng" là rủi ro mô hình: khả năng phát sinh hậu quả bất lợi từ quyết định dựa trên mô hình sai hoặc dùng sai. Định nghĩa lấy từ thư giám sát SR 11-7 của Cục Dự trữ Liên bang Mỹ (Board of Governors of the Federal Reserve System, 2011).
+@@ 1114
+"Sai" là công thức không phản ánh đúng thực tế; "dùng sai" là công thức tạm ổn nhưng áp vào chỗ không phù hợp. Cả hai đều dẫn tới quyết định kém.
+@@ 1116
+Bất định mô hình là tình trạng nhiều mô hình khả dĩ cho kết quả khác nhau.
+@@ 1117
+Bạn hỏi năm nhà tư vấn, mỗi người một cách tính, nhận về năm khuyến nghị khác nhau. Không ai chắc chắn sai; điều khó là không biết nên tin ai.
+@@ 1118
+Bất định mô hình mô tả tình trạng của thế giới, chưa phải khoản thua lỗ. Thua lỗ chỉ xuất hiện khi bạn phải chọn và chọn trật.
+@@ 1120
+Rủi ro lựa chọn mô hình là tổn thất kỳ vọng, đo bằng mức hối tiếc, phát sinh vì phải chọn một mô hình trước khi biết mô hình nào tốt nhất.
+@@ 1121
+Trước mùa giải bạn nộp một cách chia tiền duy nhất và theo nó suốt mùa. Đề cương mô phỏng quy tắc nộp cách có kết quả ngoài mẫu tốt nhất trong 36 tháng gần nhất; đây là quy tắc mô phỏng, không phải mô tả cách các tổ chức thật chọn.
+@@ 1122
+Mức hối tiếc là hiệu giữa kết quả của cách tốt nhất nhìn lại và kết quả của cách bạn đã nộp: bằng không nếu chọn đúng, dương nếu chọn trật.
+@@ 1123 DEL
+@@ 1124
+Ví dụ giả định (số tự đặt để minh họa): ba cách chia tiền A, B, C có điểm sau mùa giải là 5, 8 và 3.
+@@ 1125
+Chọn A vì A thắng giai đoạn trước thì mức hối tiếc là 8 − 5 = 3; chọn B thì bằng 0.
+@@ 1127
+Chữ "kỳ vọng" quan trọng: một lần chọn trật có thể chỉ là xui; rủi ro lựa chọn mô hình hỏi trung bình qua nhiều lần chọn bạn mất bao nhiêu vì không biết trước đáp án.
+@@ 1128
+Công thức cụ thể của mức hối tiếc R_{t} ở mục 4.3.6. Ở đây chỉ cần ý tưởng: khoảng cách giữa cái bạn có và cái bạn có thể có nếu biết trước.
+@@ 1130
+Đề cương nói rõ: độ phân tán mô hình và kích thước tập tin cậy mô hình chỉ báo hiệu bất định, không đo rủi ro.
+@@ 1131
+Độ phân tán đo mức các mô hình bất đồng: năm khuyến nghị gần giống nhau thì độ phân tán nhỏ, mỗi người một đằng thì lớn. Nó cho biết tình trạng bất định, chưa cho biết bạn thiệt bao nhiêu.
+@@ 1132
+Tập tin cậy mô hình là danh sách ứng viên chưa thể loại sau vòng sơ loại thống kê. Danh sách dài nghĩa là dữ liệu chưa đủ để loại ai, tức bất định cao.
+@@ 1133
+Vì sao phải tách? Cách hiểu của bản đọc: các công thức có thể bất đồng nhiều nhưng dẫn đến kết quả tương tự, khi đó chọn trật cũng không thiệt mấy. Mức hối tiếc đo hậu quả của việc chọn nên mới là thước đo rủi ro. Đề cương cũng lưu ý tập tin cậy lớn hơn ở chế độ căng thẳng có thể chỉ do dữ liệu kém thông tin.
+@@ 1134
+Bảng tóm tắt:
+@@ 1145
+Tổn thất kỳ vọng, đo bằng mức hối tiếc, do phải chọn trước khi biết mô hình nào tốt nhất
+@@ 1147
+Độ phân tán mô hình, kích thước tập tin cậy mô hình
+@@ 1152
+Mục 4.2 (nhóm thứ hai) dẫn hai công trình đo rủi ro mô hình. Danielsson và cộng sự (2016) thấy rủi ro mô hình tăng theo mức bất định của thị trường và nhỏ khi thị trường yên ắng.
+@@ 1153
+Giới hạn: phát hiện đó chỉ cho các mô hình dự báo rủi ro thị trường và rủi ro hệ thống, không cho mô hình phân bổ danh mục. Đây là chỗ đề tài bước tiếp.
+@@ 1154
+Hình dung của bản đọc: trời quang thì các công thức dự báo cho đáp án gần nhau, chọn công thức nào cũng ít hệ trọng; trời giông thì chúng tách nhau và chọn sai tốn kém hơn. Công trình này là một cơ sở của H1.
+@@ 1155
+Hãy giới hạn mình ở ba điều đề cương nói: rủi ro mô hình tăng theo bất định, nhỏ khi thị trường yên, và chỉ cho mô hình rủi ro thị trường và rủi ro hệ thống.
+@@ 1157
+Boucher và cộng sự (2014) đề xuất hiệu chỉnh độ đo rủi ro theo kết quả kiểm định ngược.
+@@ 1158
+Kiểm định ngược là thử mô hình trên quá khứ: giả vờ đã dùng nó từ nhiều năm trước rồi xem kết quả với dữ liệu đã biết. Nếu mô hình báo rủi ro thấp mà lịch sử cho thấy thua lỗ lớn hơn, có lý do để điều chỉnh con số rủi ro. Đây là giải thích chung; chi tiết cách làm của Boucher và cộng sự đề cương không nêu.
+@@ 1159
+Hai công trình này là các thước đo rủi ro mô hình hiện có, và đều đo chênh lệch giữa các dự báo rủi ro, chưa đo hậu quả của việc chọn sai lên kết quả danh mục. Đó là khoảng trống thứ nhất.
+@@ 1161
+Đề cương quy ước: khủng hoảng là sự kiện lịch sử; chế độ căng thẳng là trạng thái thống kê do mô hình chuyển chế độ ước lượng.
+@@ 1162
+Khủng hoảng là bản tin về một cơn bão có tên và ngày tháng. Chế độ căng thẳng là kết luận của trạm khí tượng sau khi nhìn số liệu: thời tiết đang ở trạng thái bão, bất kể báo chí gọi là gì. Trạm có thể báo bão vào những ngày không ai đặt tên, và một cơn bão nổi tiếng chưa chắc làm trạm báo bão đúng ngày người ta nhớ.
+@@ 1163
+Lý do giữ ranh giới, theo bản đọc: hai khái niệm thuộc hai loại khác nhau (sự kiện được kể lại và trạng thái do mô hình suy ra), và muốn đối chiếu chúng thì phải coi là hai thứ riêng.
+@@ 1164
+Đề tài kiểm định rủi ro lựa chọn mô hình theo chế độ căng thẳng, rồi đối chiếu chế độ đó với các cuộc khủng hoảng.
+@@ 1165
+Chế độ bình thường là trời quang, chế độ căng thẳng là mùa bão, còn khủng hoảng là tên một số cơn bão trong sử sách.
+@@ 1167
+Mục toàn định nghĩa này quan trọng vì: mọi giả thuyết về sau dùng các thuật ngữ này (H1 lấy mức hối tiếc làm kết quả chính); đề cương không dùng chúng thay nhau; và các chỉ báo bất định được xếp vào kết quả phụ.
+@@ 1168
+Đề tài đo hệ quả bằng số trên dữ liệu thị trường, không quan sát người ra quyết định. "Phải chọn một mô hình" là mô phỏng một quy tắc chọn, không mô tả cách các tổ chức thật chọn.
+@@ 1170
+• Rủi ro mô hình: hậu quả bất lợi từ quyết định dựa trên mô hình sai hoặc dùng sai (SR 11-7, 2011).
+@@ 1172
+• Rủi ro lựa chọn mô hình: tổn thất kỳ vọng, đo bằng mức hối tiếc, do phải chọn trước khi biết mô hình nào tốt nhất.
+@@ 1173
+• Độ phân tán và kích thước tập tin cậy mô hình chỉ báo bất định, không đo rủi ro.
+@@ 1174
+• Danielsson và cộng sự (2016): rủi ro mô hình tăng theo bất định, chỉ cho mô hình rủi ro thị trường và hệ thống; Boucher và cộng sự (2014): hiệu chỉnh theo kiểm định ngược.
+@@ 1179
+Đáp án: rủi ro mô hình là khả năng có hậu quả bất lợi từ mô hình sai hoặc dùng sai; bất định mô hình là việc nhiều mô hình khả dĩ cho kết quả khác nhau.
+@@ 1181
+Đáp án: mức hối tiếc, tức khoản thiệt vì không chọn mô hình tốt nhất sau thực tế.
+@@ 1182
+3. Độ phân tán mô hình và kích thước tập tin cậy mô hình đo rủi ro hay bất định?
+@@ 1183
+Đáp án: bất định.
+@@ 1185
+Đáp án: rủi ro mô hình tăng theo bất định của thị trường, nhỏ khi thị trường yên; chỉ cho mô hình dự báo rủi ro thị trường và rủi ro hệ thống.
+@@ 1187
+Đáp án: khủng hoảng là sự kiện lịch sử; chế độ căng thẳng là trạng thái thống kê do mô hình ước lượng. Đề tài đối chiếu, không dùng thay nhau.

@@ -1,0 +1,113 @@
+@@ 1258
+Mục 4.2 của đề cương, nhóm (2): Rủi ro và bất định mô hình đã được đo ở đâu, chưa được đo ở đâu
+@@ 1259
+Rủi ro mô hình đã được đo cho dự báo và định giá, chưa được đo cho quyết định phân bổ danh mục. Đó là nhận xét trung tâm của nhóm (2), và đề tài nhắm đúng chỗ trống này.
+@@ 1260
+Nhóm này điểm tám công trình: Derman (1996), Cont (2006), Kerkhof và cộng sự (2010), Boucher và cộng sự (2014), Danielsson và cộng sự (2016), Lo và Mueller (2010), Gilboa và Schmeidler (1989), Hansen và Sargent (2008). Với mỗi nguồn, ta hỏi: họ làm gì, nghĩa là gì, vì sao đề cương nhắc.
+@@ 1262
+Cách chia của bản đọc, không phải của đề cương: tám công trình thuộc ba nhóm. Nhóm thứ nhất đo rủi ro mô hình trong định giá và dự báo (Derman, Cont, Kerkhof, Boucher, Danielsson). Nhóm thứ hai cảnh báo về độ chính xác giả (Lo và Mueller). Nhóm thứ ba là lý thuyết ra quyết định khi không chắc mô hình nào đúng (Gilboa và Schmeidler, Hansen và Sargent).
+@@ 1263
+Nhóm một kiểm tra cân sai bao nhiêu; nhóm hai nhắc rằng cân có ba chữ số thập phân vẫn có thể sai; nhóm ba trả lời nên mua hàng thế nào khi không biết cân nào đúng.
+@@ 1264
+**Derman (1996): rủi ro mô hình trong định giá phái sinh**
+@@ 1265
+Đề cương mô tả Derman (1996) bàn về rủi ro mô hình trong định giá phái sinh từ góc độ thực hành, không nêu thêm nội dung bên trong.
+@@ 1266
+Phái sinh là hợp đồng tài chính có giá trị phụ thuộc giá của một tài sản khác; định giá phái sinh là dùng mô hình tính xem hợp đồng đáng giá bao nhiêu. Mô hình sai thì giá sai, và Derman viết về rủi ro đó từ góc nhìn người làm nghề.
+@@ 1267 DEL
+@@ 1268
+Đề cương nhắc Derman để cho thấy rủi ro mô hình đã được bàn trong định giá. Ở bố cục luận án (Bảng 4), Derman (1996), Cont (2006) và Boucher và cộng sự (2014) là nền để phân biệt ba loại rủi ro ở chương 1: rủi ro đặc tả, rủi ro ước lượng và rủi ro lựa chọn.
+@@ 1269
+**Cont (2006): đo bất định mô hình bằng độ đo rủi ro nhất quán**
+@@ 1270
+Theo đề cương, Cont (2006) đo bất định mô hình bằng độ đo rủi ro nhất quán trên một tập mô hình định giá.
+@@ 1271
+Độ đo rủi ro là một con số tóm tắt mức nguy hiểm của khoản đầu tư, ví dụ mức lỗ có thể gặp trong tình huống xấu. "Nhất quán" nghĩa là con số tuân theo một số quy tắc hợp lý để không ra kết luận vô lý. Đây là nghĩa chung của thuật ngữ; cách làm cụ thể của Cont đề cương không viết.
+@@ 1272
+Chữ bất định mô hình ở đây đúng nghĩa trong mục 4.1: nhiều mô hình khả dĩ cho kết quả khác nhau. Cont biến bất định đó thành một con số; theo bản đọc, ông được nhắc vì đây là một cách đo bất định mô hình đã có sẵn.
+@@ 1273
+**Kerkhof và cộng sự (2010), Boucher và cộng sự (2014), Danielsson và cộng sự (2016)**
+@@ 1274
+Kerkhof và cộng sự (2010) tách rủi ro mô hình thành rủi ro ước lượng (tham số tính sai) và rủi ro đặc tả sai (dạng mô hình sai), rồi đưa cả hai vào vốn dự phòng, tức khoản tiền tổ chức phải giữ để bù cho khả năng mô hình sai. Hai công trình sau chuyển câu hỏi sang các mô hình rủi ro thị trường và rủi ro hệ thống.
+@@ 1275
+Rủi ro thị trường là rủi ro thua lỗ do giá biến động; rủi ro hệ thống là rủi ro cả hệ thống tài chính bị ảnh hưởng chứ không chỉ một cá nhân. Đó là nơi người ta dùng mô hình để dự báo tổn thất tiềm tàng.
+@@ 1276
+Như đã nói ở mục 4.1: Boucher và cộng sự hiệu chỉnh độ đo rủi ro theo kết quả kiểm định ngược; Danielsson và cộng sự thấy rủi ro mô hình tăng theo bất định của thị trường, nhỏ khi thị trường yên ắng, nhưng chỉ cho mô hình dự báo rủi ro thị trường và rủi ro hệ thống.
+@@ 1277
+Nhận xét chung của đề cương về năm nguồn đầu: thước đo của họ gắn với dự báo rủi ro và định giá, tức trả lời "mô hình dự báo lệch bao nhiêu". Đề tài hỏi câu khác: chọn sai mô hình để phân bổ vốn thì danh mục thiệt bao nhiêu.
+@@ 1278
+Các nguồn kia đo độ sai của chiếc cân; đề tài đo người mua chọn nhầm cân thì thiệt bao nhiêu tiền hàng. Hai việc liên quan nhưng không phải một.
+@@ 1279
+**Lo và Mueller (2010): cảm giác chính xác giả tạo**
+@@ 1280
+Lo và Mueller (2010) cảnh báo việc mô hình hóa tài chính theo chuẩn mực vật lý tạo ra cảm giác chính xác giả tạo, và phân loại các mức bất định.
+@@ 1281
+Vật lý có định luật rất chính xác: ném một vật, công thức cho quỹ đạo đúng tới nhiều chữ số. Theo bản đọc, mô hình tài chính mượn công cụ toán ấy nên người ta dễ tưởng con số tài chính cũng chính xác như vậy.
+@@ 1282
+Đo chiều cao một đám mây bằng thước cặp chính xác đến phần mười milimét: con số trông chính xác, nhưng đám mây không có mép rõ ràng.
+@@ 1283
+Về phân loại các mức bất định, đề cương chỉ nói có đề xuất phân loại, không nêu từng mức hay mục đích.
+@@ 1284
+Đề cương xếp Lo và Mueller vào nhóm rủi ro và bất định mô hình, không nêu lý do riêng. Đề cương có coi việc nhận diện chế độ là một dạng rủi ro mô hình (mục 4.3.4, nên dùng định nghĩa thay thế để kiểm tra độ bền), nhưng không nối điều này với Lo và Mueller; đừng nói rằng đề cương làm vậy vì họ.
+@@ 1285
+**Gilboa và Schmeidler (1989): chọn phương án tốt nhất trong tình huống xấu nhất**
+@@ 1286
+Gilboa và Schmeidler (1989) xây dựng tiêu chí chọn phương án tốt nhất trong tình huống xấu nhất khi nhà đầu tư có nhiều niềm tin tiên nghiệm. Trong tài liệu, tiêu chí này gọi là maxmin.
+@@ 1287
+Với mỗi phương án, lấy kết quả nhỏ nhất (min) trên các cách nhìn; rồi chọn phương án có kết quả nhỏ nhất đó lớn nhất (max). Tức là chọn phương án mà trường hợp tệ nhất vẫn khá nhất.
+@@ 1288 DEL
+@@ 1289
+Ví dụ giả định (số tự đặt để minh họa): hai phương án P và Q, ba cách nhìn về thị trường. P cho 9, 4, 1; Q cho 6, 5, 4.
+@@ 1290
+Tình huống xấu nhất của P là 1, của Q là 4. Theo tiêu chí này bạn chọn Q, dù P có kịch bản cao nhất.
+@@ 1292
+Niềm tin tiên nghiệm là điều bạn tin về thế giới trước khi nhìn dữ liệu. Chỉ có một niềm tin thì không có "xấu nhất trong nhiều cách nhìn"; giữ nhiều niềm tin vì không biết cái nào đúng thì tiêu chí này cho một quy tắc rõ: chuẩn bị cho cách nhìn bất lợi nhất.
+@@ 1293
+Ở khung lý thuyết (mục 4.3.1), Gilboa và Schmeidler cùng Hansen và Sargent thuộc khối lý thuyết quyết định dưới bất định mô hình, cơ sở của các cơ chế vững chắc. Ý tưởng này gần với Garlappi và cộng sự (2007) ở nhóm (1), và với cơ chế giảm thiểu thứ hai (mục 4.3.8): danh mục vững chắc tối ưu cho tình huống xấu nhất trong nhiều niềm tin tiên nghiệm.
+@@ 1294
+**Hansen và Sargent (2008): kiểm soát vững chắc trước sai đặc tả**
+@@ 1295
+Hansen và Sargent (2008) phát triển lý thuyết kiểm soát vững chắc trước sai đặc tả.
+@@ 1296
+Sai đặc tả là mô hình sai ngay ở dạng của nó. Kiểm soát vững chắc là ra quyết định sao cho vẫn ổn dù mô hình sai: người lái tàu biết la bàn có thể lệch nên chọn hướng không dẫn tàu vào đá ngay cả khi la bàn lệch.
+@@ 1297 DEL
+@@ 1298
+Đề cương không nói mối nối từng bước giữa hai nguồn lý thuyết quyết định với M6; bạn chỉ nên nói ý tưởng vững chắc xuất hiện ở M6 và ở cơ chế giảm thiểu thứ hai.
+@@ 1299
+**Đề tài chuyển thước đo sang quyết định phân bổ**
+@@ 1300
+Đề cương khép nhóm (2) bằng câu: các thước đo trong nhóm này gắn với dự báo rủi ro và định giá; chưa thước đo nào đo hậu quả của việc chọn mô hình lên kết quả danh mục.
+@@ 1301
+Đây là khoảng trống (1) trong Bảng 1: thước đo hiện có chưa gắn với hậu quả của quyết định phân bổ theo chế độ thị trường.
+@@ 1302
+Câu kết nhóm (2) không kèm cụm "theo hiểu biết", nhưng tuyên bố tính mới ở cuối mục 4.2 có cụm đó, với phạm vi tìm kiếm giới hạn và việc mới đọc tóm tắt. Theo bản đọc, nên trình bày nhận xét này thận trọng, như nhận định của tác giả.
+@@ 1303
+Việt Nam không phải lý do của khoảng trống. Việt Nam là nơi kiểm chứng (mục 4.1): thanh khoản hạn chế và nhiều cú sốc trong lịch sử giao dịch ngắn nên khoảng cách giữa các mô hình có thể lớn; khoảng trống nằm ở thước đo, không ở địa lý.
+@@ 1304
+**Trả lời một câu hỏi thi điển hình**
+@@ 1305
+Hội đồng hỏi: "rủi ro mô hình đã được đo nhiều, đề tài có gì mới?" Bốn ý: rủi ro mô hình đã được đo cho dự báo và định giá; các thước đo đó đo chênh lệch dự báo rủi ro; chưa đo hậu quả của chọn sai lên kết quả danh mục; đề tài chuyển thước đo sang quyết định phân bổ. Không cần khẳng định chưa ai làm, vì tính mới chỉ là theo hiểu biết của tác giả.
+@@ 1308
+• Derman (1996): rủi ro mô hình trong định giá phái sinh, góc thực hành. Cont (2006): đo bất định mô hình bằng độ đo rủi ro nhất quán. Kerkhof và cộng sự (2010): rủi ro ước lượng và rủi ro đặc tả sai, đưa vào vốn dự phòng.
+@@ 1309
+• Boucher và cộng sự (2014), Danielsson và cộng sự (2016): mô hình rủi ro thị trường và rủi ro hệ thống.
+@@ 1310
+• Lo và Mueller (2010): mô hình hóa tài chính theo chuẩn vật lý tạo cảm giác chính xác giả tạo; phân loại các mức bất định.
+@@ 1311
+• Gilboa và Schmeidler (1989): tốt nhất trong tình huống xấu nhất, nhiều niềm tin tiên nghiệm; Hansen và Sargent (2008): kiểm soát vững chắc trước sai đặc tả.
+@@ 1312
+• Đề tài chuyển thước đo sang quyết định phân bổ danh mục (khoảng trống (1)).
+@@ 1317
+2. Tiêu chí của Gilboa và Schmeidler (1989) là gì?
+@@ 1318
+Đáp án: chọn phương án tốt nhất trong tình huống xấu nhất, khi có nhiều niềm tin tiên nghiệm.
+@@ 1320
+Đáp án: mô hình hóa tài chính theo chuẩn vật lý tạo cảm giác chính xác giả tạo; họ phân loại các mức bất định.
+@@ 1321
+4. Kerkhof và cộng sự (2010) và Hansen và Sargent (2008) làm gì?
+@@ 1322
+Đáp án: Kerkhof và cộng sự tách rủi ro ước lượng và rủi ro đặc tả sai, đưa vào vốn dự phòng; Hansen và Sargent phát triển kiểm soát vững chắc trước sai đặc tả.
+@@ 1323
+5. Đề tài khác các thước đo trong nhóm (2) ở đâu?
+@@ 1324
+Đáp án: các thước đo đó gắn với dự báo rủi ro và định giá; đề tài đo hậu quả của việc chọn mô hình lên kết quả danh mục.
