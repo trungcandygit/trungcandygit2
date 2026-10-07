@@ -2,10 +2,11 @@
 % Bản đọc dài dành cho công chúng: Rủi ro lựa chọn mô hình theo chế độ thị trường
 % Biên dịch: pdflatex main (hai lần). Cấu hình: classicthesis-config.tex (giữ nguyên bản tác giả gửi).
 %****************************************************************************************************
-\documentclass[twoside,openright,titlepage,numbers=noenddot,headinclude,footinclude,
+\documentclass[twoside,openany,titlepage,numbers=noenddot,headinclude,footinclude,
   cleardoublepage=empty,abstract=off,BCOR=5mm,paper=a4,fontsize=11pt]{scrreprt}
 
 \input{classicthesis-config}
+\renewcommand{\cleardoublepage}{\clearpage}% bỏ trang trắng có câu trích dẫn trước mỗi chương
 
 % --- Thông tin của tài liệu này (ghi đè phần "Thông tin sách" trong config) ---
 \renewcommand{\myTitle}{Rủi ro lựa chọn mô hình trong quản trị danh mục đầu tư theo chế độ thị trường\xspace}
