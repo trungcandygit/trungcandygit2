@@ -289,9 +289,11 @@ def smartart_vlist5(items):
                'csTypeId="urn:microsoft.com/office/officeart/2005/8/colors/accent0_1" csCatId="mainScheme" phldr="0"/>'
                '<dgm:spPr/><dgm:t><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="vi-VN"/></a:p></dgm:t></dgm:pt>')
 
-    def text_pt(mid, txt):
-        return (f'<dgm:pt modelId="{mid}"><dgm:prSet phldrT="[Text]"/><dgm:spPr/><dgm:t><a:bodyPr/><a:lstStyle/>'
-                f'<a:p><a:r><a:rPr lang="vi-VN"/><a:t>{esc(txt)}</a:t></a:r></a:p></dgm:t></dgm:pt>')
+    def text_pt(mid, txt, sz=1100, b=0):
+        font = ('<a:latin typeface="Times New Roman"/><a:ea typeface="Times New Roman"/>'
+                '<a:cs typeface="Times New Roman"/>')
+        return (f'<dgm:pt modelId="{mid}"><dgm:prSet phldrT="[Text]" custT="1"/><dgm:spPr/><dgm:t><a:bodyPr/><a:lstStyle/>'
+                f'<a:p><a:r><a:rPr lang="vi-VN" sz="{sz}" b="{b}">{font}</a:rPr><a:t>{esc(txt)}</a:t></a:r></a:p></dgm:t></dgm:pt>')
 
     def trans(parent, child, srcord):
         cx, pt_, st = guid(), guid(), guid()
@@ -306,12 +308,12 @@ def smartart_vlist5(items):
     nodes = []
     for i, (title, children) in enumerate(items):
         nid = guid()
-        pts.append(text_pt(nid, title))
+        pts.append(text_pt(nid, title, sz=1300, b=1))
         sib = trans(docid, nid, i)
         kids = []
         for j, c in enumerate(children):
             cid = guid()
-            pts.append(text_pt(cid, c))
+            pts.append(text_pt(cid, c, sz=1100))
             trans(nid, cid, j)
             kids.append(cid)
         nodes.append((nid, sib, kids))
@@ -437,6 +439,20 @@ def fix_schema(d):
 
 
 doc = fix_schema(doc)
+def seq_captions(d):
+    def cap(m):
+        para, kind = m.group(0), m.group(1)
+        word = "Bảng" if kind == "TableCaption" else "Hình"
+        return re.sub(r'<w:t xml:space="preserve">' + word + r' (\d+)\. ',
+                      lambda mm: (f'<w:t xml:space="preserve">{word} </w:t></w:r><w:fldSimple w:instr=" SEQ {word} \\* ARABIC ">'
+                                  f'<w:r><w:t>{mm.group(1)}</w:t></w:r></w:fldSimple><w:r><w:t xml:space="preserve">. '),
+                      para, count=1)
+    return re.sub(r'<w:p>(?:(?!<w:p>).)*?<w:pStyle w:val="(TableCaption|FigureCaption)" ?/>.*?</w:p>', cap, d, flags=re.S)
+
+
+doc = seq_captions(doc)
+
+
 FIG_P = '<w:p><w:pPr><w:pStyle w:val="FigureBox"/></w:pPr>{}</w:p>'
 replace_para("FIGURE_1", FIG_P.format(figure_framework()))
 replace_para("FIGURE_2", FIG_P.format(figure_windows()))
@@ -464,19 +480,19 @@ logo = (f'<w:r><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0"><wp
 
 TITLE = "RỦI RO LỰA CHỌN MÔ HÌNH TRONG QUẢN TRỊ DANH MỤC ĐẦU TƯ THEO CHẾ ĐỘ THỊ TRƯỜNG: BẰNG CHỨNG TỪ THỊ TRƯỜNG CHỨNG KHOÁN VIỆT NAM"
 cover = "".join([
-    p(run("ĐẠI HỌC QUỐC GIA HÀ NỘI", sz=26), after=0),
-    p(run("TRƯỜNG QUỐC TẾ", b=True, sz=26), after=240),
-    p(logo, after=480),
+    p(run("ĐẠI HỌC QUỐC GIA HÀ NỘI", sz=26), before=120, after=0),
+    p(run("TRƯỜNG QUỐC TẾ", b=True, sz=26), after=360),
+    p(logo, after=600),
     p(run("Tên đề cương nghiên cứu:", sz=26), after=120),
     p(run(TITLE, b=True, sz=28), after=480, line=300),
     p(run("ĐỀ CƯƠNG NGHIÊN CỨU", b=True, sz=32), after=360),
     p(run("Chuyên ngành: Kinh tế và Quản lý", sz=26)),
     p(run("Mã số: 9310116.01QTD", sz=26), after=360),
     p(run("Họ và tên thí sinh: ", sz=26) + run("NGUYỄN VĂN TRUNG", b=True, sz=26), after=120),
-    p(run("Cơ quan công tác: ……………………………………", sz=26), after=360),
+    p(run("Cơ quan công tác: Chưa có (tốt nghiệp cử nhân năm 2026)", sz=26), after=360),
     p(run("Người hướng dẫn khoa học (dự kiến):", sz=26), after=60),
-    p(run("- ……………………………………", sz=26)),
-    p(run("- ……………………………………", sz=26), after=1200),
+    p(run("- GS.TS. Nguyễn Đức Khương", b=True, sz=26)),
+    p(run("- PGS.TS. Trần Thị Thanh Tú", b=True, sz=26), after=1500),
     p(run("HÀ NỘI – 2026", b=True, sz=26)),
 ])
 
@@ -515,8 +531,8 @@ tab_entries = [(1, t, "TableofFigures") for k, t in headings if k == "TableCapti
 fig_entries = [(1, t, "TableofFigures") for k, t in headings if k == "FigureCaption"]
 
 toc = toc_block("MỤC LỤC", 'TOC \\o "1-3" \\h \\z \\u', toc_entries)
-lot = (toc_block("DANH MỤC BẢNG", 'TOC \\h \\z \\t "TableCaption,1"', tab_entries)
-       + toc_block("DANH MỤC HÌNH", 'TOC \\h \\z \\t "FigureCaption,1"', fig_entries))
+lot = (toc_block("DANH MỤC BẢNG", 'TOC \\h \\z \\c "Bảng"', tab_entries)
+       + toc_block("DANH MỤC HÌNH", 'TOC \\h \\z \\c "Hình"', fig_entries))
 
 ABBR = [
     ("ABC-MCMC", "Tính toán Bayes xấp xỉ kết hợp Monte Carlo chuỗi Markov (Approximate Bayesian Computation - Markov Chain Monte Carlo)"),
@@ -570,8 +586,15 @@ PG = ('<w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:b
       'w:header="567" w:footer="567" w:gutter="0"/><w:cols w:space="720"/><w:docGrid w:linePitch="360"/>')
 
 
-def sect(footer_rid, fmt=None, start=None, last=False):
-    num = ""
+BORDER = ('<w:pgBorders w:offsetFrom="page">'
+          '<w:top w:val="thinThickSmallGap" w:sz="24" w:space="24" w:color="auto"/>'
+          '<w:left w:val="thinThickSmallGap" w:sz="24" w:space="24" w:color="auto"/>'
+          '<w:bottom w:val="thickThinSmallGap" w:sz="24" w:space="24" w:color="auto"/>'
+          '<w:right w:val="thickThinSmallGap" w:sz="24" w:space="24" w:color="auto"/></w:pgBorders>')
+
+
+def sect(footer_rid, fmt=None, start=None, last=False, border=False):
+    num = BORDER if border else ""
     if fmt or start:
         num = "<w:pgNumType" + (f' w:fmt="{fmt}"' if fmt else "") + (f' w:start="{start}"' if start else "") + "/>"
     s = f'<w:sectPr><w:footerReference w:type="default" r:id="{footer_rid}"/>{PG[:PG.index("<w:cols")]}{num}{PG[PG.index("<w:cols"):]}</w:sectPr>'
@@ -605,7 +628,7 @@ sign = "".join([
 ])
 main = main.replace(para_containing("SIGNATURE_PLACEHOLDER"), sign, 1)
 
-new_body = (cover + sect(f0)
+new_body = (cover + sect(f0, border=True)
             + front_items + front2 + sect(f1, fmt="lowerRoman", start=1)
             + main + sect(f1, fmt="decimal", start=1, last=True))
 doc = doc[:body_m.start(1)] + new_body + doc[body_m.end(1):]

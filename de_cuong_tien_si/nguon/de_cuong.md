@@ -7,7 +7,7 @@
 :::
 
 ::: {custom-style="CoverLine"}
-3\. **Đơn vị công tác:** ……………………………………
+3\. **Đơn vị công tác:** Chưa có (tốt nghiệp cử nhân năm 2026)
 :::
 
 TOC_PLACEHOLDER
@@ -179,7 +179,7 @@ Vì mô hình chọn trước thuộc *M*, $R_t$ không âm. Kỳ vọng của $
 FIGURE_2
 
 ::: {custom-style="FigureCaption"}
-Hình 2. Thiết kế cửa sổ ước lượng, cửa sổ đánh giá và thời điểm chọn mô hình
+Hình 2. Cửa sổ ước lượng, cửa sổ đánh giá và thời điểm chọn mô hình
 :::
 
 ::: {custom-style="SourceNote"}
@@ -367,9 +367,11 @@ Về nghiên cứu, thí sinh dự kiến mở rộng đề tài theo ba hướn
 
 # 10. Đề xuất người hướng dẫn
 
-Người hướng dẫn chính (dự kiến): ……………………………………
+Thí sinh đề xuất hai người hướng dẫn thuộc định hướng nghiên cứu "chính sách tài khóa, tài chính tiền tệ, phát triển thị trường tài chính, tái cấu trúc hệ thống ngân hàng, quản trị tài chính, quản trị ngân hàng" trong danh mục của Nhà trường năm 2026.
 
-Người hướng dẫn thứ hai (nếu có): ……………………………………
+Người hướng dẫn chính (dự kiến): GS.TS. Nguyễn Đức Khương. Hướng nghiên cứu của người hướng dẫn gồm thị trường tài chính mới nổi, mô hình biến động và quản trị rủi ro trên thị trường vốn quốc tế, trùng với ba cấu phần của đề tài: chế độ biến động của thị trường, rủi ro mô hình và quyết định danh mục ở một thị trường mới nổi.
+
+Người hướng dẫn thứ hai (dự kiến): PGS.TS. Trần Thị Thanh Tú. Hướng nghiên cứu của người hướng dẫn gồm quản trị ngân hàng và quản trị rủi ro, gắn với phần thủ tục giám sát mô hình và hàm ý quản trị của đề tài trong bối cảnh khung quy định Việt Nam.
 
 # 11. Danh mục tài liệu tham khảo
 

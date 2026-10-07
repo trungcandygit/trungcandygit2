@@ -28,10 +28,18 @@ Bìa → mục 1–3 → Mục lục, Danh mục bảng, Danh mục hình → 4.
 - Dòng "Nguồn" và ghi chú dưới bảng, hình: căn phải, in nghiêng.
 - Danh mục tài liệu tham khảo: căn đều hai bên.
 
+## Lượt sửa tiếp theo
+
+- Bìa có viền khung đôi (chỉ ở trang bìa).
+- Chú thích bảng, hình đánh số bằng trường SEQ; danh mục bảng, hình dùng lệnh Table of Figures nên các mục không in đậm.
+- Hình 3: chữ Times New Roman, tiêu đề bước 13pt đậm, nội dung 11pt.
+- Cơ quan công tác: "Chưa có (tốt nghiệp cử nhân năm 2026)".
+- Người hướng dẫn chọn từ định hướng số 3 của Phụ lục 4: GS.TS. Nguyễn Đức Khương (hướng chính), PGS.TS. Trần Thị Thanh Tú (hướng thứ hai). Ảnh Phụ lục 4 bị mờ: cần đối chiếu họ tên, học hàm với bản gốc trước khi nộp.
+
 ## Việc thí sinh cần tự làm
 
 - Mở bằng Word, nếu được hỏi cập nhật trường (fields) thì chọn Yes để mục lục khớp dàn trang của Word.
-- Điền: đơn vị công tác, người hướng dẫn, kiểm tra mã số chuyên ngành 9310116.01QTD (lấy theo bài mẫu cùng chương trình).
+- Đối chiếu họ tên người hướng dẫn với bản gốc Phụ lục 4; kiểm tra mã số chuyên ngành 9310116.01QTD (lấy theo bài mẫu cùng chương trình).
 - Kiểm tra lại Hoang và Luu (2024), SSRN Working Paper No. 4867203: không truy cập được SSRN để xác minh.
 - Mục 6 và 9 viết theo định hướng chung suy ra từ đề tài; nên chỉnh theo dự định thật của thí sinh.
 
