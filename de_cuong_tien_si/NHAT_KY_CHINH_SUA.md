@@ -1,6 +1,6 @@
 # Nhật ký chỉnh sửa đề cương
 
-Tệp chính: `De_cuong_NCS_NguyenVanTrung.docx`. Tệp PDF chỉ là bản xem trước, xuất bằng LibreOffice.
+Tệp chính: `DEM D2.2026 - Đề cương nghiên cứu - Nguyễn Văn Trung.docx` (đặt tên theo cú pháp trong email của Hội đồng tuyển sinh). Tệp PDF chỉ là bản xem trước, xuất bằng LibreOffice.
 
 ## Cấu trúc theo hai bài mẫu (form DEM D2.2026, Trường Quốc tế)
 
