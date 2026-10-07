@@ -33,7 +33,8 @@ Bìa → mục 1–3 → Mục lục, Danh mục bảng, Danh mục hình → 4.
 - Bìa có viền khung đôi (chỉ ở trang bìa).
 - Chú thích bảng, hình đánh số bằng trường SEQ; danh mục bảng, hình dùng lệnh Table of Figures nên các mục không in đậm.
 - Hình 3: chữ Times New Roman, tiêu đề bước 13pt đậm, nội dung 11pt.
-- Cơ quan công tác: "Chưa có (tốt nghiệp cử nhân năm 2026)".
+- Cơ quan công tác: để trống theo yêu cầu.
+- Bìa trình bày theo bài mẫu cùng form: nội dung trải đều trang, khối thông tin thí sinh căn trái, "HÀ NỘI – 2026" ở cuối trang.
 - Người hướng dẫn chọn từ định hướng số 3 của Phụ lục 4: GS.TS. Nguyễn Đức Khương (hướng chính), PGS.TS. Trần Thị Thanh Tú (hướng thứ hai). Ảnh Phụ lục 4 bị mờ: cần đối chiếu họ tên, học hàm với bản gốc trước khi nộp.
 
 ## Việc thí sinh cần tự làm

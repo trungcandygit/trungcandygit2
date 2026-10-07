@@ -479,20 +479,24 @@ logo = (f'<w:r><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0"><wp
         f'</pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></w:r>')
 
 TITLE = "RỦI RO LỰA CHỌN MÔ HÌNH TRONG QUẢN TRỊ DANH MỤC ĐẦU TƯ THEO CHẾ ĐỘ THỊ TRƯỜNG: BẰNG CHỨNG TỪ THỊ TRƯỜNG CHỨNG KHOÁN VIỆT NAM"
+def pl(content, after=0, before=0):
+    return p(content, jc="left", before=before, after=after)
+
+
 cover = "".join([
     p(run("ĐẠI HỌC QUỐC GIA HÀ NỘI", sz=26), before=120, after=0),
     p(run("TRƯỜNG QUỐC TẾ", b=True, sz=26), after=360),
-    p(logo, after=600),
+    p(logo, after=1000),
     p(run("Tên đề cương nghiên cứu:", sz=26), after=120),
-    p(run(TITLE, b=True, sz=28), after=480, line=300),
-    p(run("ĐỀ CƯƠNG NGHIÊN CỨU", b=True, sz=32), after=360),
+    p(run(TITLE, b=True, sz=28), after=1000, line=312),
+    p(run("ĐỀ CƯƠNG NGHIÊN CỨU", b=True, sz=32), after=240),
     p(run("Chuyên ngành: Kinh tế và Quản lý", sz=26)),
-    p(run("Mã số: 9310116.01QTD", sz=26), after=360),
-    p(run("Họ và tên thí sinh: ", sz=26) + run("NGUYỄN VĂN TRUNG", b=True, sz=26), after=120),
-    p(run("Cơ quan công tác: Chưa có (tốt nghiệp cử nhân năm 2026)", sz=26), after=360),
-    p(run("Người hướng dẫn khoa học (dự kiến):", sz=26), after=60),
-    p(run("- GS.TS. Nguyễn Đức Khương", b=True, sz=26)),
-    p(run("- PGS.TS. Trần Thị Thanh Tú", b=True, sz=26), after=1500),
+    p(run("Mã số: 9310116.01QTD", sz=26), after=1500),
+    pl(run("Họ và tên thí sinh: ", sz=26) + run("NGUYỄN VĂN TRUNG", b=True, sz=26), after=80),
+    pl(run("Cơ quan công tác: ", sz=26), after=80),
+    pl(run("Người hướng dẫn khoa học (dự kiến):", sz=26), after=40),
+    pl(run("    - GS.TS. Nguyễn Đức Khương", b=True, sz=26), after=40),
+    pl(run("    - PGS.TS. Trần Thị Thanh Tú", b=True, sz=26), after=2200),
     p(run("HÀ NỘI – 2026", b=True, sz=26)),
 ])
 

@@ -7,7 +7,7 @@
 :::
 
 ::: {custom-style="CoverLine"}
-3\. **Đơn vị công tác:** Chưa có (tốt nghiệp cử nhân năm 2026)
+3\. **Đơn vị công tác:**
 :::
 
 TOC_PLACEHOLDER
